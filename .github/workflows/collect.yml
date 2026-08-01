@@ -36,7 +36,10 @@ concurrency:
 
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    # Vietlott's Cloudflare edge rejects GitHub's Ubuntu runner egress with
+    # HTTP 403. GitHub's macOS runner uses a separate egress pool while still
+    # keeping collection entirely inside GitHub Actions.
+    runs-on: macos-latest
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
     steps:

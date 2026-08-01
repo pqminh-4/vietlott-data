@@ -11,7 +11,8 @@ permissions:
 
 jobs:
   live-source:
-    runs-on: ubuntu-latest
+    # Keep the smoke test on the same egress pool as the production collector.
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
