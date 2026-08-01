@@ -12,7 +12,7 @@ from urllib.parse import urlencode, urljoin, urlparse
 
 from bs4 import BeautifulSoup, Tag
 
-from vietlott.config import OFFICIAL_HOSTS, GameSpec, render_info
+from vietlott.config import OFFICIAL_HOSTS, WEB_BASE, GameSpec, render_info
 from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse, VietlottClient
 from vietlott.models import DrawRecord, Prize
@@ -60,7 +60,7 @@ class BaseAdapter(ABC):
 
     def fetch_detail(self, client: VietlottClient, record: DrawRecord) -> DrawRecord:
         query = urlencode({"id": record.draw_id, "nocatche": "1"})
-        detail_url = f"https://vietlott.vn{self.spec.detail_path}?{query}"
+        detail_url = f"{WEB_BASE}{self.spec.detail_path}?{query}"
         response = client.get_html(detail_url)
         assert response.html is not None
         soup = BeautifulSoup(response.html, "lxml")

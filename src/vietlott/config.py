@@ -31,7 +31,8 @@ class GameSpec:
 
 
 OFFICIAL_HOSTS = frozenset({"vietlott.vn", "www.vietlott.vn", "media.vietlott.vn"})
-AJAX_BASE = "https://vietlott.vn/ajaxpro"
+WEB_BASE = "https://www.vietlott.vn"
+AJAX_BASE = f"{WEB_BASE}/ajaxpro"
 
 GAMES: dict[str, GameSpec] = {
     "mega645": GameSpec(

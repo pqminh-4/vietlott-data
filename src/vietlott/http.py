@@ -14,6 +14,7 @@ from typing import Any
 
 import httpx
 
+from vietlott.config import WEB_BASE
 from vietlott.errors import FetchError, ParseError
 
 
@@ -80,10 +81,8 @@ class VietlottClient:
                 "Content-Type": "text/plain; charset=utf-8",
                 "X-AjaxPro-Method": "ServerSideDrawResult",
                 "X-Requested-With": "XMLHttpRequest",
-                "Origin": "https://vietlott.vn",
-                "Referer": (
-                    "https://vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/winning-number-645"
-                ),
+                "Origin": WEB_BASE,
+                "Referer": (f"{WEB_BASE}/vi/trung-thuong/ket-qua-trung-thuong/winning-number-645"),
                 "Sec-Fetch-Dest": "empty",
                 "Sec-Fetch-Mode": "cors",
                 "Sec-Fetch-Site": "same-origin",
@@ -113,14 +112,14 @@ class VietlottClient:
         with self._ajax_cookie_lock:
             if self._ajax_cookie_ready:
                 return
-            response = self._request("GET", "https://vietlott.vn/ajaxpro/")
+            response = self._request("GET", f"{WEB_BASE}/ajaxpro/")
             match = re.search(r'document\.cookie\s*=\s*["\']([^"\']+)', response.text)
             if match:
                 pair = match.group(1).split(";", 1)[0]
                 if "=" not in pair:
                     raise ParseError("Vietlott AjaxPro bootstrap returned a malformed cookie")
                 name, value = pair.split("=", 1)
-                self.client.cookies.set(name, value, domain="vietlott.vn", path="/")
+                self.client.cookies.set(name, value, domain=".vietlott.vn", path="/")
             self._ajax_cookie_ready = True
 
     def get_bytes(self, url: str) -> OfficialResponse:
