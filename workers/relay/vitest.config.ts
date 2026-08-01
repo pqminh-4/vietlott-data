@@ -11,6 +11,23 @@ export default defineConfig({
         bindings: {
           RELAY_TOKEN: "test-relay-token-with-at-least-32-bytes",
         },
+        serviceBindings: {
+          UPSTREAM: async (request) => {
+            const target = request.headers.get("X-Vietlott-Target");
+            return Response.json(
+              {
+                authorization: request.headers.get("Authorization"),
+                body: await request.text(),
+                method: request.method,
+                target,
+                xAjaxProMethod: request.headers.get("X-AjaxPro-Method"),
+              },
+              {
+                headers: target ? { "X-Vietlott-Source-Url": target } : {},
+              },
+            );
+          },
+        },
       },
     }),
   ],

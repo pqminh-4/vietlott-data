@@ -1,5 +1,5 @@
 import { env } from "cloudflare:workers";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import worker from "../src/index";
 
@@ -22,20 +22,14 @@ function relayRequest(
   return new IncomingRequest(url, { ...init, headers });
 }
 
-afterEach(() => {
-  vi.restoreAllMocks();
-});
-
 describe("Vietlott relay", () => {
-  it("exposes a public health check without proxying", async () => {
-    const fetchSpy = vi.spyOn(globalThis, "fetch");
+  it("exposes a public health check", async () => {
     const response = await dispatch(new IncomingRequest("https://relay.example/health"));
     expect(response.status).toBe(200);
     expect(await response.json()).toEqual({
       service: "vietlott-official-relay",
       status: "ok",
     });
-    expect(fetchSpy).not.toHaveBeenCalled();
   });
 
   it("requires the relay secret", async () => {
@@ -48,35 +42,18 @@ describe("Vietlott relay", () => {
 
   it("fails closed when the Worker secret is missing", async () => {
     const request = relayRequest("https://www.vietlott.vn/ajaxpro/");
-    const response = await worker.fetch(request, { RELAY_TOKEN: "" });
+    const response = await worker.fetch(request, { ...env, RELAY_TOKEN: "" });
     expect(response.status).toBe(401);
     await response.text();
   });
 
-  it("rejects non-Vietlott targets before fetch", async () => {
-    const fetchSpy = vi.spyOn(globalThis, "fetch");
+  it("rejects non-Vietlott targets", async () => {
     const response = await dispatch(relayRequest("https://example.com/private"));
     expect(response.status).toBe(400);
-    expect(fetchSpy).not.toHaveBeenCalled();
     await response.text();
   });
 
-  it("streams an approved AjaxPro request and strips relay authorization", async () => {
-    const fetchSpy = vi.spyOn(globalThis, "fetch").mockImplementation(async (input) => {
-      const upstream = input instanceof Request ? input : new Request(input);
-      expect(upstream.url).toBe(
-        "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Result.ashx",
-      );
-      expect(upstream.method).toBe("POST");
-      expect(upstream.headers.get("Authorization")).toBeNull();
-      expect(upstream.headers.get("X-AjaxPro-Method")).toBe("ServerSideDrawResult");
-      expect(await upstream.text()).toBe('{"PageIndex":0}');
-      return new Response('{"value":{"HtmlContent":"<table></table>"}}', {
-        status: 200,
-        headers: { "Content-Type": "application/json" },
-      });
-    });
-
+  it("forwards only an approved request to the private service", async () => {
     const response = await dispatch(
       relayRequest(
         "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Result.ashx",
@@ -91,12 +68,17 @@ describe("Vietlott relay", () => {
       ),
     );
 
-    expect(fetchSpy).toHaveBeenCalledOnce();
     expect(response.status).toBe(200);
     expect(response.headers.get("X-Vietlott-Source-Url")).toBe(
       "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Result.ashx",
     );
-    expect(await response.text()).toContain("HtmlContent");
+    expect(await response.json()).toEqual({
+      authorization: null,
+      body: '{"PageIndex":0}',
+      method: "POST",
+      target: "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Result.ashx",
+      xAjaxProMethod: "ServerSideDrawResult",
+    });
   });
 
   it("does not allow POST requests to the media host", async () => {

@@ -38,8 +38,9 @@ trả về liên kết PDF.
 ## Cloudflare Worker relay
 
 Vietlott chặn IP datacenter của GitHub-hosted runners. Worker trong
-`workers/relay/` chuyển tiếp request từ GitHub Actions tới đúng nguồn Vietlott
-chính thức. Relay không phải proxy mở: nó yêu cầu bearer secret, chỉ cho phép
+`workers/relay/` xác thực request từ GitHub Actions rồi gọi `workers/fetcher/` qua
+Cloudflare Service Binding. Fetcher không có URL công khai và là lớp duy nhất gọi
+nguồn Vietlott chính thức. Relay không phải proxy mở: nó yêu cầu bearer secret, chỉ cho phép
 HTTPS tới `vietlott.vn`, `www.vietlott.vn` và `media.vietlott.vn`, đồng thời
 giới hạn method và path cần thiết cho AJAX, trang chi tiết và PDF.
 
@@ -50,8 +51,8 @@ npm ci
 npm run worker:types
 npm run worker:check
 npm run worker:test
-npx wrangler secret put RELAY_TOKEN --config workers/relay/wrangler.jsonc
 npm run worker:deploy
+npx wrangler secret put RELAY_TOKEN --config workers/relay/wrangler.jsonc
 ```
 
 Trong repository GitHub, tạo hai Actions secrets:

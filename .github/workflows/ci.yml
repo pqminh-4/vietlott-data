@@ -34,9 +34,10 @@ jobs:
       - name: Check Cloudflare Worker
         run: |
           npm run worker:types
-          git diff --exit-code -- workers/relay/worker-configuration.d.ts
+          git diff --exit-code -- workers/fetcher/worker-configuration.d.ts workers/relay/worker-configuration.d.ts
           npm run worker:check
           npm run worker:test
+          npx wrangler deploy --config workers/fetcher/wrangler.jsonc --dry-run
           npx wrangler deploy --config workers/relay/wrangler.jsonc --dry-run
       - name: Validate tracked data
         run: vietlott validate

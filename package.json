@@ -4,10 +4,10 @@
   "type": "module",
   "packageManager": "npm@11.13.0",
   "scripts": {
-    "worker:types": "wrangler types --config workers/relay/wrangler.jsonc workers/relay/worker-configuration.d.ts",
-    "worker:check": "tsc --project workers/relay/tsconfig.json --noEmit",
-    "worker:test": "vitest run --config workers/relay/vitest.config.ts",
-    "worker:deploy": "wrangler deploy --config workers/relay/wrangler.jsonc"
+    "worker:types": "wrangler types --config workers/fetcher/wrangler.jsonc workers/fetcher/worker-configuration.d.ts && wrangler types --config workers/relay/wrangler.jsonc workers/relay/worker-configuration.d.ts",
+    "worker:check": "tsc --project workers/fetcher/tsconfig.json --noEmit && tsc --project workers/relay/tsconfig.json --noEmit",
+    "worker:test": "vitest run --config workers/fetcher/vitest.config.ts && vitest run --config workers/relay/vitest.config.ts",
+    "worker:deploy": "wrangler deploy --config workers/fetcher/wrangler.jsonc && wrangler deploy --config workers/relay/wrangler.jsonc"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.20.1",

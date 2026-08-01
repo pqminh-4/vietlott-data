@@ -1,20 +1,11 @@
 {
   "$schema": "../../node_modules/wrangler/config-schema.json",
-  "name": "vietlott-official-relay",
+  "name": "vietlott-official-fetcher",
   "main": "src/index.ts",
   "compatibility_date": "2026-08-01",
   "compatibility_flags": ["nodejs_compat"],
-  "workers_dev": true,
+  "workers_dev": false,
   "preview_urls": false,
-  "secrets": {
-    "required": ["RELAY_TOKEN"]
-  },
-  "services": [
-    {
-      "binding": "UPSTREAM",
-      "service": "vietlott-official-fetcher"
-    }
-  ],
   "placement": {
     "region": "gcp:asia-east2"
   },
