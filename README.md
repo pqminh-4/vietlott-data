@@ -35,6 +35,32 @@ vietlott build-api
 liệu. Thêm `--audit-pdf` để đối chiếu bản ghi với PDF chính thức khi Vietlott
 trả về liên kết PDF.
 
+## Cloudflare Worker relay
+
+Vietlott chặn IP datacenter của GitHub-hosted runners. Worker trong
+`workers/relay/` chuyển tiếp request từ GitHub Actions tới đúng nguồn Vietlott
+chính thức. Relay không phải proxy mở: nó yêu cầu bearer secret, chỉ cho phép
+HTTPS tới `vietlott.vn`, `www.vietlott.vn` và `media.vietlott.vn`, đồng thời
+giới hạn method và path cần thiết cho AJAX, trang chi tiết và PDF.
+
+Yêu cầu Node.js 24. Thiết lập cục bộ và deploy:
+
+```bash
+npm ci
+npm run worker:types
+npm run worker:check
+npm run worker:test
+npx wrangler secret put RELAY_TOKEN --config workers/relay/wrangler.jsonc
+npm run worker:deploy
+```
+
+Trong repository GitHub, tạo hai Actions secrets:
+
+- `VIETLOTT_RELAY_URL`: URL `https://...workers.dev` của Worker.
+- `VIETLOTT_RELAY_TOKEN`: cùng giá trị với secret `RELAY_TOKEN` trên Worker.
+
+Không commit token vào source, `wrangler.jsonc`, `.env` hoặc `.dev.vars`.
+
 ## Bố cục dữ liệu
 
 - `data/canonical/<game>.jsonl`: nguồn dữ liệu chuẩn, một kỳ trên mỗi dòng.
@@ -61,7 +87,8 @@ Các endpoint chính sau khi bật GitHub Pages:
 3. Đảm bảo workflow được phép ghi `contents` và deploy Pages. Repository có
    branch protection phải cho phép `GITHUB_TOKEN` của workflow đẩy commit dữ
    liệu, hoặc cấu hình một nhánh dữ liệu tương đương.
-4. Chạy thủ công workflow **Collect and publish Vietlott data** với mode
+4. Deploy Cloudflare relay và cấu hình hai Actions secrets như phần trên.
+5. Chạy thủ công workflow **Collect and publish Vietlott data** với mode
    `backfill` để bắt đầu lịch sử; lượt reconcile 02:17 tiếp tục checkpoint mỗi
    ngày cho tới khi hoàn tất.
 
@@ -81,4 +108,3 @@ tự bù dữ liệu bị lỡ.
 
 Mã nguồn được cấp phép MIT. Dữ liệu giữ nguyên ghi nhận nguồn Vietlott và chưa
 được gán giấy phép dữ liệu độc lập.
-

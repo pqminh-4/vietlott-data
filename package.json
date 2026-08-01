@@ -1,0 +1,20 @@
+{
+  "name": "vietlott-data-worker",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.13.0",
+  "scripts": {
+    "worker:types": "wrangler types --config workers/relay/wrangler.jsonc workers/relay/worker-configuration.d.ts",
+    "worker:check": "tsc --project workers/relay/tsconfig.json --noEmit",
+    "worker:test": "vitest run --config workers/relay/vitest.config.ts",
+    "worker:deploy": "wrangler deploy --config workers/relay/wrangler.jsonc"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.20.1",
+    "@cloudflare/workers-types": "^5.20260731.1",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.118.0"
+  }
+}

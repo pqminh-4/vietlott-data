@@ -36,10 +36,10 @@ concurrency:
 
 jobs:
   collect:
-    # Vietlott's Cloudflare edge rejects GitHub's Ubuntu runner egress with
-    # HTTP 403. GitHub's macOS runner uses a separate egress pool while still
-    # keeping collection entirely inside GitHub Actions.
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+    env:
+      VIETLOTT_RELAY_URL: ${{ secrets.VIETLOTT_RELAY_URL }}
+      VIETLOTT_RELAY_TOKEN: ${{ secrets.VIETLOTT_RELAY_TOKEN }}
     outputs:
       changed: ${{ steps.changes.outputs.changed }}
     steps:
@@ -52,6 +52,13 @@ jobs:
           cache: pip
       - name: Install project
         run: python -m pip install .
+      - name: Verify relay configuration
+        shell: bash
+        run: |
+          if [ -z "$VIETLOTT_RELAY_URL" ] || [ -z "$VIETLOTT_RELAY_TOKEN" ]; then
+            echo "Cloudflare relay secrets are not configured" >&2
+            exit 1
+          fi
       - name: Collect and validate
         shell: bash
         env:

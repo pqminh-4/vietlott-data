@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 import time
@@ -11,6 +12,7 @@ from datetime import UTC
 from hashlib import sha256
 from threading import Lock
 from typing import Any
+from urllib.parse import urlencode, urlparse
 
 import httpx
 
@@ -40,11 +42,29 @@ class VietlottClient:
         retries: int = 3,
         backoff_base: float = 0.75,
         bootstrap_ajax_cookie: bool = True,
+        relay_url: str | None = None,
+        relay_token: str | None = None,
         client: httpx.Client | None = None,
     ) -> None:
         self.retries = retries
         self.backoff_base = backoff_base
         self.bootstrap_ajax_cookie = bootstrap_ajax_cookie
+        relay_setting = relay_url if relay_url is not None else os.getenv("VIETLOTT_RELAY_URL", "")
+        self.relay_url = relay_setting.rstrip("/")
+        self.relay_token = relay_token or os.getenv("VIETLOTT_RELAY_TOKEN", "")
+        if bool(self.relay_url) != bool(self.relay_token):
+            raise ValueError(
+                "VIETLOTT_RELAY_URL and VIETLOTT_RELAY_TOKEN must be configured together"
+            )
+        if self.relay_url:
+            parsed_relay = urlparse(self.relay_url)
+            if (
+                parsed_relay.scheme != "https"
+                or not parsed_relay.hostname
+                or parsed_relay.query
+                or parsed_relay.fragment
+            ):
+                raise ValueError("VIETLOTT_RELAY_URL must be a plain HTTPS URL")
         self._ajax_cookie_ready = False
         self._ajax_cookie_lock = Lock()
         self._owns_client = client is None
@@ -99,7 +119,7 @@ class VietlottClient:
         if not isinstance(html, str):
             raise ParseError("Vietlott AjaxPro response did not include value.HtmlContent")
         return OfficialResponse(
-            url=str(response.url),
+            url=self._source_url(response, url),
             content=response.content,
             retrieved_at=_utc_now(),
             html=html,
@@ -119,13 +139,17 @@ class VietlottClient:
                 if "=" not in pair:
                     raise ParseError("Vietlott AjaxPro bootstrap returned a malformed cookie")
                 name, value = pair.split("=", 1)
-                self.client.cookies.set(name, value, domain=".vietlott.vn", path="/")
+                cookie_domain = (
+                    urlparse(self.relay_url).hostname if self.relay_url else ".vietlott.vn"
+                )
+                assert cookie_domain is not None
+                self.client.cookies.set(name, value, domain=cookie_domain, path="/")
             self._ajax_cookie_ready = True
 
     def get_bytes(self, url: str) -> OfficialResponse:
         response = self._request("GET", url)
         return OfficialResponse(
-            url=str(response.url),
+            url=self._source_url(response, url),
             content=response.content,
             retrieved_at=_utc_now(),
         )
@@ -133,18 +157,25 @@ class VietlottClient:
     def get_html(self, url: str) -> OfficialResponse:
         response = self._request("GET", url)
         return OfficialResponse(
-            url=str(response.url),
+            url=self._source_url(response, url),
             content=response.content,
             retrieved_at=_utc_now(),
             html=response.text,
         )
 
     def _request(self, method: str, url: str, **kwargs: Any) -> httpx.Response:
+        request_url = url
+        if self.relay_url:
+            request_url = f"{self.relay_url}/proxy?{urlencode({'url': url})}"
+            headers = dict(kwargs.pop("headers", {}))
+            headers["Authorization"] = f"Bearer {self.relay_token}"
+            kwargs["headers"] = headers
+
         last_error: Exception | None = None
         max_attempts = self.retries + 1
         for attempt in range(max_attempts):
             try:
-                response = self.client.request(method, url, **kwargs)
+                response = self.client.request(method, request_url, **kwargs)
             except httpx.HTTPError as exc:
                 last_error = exc
             else:
@@ -166,6 +197,12 @@ class VietlottClient:
         raise FetchError(
             f"Official Vietlott request failed after {max_attempts} attempts"
         ) from last_error
+
+    def _source_url(self, response: httpx.Response, requested_url: str) -> str:
+        if not self.relay_url:
+            return str(response.url)
+        reported_url = response.headers.get("X-Vietlott-Source-Url")
+        return str(reported_url) if reported_url else requested_url
 
 
 def _utc_now() -> str:

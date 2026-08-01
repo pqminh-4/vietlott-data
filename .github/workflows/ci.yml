@@ -17,6 +17,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
       - name: Install project
         run: python -m pip install -e ".[dev]"
       - name: Lint
@@ -25,6 +29,15 @@ jobs:
         run: mypy src
       - name: Test
         run: pytest
+      - name: Install Worker dependencies
+        run: npm ci
+      - name: Check Cloudflare Worker
+        run: |
+          npm run worker:types
+          git diff --exit-code -- workers/relay/worker-configuration.d.ts
+          npm run worker:check
+          npm run worker:test
+          npx wrangler deploy --config workers/relay/wrangler.jsonc --dry-run
       - name: Validate tracked data
         run: vietlott validate
       - name: Verify deterministic API build
@@ -35,4 +48,3 @@ jobs:
           vietlott build-api
           second="$(find site/api -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum)"
           test "$first" = "$second"
-
