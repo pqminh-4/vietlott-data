@@ -6,6 +6,9 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "preview_urls": false,
+  "placement": {
+    "region": "gcp:asia-southeast1"
+  },
   "observability": {
     "enabled": true,
     "logs": {
