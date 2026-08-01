@@ -7,7 +7,7 @@
   "workers_dev": true,
   "preview_urls": false,
   "placement": {
-    "region": "gcp:asia-southeast1"
+    "region": "gcp:asia-east2"
   },
   "observability": {
     "enabled": true,
