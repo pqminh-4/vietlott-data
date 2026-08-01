@@ -1,0 +1,67 @@
+{
+  "api_version": "v1",
+  "games": [
+    {
+      "code": "mega645",
+      "display_name": "Mega 6/45",
+      "kind": "number_set",
+      "latest_draw_id": "01543",
+      "paths": {
+        "coverage": "mega645/coverage.json",
+        "latest": "mega645/latest.json",
+        "years": "mega645/years/"
+      },
+      "record_count": 16
+    },
+    {
+      "code": "power655",
+      "display_name": "Power 6/55",
+      "kind": "number_set",
+      "latest_draw_id": "01379",
+      "paths": {
+        "coverage": "power655/coverage.json",
+        "latest": "power655/latest.json",
+        "years": "power655/years/"
+      },
+      "record_count": 8
+    },
+    {
+      "code": "lotto535",
+      "display_name": "Lotto 5/35",
+      "kind": "number_set",
+      "latest_draw_id": "00797",
+      "paths": {
+        "coverage": "lotto535/coverage.json",
+        "latest": "lotto535/latest.json",
+        "years": "lotto535/years/"
+      },
+      "record_count": 8
+    },
+    {
+      "code": "max3d",
+      "display_name": "Max 3D / Max 3D+",
+      "kind": "three_digit_tiers",
+      "latest_draw_id": "01113",
+      "paths": {
+        "coverage": "max3d/coverage.json",
+        "latest": "max3d/latest.json",
+        "years": "max3d/years/"
+      },
+      "record_count": 5
+    },
+    {
+      "code": "max3d_pro",
+      "display_name": "Max 3D Pro",
+      "kind": "three_digit_tiers",
+      "latest_draw_id": "00760",
+      "paths": {
+        "coverage": "max3d_pro/coverage.json",
+        "latest": "max3d_pro/latest.json",
+        "years": "max3d_pro/years/"
+      },
+      "record_count": 5
+    }
+  ],
+  "generated_at": "2026-08-01T12:44:19+00:00",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vietlott-data"
+version = "0.1.0"
+description = "Official-source Vietlott draw collector and static API generator"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Vietlott Data contributors" }]
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "httpx>=0.27,<1",
+  "lxml>=5,<7",
+  "pypdf>=5,<7",
+  "tzdata>=2025.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.14,<2",
+  "pytest>=8.3,<10",
+  "ruff>=0.9,<1",
+  "types-beautifulsoup4>=4.12",
+]
+
+[project.scripts]
+vietlott = "vietlott.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vietlott"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_ignores = false

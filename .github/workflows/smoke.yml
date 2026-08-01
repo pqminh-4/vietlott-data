@@ -1,0 +1,23 @@
+name: Official source smoke test
+
+on:
+  schedule:
+    - cron: "43 5 * * *"
+      timezone: Asia/Ho_Chi_Minh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install .
+      - name: Fetch, parse, and validate without writing
+        run: vietlott collect --games all --latest --dry-run

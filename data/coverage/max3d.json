@@ -1,0 +1,12 @@
+{
+  "backfill_complete": false,
+  "earliest_draw_date": "2026-07-22",
+  "earliest_draw_id": "01109",
+  "game": "max3d",
+  "latest_draw_date": "2026-07-31",
+  "latest_draw_id": "01113",
+  "missing_ids": [],
+  "next_page_index": 0,
+  "record_count": 5,
+  "unavailable_ranges": []
+}
