@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import time
 from dataclasses import dataclass
 from datetime import UTC
 from hashlib import sha256
+from threading import Lock
 from typing import Any
 
 import httpx
@@ -36,10 +38,14 @@ class VietlottClient:
         timeout: float = 20.0,
         retries: int = 3,
         backoff_base: float = 0.75,
+        bootstrap_ajax_cookie: bool = True,
         client: httpx.Client | None = None,
     ) -> None:
         self.retries = retries
         self.backoff_base = backoff_base
+        self.bootstrap_ajax_cookie = bootstrap_ajax_cookie
+        self._ajax_cookie_ready = False
+        self._ajax_cookie_lock = Lock()
         self._owns_client = client is None
         self.client = client or httpx.Client(
             timeout=timeout,
@@ -64,6 +70,7 @@ class VietlottClient:
             self.client.close()
 
     def post_ajax(self, url: str, body: dict[str, Any]) -> OfficialResponse:
+        self._ensure_ajax_cookie()
         content = json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode()
         response = self._request(
             "POST",
@@ -74,7 +81,12 @@ class VietlottClient:
                 "X-AjaxPro-Method": "ServerSideDrawResult",
                 "X-Requested-With": "XMLHttpRequest",
                 "Origin": "https://vietlott.vn",
-                "Referer": "https://vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong",
+                "Referer": (
+                    "https://vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/winning-number-645"
+                ),
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-origin",
             },
         )
         try:
@@ -93,6 +105,23 @@ class VietlottClient:
             retrieved_at=_utc_now(),
             html=html,
         )
+
+    def _ensure_ajax_cookie(self) -> None:
+        """Load Vietlott's first-party JavaScript cookie when its edge requires one."""
+        if not self.bootstrap_ajax_cookie or self._ajax_cookie_ready:
+            return
+        with self._ajax_cookie_lock:
+            if self._ajax_cookie_ready:
+                return
+            response = self._request("GET", "https://vietlott.vn/ajaxpro/")
+            match = re.search(r'document\.cookie\s*=\s*["\']([^"\']+)', response.text)
+            if match:
+                pair = match.group(1).split(";", 1)[0]
+                if "=" not in pair:
+                    raise ParseError("Vietlott AjaxPro bootstrap returned a malformed cookie")
+                name, value = pair.split("=", 1)
+                self.client.cookies.set(name, value, domain="vietlott.vn", path="/")
+            self._ajax_cookie_ready = True
 
     def get_bytes(self, url: str) -> OfficialResponse:
         response = self._request("GET", url)
