@@ -35,32 +35,19 @@ vietlott build-api
 liệu. Thêm `--audit-pdf` để đối chiếu bản ghi với PDF chính thức khi Vietlott
 trả về liên kết PDF.
 
-## Cloudflare Worker relay
+## Thu thập bằng self-hosted runner
 
-Vietlott chặn IP datacenter của GitHub-hosted runners. Worker trong
-`workers/relay/` xác thực request từ GitHub Actions rồi gọi `workers/fetcher/` qua
-Cloudflare Service Binding. Fetcher không có URL công khai và là lớp duy nhất gọi
-nguồn Vietlott chính thức. Relay không phải proxy mở: nó yêu cầu bearer secret, chỉ cho phép
-HTTPS tới `vietlott.vn`, `www.vietlott.vn` và `media.vietlott.vn`, đồng thời
-giới hạn method và path cần thiết cho AJAX, trang chi tiết và PDF.
+Vietlott chặn IP datacenter của GitHub-hosted runners. Các workflow truy cập nguồn
+chính thức vì vậy chạy trong repository điều khiển private `pqminh-4/vietlott-ops`
+trên một self-hosted runner Ubuntu đặt tại Việt Nam. Runner không được đăng ký vào
+repository public này; pull request công khai chỉ chạy CI trên GitHub-hosted runner.
 
-Yêu cầu Node.js 24. Thiết lập cục bộ và deploy:
+Repository điều khiển checkout nhánh `main`, thu thập và validate trực tiếp, sinh lại
+`data/` cùng `site/`, rồi dùng installation token ngắn hạn của một GitHub App chỉ có
+quyền ghi nội dung repository này để push khi dữ liệu thực sự thay đổi.
 
-```bash
-npm ci
-npm run worker:types
-npm run worker:check
-npm run worker:test
-npm run worker:deploy
-npx wrangler secret put RELAY_TOKEN --config workers/relay/wrangler.jsonc
-```
-
-Trong repository GitHub, tạo hai Actions secrets:
-
-- `VIETLOTT_RELAY_URL`: URL `https://...workers.dev` của Worker.
-- `VIETLOTT_RELAY_TOKEN`: cùng giá trị với secret `RELAY_TOKEN` trên Worker.
-
-Không commit token vào source, `wrangler.jsonc`, `.env` hoặc `.dev.vars`.
+Mã Cloudflare Worker còn được giữ tạm trong cửa sổ chuyển đổi 48 giờ và không còn
+được workflow sử dụng. Nó sẽ được xóa sau khi self-hosted runner đạt nghiệm thu.
 
 ## Bố cục dữ liệu
 
@@ -83,15 +70,14 @@ Các endpoint chính sau khi bật GitHub Pages:
 
 ## Tự động hóa trên GitHub
 
-1. Tạo repository public và push mã nguồn này lên nhánh mặc định `main`.
-2. Vào **Settings → Pages → Build and deployment**, chọn **GitHub Actions**.
-3. Đảm bảo workflow được phép ghi `contents` và deploy Pages. Repository có
-   branch protection phải cho phép `GITHUB_TOKEN` của workflow đẩy commit dữ
-   liệu, hoặc cấu hình một nhánh dữ liệu tương đương.
-4. Deploy Cloudflare relay và cấu hình hai Actions secrets như phần trên.
-5. Chạy thủ công workflow **Collect and publish Vietlott data** với mode
-   `backfill` để bắt đầu lịch sử; lượt reconcile 02:17 tiếp tục checkpoint mỗi
-   ngày cho tới khi hoàn tất.
+1. Repository public này chỉ chạy CI và deploy GitHub Pages trên GitHub-hosted runner.
+2. Repository private `pqminh-4/vietlott-ops` giữ lịch thu thập, smoke test và watchdog.
+3. Self-hosted runner chỉ được đăng ký vào repository private với label `vietlott-vn`.
+4. GitHub App ghi dữ liệu chỉ được cài trên `pqminh-4/vietlott-data` với quyền
+   `Contents: read/write`; private key chỉ lưu trong secrets của repository private.
+5. Chạy thủ công workflow **Collect and publish Vietlott data** với mode `backfill`
+   để bắt đầu lịch sử; lượt reconcile 02:17 tiếp tục checkpoint mỗi ngày cho tới
+   khi hoàn tất.
 
 Workflow polling chạy ở phút 07, 22, 37 và 52 quanh các giờ quay theo
 `Asia/Ho_Chi_Minh`. Mục tiêu cập nhật trong 30 phút là best-effort vì scheduled
