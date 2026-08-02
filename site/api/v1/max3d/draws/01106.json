@@ -1,0 +1,113 @@
+{
+  "draw_date": "2026-07-15",
+  "draw_id": "01106",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "max3d",
+  "prizes": [
+    {
+      "amount_vnd": 1000000000,
+      "code": "giai-dac-biet",
+      "jackpot_vnd": null,
+      "name": "Giải Đặc biệt",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 40000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 5000000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 1000000,
+      "code": "giai-tu",
+      "jackpot_vnd": null,
+      "name": "Giải tư",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 150000,
+      "code": "giai-nam",
+      "jackpot_vnd": null,
+      "name": "Giải năm",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 40000,
+      "code": "giai-sau",
+      "jackpot_vnd": null,
+      "name": "Giải sáu",
+      "winner_count": null
+    }
+  ],
+  "result": {
+    "kind": "three_digit_tiers",
+    "tiers": [
+      {
+        "code": "special",
+        "name": "Giải Đặc biệt",
+        "numbers": [
+          "883",
+          "909"
+        ]
+      },
+      {
+        "code": "first",
+        "name": "Giải Nhất",
+        "numbers": [
+          "045",
+          "110",
+          "391",
+          "595"
+        ]
+      },
+      {
+        "code": "second",
+        "name": "Giải Nhì",
+        "numbers": [
+          "274",
+          "440",
+          "644",
+          "813",
+          "944",
+          "202"
+        ]
+      },
+      {
+        "code": "third",
+        "name": "Giải Ba",
+        "numbers": [
+          "679",
+          "104",
+          "293",
+          "160",
+          "979",
+          "355",
+          "166",
+          "732"
+        ]
+      }
+    ]
+  },
+  "retrieved_at": "2026-08-02T20:17:49+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": "8aec874ed2ca11c38c96633787198a80121f0e37a990a1541b16971a1eef3e23",
+  "source_pdf_url": "https://media.vietlott.vn/main/07.2026/system/game.pdf.result/01106_max3d_x2_01106.pdf",
+  "source_sha256": "ebb521b563418b7ab36e32311ff0cae85e4f1c04d042e1442502be2e7be7c67f",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3D?id=01106&nocatche=1"
+}
