@@ -1,8 +1,8 @@
 {
   "draw_date": "2026-08-01",
   "draw_id": "00797",
-  "draw_slot": null,
-  "draw_time": null,
+  "draw_slot": "afternoon",
+  "draw_time": "13:00:00",
   "game": "lotto535",
   "prizes": [
     {
@@ -68,10 +68,10 @@
       34
     ]
   },
-  "retrieved_at": "2026-08-01T12:40:20+00:00",
+  "retrieved_at": "2026-08-02T05:38:33+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "89351696bec4e4264ee486b6b4fed254ec9ef49235b3706e8a686b84fe0e9074",
-  "source_url": "https://vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00797&nocatche=1"
+  "source_sha256": "41ca66d49330eb626c40759dfa9e293a6167b6a36787fa024a11f1eb29860ae0",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00797&nocatche=1"
 }
