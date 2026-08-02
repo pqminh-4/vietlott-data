@@ -1,0 +1,55 @@
+{
+  "draw_date": "2026-06-14",
+  "draw_id": "01523",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "mega645",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot",
+      "jackpot_vnd": 14868581000,
+      "name": "Jackpot",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 26
+    },
+    {
+      "amount_vnd": 300000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 970
+    },
+    {
+      "amount_vnd": 30000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 16425
+    }
+  ],
+  "result": {
+    "bonus_numbers": [],
+    "kind": "number_set",
+    "main_numbers": [
+      7,
+      16,
+      20,
+      22,
+      24,
+      38
+    ]
+  },
+  "retrieved_at": "2026-08-02T05:41:36+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": "bb5ff6448a5b43226cd41dec82d3e3eb898117a646b1be0575919f01ab4c6cb8",
+  "source_pdf_url": "https://media.vietlott.vn/main/06.2026/system/game.pdf.result/01523_mega_a5_01523.pdf",
+  "source_sha256": "d175929a06f806251fca2ce3dc982ada8e50c684a1ed7b0ec2ddf064cd47491c",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=01523&nocatche=1"
+}
