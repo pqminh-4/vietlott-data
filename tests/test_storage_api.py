@@ -87,6 +87,25 @@ def test_upsert_persists_a_new_official_pdf_hash(tmp_path: Path) -> None:
     assert store.load("mega645")[0].source_pdf_sha256 == "d" * 64
 
 
+def test_upsert_ignores_regenerated_pdf_for_unchanged_draw(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    original = replace(
+        record(),
+        source_pdf_url="https://media.vietlott.vn/result.pdf",
+        source_pdf_sha256="c" * 64,
+    )
+    assert store.upsert("mega645", [original]) == 1
+    regenerated = replace(
+        original,
+        retrieved_at="2026-08-02T00:00:00+00:00",
+        source_sha256="b" * 64,
+        source_pdf_sha256="d" * 64,
+    )
+
+    assert store.upsert("mega645", [regenerated]) == 0
+    assert store.load("mega645")[0] == original
+
+
 def test_api_and_csv_are_reproducible(tmp_path: Path) -> None:
     store = DataStore(tmp_path / "data")
     store.upsert("mega645", [record()])

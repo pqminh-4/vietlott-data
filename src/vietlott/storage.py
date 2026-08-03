@@ -218,22 +218,42 @@ def _semantic_payload(record: DrawRecord) -> dict[str, Any]:
     return payload
 
 
+def _content_payload(record: DrawRecord) -> dict[str, Any]:
+    """Return fields whose change means the stored draw or source location changed."""
+    payload = _semantic_payload(record)
+    payload.pop("source_pdf_sha256", None)
+    return payload
+
+
 def _merge_enrichment(previous: DrawRecord, incoming: DrawRecord) -> DrawRecord:
     """Keep known enrichment when a thinner source page omits it on refresh."""
     source_pdf_url = incoming.source_pdf_url or previous.source_pdf_url
+    enriched = replace(
+        incoming,
+        draw_time=incoming.draw_time or previous.draw_time,
+        draw_slot=incoming.draw_slot or previous.draw_slot,
+        prizes=incoming.prizes or previous.prizes,
+        source_pdf_url=source_pdf_url,
+    )
+    content_changed = _content_payload(previous) != _content_payload(enriched)
     source_pdf_sha256: str | None
-    if incoming.source_pdf_sha256 is not None:
+    if (
+        not content_changed
+        and source_pdf_url == previous.source_pdf_url
+        and previous.source_pdf_sha256 is not None
+    ):
+        # The official PDF endpoint can regenerate byte-different files for the
+        # same draw. Keep the first verified digest so identical collections do
+        # not rewrite canonical data merely because container metadata changed.
+        source_pdf_sha256 = previous.source_pdf_sha256
+    elif incoming.source_pdf_sha256 is not None:
         source_pdf_sha256 = incoming.source_pdf_sha256
     elif incoming.source_pdf_url is None or incoming.source_pdf_url == previous.source_pdf_url:
         source_pdf_sha256 = previous.source_pdf_sha256
     else:
         source_pdf_sha256 = None
     return replace(
-        incoming,
-        draw_time=incoming.draw_time or previous.draw_time,
-        draw_slot=incoming.draw_slot or previous.draw_slot,
-        prizes=incoming.prizes or previous.prizes,
-        source_pdf_url=source_pdf_url,
+        enriched,
         source_pdf_sha256=source_pdf_sha256,
     )
 
