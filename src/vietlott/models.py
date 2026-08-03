@@ -88,11 +88,28 @@ class DrawRecord:
             date.fromisoformat(self.draw_date)
         except ValueError as exc:
             raise ValidationError(f"Invalid draw_date: {self.draw_date!r}") from exc
+        if (self.draw_time is None) != (self.draw_slot is None):
+            raise ValidationError("draw_time and draw_slot must be populated together")
         if self.draw_time is not None:
             try:
-                time.fromisoformat(self.draw_time)
+                parsed_time = time.fromisoformat(self.draw_time)
             except ValueError as exc:
                 raise ValidationError(f"Invalid draw_time: {self.draw_time!r}") from exc
+            spec = get_game(self.game)
+            if (
+                parsed_time.hour not in spec.draw_hours
+                or parsed_time.minute
+                or parsed_time.second
+                or parsed_time.microsecond
+            ):
+                raise ValidationError(f"Off-schedule draw_time for {self.game}: {self.draw_time}")
+            expected_slot = {
+                13: "afternoon",
+                18: "evening",
+                21: "night",
+            }.get(parsed_time.hour, f"hour-{parsed_time.hour:02d}")
+            if self.draw_slot != expected_slot:
+                raise ValidationError("draw_time and draw_slot do not agree")
         try:
             retrieved_at = datetime.fromisoformat(self.retrieved_at)
         except ValueError as exc:
@@ -106,6 +123,11 @@ class DrawRecord:
             self._validate_official_url(self.source_pdf_url)
         if self.source_pdf_sha256 is not None and not SHA256_RE.fullmatch(self.source_pdf_sha256):
             raise ValidationError("source_pdf_sha256 must be a lowercase SHA-256 digest")
+        if self.source_pdf_sha256 is not None and self.source_pdf_url is None:
+            raise ValidationError("source_pdf_sha256 requires source_pdf_url")
+        prize_codes = [prize.code for prize in self.prizes]
+        if len(prize_codes) != len(set(prize_codes)):
+            raise ValidationError("Prize codes must be unique within a draw")
         for prize in self.prizes:
             prize.validate()
         spec = get_game(self.game)

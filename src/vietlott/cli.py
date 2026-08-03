@@ -6,11 +6,13 @@ import argparse
 import json
 import logging
 from collections.abc import Sequence
+from datetime import datetime
 from pathlib import Path
 
 from vietlott.api import build_api
 from vietlott.config import GAMES
 from vietlott.errors import VietlottError
+from vietlott.freshness import check_freshness
 from vietlott.http import VietlottClient
 from vietlott.schedule import due_games
 from vietlott.service import Collector
@@ -46,6 +48,13 @@ def build_parser() -> argparse.ArgumentParser:
     commands.add_parser("validate", help="Validate all canonical data and coverage")
     commands.add_parser("build-api", help="Build deterministic CSV and static API files")
     commands.add_parser("scheduled", help="Select collect or reconcile for the current local time")
+    freshness = commands.add_parser(
+        "check-freshness", help="Check the publication freshness SLA"
+    )
+    freshness.add_argument("--games", default="all")
+    freshness.add_argument("--max-delay-minutes", type=int, default=60)
+    freshness.add_argument("--as-of")
+    freshness.add_argument("--api-base-url")
     return parser
 
 
@@ -64,6 +73,17 @@ def main(argv: Sequence[str] | None = None) -> int:
             index = build_api(store, args.site_dir)
             print(json.dumps(index, ensure_ascii=False, sort_keys=True))
             return 0
+        if args.command == "check-freshness":
+            as_of = datetime.fromisoformat(args.as_of) if args.as_of else None
+            report = check_freshness(
+                store,
+                _resolve_games(args.games),
+                max_delay_minutes=args.max_delay_minutes,
+                as_of=as_of,
+                api_base_url=args.api_base_url,
+            )
+            print(json.dumps(report, ensure_ascii=False, sort_keys=True))
+            return 1 if report["overall_status"] in {"stale", "invalid"} else 0
         with VietlottClient() as client:
             collector = Collector(store, client)
             if args.command == "collect":

@@ -11,6 +11,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -45,6 +46,7 @@ jobs:
         shell: bash
         run: |
           vietlott build-api
+          git diff --exit-code -- data/csv site/api
           first="$(find site/api -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum)"
           vietlott build-api
           second="$(find site/api -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum)"

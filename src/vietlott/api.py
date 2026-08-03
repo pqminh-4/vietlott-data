@@ -40,7 +40,7 @@ def build_api(store: DataStore, site_root: Path | str = "site") -> dict[str, Any
             _write_json(years_root / f"{year}.json", values)
         latest = max(
             records,
-            key=lambda item: (item.draw_date, item.draw_time or "", int(item.draw_id)),
+            key=lambda item: int(item.draw_id),
             default=None,
         )
         _write_json(game_root / "latest.json", latest.to_dict() if latest else None)

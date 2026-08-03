@@ -6,9 +6,12 @@ import logging
 import math
 from collections.abc import Iterable
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from datetime import datetime, time, timedelta
+from typing import Any
 
 from vietlott.adapters import BaseAdapter, get_adapter
+from vietlott.adapters.number_set import _assign_lotto_slots
 from vietlott.config import GAMES, get_game
 from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse, VietlottClient
@@ -32,6 +35,10 @@ class CollectionSummary:
     fetched: dict[str, int]
     changed: dict[str, int]
     completed_backfills: list[str]
+    observed_at: str = field(
+        default_factory=lambda: local_now().isoformat(timespec="seconds")
+    )
+    telemetry: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     @classmethod
     def empty(cls) -> CollectionSummary:
@@ -45,12 +52,16 @@ class CollectionSummary:
         self.completed_backfills.extend(
             game for game in other.completed_backfills if game not in self.completed_backfills
         )
+        self.telemetry.update(other.telemetry)
 
     def to_dict(self) -> dict[str, object]:
         return {
             "fetched": self.fetched,
             "changed": self.changed,
             "completed_backfills": self.completed_backfills,
+            "observed_at": self.observed_at,
+            "selected_games": list(self.telemetry),
+            "telemetry": self.telemetry,
         }
 
 
@@ -75,6 +86,7 @@ class Collector:
     ) -> CollectionSummary:
         summary = CollectionSummary.empty()
         for game in games:
+            before = _latest_draw_id(self.store.load(game))
             fetched = self._fetch_pages(get_adapter(game), [0], audit_official_pdf)
             if not fetched[0].records:
                 raise ParseError(f"Latest official page for {game} contained no valid draws")
@@ -82,6 +94,14 @@ class Collector:
             changed = 0 if dry_run else self.store.upsert(game, records)
             summary.fetched[game] = len(records)
             summary.changed[game] = changed
+            self._record_telemetry(
+                summary,
+                game,
+                before,
+                records,
+                changed,
+                status="dry-run" if dry_run else ("updated" if changed else "unchanged"),
+            )
         return summary
 
     def backfill(
@@ -94,12 +114,16 @@ class Collector:
     ) -> CollectionSummary:
         summary = CollectionSummary.empty()
         for game in games:
+            before = _latest_draw_id(self.store.load(game))
             spec = get_game(game)
             state = self.store.load_state(game)
             if state.complete and resume:
                 summary.fetched[game] = 0
                 summary.changed[game] = 0
                 summary.completed_backfills.append(game)
+                self._record_telemetry(
+                    summary, game, before, [], 0, status="backfill-complete"
+                )
                 continue
             start_page = state.next_page_index if resume else 0
             page_count = max(1, max_draws // spec.page_size)
@@ -134,6 +158,14 @@ class Collector:
             summary.changed[game] = changed
             if complete:
                 summary.completed_backfills.append(game)
+            self._record_telemetry(
+                summary,
+                game,
+                before,
+                records,
+                changed,
+                status="backfill-complete" if complete else "backfill-progress",
+            )
         return summary
 
     def reconcile(
@@ -146,6 +178,7 @@ class Collector:
         selected = list(games)
         summary = CollectionSummary.empty()
         for game in selected:
+            before = _latest_draw_id(self.store.load(game))
             spec = get_game(game)
             draws_per_day = 2 if game == "lotto535" else 3 / 7
             expected = math.ceil(recent_days * draws_per_day)
@@ -156,6 +189,14 @@ class Collector:
             records = _deduplicate(record for page in fetched for record in page.records)
             summary.fetched[game] = len(records)
             summary.changed[game] = self.store.upsert(game, records)
+            self._record_telemetry(
+                summary,
+                game,
+                before,
+                records,
+                summary.changed[game],
+                status="reconciled" if summary.changed[game] else "unchanged",
+            )
         incomplete = [game for game in selected if not self.store.load_state(game).complete]
         if incomplete:
             summary.merge(
@@ -167,6 +208,28 @@ class Collector:
                 )
             )
         return summary
+
+    def _record_telemetry(
+        self,
+        summary: CollectionSummary,
+        game: str,
+        before: str | None,
+        records: list[DrawRecord],
+        changed: int,
+        *,
+        status: str,
+    ) -> None:
+        item: dict[str, Any] = {
+            "expected_draw_at": _latest_expected_draw(game, summary.observed_at),
+            "before_latest_draw_id": before,
+            "fetched_latest_draw_id": _latest_draw_id(records),
+            "stored_latest_draw_id": _latest_draw_id(self.store.load(game)),
+            "fetched_count": len(records),
+            "changed_count": changed,
+            "status": status,
+        }
+        summary.telemetry[game] = item
+        LOGGER.info("Collection outcome for %s: %s", game, item)
 
     def run_scheduled(self) -> CollectionSummary:
         now = local_now()
@@ -197,6 +260,8 @@ class Collector:
                 response, records = page_future.result()
                 pages.append(FetchedPage(index=index, response=response, records=records))
         records = _deduplicate(record for page in pages for record in page.records)
+        if adapter.spec.code == "lotto535":
+            records = _assign_lotto_slots(records)
         enriched: dict[tuple[str, str], DrawRecord] = {}
         if records:
             with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
@@ -236,3 +301,24 @@ def _deduplicate(records: Iterable[DrawRecord]) -> list[DrawRecord]:
     for record in records:
         unique[record.key] = record
     return list(unique.values())
+
+
+def _latest_draw_id(records: Iterable[DrawRecord]) -> str | None:
+    return max((record.draw_id for record in records), key=int, default=None)
+
+
+def _latest_expected_draw(game: str, observed_at: str) -> str | None:
+    current = datetime.fromisoformat(observed_at)
+    spec = get_game(game)
+    for days_ago in range(8):
+        candidate_date = current.date() - timedelta(days=days_ago)
+        if candidate_date.weekday() not in spec.weekdays:
+            continue
+        candidates = [
+            datetime.combine(candidate_date, time(hour=hour), tzinfo=current.tzinfo)
+            for hour in spec.draw_hours
+        ]
+        eligible = [candidate for candidate in candidates if candidate <= current]
+        if eligible:
+            return max(eligible).isoformat()
+    return None

@@ -48,6 +48,45 @@ def test_upsert_is_semantic_and_deterministic(tmp_path: Path) -> None:
     assert store.load("mega645")[0].retrieved_at == "2026-08-01T00:00:00+00:00"
 
 
+def test_upsert_preserves_enrichment_and_accepts_later_correction(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    enriched = replace(
+        record(),
+        source_pdf_url="https://media.vietlott.vn/result.pdf",
+        source_pdf_sha256="c" * 64,
+    )
+    assert store.upsert("mega645", [enriched]) == 1
+    thinner = replace(
+        record(retrieved_at="2026-08-02T00:00:00+00:00"),
+        draw_time=None,
+        draw_slot=None,
+        prizes=[],
+    )
+    assert store.upsert("mega645", [thinner]) == 0
+    preserved = store.load("mega645")[0]
+    assert preserved.draw_time == "18:00:00"
+    assert preserved.draw_slot == "evening"
+    assert preserved.prizes == enriched.prizes
+    assert preserved.source_pdf_url == enriched.source_pdf_url
+    assert preserved.source_pdf_sha256 == enriched.source_pdf_sha256
+
+    unresolved = replace(record("00002"), draw_time=None, draw_slot=None)
+    assert store.upsert("mega645", [unresolved]) == 1
+    corrected = replace(unresolved, draw_time="18:00:00", draw_slot="evening")
+    assert store.upsert("mega645", [corrected]) == 1
+    assert store.load("mega645")[1].draw_time == "18:00:00"
+
+
+def test_upsert_persists_a_new_official_pdf_hash(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    pdf_url = "https://media.vietlott.vn/result.pdf"
+    without_hash = replace(record(), source_pdf_url=pdf_url)
+    assert store.upsert("mega645", [without_hash]) == 1
+    audited = replace(without_hash, source_pdf_sha256="d" * 64)
+    assert store.upsert("mega645", [audited]) == 1
+    assert store.load("mega645")[0].source_pdf_sha256 == "d" * 64
+
+
 def test_api_and_csv_are_reproducible(tmp_path: Path) -> None:
     store = DataStore(tmp_path / "data")
     store.upsert("mega645", [record()])
@@ -69,6 +108,17 @@ def test_complete_coverage_requires_explained_gaps(tmp_path: Path) -> None:
     coverage = store.coverage("mega645")
     assert coverage["missing_ids"] == ["00002"]
     with pytest.raises(ValidationError):
+        store.validate_game("mega645")
+
+
+def test_validation_rejects_stale_tracked_coverage(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    store.upsert("mega645", [record()])
+    coverage_path = store.root / "coverage" / "mega645.json"
+    payload = json.loads(coverage_path.read_text(encoding="utf-8"))
+    payload["record_count"] = 0
+    coverage_path.write_text(json.dumps(payload), encoding="utf-8")
+    with pytest.raises(ValidationError, match="coverage is stale"):
         store.validate_game("mega645")
 
 

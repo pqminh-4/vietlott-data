@@ -40,6 +40,15 @@ def test_non_official_source_is_rejected() -> None:
         replace(number_record(), source_url="https://example.com/result").validate()
 
 
+def test_draw_time_and_slot_must_be_consistent() -> None:
+    with pytest.raises(ValidationError):
+        replace(
+            number_record(), draw_time="13:00:00", draw_slot="afternoon"
+        ).validate()
+    with pytest.raises(ValidationError):
+        replace(number_record(), draw_time=None).validate()
+
+
 @pytest.mark.parametrize("retrieved_at", ["not-a-date", "2026-08-01T00:00:00"])
 def test_retrieved_at_requires_an_offset_timestamp(retrieved_at: str) -> None:
     with pytest.raises(ValidationError):
