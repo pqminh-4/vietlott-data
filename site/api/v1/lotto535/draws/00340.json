@@ -1,0 +1,77 @@
+{
+  "draw_date": "2025-12-15",
+  "draw_id": "00340",
+  "draw_slot": "night",
+  "draw_time": "21:00:00",
+  "game": "lotto535",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "giai-doc-dac",
+      "jackpot_vnd": 20647783000,
+      "name": "Giải Độc Đắc",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": 710014300,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 10
+    },
+    {
+      "amount_vnd": 58770000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 64
+    },
+    {
+      "amount_vnd": 4655000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 828
+    },
+    {
+      "amount_vnd": 2015000,
+      "code": "giai-tu",
+      "jackpot_vnd": null,
+      "name": "Giải Tư",
+      "winner_count": 1796
+    },
+    {
+      "amount_vnd": 170000,
+      "code": "giai-nam",
+      "jackpot_vnd": null,
+      "name": "Giải Năm",
+      "winner_count": 23762
+    },
+    {
+      "amount_vnd": 10000,
+      "code": "giai-khuyen-khich",
+      "jackpot_vnd": null,
+      "name": "Giải Khuyến Khích",
+      "winner_count": 137155
+    }
+  ],
+  "result": {
+    "bonus_numbers": [
+      9
+    ],
+    "kind": "number_set",
+    "main_numbers": [
+      20,
+      21,
+      24,
+      25,
+      28
+    ]
+  },
+  "retrieved_at": "2026-08-03T20:46:47+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": null,
+  "source_sha256": "d96a49aacdf6c2910a71a843b84fa1068676b0939deaafe29a1ed4171c80049f",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00340&nocatche=1"
+}

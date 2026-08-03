@@ -1,12 +1,12 @@
 {
   "backfill_complete": false,
-  "earliest_draw_date": "2026-04-01",
-  "earliest_draw_id": "00553",
+  "earliest_draw_date": "2025-11-29",
+  "earliest_draw_id": "00307",
   "game": "lotto535",
   "latest_draw_date": "2026-08-03",
   "latest_draw_id": "00802",
   "missing_ids": [],
-  "next_page_index": 31,
-  "record_count": 250,
+  "next_page_index": 62,
+  "record_count": 496,
   "unavailable_ranges": []
 }

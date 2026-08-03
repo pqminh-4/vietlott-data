@@ -1,0 +1,55 @@
+{
+  "draw_date": "2024-05-17",
+  "draw_id": "01199",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "mega645",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot",
+      "jackpot_vnd": 69796747000,
+      "name": "Jackpot",
+      "winner_count": 1
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 59
+    },
+    {
+      "amount_vnd": 300000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 2803
+    },
+    {
+      "amount_vnd": 30000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 41364
+    }
+  ],
+  "result": {
+    "bonus_numbers": [],
+    "kind": "number_set",
+    "main_numbers": [
+      8,
+      22,
+      27,
+      29,
+      39,
+      43
+    ]
+  },
+  "retrieved_at": "2026-08-03T20:42:12+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn/main/05.2024/system/game.pdf.result/01199_mega_a5_01199.pdf",
+  "source_sha256": "2bf2f4af7bb08729d3a2c8af354a1db20eec2c6f457fe841d3769b700be41181",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=01199&nocatche=1"
+}

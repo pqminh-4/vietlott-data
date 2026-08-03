@@ -1,4 +1,4984 @@
 game,draw_id,tier_code,tier_name,ordinal,number
+max3d,00615,special,Giải Đặc biệt,1,812
+max3d,00615,special,Giải Đặc biệt,2,779
+max3d,00615,first,Giải Nhất,1,092
+max3d,00615,first,Giải Nhất,2,873
+max3d,00615,first,Giải Nhất,3,406
+max3d,00615,first,Giải Nhất,4,438
+max3d,00615,second,Giải Nhì,1,970
+max3d,00615,second,Giải Nhì,2,446
+max3d,00615,second,Giải Nhì,3,586
+max3d,00615,second,Giải Nhì,4,142
+max3d,00615,second,Giải Nhì,5,705
+max3d,00615,second,Giải Nhì,6,408
+max3d,00615,third,Giải Ba,1,757
+max3d,00615,third,Giải Ba,2,073
+max3d,00615,third,Giải Ba,3,386
+max3d,00615,third,Giải Ba,4,617
+max3d,00615,third,Giải Ba,5,962
+max3d,00615,third,Giải Ba,6,930
+max3d,00615,third,Giải Ba,7,502
+max3d,00615,third,Giải Ba,8,501
+max3d,00616,special,Giải Đặc biệt,1,669
+max3d,00616,special,Giải Đặc biệt,2,339
+max3d,00616,first,Giải Nhất,1,985
+max3d,00616,first,Giải Nhất,2,236
+max3d,00616,first,Giải Nhất,3,583
+max3d,00616,first,Giải Nhất,4,309
+max3d,00616,second,Giải Nhì,1,930
+max3d,00616,second,Giải Nhì,2,297
+max3d,00616,second,Giải Nhì,3,468
+max3d,00616,second,Giải Nhì,4,006
+max3d,00616,second,Giải Nhì,5,432
+max3d,00616,second,Giải Nhì,6,910
+max3d,00616,third,Giải Ba,1,999
+max3d,00616,third,Giải Ba,2,742
+max3d,00616,third,Giải Ba,3,825
+max3d,00616,third,Giải Ba,4,895
+max3d,00616,third,Giải Ba,5,998
+max3d,00616,third,Giải Ba,6,395
+max3d,00616,third,Giải Ba,7,388
+max3d,00616,third,Giải Ba,8,472
+max3d,00617,special,Giải Đặc biệt,1,014
+max3d,00617,special,Giải Đặc biệt,2,964
+max3d,00617,first,Giải Nhất,1,933
+max3d,00617,first,Giải Nhất,2,244
+max3d,00617,first,Giải Nhất,3,410
+max3d,00617,first,Giải Nhất,4,730
+max3d,00617,second,Giải Nhì,1,091
+max3d,00617,second,Giải Nhì,2,329
+max3d,00617,second,Giải Nhì,3,797
+max3d,00617,second,Giải Nhì,4,358
+max3d,00617,second,Giải Nhì,5,905
+max3d,00617,second,Giải Nhì,6,551
+max3d,00617,third,Giải Ba,1,351
+max3d,00617,third,Giải Ba,2,420
+max3d,00617,third,Giải Ba,3,168
+max3d,00617,third,Giải Ba,4,500
+max3d,00617,third,Giải Ba,5,588
+max3d,00617,third,Giải Ba,6,891
+max3d,00617,third,Giải Ba,7,004
+max3d,00617,third,Giải Ba,8,539
+max3d,00618,special,Giải Đặc biệt,1,173
+max3d,00618,special,Giải Đặc biệt,2,403
+max3d,00618,first,Giải Nhất,1,774
+max3d,00618,first,Giải Nhất,2,780
+max3d,00618,first,Giải Nhất,3,796
+max3d,00618,first,Giải Nhất,4,099
+max3d,00618,second,Giải Nhì,1,139
+max3d,00618,second,Giải Nhì,2,241
+max3d,00618,second,Giải Nhì,3,740
+max3d,00618,second,Giải Nhì,4,511
+max3d,00618,second,Giải Nhì,5,976
+max3d,00618,second,Giải Nhì,6,893
+max3d,00618,third,Giải Ba,1,725
+max3d,00618,third,Giải Ba,2,927
+max3d,00618,third,Giải Ba,3,012
+max3d,00618,third,Giải Ba,4,800
+max3d,00618,third,Giải Ba,5,250
+max3d,00618,third,Giải Ba,6,724
+max3d,00618,third,Giải Ba,7,277
+max3d,00618,third,Giải Ba,8,729
+max3d,00619,special,Giải Đặc biệt,1,784
+max3d,00619,special,Giải Đặc biệt,2,805
+max3d,00619,first,Giải Nhất,1,895
+max3d,00619,first,Giải Nhất,2,374
+max3d,00619,first,Giải Nhất,3,490
+max3d,00619,first,Giải Nhất,4,569
+max3d,00619,second,Giải Nhì,1,726
+max3d,00619,second,Giải Nhì,2,577
+max3d,00619,second,Giải Nhì,3,583
+max3d,00619,second,Giải Nhì,4,935
+max3d,00619,second,Giải Nhì,5,480
+max3d,00619,second,Giải Nhì,6,720
+max3d,00619,third,Giải Ba,1,439
+max3d,00619,third,Giải Ba,2,583
+max3d,00619,third,Giải Ba,3,605
+max3d,00619,third,Giải Ba,4,818
+max3d,00619,third,Giải Ba,5,320
+max3d,00619,third,Giải Ba,6,063
+max3d,00619,third,Giải Ba,7,906
+max3d,00619,third,Giải Ba,8,486
+max3d,00620,special,Giải Đặc biệt,1,799
+max3d,00620,special,Giải Đặc biệt,2,797
+max3d,00620,first,Giải Nhất,1,614
+max3d,00620,first,Giải Nhất,2,100
+max3d,00620,first,Giải Nhất,3,703
+max3d,00620,first,Giải Nhất,4,884
+max3d,00620,second,Giải Nhì,1,957
+max3d,00620,second,Giải Nhì,2,140
+max3d,00620,second,Giải Nhì,3,507
+max3d,00620,second,Giải Nhì,4,969
+max3d,00620,second,Giải Nhì,5,758
+max3d,00620,second,Giải Nhì,6,481
+max3d,00620,third,Giải Ba,1,758
+max3d,00620,third,Giải Ba,2,926
+max3d,00620,third,Giải Ba,3,596
+max3d,00620,third,Giải Ba,4,340
+max3d,00620,third,Giải Ba,5,558
+max3d,00620,third,Giải Ba,6,563
+max3d,00620,third,Giải Ba,7,062
+max3d,00620,third,Giải Ba,8,348
+max3d,00621,special,Giải Đặc biệt,1,999
+max3d,00621,special,Giải Đặc biệt,2,007
+max3d,00621,first,Giải Nhất,1,761
+max3d,00621,first,Giải Nhất,2,735
+max3d,00621,first,Giải Nhất,3,039
+max3d,00621,first,Giải Nhất,4,100
+max3d,00621,second,Giải Nhì,1,920
+max3d,00621,second,Giải Nhì,2,626
+max3d,00621,second,Giải Nhì,3,603
+max3d,00621,second,Giải Nhì,4,728
+max3d,00621,second,Giải Nhì,5,095
+max3d,00621,second,Giải Nhì,6,115
+max3d,00621,third,Giải Ba,1,110
+max3d,00621,third,Giải Ba,2,879
+max3d,00621,third,Giải Ba,3,627
+max3d,00621,third,Giải Ba,4,668
+max3d,00621,third,Giải Ba,5,527
+max3d,00621,third,Giải Ba,6,297
+max3d,00621,third,Giải Ba,7,176
+max3d,00621,third,Giải Ba,8,788
+max3d,00622,special,Giải Đặc biệt,1,937
+max3d,00622,special,Giải Đặc biệt,2,924
+max3d,00622,first,Giải Nhất,1,850
+max3d,00622,first,Giải Nhất,2,543
+max3d,00622,first,Giải Nhất,3,433
+max3d,00622,first,Giải Nhất,4,764
+max3d,00622,second,Giải Nhì,1,079
+max3d,00622,second,Giải Nhì,2,868
+max3d,00622,second,Giải Nhì,3,027
+max3d,00622,second,Giải Nhì,4,236
+max3d,00622,second,Giải Nhì,5,055
+max3d,00622,second,Giải Nhì,6,351
+max3d,00622,third,Giải Ba,1,331
+max3d,00622,third,Giải Ba,2,535
+max3d,00622,third,Giải Ba,3,533
+max3d,00622,third,Giải Ba,4,825
+max3d,00622,third,Giải Ba,5,657
+max3d,00622,third,Giải Ba,6,909
+max3d,00622,third,Giải Ba,7,830
+max3d,00622,third,Giải Ba,8,056
+max3d,00623,special,Giải Đặc biệt,1,712
+max3d,00623,special,Giải Đặc biệt,2,039
+max3d,00623,first,Giải Nhất,1,611
+max3d,00623,first,Giải Nhất,2,344
+max3d,00623,first,Giải Nhất,3,628
+max3d,00623,first,Giải Nhất,4,132
+max3d,00623,second,Giải Nhì,1,729
+max3d,00623,second,Giải Nhì,2,694
+max3d,00623,second,Giải Nhì,3,579
+max3d,00623,second,Giải Nhì,4,120
+max3d,00623,second,Giải Nhì,5,341
+max3d,00623,second,Giải Nhì,6,827
+max3d,00623,third,Giải Ba,1,009
+max3d,00623,third,Giải Ba,2,795
+max3d,00623,third,Giải Ba,3,289
+max3d,00623,third,Giải Ba,4,664
+max3d,00623,third,Giải Ba,5,675
+max3d,00623,third,Giải Ba,6,218
+max3d,00623,third,Giải Ba,7,971
+max3d,00623,third,Giải Ba,8,317
+max3d,00624,special,Giải Đặc biệt,1,367
+max3d,00624,special,Giải Đặc biệt,2,459
+max3d,00624,first,Giải Nhất,1,997
+max3d,00624,first,Giải Nhất,2,499
+max3d,00624,first,Giải Nhất,3,644
+max3d,00624,first,Giải Nhất,4,140
+max3d,00624,second,Giải Nhì,1,315
+max3d,00624,second,Giải Nhì,2,131
+max3d,00624,second,Giải Nhì,3,534
+max3d,00624,second,Giải Nhì,4,142
+max3d,00624,second,Giải Nhì,5,872
+max3d,00624,second,Giải Nhì,6,589
+max3d,00624,third,Giải Ba,1,411
+max3d,00624,third,Giải Ba,2,485
+max3d,00624,third,Giải Ba,3,229
+max3d,00624,third,Giải Ba,4,453
+max3d,00624,third,Giải Ba,5,286
+max3d,00624,third,Giải Ba,6,684
+max3d,00624,third,Giải Ba,7,797
+max3d,00624,third,Giải Ba,8,841
+max3d,00625,special,Giải Đặc biệt,1,202
+max3d,00625,special,Giải Đặc biệt,2,314
+max3d,00625,first,Giải Nhất,1,795
+max3d,00625,first,Giải Nhất,2,147
+max3d,00625,first,Giải Nhất,3,674
+max3d,00625,first,Giải Nhất,4,355
+max3d,00625,second,Giải Nhì,1,594
+max3d,00625,second,Giải Nhì,2,823
+max3d,00625,second,Giải Nhì,3,987
+max3d,00625,second,Giải Nhì,4,557
+max3d,00625,second,Giải Nhì,5,022
+max3d,00625,second,Giải Nhì,6,279
+max3d,00625,third,Giải Ba,1,825
+max3d,00625,third,Giải Ba,2,159
+max3d,00625,third,Giải Ba,3,970
+max3d,00625,third,Giải Ba,4,846
+max3d,00625,third,Giải Ba,5,690
+max3d,00625,third,Giải Ba,6,720
+max3d,00625,third,Giải Ba,7,153
+max3d,00625,third,Giải Ba,8,289
+max3d,00626,special,Giải Đặc biệt,1,120
+max3d,00626,special,Giải Đặc biệt,2,225
+max3d,00626,first,Giải Nhất,1,393
+max3d,00626,first,Giải Nhất,2,338
+max3d,00626,first,Giải Nhất,3,640
+max3d,00626,first,Giải Nhất,4,978
+max3d,00626,second,Giải Nhì,1,346
+max3d,00626,second,Giải Nhì,2,391
+max3d,00626,second,Giải Nhì,3,698
+max3d,00626,second,Giải Nhì,4,678
+max3d,00626,second,Giải Nhì,5,487
+max3d,00626,second,Giải Nhì,6,666
+max3d,00626,third,Giải Ba,1,960
+max3d,00626,third,Giải Ba,2,881
+max3d,00626,third,Giải Ba,3,856
+max3d,00626,third,Giải Ba,4,411
+max3d,00626,third,Giải Ba,5,939
+max3d,00626,third,Giải Ba,6,210
+max3d,00626,third,Giải Ba,7,910
+max3d,00626,third,Giải Ba,8,523
+max3d,00627,special,Giải Đặc biệt,1,437
+max3d,00627,special,Giải Đặc biệt,2,615
+max3d,00627,first,Giải Nhất,1,636
+max3d,00627,first,Giải Nhất,2,556
+max3d,00627,first,Giải Nhất,3,878
+max3d,00627,first,Giải Nhất,4,486
+max3d,00627,second,Giải Nhì,1,664
+max3d,00627,second,Giải Nhì,2,731
+max3d,00627,second,Giải Nhì,3,283
+max3d,00627,second,Giải Nhì,4,275
+max3d,00627,second,Giải Nhì,5,393
+max3d,00627,second,Giải Nhì,6,734
+max3d,00627,third,Giải Ba,1,168
+max3d,00627,third,Giải Ba,2,954
+max3d,00627,third,Giải Ba,3,696
+max3d,00627,third,Giải Ba,4,757
+max3d,00627,third,Giải Ba,5,151
+max3d,00627,third,Giải Ba,6,472
+max3d,00627,third,Giải Ba,7,348
+max3d,00627,third,Giải Ba,8,967
+max3d,00628,special,Giải Đặc biệt,1,323
+max3d,00628,special,Giải Đặc biệt,2,315
+max3d,00628,first,Giải Nhất,1,935
+max3d,00628,first,Giải Nhất,2,276
+max3d,00628,first,Giải Nhất,3,966
+max3d,00628,first,Giải Nhất,4,342
+max3d,00628,second,Giải Nhì,1,370
+max3d,00628,second,Giải Nhì,2,631
+max3d,00628,second,Giải Nhì,3,516
+max3d,00628,second,Giải Nhì,4,309
+max3d,00628,second,Giải Nhì,5,091
+max3d,00628,second,Giải Nhì,6,105
+max3d,00628,third,Giải Ba,1,231
+max3d,00628,third,Giải Ba,2,374
+max3d,00628,third,Giải Ba,3,308
+max3d,00628,third,Giải Ba,4,157
+max3d,00628,third,Giải Ba,5,639
+max3d,00628,third,Giải Ba,6,501
+max3d,00628,third,Giải Ba,7,586
+max3d,00628,third,Giải Ba,8,374
+max3d,00629,special,Giải Đặc biệt,1,355
+max3d,00629,special,Giải Đặc biệt,2,449
+max3d,00629,first,Giải Nhất,1,352
+max3d,00629,first,Giải Nhất,2,801
+max3d,00629,first,Giải Nhất,3,962
+max3d,00629,first,Giải Nhất,4,578
+max3d,00629,second,Giải Nhì,1,451
+max3d,00629,second,Giải Nhì,2,575
+max3d,00629,second,Giải Nhì,3,153
+max3d,00629,second,Giải Nhì,4,175
+max3d,00629,second,Giải Nhì,5,590
+max3d,00629,second,Giải Nhì,6,594
+max3d,00629,third,Giải Ba,1,398
+max3d,00629,third,Giải Ba,2,761
+max3d,00629,third,Giải Ba,3,859
+max3d,00629,third,Giải Ba,4,861
+max3d,00629,third,Giải Ba,5,124
+max3d,00629,third,Giải Ba,6,719
+max3d,00629,third,Giải Ba,7,059
+max3d,00629,third,Giải Ba,8,297
+max3d,00630,special,Giải Đặc biệt,1,528
+max3d,00630,special,Giải Đặc biệt,2,819
+max3d,00630,first,Giải Nhất,1,073
+max3d,00630,first,Giải Nhất,2,132
+max3d,00630,first,Giải Nhất,3,557
+max3d,00630,first,Giải Nhất,4,757
+max3d,00630,second,Giải Nhì,1,973
+max3d,00630,second,Giải Nhì,2,736
+max3d,00630,second,Giải Nhì,3,411
+max3d,00630,second,Giải Nhì,4,707
+max3d,00630,second,Giải Nhì,5,951
+max3d,00630,second,Giải Nhì,6,250
+max3d,00630,third,Giải Ba,1,685
+max3d,00630,third,Giải Ba,2,635
+max3d,00630,third,Giải Ba,3,511
+max3d,00630,third,Giải Ba,4,856
+max3d,00630,third,Giải Ba,5,846
+max3d,00630,third,Giải Ba,6,238
+max3d,00630,third,Giải Ba,7,807
+max3d,00630,third,Giải Ba,8,024
+max3d,00631,special,Giải Đặc biệt,1,640
+max3d,00631,special,Giải Đặc biệt,2,368
+max3d,00631,first,Giải Nhất,1,466
+max3d,00631,first,Giải Nhất,2,959
+max3d,00631,first,Giải Nhất,3,029
+max3d,00631,first,Giải Nhất,4,481
+max3d,00631,second,Giải Nhì,1,901
+max3d,00631,second,Giải Nhì,2,215
+max3d,00631,second,Giải Nhì,3,726
+max3d,00631,second,Giải Nhì,4,253
+max3d,00631,second,Giải Nhì,5,361
+max3d,00631,second,Giải Nhì,6,428
+max3d,00631,third,Giải Ba,1,401
+max3d,00631,third,Giải Ba,2,714
+max3d,00631,third,Giải Ba,3,966
+max3d,00631,third,Giải Ba,4,040
+max3d,00631,third,Giải Ba,5,636
+max3d,00631,third,Giải Ba,6,741
+max3d,00631,third,Giải Ba,7,915
+max3d,00631,third,Giải Ba,8,405
+max3d,00632,special,Giải Đặc biệt,1,245
+max3d,00632,special,Giải Đặc biệt,2,434
+max3d,00632,first,Giải Nhất,1,397
+max3d,00632,first,Giải Nhất,2,468
+max3d,00632,first,Giải Nhất,3,658
+max3d,00632,first,Giải Nhất,4,756
+max3d,00632,second,Giải Nhì,1,026
+max3d,00632,second,Giải Nhì,2,206
+max3d,00632,second,Giải Nhì,3,327
+max3d,00632,second,Giải Nhì,4,902
+max3d,00632,second,Giải Nhì,5,334
+max3d,00632,second,Giải Nhì,6,784
+max3d,00632,third,Giải Ba,1,792
+max3d,00632,third,Giải Ba,2,167
+max3d,00632,third,Giải Ba,3,423
+max3d,00632,third,Giải Ba,4,922
+max3d,00632,third,Giải Ba,5,972
+max3d,00632,third,Giải Ba,6,241
+max3d,00632,third,Giải Ba,7,477
+max3d,00632,third,Giải Ba,8,408
+max3d,00633,special,Giải Đặc biệt,1,548
+max3d,00633,special,Giải Đặc biệt,2,547
+max3d,00633,first,Giải Nhất,1,784
+max3d,00633,first,Giải Nhất,2,046
+max3d,00633,first,Giải Nhất,3,984
+max3d,00633,first,Giải Nhất,4,807
+max3d,00633,second,Giải Nhì,1,961
+max3d,00633,second,Giải Nhì,2,783
+max3d,00633,second,Giải Nhì,3,922
+max3d,00633,second,Giải Nhì,4,199
+max3d,00633,second,Giải Nhì,5,842
+max3d,00633,second,Giải Nhì,6,870
+max3d,00633,third,Giải Ba,1,178
+max3d,00633,third,Giải Ba,2,114
+max3d,00633,third,Giải Ba,3,767
+max3d,00633,third,Giải Ba,4,973
+max3d,00633,third,Giải Ba,5,255
+max3d,00633,third,Giải Ba,6,318
+max3d,00633,third,Giải Ba,7,173
+max3d,00633,third,Giải Ba,8,635
+max3d,00634,special,Giải Đặc biệt,1,202
+max3d,00634,special,Giải Đặc biệt,2,940
+max3d,00634,first,Giải Nhất,1,056
+max3d,00634,first,Giải Nhất,2,645
+max3d,00634,first,Giải Nhất,3,351
+max3d,00634,first,Giải Nhất,4,320
+max3d,00634,second,Giải Nhì,1,086
+max3d,00634,second,Giải Nhì,2,374
+max3d,00634,second,Giải Nhì,3,770
+max3d,00634,second,Giải Nhì,4,062
+max3d,00634,second,Giải Nhì,5,547
+max3d,00634,second,Giải Nhì,6,486
+max3d,00634,third,Giải Ba,1,523
+max3d,00634,third,Giải Ba,2,768
+max3d,00634,third,Giải Ba,3,822
+max3d,00634,third,Giải Ba,4,874
+max3d,00634,third,Giải Ba,5,980
+max3d,00634,third,Giải Ba,6,615
+max3d,00634,third,Giải Ba,7,564
+max3d,00634,third,Giải Ba,8,175
+max3d,00635,special,Giải Đặc biệt,1,445
+max3d,00635,special,Giải Đặc biệt,2,146
+max3d,00635,first,Giải Nhất,1,804
+max3d,00635,first,Giải Nhất,2,210
+max3d,00635,first,Giải Nhất,3,540
+max3d,00635,first,Giải Nhất,4,951
+max3d,00635,second,Giải Nhì,1,875
+max3d,00635,second,Giải Nhì,2,474
+max3d,00635,second,Giải Nhì,3,103
+max3d,00635,second,Giải Nhì,4,006
+max3d,00635,second,Giải Nhì,5,636
+max3d,00635,second,Giải Nhì,6,246
+max3d,00635,third,Giải Ba,1,022
+max3d,00635,third,Giải Ba,2,385
+max3d,00635,third,Giải Ba,3,132
+max3d,00635,third,Giải Ba,4,106
+max3d,00635,third,Giải Ba,5,939
+max3d,00635,third,Giải Ba,6,941
+max3d,00635,third,Giải Ba,7,447
+max3d,00635,third,Giải Ba,8,402
+max3d,00636,special,Giải Đặc biệt,1,953
+max3d,00636,special,Giải Đặc biệt,2,816
+max3d,00636,first,Giải Nhất,1,777
+max3d,00636,first,Giải Nhất,2,225
+max3d,00636,first,Giải Nhất,3,486
+max3d,00636,first,Giải Nhất,4,861
+max3d,00636,second,Giải Nhì,1,677
+max3d,00636,second,Giải Nhì,2,400
+max3d,00636,second,Giải Nhì,3,587
+max3d,00636,second,Giải Nhì,4,357
+max3d,00636,second,Giải Nhì,5,135
+max3d,00636,second,Giải Nhì,6,633
+max3d,00636,third,Giải Ba,1,656
+max3d,00636,third,Giải Ba,2,967
+max3d,00636,third,Giải Ba,3,421
+max3d,00636,third,Giải Ba,4,696
+max3d,00636,third,Giải Ba,5,537
+max3d,00636,third,Giải Ba,6,884
+max3d,00636,third,Giải Ba,7,053
+max3d,00636,third,Giải Ba,8,291
+max3d,00637,special,Giải Đặc biệt,1,796
+max3d,00637,special,Giải Đặc biệt,2,628
+max3d,00637,first,Giải Nhất,1,874
+max3d,00637,first,Giải Nhất,2,652
+max3d,00637,first,Giải Nhất,3,419
+max3d,00637,first,Giải Nhất,4,094
+max3d,00637,second,Giải Nhì,1,416
+max3d,00637,second,Giải Nhì,2,337
+max3d,00637,second,Giải Nhì,3,365
+max3d,00637,second,Giải Nhì,4,414
+max3d,00637,second,Giải Nhì,5,565
+max3d,00637,second,Giải Nhì,6,716
+max3d,00637,third,Giải Ba,1,455
+max3d,00637,third,Giải Ba,2,707
+max3d,00637,third,Giải Ba,3,802
+max3d,00637,third,Giải Ba,4,332
+max3d,00637,third,Giải Ba,5,206
+max3d,00637,third,Giải Ba,6,996
+max3d,00637,third,Giải Ba,7,238
+max3d,00637,third,Giải Ba,8,041
+max3d,00638,special,Giải Đặc biệt,1,714
+max3d,00638,special,Giải Đặc biệt,2,619
+max3d,00638,first,Giải Nhất,1,010
+max3d,00638,first,Giải Nhất,2,753
+max3d,00638,first,Giải Nhất,3,933
+max3d,00638,first,Giải Nhất,4,298
+max3d,00638,second,Giải Nhì,1,651
+max3d,00638,second,Giải Nhì,2,041
+max3d,00638,second,Giải Nhì,3,485
+max3d,00638,second,Giải Nhì,4,135
+max3d,00638,second,Giải Nhì,5,366
+max3d,00638,second,Giải Nhì,6,123
+max3d,00638,third,Giải Ba,1,103
+max3d,00638,third,Giải Ba,2,717
+max3d,00638,third,Giải Ba,3,977
+max3d,00638,third,Giải Ba,4,664
+max3d,00638,third,Giải Ba,5,846
+max3d,00638,third,Giải Ba,6,140
+max3d,00638,third,Giải Ba,7,640
+max3d,00638,third,Giải Ba,8,557
+max3d,00639,special,Giải Đặc biệt,1,606
+max3d,00639,special,Giải Đặc biệt,2,633
+max3d,00639,first,Giải Nhất,1,980
+max3d,00639,first,Giải Nhất,2,952
+max3d,00639,first,Giải Nhất,3,485
+max3d,00639,first,Giải Nhất,4,072
+max3d,00639,second,Giải Nhì,1,756
+max3d,00639,second,Giải Nhì,2,046
+max3d,00639,second,Giải Nhì,3,356
+max3d,00639,second,Giải Nhì,4,081
+max3d,00639,second,Giải Nhì,5,127
+max3d,00639,second,Giải Nhì,6,628
+max3d,00639,third,Giải Ba,1,509
+max3d,00639,third,Giải Ba,2,939
+max3d,00639,third,Giải Ba,3,769
+max3d,00639,third,Giải Ba,4,672
+max3d,00639,third,Giải Ba,5,906
+max3d,00639,third,Giải Ba,6,567
+max3d,00639,third,Giải Ba,7,855
+max3d,00639,third,Giải Ba,8,367
+max3d,00640,special,Giải Đặc biệt,1,921
+max3d,00640,special,Giải Đặc biệt,2,040
+max3d,00640,first,Giải Nhất,1,129
+max3d,00640,first,Giải Nhất,2,641
+max3d,00640,first,Giải Nhất,3,555
+max3d,00640,first,Giải Nhất,4,856
+max3d,00640,second,Giải Nhì,1,199
+max3d,00640,second,Giải Nhì,2,628
+max3d,00640,second,Giải Nhì,3,556
+max3d,00640,second,Giải Nhì,4,233
+max3d,00640,second,Giải Nhì,5,032
+max3d,00640,second,Giải Nhì,6,991
+max3d,00640,third,Giải Ba,1,203
+max3d,00640,third,Giải Ba,2,510
+max3d,00640,third,Giải Ba,3,703
+max3d,00640,third,Giải Ba,4,416
+max3d,00640,third,Giải Ba,5,465
+max3d,00640,third,Giải Ba,6,090
+max3d,00640,third,Giải Ba,7,334
+max3d,00640,third,Giải Ba,8,166
+max3d,00641,special,Giải Đặc biệt,1,484
+max3d,00641,special,Giải Đặc biệt,2,781
+max3d,00641,first,Giải Nhất,1,200
+max3d,00641,first,Giải Nhất,2,505
+max3d,00641,first,Giải Nhất,3,961
+max3d,00641,first,Giải Nhất,4,812
+max3d,00641,second,Giải Nhì,1,589
+max3d,00641,second,Giải Nhì,2,430
+max3d,00641,second,Giải Nhì,3,812
+max3d,00641,second,Giải Nhì,4,755
+max3d,00641,second,Giải Nhì,5,826
+max3d,00641,second,Giải Nhì,6,785
+max3d,00641,third,Giải Ba,1,228
+max3d,00641,third,Giải Ba,2,426
+max3d,00641,third,Giải Ba,3,262
+max3d,00641,third,Giải Ba,4,809
+max3d,00641,third,Giải Ba,5,369
+max3d,00641,third,Giải Ba,6,487
+max3d,00641,third,Giải Ba,7,997
+max3d,00641,third,Giải Ba,8,287
+max3d,00642,special,Giải Đặc biệt,1,376
+max3d,00642,special,Giải Đặc biệt,2,994
+max3d,00642,first,Giải Nhất,1,553
+max3d,00642,first,Giải Nhất,2,278
+max3d,00642,first,Giải Nhất,3,633
+max3d,00642,first,Giải Nhất,4,944
+max3d,00642,second,Giải Nhì,1,743
+max3d,00642,second,Giải Nhì,2,552
+max3d,00642,second,Giải Nhì,3,383
+max3d,00642,second,Giải Nhì,4,913
+max3d,00642,second,Giải Nhì,5,920
+max3d,00642,second,Giải Nhì,6,723
+max3d,00642,third,Giải Ba,1,085
+max3d,00642,third,Giải Ba,2,111
+max3d,00642,third,Giải Ba,3,608
+max3d,00642,third,Giải Ba,4,080
+max3d,00642,third,Giải Ba,5,311
+max3d,00642,third,Giải Ba,6,790
+max3d,00642,third,Giải Ba,7,134
+max3d,00642,third,Giải Ba,8,892
+max3d,00643,special,Giải Đặc biệt,1,036
+max3d,00643,special,Giải Đặc biệt,2,285
+max3d,00643,first,Giải Nhất,1,226
+max3d,00643,first,Giải Nhất,2,503
+max3d,00643,first,Giải Nhất,3,778
+max3d,00643,first,Giải Nhất,4,321
+max3d,00643,second,Giải Nhì,1,608
+max3d,00643,second,Giải Nhì,2,288
+max3d,00643,second,Giải Nhì,3,388
+max3d,00643,second,Giải Nhì,4,770
+max3d,00643,second,Giải Nhì,5,658
+max3d,00643,second,Giải Nhì,6,515
+max3d,00643,third,Giải Ba,1,815
+max3d,00643,third,Giải Ba,2,369
+max3d,00643,third,Giải Ba,3,568
+max3d,00643,third,Giải Ba,4,947
+max3d,00643,third,Giải Ba,5,457
+max3d,00643,third,Giải Ba,6,252
+max3d,00643,third,Giải Ba,7,252
+max3d,00643,third,Giải Ba,8,789
+max3d,00644,special,Giải Đặc biệt,1,461
+max3d,00644,special,Giải Đặc biệt,2,775
+max3d,00644,first,Giải Nhất,1,531
+max3d,00644,first,Giải Nhất,2,455
+max3d,00644,first,Giải Nhất,3,163
+max3d,00644,first,Giải Nhất,4,865
+max3d,00644,second,Giải Nhì,1,962
+max3d,00644,second,Giải Nhì,2,404
+max3d,00644,second,Giải Nhì,3,701
+max3d,00644,second,Giải Nhì,4,734
+max3d,00644,second,Giải Nhì,5,765
+max3d,00644,second,Giải Nhì,6,738
+max3d,00644,third,Giải Ba,1,513
+max3d,00644,third,Giải Ba,2,713
+max3d,00644,third,Giải Ba,3,430
+max3d,00644,third,Giải Ba,4,046
+max3d,00644,third,Giải Ba,5,196
+max3d,00644,third,Giải Ba,6,548
+max3d,00644,third,Giải Ba,7,073
+max3d,00644,third,Giải Ba,8,615
+max3d,00645,special,Giải Đặc biệt,1,152
+max3d,00645,special,Giải Đặc biệt,2,682
+max3d,00645,first,Giải Nhất,1,616
+max3d,00645,first,Giải Nhất,2,175
+max3d,00645,first,Giải Nhất,3,834
+max3d,00645,first,Giải Nhất,4,723
+max3d,00645,second,Giải Nhì,1,984
+max3d,00645,second,Giải Nhì,2,178
+max3d,00645,second,Giải Nhì,3,600
+max3d,00645,second,Giải Nhì,4,881
+max3d,00645,second,Giải Nhì,5,492
+max3d,00645,second,Giải Nhì,6,943
+max3d,00645,third,Giải Ba,1,196
+max3d,00645,third,Giải Ba,2,204
+max3d,00645,third,Giải Ba,3,959
+max3d,00645,third,Giải Ba,4,854
+max3d,00645,third,Giải Ba,5,504
+max3d,00645,third,Giải Ba,6,770
+max3d,00645,third,Giải Ba,7,703
+max3d,00645,third,Giải Ba,8,573
+max3d,00646,special,Giải Đặc biệt,1,262
+max3d,00646,special,Giải Đặc biệt,2,840
+max3d,00646,first,Giải Nhất,1,685
+max3d,00646,first,Giải Nhất,2,691
+max3d,00646,first,Giải Nhất,3,369
+max3d,00646,first,Giải Nhất,4,510
+max3d,00646,second,Giải Nhì,1,234
+max3d,00646,second,Giải Nhì,2,376
+max3d,00646,second,Giải Nhì,3,213
+max3d,00646,second,Giải Nhì,4,706
+max3d,00646,second,Giải Nhì,5,890
+max3d,00646,second,Giải Nhì,6,757
+max3d,00646,third,Giải Ba,1,261
+max3d,00646,third,Giải Ba,2,142
+max3d,00646,third,Giải Ba,3,719
+max3d,00646,third,Giải Ba,4,609
+max3d,00646,third,Giải Ba,5,784
+max3d,00646,third,Giải Ba,6,832
+max3d,00646,third,Giải Ba,7,564
+max3d,00646,third,Giải Ba,8,024
+max3d,00647,special,Giải Đặc biệt,1,227
+max3d,00647,special,Giải Đặc biệt,2,573
+max3d,00647,first,Giải Nhất,1,618
+max3d,00647,first,Giải Nhất,2,570
+max3d,00647,first,Giải Nhất,3,337
+max3d,00647,first,Giải Nhất,4,329
+max3d,00647,second,Giải Nhì,1,332
+max3d,00647,second,Giải Nhì,2,428
+max3d,00647,second,Giải Nhì,3,834
+max3d,00647,second,Giải Nhì,4,622
+max3d,00647,second,Giải Nhì,5,195
+max3d,00647,second,Giải Nhì,6,906
+max3d,00647,third,Giải Ba,1,052
+max3d,00647,third,Giải Ba,2,557
+max3d,00647,third,Giải Ba,3,061
+max3d,00647,third,Giải Ba,4,678
+max3d,00647,third,Giải Ba,5,671
+max3d,00647,third,Giải Ba,6,489
+max3d,00647,third,Giải Ba,7,990
+max3d,00647,third,Giải Ba,8,797
+max3d,00648,special,Giải Đặc biệt,1,168
+max3d,00648,special,Giải Đặc biệt,2,528
+max3d,00648,first,Giải Nhất,1,630
+max3d,00648,first,Giải Nhất,2,393
+max3d,00648,first,Giải Nhất,3,086
+max3d,00648,first,Giải Nhất,4,230
+max3d,00648,second,Giải Nhì,1,921
+max3d,00648,second,Giải Nhì,2,744
+max3d,00648,second,Giải Nhì,3,834
+max3d,00648,second,Giải Nhì,4,200
+max3d,00648,second,Giải Nhì,5,800
+max3d,00648,second,Giải Nhì,6,648
+max3d,00648,third,Giải Ba,1,217
+max3d,00648,third,Giải Ba,2,283
+max3d,00648,third,Giải Ba,3,452
+max3d,00648,third,Giải Ba,4,522
+max3d,00648,third,Giải Ba,5,512
+max3d,00648,third,Giải Ba,6,261
+max3d,00648,third,Giải Ba,7,584
+max3d,00648,third,Giải Ba,8,780
+max3d,00649,special,Giải Đặc biệt,1,966
+max3d,00649,special,Giải Đặc biệt,2,485
+max3d,00649,first,Giải Nhất,1,831
+max3d,00649,first,Giải Nhất,2,108
+max3d,00649,first,Giải Nhất,3,527
+max3d,00649,first,Giải Nhất,4,507
+max3d,00649,second,Giải Nhì,1,482
+max3d,00649,second,Giải Nhì,2,493
+max3d,00649,second,Giải Nhì,3,423
+max3d,00649,second,Giải Nhì,4,293
+max3d,00649,second,Giải Nhì,5,479
+max3d,00649,second,Giải Nhì,6,503
+max3d,00649,third,Giải Ba,1,733
+max3d,00649,third,Giải Ba,2,537
+max3d,00649,third,Giải Ba,3,571
+max3d,00649,third,Giải Ba,4,018
+max3d,00649,third,Giải Ba,5,346
+max3d,00649,third,Giải Ba,6,672
+max3d,00649,third,Giải Ba,7,449
+max3d,00649,third,Giải Ba,8,690
+max3d,00650,special,Giải Đặc biệt,1,310
+max3d,00650,special,Giải Đặc biệt,2,308
+max3d,00650,first,Giải Nhất,1,677
+max3d,00650,first,Giải Nhất,2,724
+max3d,00650,first,Giải Nhất,3,205
+max3d,00650,first,Giải Nhất,4,768
+max3d,00650,second,Giải Nhì,1,566
+max3d,00650,second,Giải Nhì,2,882
+max3d,00650,second,Giải Nhì,3,040
+max3d,00650,second,Giải Nhì,4,646
+max3d,00650,second,Giải Nhì,5,057
+max3d,00650,second,Giải Nhì,6,066
+max3d,00650,third,Giải Ba,1,017
+max3d,00650,third,Giải Ba,2,343
+max3d,00650,third,Giải Ba,3,691
+max3d,00650,third,Giải Ba,4,174
+max3d,00650,third,Giải Ba,5,497
+max3d,00650,third,Giải Ba,6,962
+max3d,00650,third,Giải Ba,7,565
+max3d,00650,third,Giải Ba,8,212
+max3d,00651,special,Giải Đặc biệt,1,883
+max3d,00651,special,Giải Đặc biệt,2,746
+max3d,00651,first,Giải Nhất,1,274
+max3d,00651,first,Giải Nhất,2,064
+max3d,00651,first,Giải Nhất,3,899
+max3d,00651,first,Giải Nhất,4,568
+max3d,00651,second,Giải Nhì,1,341
+max3d,00651,second,Giải Nhì,2,897
+max3d,00651,second,Giải Nhì,3,326
+max3d,00651,second,Giải Nhì,4,982
+max3d,00651,second,Giải Nhì,5,772
+max3d,00651,second,Giải Nhì,6,201
+max3d,00651,third,Giải Ba,1,001
+max3d,00651,third,Giải Ba,2,424
+max3d,00651,third,Giải Ba,3,121
+max3d,00651,third,Giải Ba,4,998
+max3d,00651,third,Giải Ba,5,368
+max3d,00651,third,Giải Ba,6,647
+max3d,00651,third,Giải Ba,7,456
+max3d,00651,third,Giải Ba,8,930
+max3d,00652,special,Giải Đặc biệt,1,857
+max3d,00652,special,Giải Đặc biệt,2,863
+max3d,00652,first,Giải Nhất,1,889
+max3d,00652,first,Giải Nhất,2,229
+max3d,00652,first,Giải Nhất,3,975
+max3d,00652,first,Giải Nhất,4,156
+max3d,00652,second,Giải Nhì,1,765
+max3d,00652,second,Giải Nhì,2,772
+max3d,00652,second,Giải Nhì,3,921
+max3d,00652,second,Giải Nhì,4,672
+max3d,00652,second,Giải Nhì,5,449
+max3d,00652,second,Giải Nhì,6,086
+max3d,00652,third,Giải Ba,1,552
+max3d,00652,third,Giải Ba,2,016
+max3d,00652,third,Giải Ba,3,183
+max3d,00652,third,Giải Ba,4,827
+max3d,00652,third,Giải Ba,5,219
+max3d,00652,third,Giải Ba,6,682
+max3d,00652,third,Giải Ba,7,022
+max3d,00652,third,Giải Ba,8,273
+max3d,00653,special,Giải Đặc biệt,1,998
+max3d,00653,special,Giải Đặc biệt,2,865
+max3d,00653,first,Giải Nhất,1,352
+max3d,00653,first,Giải Nhất,2,679
+max3d,00653,first,Giải Nhất,3,912
+max3d,00653,first,Giải Nhất,4,375
+max3d,00653,second,Giải Nhì,1,832
+max3d,00653,second,Giải Nhì,2,176
+max3d,00653,second,Giải Nhì,3,765
+max3d,00653,second,Giải Nhì,4,784
+max3d,00653,second,Giải Nhì,5,156
+max3d,00653,second,Giải Nhì,6,268
+max3d,00653,third,Giải Ba,1,458
+max3d,00653,third,Giải Ba,2,087
+max3d,00653,third,Giải Ba,3,275
+max3d,00653,third,Giải Ba,4,512
+max3d,00653,third,Giải Ba,5,875
+max3d,00653,third,Giải Ba,6,500
+max3d,00653,third,Giải Ba,7,024
+max3d,00653,third,Giải Ba,8,323
+max3d,00654,special,Giải Đặc biệt,1,776
+max3d,00654,special,Giải Đặc biệt,2,168
+max3d,00654,first,Giải Nhất,1,212
+max3d,00654,first,Giải Nhất,2,706
+max3d,00654,first,Giải Nhất,3,799
+max3d,00654,first,Giải Nhất,4,390
+max3d,00654,second,Giải Nhì,1,668
+max3d,00654,second,Giải Nhì,2,658
+max3d,00654,second,Giải Nhì,3,056
+max3d,00654,second,Giải Nhì,4,158
+max3d,00654,second,Giải Nhì,5,382
+max3d,00654,second,Giải Nhì,6,662
+max3d,00654,third,Giải Ba,1,275
+max3d,00654,third,Giải Ba,2,307
+max3d,00654,third,Giải Ba,3,800
+max3d,00654,third,Giải Ba,4,429
+max3d,00654,third,Giải Ba,5,200
+max3d,00654,third,Giải Ba,6,433
+max3d,00654,third,Giải Ba,7,266
+max3d,00654,third,Giải Ba,8,728
+max3d,00655,special,Giải Đặc biệt,1,475
+max3d,00655,special,Giải Đặc biệt,2,758
+max3d,00655,first,Giải Nhất,1,727
+max3d,00655,first,Giải Nhất,2,858
+max3d,00655,first,Giải Nhất,3,734
+max3d,00655,first,Giải Nhất,4,140
+max3d,00655,second,Giải Nhì,1,833
+max3d,00655,second,Giải Nhì,2,655
+max3d,00655,second,Giải Nhì,3,554
+max3d,00655,second,Giải Nhì,4,770
+max3d,00655,second,Giải Nhì,5,849
+max3d,00655,second,Giải Nhì,6,165
+max3d,00655,third,Giải Ba,1,394
+max3d,00655,third,Giải Ba,2,023
+max3d,00655,third,Giải Ba,3,866
+max3d,00655,third,Giải Ba,4,002
+max3d,00655,third,Giải Ba,5,243
+max3d,00655,third,Giải Ba,6,133
+max3d,00655,third,Giải Ba,7,115
+max3d,00655,third,Giải Ba,8,458
+max3d,00656,special,Giải Đặc biệt,1,565
+max3d,00656,special,Giải Đặc biệt,2,931
+max3d,00656,first,Giải Nhất,1,550
+max3d,00656,first,Giải Nhất,2,380
+max3d,00656,first,Giải Nhất,3,828
+max3d,00656,first,Giải Nhất,4,969
+max3d,00656,second,Giải Nhì,1,632
+max3d,00656,second,Giải Nhì,2,389
+max3d,00656,second,Giải Nhì,3,944
+max3d,00656,second,Giải Nhì,4,349
+max3d,00656,second,Giải Nhì,5,772
+max3d,00656,second,Giải Nhì,6,976
+max3d,00656,third,Giải Ba,1,914
+max3d,00656,third,Giải Ba,2,255
+max3d,00656,third,Giải Ba,3,490
+max3d,00656,third,Giải Ba,4,455
+max3d,00656,third,Giải Ba,5,845
+max3d,00656,third,Giải Ba,6,560
+max3d,00656,third,Giải Ba,7,776
+max3d,00656,third,Giải Ba,8,086
+max3d,00657,special,Giải Đặc biệt,1,207
+max3d,00657,special,Giải Đặc biệt,2,574
+max3d,00657,first,Giải Nhất,1,941
+max3d,00657,first,Giải Nhất,2,473
+max3d,00657,first,Giải Nhất,3,149
+max3d,00657,first,Giải Nhất,4,810
+max3d,00657,second,Giải Nhì,1,799
+max3d,00657,second,Giải Nhì,2,217
+max3d,00657,second,Giải Nhì,3,800
+max3d,00657,second,Giải Nhì,4,979
+max3d,00657,second,Giải Nhì,5,067
+max3d,00657,second,Giải Nhì,6,090
+max3d,00657,third,Giải Ba,1,993
+max3d,00657,third,Giải Ba,2,337
+max3d,00657,third,Giải Ba,3,990
+max3d,00657,third,Giải Ba,4,195
+max3d,00657,third,Giải Ba,5,914
+max3d,00657,third,Giải Ba,6,568
+max3d,00657,third,Giải Ba,7,128
+max3d,00657,third,Giải Ba,8,382
+max3d,00658,special,Giải Đặc biệt,1,038
+max3d,00658,special,Giải Đặc biệt,2,910
+max3d,00658,first,Giải Nhất,1,428
+max3d,00658,first,Giải Nhất,2,111
+max3d,00658,first,Giải Nhất,3,330
+max3d,00658,first,Giải Nhất,4,937
+max3d,00658,second,Giải Nhì,1,568
+max3d,00658,second,Giải Nhì,2,229
+max3d,00658,second,Giải Nhì,3,652
+max3d,00658,second,Giải Nhì,4,819
+max3d,00658,second,Giải Nhì,5,872
+max3d,00658,second,Giải Nhì,6,595
+max3d,00658,third,Giải Ba,1,132
+max3d,00658,third,Giải Ba,2,560
+max3d,00658,third,Giải Ba,3,997
+max3d,00658,third,Giải Ba,4,706
+max3d,00658,third,Giải Ba,5,756
+max3d,00658,third,Giải Ba,6,187
+max3d,00658,third,Giải Ba,7,081
+max3d,00658,third,Giải Ba,8,391
+max3d,00659,special,Giải Đặc biệt,1,732
+max3d,00659,special,Giải Đặc biệt,2,164
+max3d,00659,first,Giải Nhất,1,939
+max3d,00659,first,Giải Nhất,2,138
+max3d,00659,first,Giải Nhất,3,661
+max3d,00659,first,Giải Nhất,4,535
+max3d,00659,second,Giải Nhì,1,149
+max3d,00659,second,Giải Nhì,2,461
+max3d,00659,second,Giải Nhì,3,508
+max3d,00659,second,Giải Nhì,4,417
+max3d,00659,second,Giải Nhì,5,821
+max3d,00659,second,Giải Nhì,6,239
+max3d,00659,third,Giải Ba,1,562
+max3d,00659,third,Giải Ba,2,623
+max3d,00659,third,Giải Ba,3,752
+max3d,00659,third,Giải Ba,4,455
+max3d,00659,third,Giải Ba,5,503
+max3d,00659,third,Giải Ba,6,800
+max3d,00659,third,Giải Ba,7,509
+max3d,00659,third,Giải Ba,8,550
+max3d,00660,special,Giải Đặc biệt,1,155
+max3d,00660,special,Giải Đặc biệt,2,035
+max3d,00660,first,Giải Nhất,1,167
+max3d,00660,first,Giải Nhất,2,832
+max3d,00660,first,Giải Nhất,3,562
+max3d,00660,first,Giải Nhất,4,338
+max3d,00660,second,Giải Nhì,1,843
+max3d,00660,second,Giải Nhì,2,709
+max3d,00660,second,Giải Nhì,3,487
+max3d,00660,second,Giải Nhì,4,258
+max3d,00660,second,Giải Nhì,5,153
+max3d,00660,second,Giải Nhì,6,190
+max3d,00660,third,Giải Ba,1,784
+max3d,00660,third,Giải Ba,2,063
+max3d,00660,third,Giải Ba,3,505
+max3d,00660,third,Giải Ba,4,903
+max3d,00660,third,Giải Ba,5,870
+max3d,00660,third,Giải Ba,6,684
+max3d,00660,third,Giải Ba,7,564
+max3d,00660,third,Giải Ba,8,747
+max3d,00661,special,Giải Đặc biệt,1,011
+max3d,00661,special,Giải Đặc biệt,2,125
+max3d,00661,first,Giải Nhất,1,359
+max3d,00661,first,Giải Nhất,2,588
+max3d,00661,first,Giải Nhất,3,064
+max3d,00661,first,Giải Nhất,4,022
+max3d,00661,second,Giải Nhì,1,317
+max3d,00661,second,Giải Nhì,2,231
+max3d,00661,second,Giải Nhì,3,588
+max3d,00661,second,Giải Nhì,4,284
+max3d,00661,second,Giải Nhì,5,715
+max3d,00661,second,Giải Nhì,6,620
+max3d,00661,third,Giải Ba,1,122
+max3d,00661,third,Giải Ba,2,219
+max3d,00661,third,Giải Ba,3,167
+max3d,00661,third,Giải Ba,4,970
+max3d,00661,third,Giải Ba,5,336
+max3d,00661,third,Giải Ba,6,247
+max3d,00661,third,Giải Ba,7,837
+max3d,00661,third,Giải Ba,8,472
+max3d,00662,special,Giải Đặc biệt,1,042
+max3d,00662,special,Giải Đặc biệt,2,980
+max3d,00662,first,Giải Nhất,1,448
+max3d,00662,first,Giải Nhất,2,429
+max3d,00662,first,Giải Nhất,3,058
+max3d,00662,first,Giải Nhất,4,908
+max3d,00662,second,Giải Nhì,1,492
+max3d,00662,second,Giải Nhì,2,280
+max3d,00662,second,Giải Nhì,3,282
+max3d,00662,second,Giải Nhì,4,522
+max3d,00662,second,Giải Nhì,5,088
+max3d,00662,second,Giải Nhì,6,900
+max3d,00662,third,Giải Ba,1,305
+max3d,00662,third,Giải Ba,2,727
+max3d,00662,third,Giải Ba,3,373
+max3d,00662,third,Giải Ba,4,277
+max3d,00662,third,Giải Ba,5,742
+max3d,00662,third,Giải Ba,6,818
+max3d,00662,third,Giải Ba,7,466
+max3d,00662,third,Giải Ba,8,951
+max3d,00663,special,Giải Đặc biệt,1,621
+max3d,00663,special,Giải Đặc biệt,2,002
+max3d,00663,first,Giải Nhất,1,928
+max3d,00663,first,Giải Nhất,2,600
+max3d,00663,first,Giải Nhất,3,734
+max3d,00663,first,Giải Nhất,4,844
+max3d,00663,second,Giải Nhì,1,908
+max3d,00663,second,Giải Nhì,2,762
+max3d,00663,second,Giải Nhì,3,591
+max3d,00663,second,Giải Nhì,4,479
+max3d,00663,second,Giải Nhì,5,125
+max3d,00663,second,Giải Nhì,6,696
+max3d,00663,third,Giải Ba,1,921
+max3d,00663,third,Giải Ba,2,934
+max3d,00663,third,Giải Ba,3,085
+max3d,00663,third,Giải Ba,4,420
+max3d,00663,third,Giải Ba,5,359
+max3d,00663,third,Giải Ba,6,530
+max3d,00663,third,Giải Ba,7,084
+max3d,00663,third,Giải Ba,8,736
+max3d,00664,special,Giải Đặc biệt,1,980
+max3d,00664,special,Giải Đặc biệt,2,614
+max3d,00664,first,Giải Nhất,1,902
+max3d,00664,first,Giải Nhất,2,059
+max3d,00664,first,Giải Nhất,3,202
+max3d,00664,first,Giải Nhất,4,304
+max3d,00664,second,Giải Nhì,1,926
+max3d,00664,second,Giải Nhì,2,971
+max3d,00664,second,Giải Nhì,3,671
+max3d,00664,second,Giải Nhì,4,388
+max3d,00664,second,Giải Nhì,5,575
+max3d,00664,second,Giải Nhì,6,467
+max3d,00664,third,Giải Ba,1,887
+max3d,00664,third,Giải Ba,2,428
+max3d,00664,third,Giải Ba,3,655
+max3d,00664,third,Giải Ba,4,253
+max3d,00664,third,Giải Ba,5,204
+max3d,00664,third,Giải Ba,6,604
+max3d,00664,third,Giải Ba,7,588
+max3d,00664,third,Giải Ba,8,398
+max3d,00665,special,Giải Đặc biệt,1,647
+max3d,00665,special,Giải Đặc biệt,2,719
+max3d,00665,first,Giải Nhất,1,765
+max3d,00665,first,Giải Nhất,2,576
+max3d,00665,first,Giải Nhất,3,025
+max3d,00665,first,Giải Nhất,4,855
+max3d,00665,second,Giải Nhì,1,339
+max3d,00665,second,Giải Nhì,2,413
+max3d,00665,second,Giải Nhì,3,530
+max3d,00665,second,Giải Nhì,4,738
+max3d,00665,second,Giải Nhì,5,985
+max3d,00665,second,Giải Nhì,6,967
+max3d,00665,third,Giải Ba,1,722
+max3d,00665,third,Giải Ba,2,362
+max3d,00665,third,Giải Ba,3,295
+max3d,00665,third,Giải Ba,4,436
+max3d,00665,third,Giải Ba,5,153
+max3d,00665,third,Giải Ba,6,638
+max3d,00665,third,Giải Ba,7,579
+max3d,00665,third,Giải Ba,8,987
+max3d,00666,special,Giải Đặc biệt,1,183
+max3d,00666,special,Giải Đặc biệt,2,305
+max3d,00666,first,Giải Nhất,1,615
+max3d,00666,first,Giải Nhất,2,355
+max3d,00666,first,Giải Nhất,3,503
+max3d,00666,first,Giải Nhất,4,190
+max3d,00666,second,Giải Nhì,1,261
+max3d,00666,second,Giải Nhì,2,235
+max3d,00666,second,Giải Nhì,3,374
+max3d,00666,second,Giải Nhì,4,507
+max3d,00666,second,Giải Nhì,5,090
+max3d,00666,second,Giải Nhì,6,509
+max3d,00666,third,Giải Ba,1,607
+max3d,00666,third,Giải Ba,2,083
+max3d,00666,third,Giải Ba,3,379
+max3d,00666,third,Giải Ba,4,418
+max3d,00666,third,Giải Ba,5,859
+max3d,00666,third,Giải Ba,6,475
+max3d,00666,third,Giải Ba,7,090
+max3d,00666,third,Giải Ba,8,858
+max3d,00667,special,Giải Đặc biệt,1,590
+max3d,00667,special,Giải Đặc biệt,2,110
+max3d,00667,first,Giải Nhất,1,432
+max3d,00667,first,Giải Nhất,2,247
+max3d,00667,first,Giải Nhất,3,146
+max3d,00667,first,Giải Nhất,4,716
+max3d,00667,second,Giải Nhì,1,987
+max3d,00667,second,Giải Nhì,2,123
+max3d,00667,second,Giải Nhì,3,185
+max3d,00667,second,Giải Nhì,4,934
+max3d,00667,second,Giải Nhì,5,576
+max3d,00667,second,Giải Nhì,6,730
+max3d,00667,third,Giải Ba,1,652
+max3d,00667,third,Giải Ba,2,170
+max3d,00667,third,Giải Ba,3,387
+max3d,00667,third,Giải Ba,4,980
+max3d,00667,third,Giải Ba,5,811
+max3d,00667,third,Giải Ba,6,663
+max3d,00667,third,Giải Ba,7,251
+max3d,00667,third,Giải Ba,8,160
+max3d,00668,special,Giải Đặc biệt,1,749
+max3d,00668,special,Giải Đặc biệt,2,728
+max3d,00668,first,Giải Nhất,1,129
+max3d,00668,first,Giải Nhất,2,815
+max3d,00668,first,Giải Nhất,3,512
+max3d,00668,first,Giải Nhất,4,887
+max3d,00668,second,Giải Nhì,1,912
+max3d,00668,second,Giải Nhì,2,455
+max3d,00668,second,Giải Nhì,3,880
+max3d,00668,second,Giải Nhì,4,107
+max3d,00668,second,Giải Nhì,5,913
+max3d,00668,second,Giải Nhì,6,773
+max3d,00668,third,Giải Ba,1,576
+max3d,00668,third,Giải Ba,2,780
+max3d,00668,third,Giải Ba,3,189
+max3d,00668,third,Giải Ba,4,005
+max3d,00668,third,Giải Ba,5,504
+max3d,00668,third,Giải Ba,6,447
+max3d,00668,third,Giải Ba,7,946
+max3d,00668,third,Giải Ba,8,780
+max3d,00669,special,Giải Đặc biệt,1,748
+max3d,00669,special,Giải Đặc biệt,2,205
+max3d,00669,first,Giải Nhất,1,144
+max3d,00669,first,Giải Nhất,2,352
+max3d,00669,first,Giải Nhất,3,988
+max3d,00669,first,Giải Nhất,4,083
+max3d,00669,second,Giải Nhì,1,638
+max3d,00669,second,Giải Nhì,2,856
+max3d,00669,second,Giải Nhì,3,953
+max3d,00669,second,Giải Nhì,4,447
+max3d,00669,second,Giải Nhì,5,527
+max3d,00669,second,Giải Nhì,6,510
+max3d,00669,third,Giải Ba,1,415
+max3d,00669,third,Giải Ba,2,266
+max3d,00669,third,Giải Ba,3,781
+max3d,00669,third,Giải Ba,4,251
+max3d,00669,third,Giải Ba,5,937
+max3d,00669,third,Giải Ba,6,549
+max3d,00669,third,Giải Ba,7,727
+max3d,00669,third,Giải Ba,8,563
+max3d,00670,special,Giải Đặc biệt,1,519
+max3d,00670,special,Giải Đặc biệt,2,092
+max3d,00670,first,Giải Nhất,1,497
+max3d,00670,first,Giải Nhất,2,851
+max3d,00670,first,Giải Nhất,3,042
+max3d,00670,first,Giải Nhất,4,656
+max3d,00670,second,Giải Nhì,1,580
+max3d,00670,second,Giải Nhì,2,322
+max3d,00670,second,Giải Nhì,3,708
+max3d,00670,second,Giải Nhì,4,801
+max3d,00670,second,Giải Nhì,5,678
+max3d,00670,second,Giải Nhì,6,078
+max3d,00670,third,Giải Ba,1,711
+max3d,00670,third,Giải Ba,2,176
+max3d,00670,third,Giải Ba,3,286
+max3d,00670,third,Giải Ba,4,138
+max3d,00670,third,Giải Ba,5,864
+max3d,00670,third,Giải Ba,6,053
+max3d,00670,third,Giải Ba,7,870
+max3d,00670,third,Giải Ba,8,321
+max3d,00671,special,Giải Đặc biệt,1,636
+max3d,00671,special,Giải Đặc biệt,2,327
+max3d,00671,first,Giải Nhất,1,529
+max3d,00671,first,Giải Nhất,2,447
+max3d,00671,first,Giải Nhất,3,522
+max3d,00671,first,Giải Nhất,4,903
+max3d,00671,second,Giải Nhì,1,594
+max3d,00671,second,Giải Nhì,2,520
+max3d,00671,second,Giải Nhì,3,567
+max3d,00671,second,Giải Nhì,4,980
+max3d,00671,second,Giải Nhì,5,799
+max3d,00671,second,Giải Nhì,6,276
+max3d,00671,third,Giải Ba,1,302
+max3d,00671,third,Giải Ba,2,555
+max3d,00671,third,Giải Ba,3,183
+max3d,00671,third,Giải Ba,4,567
+max3d,00671,third,Giải Ba,5,478
+max3d,00671,third,Giải Ba,6,132
+max3d,00671,third,Giải Ba,7,300
+max3d,00671,third,Giải Ba,8,440
+max3d,00672,special,Giải Đặc biệt,1,191
+max3d,00672,special,Giải Đặc biệt,2,846
+max3d,00672,first,Giải Nhất,1,287
+max3d,00672,first,Giải Nhất,2,265
+max3d,00672,first,Giải Nhất,3,643
+max3d,00672,first,Giải Nhất,4,045
+max3d,00672,second,Giải Nhì,1,969
+max3d,00672,second,Giải Nhì,2,623
+max3d,00672,second,Giải Nhì,3,868
+max3d,00672,second,Giải Nhì,4,921
+max3d,00672,second,Giải Nhì,5,912
+max3d,00672,second,Giải Nhì,6,665
+max3d,00672,third,Giải Ba,1,381
+max3d,00672,third,Giải Ba,2,753
+max3d,00672,third,Giải Ba,3,729
+max3d,00672,third,Giải Ba,4,300
+max3d,00672,third,Giải Ba,5,217
+max3d,00672,third,Giải Ba,6,894
+max3d,00672,third,Giải Ba,7,052
+max3d,00672,third,Giải Ba,8,171
+max3d,00673,special,Giải Đặc biệt,1,011
+max3d,00673,special,Giải Đặc biệt,2,201
+max3d,00673,first,Giải Nhất,1,630
+max3d,00673,first,Giải Nhất,2,020
+max3d,00673,first,Giải Nhất,3,589
+max3d,00673,first,Giải Nhất,4,014
+max3d,00673,second,Giải Nhì,1,399
+max3d,00673,second,Giải Nhì,2,811
+max3d,00673,second,Giải Nhì,3,951
+max3d,00673,second,Giải Nhì,4,334
+max3d,00673,second,Giải Nhì,5,934
+max3d,00673,second,Giải Nhì,6,348
+max3d,00673,third,Giải Ba,1,495
+max3d,00673,third,Giải Ba,2,607
+max3d,00673,third,Giải Ba,3,508
+max3d,00673,third,Giải Ba,4,729
+max3d,00673,third,Giải Ba,5,936
+max3d,00673,third,Giải Ba,6,534
+max3d,00673,third,Giải Ba,7,021
+max3d,00673,third,Giải Ba,8,886
+max3d,00674,special,Giải Đặc biệt,1,812
+max3d,00674,special,Giải Đặc biệt,2,845
+max3d,00674,first,Giải Nhất,1,486
+max3d,00674,first,Giải Nhất,2,289
+max3d,00674,first,Giải Nhất,3,763
+max3d,00674,first,Giải Nhất,4,547
+max3d,00674,second,Giải Nhì,1,763
+max3d,00674,second,Giải Nhì,2,901
+max3d,00674,second,Giải Nhì,3,156
+max3d,00674,second,Giải Nhì,4,780
+max3d,00674,second,Giải Nhì,5,492
+max3d,00674,second,Giải Nhì,6,663
+max3d,00674,third,Giải Ba,1,444
+max3d,00674,third,Giải Ba,2,664
+max3d,00674,third,Giải Ba,3,235
+max3d,00674,third,Giải Ba,4,492
+max3d,00674,third,Giải Ba,5,620
+max3d,00674,third,Giải Ba,6,167
+max3d,00674,third,Giải Ba,7,087
+max3d,00674,third,Giải Ba,8,680
+max3d,00675,special,Giải Đặc biệt,1,848
+max3d,00675,special,Giải Đặc biệt,2,262
+max3d,00675,first,Giải Nhất,1,317
+max3d,00675,first,Giải Nhất,2,511
+max3d,00675,first,Giải Nhất,3,600
+max3d,00675,first,Giải Nhất,4,244
+max3d,00675,second,Giải Nhì,1,434
+max3d,00675,second,Giải Nhì,2,454
+max3d,00675,second,Giải Nhì,3,993
+max3d,00675,second,Giải Nhì,4,138
+max3d,00675,second,Giải Nhì,5,880
+max3d,00675,second,Giải Nhì,6,046
+max3d,00675,third,Giải Ba,1,519
+max3d,00675,third,Giải Ba,2,918
+max3d,00675,third,Giải Ba,3,818
+max3d,00675,third,Giải Ba,4,306
+max3d,00675,third,Giải Ba,5,831
+max3d,00675,third,Giải Ba,6,097
+max3d,00675,third,Giải Ba,7,833
+max3d,00675,third,Giải Ba,8,439
+max3d,00676,special,Giải Đặc biệt,1,210
+max3d,00676,special,Giải Đặc biệt,2,917
+max3d,00676,first,Giải Nhất,1,023
+max3d,00676,first,Giải Nhất,2,237
+max3d,00676,first,Giải Nhất,3,769
+max3d,00676,first,Giải Nhất,4,969
+max3d,00676,second,Giải Nhì,1,119
+max3d,00676,second,Giải Nhì,2,385
+max3d,00676,second,Giải Nhì,3,389
+max3d,00676,second,Giải Nhì,4,951
+max3d,00676,second,Giải Nhì,5,686
+max3d,00676,second,Giải Nhì,6,376
+max3d,00676,third,Giải Ba,1,171
+max3d,00676,third,Giải Ba,2,030
+max3d,00676,third,Giải Ba,3,350
+max3d,00676,third,Giải Ba,4,618
+max3d,00676,third,Giải Ba,5,834
+max3d,00676,third,Giải Ba,6,366
+max3d,00676,third,Giải Ba,7,196
+max3d,00676,third,Giải Ba,8,685
+max3d,00677,special,Giải Đặc biệt,1,866
+max3d,00677,special,Giải Đặc biệt,2,220
+max3d,00677,first,Giải Nhất,1,698
+max3d,00677,first,Giải Nhất,2,263
+max3d,00677,first,Giải Nhất,3,185
+max3d,00677,first,Giải Nhất,4,215
+max3d,00677,second,Giải Nhì,1,125
+max3d,00677,second,Giải Nhì,2,650
+max3d,00677,second,Giải Nhì,3,080
+max3d,00677,second,Giải Nhì,4,293
+max3d,00677,second,Giải Nhì,5,221
+max3d,00677,second,Giải Nhì,6,118
+max3d,00677,third,Giải Ba,1,186
+max3d,00677,third,Giải Ba,2,655
+max3d,00677,third,Giải Ba,3,448
+max3d,00677,third,Giải Ba,4,217
+max3d,00677,third,Giải Ba,5,251
+max3d,00677,third,Giải Ba,6,304
+max3d,00677,third,Giải Ba,7,359
+max3d,00677,third,Giải Ba,8,773
+max3d,00678,special,Giải Đặc biệt,1,389
+max3d,00678,special,Giải Đặc biệt,2,621
+max3d,00678,first,Giải Nhất,1,912
+max3d,00678,first,Giải Nhất,2,232
+max3d,00678,first,Giải Nhất,3,646
+max3d,00678,first,Giải Nhất,4,669
+max3d,00678,second,Giải Nhì,1,243
+max3d,00678,second,Giải Nhì,2,141
+max3d,00678,second,Giải Nhì,3,448
+max3d,00678,second,Giải Nhì,4,342
+max3d,00678,second,Giải Nhì,5,444
+max3d,00678,second,Giải Nhì,6,544
+max3d,00678,third,Giải Ba,1,530
+max3d,00678,third,Giải Ba,2,527
+max3d,00678,third,Giải Ba,3,838
+max3d,00678,third,Giải Ba,4,859
+max3d,00678,third,Giải Ba,5,269
+max3d,00678,third,Giải Ba,6,925
+max3d,00678,third,Giải Ba,7,726
+max3d,00678,third,Giải Ba,8,929
+max3d,00679,special,Giải Đặc biệt,1,796
+max3d,00679,special,Giải Đặc biệt,2,102
+max3d,00679,first,Giải Nhất,1,372
+max3d,00679,first,Giải Nhất,2,990
+max3d,00679,first,Giải Nhất,3,088
+max3d,00679,first,Giải Nhất,4,212
+max3d,00679,second,Giải Nhì,1,950
+max3d,00679,second,Giải Nhì,2,878
+max3d,00679,second,Giải Nhì,3,621
+max3d,00679,second,Giải Nhì,4,418
+max3d,00679,second,Giải Nhì,5,444
+max3d,00679,second,Giải Nhì,6,746
+max3d,00679,third,Giải Ba,1,213
+max3d,00679,third,Giải Ba,2,558
+max3d,00679,third,Giải Ba,3,775
+max3d,00679,third,Giải Ba,4,281
+max3d,00679,third,Giải Ba,5,795
+max3d,00679,third,Giải Ba,6,260
+max3d,00679,third,Giải Ba,7,011
+max3d,00679,third,Giải Ba,8,741
+max3d,00680,special,Giải Đặc biệt,1,220
+max3d,00680,special,Giải Đặc biệt,2,624
+max3d,00680,first,Giải Nhất,1,795
+max3d,00680,first,Giải Nhất,2,634
+max3d,00680,first,Giải Nhất,3,490
+max3d,00680,first,Giải Nhất,4,397
+max3d,00680,second,Giải Nhì,1,610
+max3d,00680,second,Giải Nhì,2,716
+max3d,00680,second,Giải Nhì,3,126
+max3d,00680,second,Giải Nhì,4,289
+max3d,00680,second,Giải Nhì,5,792
+max3d,00680,second,Giải Nhì,6,616
+max3d,00680,third,Giải Ba,1,970
+max3d,00680,third,Giải Ba,2,013
+max3d,00680,third,Giải Ba,3,438
+max3d,00680,third,Giải Ba,4,550
+max3d,00680,third,Giải Ba,5,117
+max3d,00680,third,Giải Ba,6,468
+max3d,00680,third,Giải Ba,7,438
+max3d,00680,third,Giải Ba,8,964
+max3d,00681,special,Giải Đặc biệt,1,226
+max3d,00681,special,Giải Đặc biệt,2,716
+max3d,00681,first,Giải Nhất,1,146
+max3d,00681,first,Giải Nhất,2,253
+max3d,00681,first,Giải Nhất,3,982
+max3d,00681,first,Giải Nhất,4,745
+max3d,00681,second,Giải Nhì,1,172
+max3d,00681,second,Giải Nhì,2,773
+max3d,00681,second,Giải Nhì,3,683
+max3d,00681,second,Giải Nhì,4,958
+max3d,00681,second,Giải Nhì,5,030
+max3d,00681,second,Giải Nhì,6,830
+max3d,00681,third,Giải Ba,1,455
+max3d,00681,third,Giải Ba,2,698
+max3d,00681,third,Giải Ba,3,139
+max3d,00681,third,Giải Ba,4,380
+max3d,00681,third,Giải Ba,5,843
+max3d,00681,third,Giải Ba,6,535
+max3d,00681,third,Giải Ba,7,971
+max3d,00681,third,Giải Ba,8,906
+max3d,00682,special,Giải Đặc biệt,1,664
+max3d,00682,special,Giải Đặc biệt,2,076
+max3d,00682,first,Giải Nhất,1,643
+max3d,00682,first,Giải Nhất,2,268
+max3d,00682,first,Giải Nhất,3,565
+max3d,00682,first,Giải Nhất,4,176
+max3d,00682,second,Giải Nhì,1,951
+max3d,00682,second,Giải Nhì,2,318
+max3d,00682,second,Giải Nhì,3,771
+max3d,00682,second,Giải Nhì,4,489
+max3d,00682,second,Giải Nhì,5,727
+max3d,00682,second,Giải Nhì,6,857
+max3d,00682,third,Giải Ba,1,862
+max3d,00682,third,Giải Ba,2,198
+max3d,00682,third,Giải Ba,3,939
+max3d,00682,third,Giải Ba,4,167
+max3d,00682,third,Giải Ba,5,405
+max3d,00682,third,Giải Ba,6,105
+max3d,00682,third,Giải Ba,7,323
+max3d,00682,third,Giải Ba,8,474
+max3d,00683,special,Giải Đặc biệt,1,976
+max3d,00683,special,Giải Đặc biệt,2,407
+max3d,00683,first,Giải Nhất,1,551
+max3d,00683,first,Giải Nhất,2,427
+max3d,00683,first,Giải Nhất,3,925
+max3d,00683,first,Giải Nhất,4,210
+max3d,00683,second,Giải Nhì,1,108
+max3d,00683,second,Giải Nhì,2,598
+max3d,00683,second,Giải Nhì,3,262
+max3d,00683,second,Giải Nhì,4,067
+max3d,00683,second,Giải Nhì,5,626
+max3d,00683,second,Giải Nhì,6,965
+max3d,00683,third,Giải Ba,1,502
+max3d,00683,third,Giải Ba,2,579
+max3d,00683,third,Giải Ba,3,960
+max3d,00683,third,Giải Ba,4,430
+max3d,00683,third,Giải Ba,5,412
+max3d,00683,third,Giải Ba,6,750
+max3d,00683,third,Giải Ba,7,126
+max3d,00683,third,Giải Ba,8,842
+max3d,00684,special,Giải Đặc biệt,1,317
+max3d,00684,special,Giải Đặc biệt,2,811
+max3d,00684,first,Giải Nhất,1,512
+max3d,00684,first,Giải Nhất,2,203
+max3d,00684,first,Giải Nhất,3,999
+max3d,00684,first,Giải Nhất,4,800
+max3d,00684,second,Giải Nhì,1,839
+max3d,00684,second,Giải Nhì,2,394
+max3d,00684,second,Giải Nhì,3,094
+max3d,00684,second,Giải Nhì,4,616
+max3d,00684,second,Giải Nhì,5,617
+max3d,00684,second,Giải Nhì,6,457
+max3d,00684,third,Giải Ba,1,217
+max3d,00684,third,Giải Ba,2,678
+max3d,00684,third,Giải Ba,3,546
+max3d,00684,third,Giải Ba,4,950
+max3d,00684,third,Giải Ba,5,223
+max3d,00684,third,Giải Ba,6,728
+max3d,00684,third,Giải Ba,7,249
+max3d,00684,third,Giải Ba,8,591
+max3d,00685,special,Giải Đặc biệt,1,661
+max3d,00685,special,Giải Đặc biệt,2,071
+max3d,00685,first,Giải Nhất,1,580
+max3d,00685,first,Giải Nhất,2,703
+max3d,00685,first,Giải Nhất,3,912
+max3d,00685,first,Giải Nhất,4,221
+max3d,00685,second,Giải Nhì,1,361
+max3d,00685,second,Giải Nhì,2,936
+max3d,00685,second,Giải Nhì,3,812
+max3d,00685,second,Giải Nhì,4,363
+max3d,00685,second,Giải Nhì,5,123
+max3d,00685,second,Giải Nhì,6,791
+max3d,00685,third,Giải Ba,1,376
+max3d,00685,third,Giải Ba,2,162
+max3d,00685,third,Giải Ba,3,801
+max3d,00685,third,Giải Ba,4,632
+max3d,00685,third,Giải Ba,5,480
+max3d,00685,third,Giải Ba,6,941
+max3d,00685,third,Giải Ba,7,094
+max3d,00685,third,Giải Ba,8,595
+max3d,00686,special,Giải Đặc biệt,1,478
+max3d,00686,special,Giải Đặc biệt,2,509
+max3d,00686,first,Giải Nhất,1,328
+max3d,00686,first,Giải Nhất,2,834
+max3d,00686,first,Giải Nhất,3,493
+max3d,00686,first,Giải Nhất,4,561
+max3d,00686,second,Giải Nhì,1,706
+max3d,00686,second,Giải Nhì,2,851
+max3d,00686,second,Giải Nhì,3,589
+max3d,00686,second,Giải Nhì,4,589
+max3d,00686,second,Giải Nhì,5,069
+max3d,00686,second,Giải Nhì,6,706
+max3d,00686,third,Giải Ba,1,143
+max3d,00686,third,Giải Ba,2,347
+max3d,00686,third,Giải Ba,3,165
+max3d,00686,third,Giải Ba,4,349
+max3d,00686,third,Giải Ba,5,167
+max3d,00686,third,Giải Ba,6,002
+max3d,00686,third,Giải Ba,7,716
+max3d,00686,third,Giải Ba,8,432
+max3d,00687,special,Giải Đặc biệt,1,401
+max3d,00687,special,Giải Đặc biệt,2,951
+max3d,00687,first,Giải Nhất,1,751
+max3d,00687,first,Giải Nhất,2,708
+max3d,00687,first,Giải Nhất,3,563
+max3d,00687,first,Giải Nhất,4,740
+max3d,00687,second,Giải Nhì,1,162
+max3d,00687,second,Giải Nhì,2,184
+max3d,00687,second,Giải Nhì,3,464
+max3d,00687,second,Giải Nhì,4,271
+max3d,00687,second,Giải Nhì,5,453
+max3d,00687,second,Giải Nhì,6,952
+max3d,00687,third,Giải Ba,1,210
+max3d,00687,third,Giải Ba,2,334
+max3d,00687,third,Giải Ba,3,671
+max3d,00687,third,Giải Ba,4,651
+max3d,00687,third,Giải Ba,5,626
+max3d,00687,third,Giải Ba,6,277
+max3d,00687,third,Giải Ba,7,491
+max3d,00687,third,Giải Ba,8,790
+max3d,00688,special,Giải Đặc biệt,1,629
+max3d,00688,special,Giải Đặc biệt,2,001
+max3d,00688,first,Giải Nhất,1,224
+max3d,00688,first,Giải Nhất,2,967
+max3d,00688,first,Giải Nhất,3,812
+max3d,00688,first,Giải Nhất,4,216
+max3d,00688,second,Giải Nhì,1,641
+max3d,00688,second,Giải Nhì,2,064
+max3d,00688,second,Giải Nhì,3,690
+max3d,00688,second,Giải Nhì,4,636
+max3d,00688,second,Giải Nhì,5,175
+max3d,00688,second,Giải Nhì,6,625
+max3d,00688,third,Giải Ba,1,741
+max3d,00688,third,Giải Ba,2,341
+max3d,00688,third,Giải Ba,3,937
+max3d,00688,third,Giải Ba,4,181
+max3d,00688,third,Giải Ba,5,119
+max3d,00688,third,Giải Ba,6,803
+max3d,00688,third,Giải Ba,7,820
+max3d,00688,third,Giải Ba,8,683
+max3d,00689,special,Giải Đặc biệt,1,662
+max3d,00689,special,Giải Đặc biệt,2,257
+max3d,00689,first,Giải Nhất,1,501
+max3d,00689,first,Giải Nhất,2,003
+max3d,00689,first,Giải Nhất,3,123
+max3d,00689,first,Giải Nhất,4,693
+max3d,00689,second,Giải Nhì,1,674
+max3d,00689,second,Giải Nhì,2,363
+max3d,00689,second,Giải Nhì,3,817
+max3d,00689,second,Giải Nhì,4,173
+max3d,00689,second,Giải Nhì,5,174
+max3d,00689,second,Giải Nhì,6,768
+max3d,00689,third,Giải Ba,1,602
+max3d,00689,third,Giải Ba,2,315
+max3d,00689,third,Giải Ba,3,747
+max3d,00689,third,Giải Ba,4,577
+max3d,00689,third,Giải Ba,5,445
+max3d,00689,third,Giải Ba,6,413
+max3d,00689,third,Giải Ba,7,802
+max3d,00689,third,Giải Ba,8,683
+max3d,00690,special,Giải Đặc biệt,1,640
+max3d,00690,special,Giải Đặc biệt,2,693
+max3d,00690,first,Giải Nhất,1,794
+max3d,00690,first,Giải Nhất,2,352
+max3d,00690,first,Giải Nhất,3,115
+max3d,00690,first,Giải Nhất,4,474
+max3d,00690,second,Giải Nhì,1,901
+max3d,00690,second,Giải Nhì,2,478
+max3d,00690,second,Giải Nhì,3,102
+max3d,00690,second,Giải Nhì,4,528
+max3d,00690,second,Giải Nhì,5,750
+max3d,00690,second,Giải Nhì,6,054
+max3d,00690,third,Giải Ba,1,141
+max3d,00690,third,Giải Ba,2,839
+max3d,00690,third,Giải Ba,3,223
+max3d,00690,third,Giải Ba,4,833
+max3d,00690,third,Giải Ba,5,708
+max3d,00690,third,Giải Ba,6,432
+max3d,00690,third,Giải Ba,7,116
+max3d,00690,third,Giải Ba,8,592
+max3d,00691,special,Giải Đặc biệt,1,051
+max3d,00691,special,Giải Đặc biệt,2,120
+max3d,00691,first,Giải Nhất,1,634
+max3d,00691,first,Giải Nhất,2,806
+max3d,00691,first,Giải Nhất,3,608
+max3d,00691,first,Giải Nhất,4,860
+max3d,00691,second,Giải Nhì,1,151
+max3d,00691,second,Giải Nhì,2,970
+max3d,00691,second,Giải Nhì,3,682
+max3d,00691,second,Giải Nhì,4,174
+max3d,00691,second,Giải Nhì,5,583
+max3d,00691,second,Giải Nhì,6,406
+max3d,00691,third,Giải Ba,1,311
+max3d,00691,third,Giải Ba,2,283
+max3d,00691,third,Giải Ba,3,596
+max3d,00691,third,Giải Ba,4,658
+max3d,00691,third,Giải Ba,5,940
+max3d,00691,third,Giải Ba,6,027
+max3d,00691,third,Giải Ba,7,021
+max3d,00691,third,Giải Ba,8,751
+max3d,00692,special,Giải Đặc biệt,1,208
+max3d,00692,special,Giải Đặc biệt,2,074
+max3d,00692,first,Giải Nhất,1,725
+max3d,00692,first,Giải Nhất,2,834
+max3d,00692,first,Giải Nhất,3,163
+max3d,00692,first,Giải Nhất,4,131
+max3d,00692,second,Giải Nhì,1,560
+max3d,00692,second,Giải Nhì,2,516
+max3d,00692,second,Giải Nhì,3,257
+max3d,00692,second,Giải Nhì,4,714
+max3d,00692,second,Giải Nhì,5,326
+max3d,00692,second,Giải Nhì,6,700
+max3d,00692,third,Giải Ba,1,096
+max3d,00692,third,Giải Ba,2,437
+max3d,00692,third,Giải Ba,3,471
+max3d,00692,third,Giải Ba,4,651
+max3d,00692,third,Giải Ba,5,451
+max3d,00692,third,Giải Ba,6,783
+max3d,00692,third,Giải Ba,7,003
+max3d,00692,third,Giải Ba,8,457
+max3d,00693,special,Giải Đặc biệt,1,618
+max3d,00693,special,Giải Đặc biệt,2,788
+max3d,00693,first,Giải Nhất,1,292
+max3d,00693,first,Giải Nhất,2,265
+max3d,00693,first,Giải Nhất,3,058
+max3d,00693,first,Giải Nhất,4,446
+max3d,00693,second,Giải Nhì,1,424
+max3d,00693,second,Giải Nhì,2,390
+max3d,00693,second,Giải Nhì,3,467
+max3d,00693,second,Giải Nhì,4,837
+max3d,00693,second,Giải Nhì,5,550
+max3d,00693,second,Giải Nhì,6,739
+max3d,00693,third,Giải Ba,1,330
+max3d,00693,third,Giải Ba,2,970
+max3d,00693,third,Giải Ba,3,216
+max3d,00693,third,Giải Ba,4,224
+max3d,00693,third,Giải Ba,5,411
+max3d,00693,third,Giải Ba,6,648
+max3d,00693,third,Giải Ba,7,637
+max3d,00693,third,Giải Ba,8,966
+max3d,00694,special,Giải Đặc biệt,1,757
+max3d,00694,special,Giải Đặc biệt,2,497
+max3d,00694,first,Giải Nhất,1,893
+max3d,00694,first,Giải Nhất,2,924
+max3d,00694,first,Giải Nhất,3,026
+max3d,00694,first,Giải Nhất,4,698
+max3d,00694,second,Giải Nhì,1,201
+max3d,00694,second,Giải Nhì,2,546
+max3d,00694,second,Giải Nhì,3,464
+max3d,00694,second,Giải Nhì,4,225
+max3d,00694,second,Giải Nhì,5,120
+max3d,00694,second,Giải Nhì,6,861
+max3d,00694,third,Giải Ba,1,250
+max3d,00694,third,Giải Ba,2,913
+max3d,00694,third,Giải Ba,3,819
+max3d,00694,third,Giải Ba,4,798
+max3d,00694,third,Giải Ba,5,228
+max3d,00694,third,Giải Ba,6,205
+max3d,00694,third,Giải Ba,7,008
+max3d,00694,third,Giải Ba,8,025
+max3d,00695,special,Giải Đặc biệt,1,655
+max3d,00695,special,Giải Đặc biệt,2,117
+max3d,00695,first,Giải Nhất,1,380
+max3d,00695,first,Giải Nhất,2,461
+max3d,00695,first,Giải Nhất,3,759
+max3d,00695,first,Giải Nhất,4,111
+max3d,00695,second,Giải Nhì,1,078
+max3d,00695,second,Giải Nhì,2,842
+max3d,00695,second,Giải Nhì,3,520
+max3d,00695,second,Giải Nhì,4,432
+max3d,00695,second,Giải Nhì,5,275
+max3d,00695,second,Giải Nhì,6,829
+max3d,00695,third,Giải Ba,1,039
+max3d,00695,third,Giải Ba,2,510
+max3d,00695,third,Giải Ba,3,371
+max3d,00695,third,Giải Ba,4,629
+max3d,00695,third,Giải Ba,5,487
+max3d,00695,third,Giải Ba,6,099
+max3d,00695,third,Giải Ba,7,098
+max3d,00695,third,Giải Ba,8,383
+max3d,00696,special,Giải Đặc biệt,1,432
+max3d,00696,special,Giải Đặc biệt,2,458
+max3d,00696,first,Giải Nhất,1,053
+max3d,00696,first,Giải Nhất,2,729
+max3d,00696,first,Giải Nhất,3,259
+max3d,00696,first,Giải Nhất,4,405
+max3d,00696,second,Giải Nhì,1,158
+max3d,00696,second,Giải Nhì,2,415
+max3d,00696,second,Giải Nhì,3,145
+max3d,00696,second,Giải Nhì,4,826
+max3d,00696,second,Giải Nhì,5,017
+max3d,00696,second,Giải Nhì,6,506
+max3d,00696,third,Giải Ba,1,352
+max3d,00696,third,Giải Ba,2,409
+max3d,00696,third,Giải Ba,3,607
+max3d,00696,third,Giải Ba,4,538
+max3d,00696,third,Giải Ba,5,746
+max3d,00696,third,Giải Ba,6,671
+max3d,00696,third,Giải Ba,7,225
+max3d,00696,third,Giải Ba,8,656
+max3d,00697,special,Giải Đặc biệt,1,785
+max3d,00697,special,Giải Đặc biệt,2,326
+max3d,00697,first,Giải Nhất,1,731
+max3d,00697,first,Giải Nhất,2,900
+max3d,00697,first,Giải Nhất,3,114
+max3d,00697,first,Giải Nhất,4,569
+max3d,00697,second,Giải Nhì,1,927
+max3d,00697,second,Giải Nhì,2,778
+max3d,00697,second,Giải Nhì,3,163
+max3d,00697,second,Giải Nhì,4,849
+max3d,00697,second,Giải Nhì,5,794
+max3d,00697,second,Giải Nhì,6,885
+max3d,00697,third,Giải Ba,1,420
+max3d,00697,third,Giải Ba,2,419
+max3d,00697,third,Giải Ba,3,191
+max3d,00697,third,Giải Ba,4,028
+max3d,00697,third,Giải Ba,5,846
+max3d,00697,third,Giải Ba,6,219
+max3d,00697,third,Giải Ba,7,305
+max3d,00697,third,Giải Ba,8,881
+max3d,00698,special,Giải Đặc biệt,1,060
+max3d,00698,special,Giải Đặc biệt,2,547
+max3d,00698,first,Giải Nhất,1,107
+max3d,00698,first,Giải Nhất,2,769
+max3d,00698,first,Giải Nhất,3,393
+max3d,00698,first,Giải Nhất,4,440
+max3d,00698,second,Giải Nhì,1,721
+max3d,00698,second,Giải Nhì,2,268
+max3d,00698,second,Giải Nhì,3,294
+max3d,00698,second,Giải Nhì,4,998
+max3d,00698,second,Giải Nhì,5,441
+max3d,00698,second,Giải Nhì,6,589
+max3d,00698,third,Giải Ba,1,407
+max3d,00698,third,Giải Ba,2,816
+max3d,00698,third,Giải Ba,3,383
+max3d,00698,third,Giải Ba,4,517
+max3d,00698,third,Giải Ba,5,520
+max3d,00698,third,Giải Ba,6,137
+max3d,00698,third,Giải Ba,7,667
+max3d,00698,third,Giải Ba,8,071
+max3d,00699,special,Giải Đặc biệt,1,401
+max3d,00699,special,Giải Đặc biệt,2,934
+max3d,00699,first,Giải Nhất,1,010
+max3d,00699,first,Giải Nhất,2,494
+max3d,00699,first,Giải Nhất,3,048
+max3d,00699,first,Giải Nhất,4,431
+max3d,00699,second,Giải Nhì,1,819
+max3d,00699,second,Giải Nhì,2,832
+max3d,00699,second,Giải Nhì,3,039
+max3d,00699,second,Giải Nhì,4,130
+max3d,00699,second,Giải Nhì,5,980
+max3d,00699,second,Giải Nhì,6,516
+max3d,00699,third,Giải Ba,1,960
+max3d,00699,third,Giải Ba,2,081
+max3d,00699,third,Giải Ba,3,502
+max3d,00699,third,Giải Ba,4,118
+max3d,00699,third,Giải Ba,5,541
+max3d,00699,third,Giải Ba,6,919
+max3d,00699,third,Giải Ba,7,901
+max3d,00699,third,Giải Ba,8,343
+max3d,00700,special,Giải Đặc biệt,1,374
+max3d,00700,special,Giải Đặc biệt,2,486
+max3d,00700,first,Giải Nhất,1,313
+max3d,00700,first,Giải Nhất,2,746
+max3d,00700,first,Giải Nhất,3,935
+max3d,00700,first,Giải Nhất,4,519
+max3d,00700,second,Giải Nhì,1,534
+max3d,00700,second,Giải Nhì,2,797
+max3d,00700,second,Giải Nhì,3,935
+max3d,00700,second,Giải Nhì,4,039
+max3d,00700,second,Giải Nhì,5,771
+max3d,00700,second,Giải Nhì,6,356
+max3d,00700,third,Giải Ba,1,908
+max3d,00700,third,Giải Ba,2,091
+max3d,00700,third,Giải Ba,3,615
+max3d,00700,third,Giải Ba,4,982
+max3d,00700,third,Giải Ba,5,891
+max3d,00700,third,Giải Ba,6,978
+max3d,00700,third,Giải Ba,7,991
+max3d,00700,third,Giải Ba,8,380
+max3d,00701,special,Giải Đặc biệt,1,128
+max3d,00701,special,Giải Đặc biệt,2,529
+max3d,00701,first,Giải Nhất,1,019
+max3d,00701,first,Giải Nhất,2,166
+max3d,00701,first,Giải Nhất,3,847
+max3d,00701,first,Giải Nhất,4,155
+max3d,00701,second,Giải Nhì,1,244
+max3d,00701,second,Giải Nhì,2,522
+max3d,00701,second,Giải Nhì,3,379
+max3d,00701,second,Giải Nhì,4,376
+max3d,00701,second,Giải Nhì,5,486
+max3d,00701,second,Giải Nhì,6,786
+max3d,00701,third,Giải Ba,1,939
+max3d,00701,third,Giải Ba,2,422
+max3d,00701,third,Giải Ba,3,447
+max3d,00701,third,Giải Ba,4,836
+max3d,00701,third,Giải Ba,5,935
+max3d,00701,third,Giải Ba,6,750
+max3d,00701,third,Giải Ba,7,195
+max3d,00701,third,Giải Ba,8,147
+max3d,00702,special,Giải Đặc biệt,1,819
+max3d,00702,special,Giải Đặc biệt,2,522
+max3d,00702,first,Giải Nhất,1,600
+max3d,00702,first,Giải Nhất,2,649
+max3d,00702,first,Giải Nhất,3,561
+max3d,00702,first,Giải Nhất,4,451
+max3d,00702,second,Giải Nhì,1,976
+max3d,00702,second,Giải Nhì,2,743
+max3d,00702,second,Giải Nhì,3,659
+max3d,00702,second,Giải Nhì,4,769
+max3d,00702,second,Giải Nhì,5,406
+max3d,00702,second,Giải Nhì,6,827
+max3d,00702,third,Giải Ba,1,677
+max3d,00702,third,Giải Ba,2,888
+max3d,00702,third,Giải Ba,3,749
+max3d,00702,third,Giải Ba,4,069
+max3d,00702,third,Giải Ba,5,999
+max3d,00702,third,Giải Ba,6,771
+max3d,00702,third,Giải Ba,7,206
+max3d,00702,third,Giải Ba,8,426
+max3d,00703,special,Giải Đặc biệt,1,176
+max3d,00703,special,Giải Đặc biệt,2,880
+max3d,00703,first,Giải Nhất,1,383
+max3d,00703,first,Giải Nhất,2,871
+max3d,00703,first,Giải Nhất,3,115
+max3d,00703,first,Giải Nhất,4,012
+max3d,00703,second,Giải Nhì,1,727
+max3d,00703,second,Giải Nhì,2,884
+max3d,00703,second,Giải Nhì,3,316
+max3d,00703,second,Giải Nhì,4,965
+max3d,00703,second,Giải Nhì,5,672
+max3d,00703,second,Giải Nhì,6,844
+max3d,00703,third,Giải Ba,1,295
+max3d,00703,third,Giải Ba,2,369
+max3d,00703,third,Giải Ba,3,805
+max3d,00703,third,Giải Ba,4,808
+max3d,00703,third,Giải Ba,5,104
+max3d,00703,third,Giải Ba,6,849
+max3d,00703,third,Giải Ba,7,622
+max3d,00703,third,Giải Ba,8,266
+max3d,00704,special,Giải Đặc biệt,1,657
+max3d,00704,special,Giải Đặc biệt,2,656
+max3d,00704,first,Giải Nhất,1,885
+max3d,00704,first,Giải Nhất,2,410
+max3d,00704,first,Giải Nhất,3,679
+max3d,00704,first,Giải Nhất,4,403
+max3d,00704,second,Giải Nhì,1,687
+max3d,00704,second,Giải Nhì,2,974
+max3d,00704,second,Giải Nhì,3,945
+max3d,00704,second,Giải Nhì,4,414
+max3d,00704,second,Giải Nhì,5,678
+max3d,00704,second,Giải Nhì,6,545
+max3d,00704,third,Giải Ba,1,871
+max3d,00704,third,Giải Ba,2,925
+max3d,00704,third,Giải Ba,3,344
+max3d,00704,third,Giải Ba,4,394
+max3d,00704,third,Giải Ba,5,978
+max3d,00704,third,Giải Ba,6,296
+max3d,00704,third,Giải Ba,7,960
+max3d,00704,third,Giải Ba,8,577
+max3d,00705,special,Giải Đặc biệt,1,957
+max3d,00705,special,Giải Đặc biệt,2,783
+max3d,00705,first,Giải Nhất,1,835
+max3d,00705,first,Giải Nhất,2,235
+max3d,00705,first,Giải Nhất,3,010
+max3d,00705,first,Giải Nhất,4,498
+max3d,00705,second,Giải Nhì,1,209
+max3d,00705,second,Giải Nhì,2,172
+max3d,00705,second,Giải Nhì,3,761
+max3d,00705,second,Giải Nhì,4,132
+max3d,00705,second,Giải Nhì,5,822
+max3d,00705,second,Giải Nhì,6,338
+max3d,00705,third,Giải Ba,1,534
+max3d,00705,third,Giải Ba,2,146
+max3d,00705,third,Giải Ba,3,123
+max3d,00705,third,Giải Ba,4,724
+max3d,00705,third,Giải Ba,5,129
+max3d,00705,third,Giải Ba,6,931
+max3d,00705,third,Giải Ba,7,072
+max3d,00705,third,Giải Ba,8,598
+max3d,00706,special,Giải Đặc biệt,1,313
+max3d,00706,special,Giải Đặc biệt,2,369
+max3d,00706,first,Giải Nhất,1,612
+max3d,00706,first,Giải Nhất,2,342
+max3d,00706,first,Giải Nhất,3,566
+max3d,00706,first,Giải Nhất,4,664
+max3d,00706,second,Giải Nhì,1,499
+max3d,00706,second,Giải Nhì,2,656
+max3d,00706,second,Giải Nhì,3,003
+max3d,00706,second,Giải Nhì,4,838
+max3d,00706,second,Giải Nhì,5,857
+max3d,00706,second,Giải Nhì,6,472
+max3d,00706,third,Giải Ba,1,942
+max3d,00706,third,Giải Ba,2,324
+max3d,00706,third,Giải Ba,3,579
+max3d,00706,third,Giải Ba,4,966
+max3d,00706,third,Giải Ba,5,138
+max3d,00706,third,Giải Ba,6,960
+max3d,00706,third,Giải Ba,7,437
+max3d,00706,third,Giải Ba,8,547
+max3d,00707,special,Giải Đặc biệt,1,054
+max3d,00707,special,Giải Đặc biệt,2,279
+max3d,00707,first,Giải Nhất,1,896
+max3d,00707,first,Giải Nhất,2,331
+max3d,00707,first,Giải Nhất,3,453
+max3d,00707,first,Giải Nhất,4,092
+max3d,00707,second,Giải Nhì,1,741
+max3d,00707,second,Giải Nhì,2,942
+max3d,00707,second,Giải Nhì,3,718
+max3d,00707,second,Giải Nhì,4,739
+max3d,00707,second,Giải Nhì,5,330
+max3d,00707,second,Giải Nhì,6,326
+max3d,00707,third,Giải Ba,1,816
+max3d,00707,third,Giải Ba,2,790
+max3d,00707,third,Giải Ba,3,191
+max3d,00707,third,Giải Ba,4,153
+max3d,00707,third,Giải Ba,5,434
+max3d,00707,third,Giải Ba,6,434
+max3d,00707,third,Giải Ba,7,734
+max3d,00707,third,Giải Ba,8,187
+max3d,00708,special,Giải Đặc biệt,1,299
+max3d,00708,special,Giải Đặc biệt,2,231
+max3d,00708,first,Giải Nhất,1,788
+max3d,00708,first,Giải Nhất,2,527
+max3d,00708,first,Giải Nhất,3,744
+max3d,00708,first,Giải Nhất,4,217
+max3d,00708,second,Giải Nhì,1,846
+max3d,00708,second,Giải Nhì,2,557
+max3d,00708,second,Giải Nhì,3,324
+max3d,00708,second,Giải Nhì,4,759
+max3d,00708,second,Giải Nhì,5,843
+max3d,00708,second,Giải Nhì,6,219
+max3d,00708,third,Giải Ba,1,797
+max3d,00708,third,Giải Ba,2,881
+max3d,00708,third,Giải Ba,3,826
+max3d,00708,third,Giải Ba,4,685
+max3d,00708,third,Giải Ba,5,822
+max3d,00708,third,Giải Ba,6,785
+max3d,00708,third,Giải Ba,7,701
+max3d,00708,third,Giải Ba,8,347
+max3d,00709,special,Giải Đặc biệt,1,284
+max3d,00709,special,Giải Đặc biệt,2,689
+max3d,00709,first,Giải Nhất,1,553
+max3d,00709,first,Giải Nhất,2,012
+max3d,00709,first,Giải Nhất,3,217
+max3d,00709,first,Giải Nhất,4,042
+max3d,00709,second,Giải Nhì,1,128
+max3d,00709,second,Giải Nhì,2,504
+max3d,00709,second,Giải Nhì,3,452
+max3d,00709,second,Giải Nhì,4,014
+max3d,00709,second,Giải Nhì,5,393
+max3d,00709,second,Giải Nhì,6,233
+max3d,00709,third,Giải Ba,1,593
+max3d,00709,third,Giải Ba,2,235
+max3d,00709,third,Giải Ba,3,761
+max3d,00709,third,Giải Ba,4,901
+max3d,00709,third,Giải Ba,5,805
+max3d,00709,third,Giải Ba,6,141
+max3d,00709,third,Giải Ba,7,503
+max3d,00709,third,Giải Ba,8,239
+max3d,00710,special,Giải Đặc biệt,1,340
+max3d,00710,special,Giải Đặc biệt,2,530
+max3d,00710,first,Giải Nhất,1,634
+max3d,00710,first,Giải Nhất,2,128
+max3d,00710,first,Giải Nhất,3,188
+max3d,00710,first,Giải Nhất,4,966
+max3d,00710,second,Giải Nhì,1,446
+max3d,00710,second,Giải Nhì,2,097
+max3d,00710,second,Giải Nhì,3,911
+max3d,00710,second,Giải Nhì,4,006
+max3d,00710,second,Giải Nhì,5,607
+max3d,00710,second,Giải Nhì,6,598
+max3d,00710,third,Giải Ba,1,456
+max3d,00710,third,Giải Ba,2,497
+max3d,00710,third,Giải Ba,3,820
+max3d,00710,third,Giải Ba,4,826
+max3d,00710,third,Giải Ba,5,085
+max3d,00710,third,Giải Ba,6,699
+max3d,00710,third,Giải Ba,7,512
+max3d,00710,third,Giải Ba,8,845
+max3d,00711,special,Giải Đặc biệt,1,916
+max3d,00711,special,Giải Đặc biệt,2,358
+max3d,00711,first,Giải Nhất,1,706
+max3d,00711,first,Giải Nhất,2,087
+max3d,00711,first,Giải Nhất,3,985
+max3d,00711,first,Giải Nhất,4,645
+max3d,00711,second,Giải Nhì,1,371
+max3d,00711,second,Giải Nhì,2,843
+max3d,00711,second,Giải Nhì,3,994
+max3d,00711,second,Giải Nhì,4,694
+max3d,00711,second,Giải Nhì,5,408
+max3d,00711,second,Giải Nhì,6,405
+max3d,00711,third,Giải Ba,1,622
+max3d,00711,third,Giải Ba,2,353
+max3d,00711,third,Giải Ba,3,248
+max3d,00711,third,Giải Ba,4,464
+max3d,00711,third,Giải Ba,5,819
+max3d,00711,third,Giải Ba,6,384
+max3d,00711,third,Giải Ba,7,408
+max3d,00711,third,Giải Ba,8,873
+max3d,00712,special,Giải Đặc biệt,1,326
+max3d,00712,special,Giải Đặc biệt,2,700
+max3d,00712,first,Giải Nhất,1,970
+max3d,00712,first,Giải Nhất,2,580
+max3d,00712,first,Giải Nhất,3,862
+max3d,00712,first,Giải Nhất,4,584
+max3d,00712,second,Giải Nhì,1,171
+max3d,00712,second,Giải Nhì,2,972
+max3d,00712,second,Giải Nhì,3,721
+max3d,00712,second,Giải Nhì,4,316
+max3d,00712,second,Giải Nhì,5,576
+max3d,00712,second,Giải Nhì,6,992
+max3d,00712,third,Giải Ba,1,539
+max3d,00712,third,Giải Ba,2,661
+max3d,00712,third,Giải Ba,3,528
+max3d,00712,third,Giải Ba,4,866
+max3d,00712,third,Giải Ba,5,065
+max3d,00712,third,Giải Ba,6,004
+max3d,00712,third,Giải Ba,7,936
+max3d,00712,third,Giải Ba,8,050
+max3d,00713,special,Giải Đặc biệt,1,694
+max3d,00713,special,Giải Đặc biệt,2,114
+max3d,00713,first,Giải Nhất,1,937
+max3d,00713,first,Giải Nhất,2,573
+max3d,00713,first,Giải Nhất,3,288
+max3d,00713,first,Giải Nhất,4,905
+max3d,00713,second,Giải Nhì,1,991
+max3d,00713,second,Giải Nhì,2,562
+max3d,00713,second,Giải Nhì,3,171
+max3d,00713,second,Giải Nhì,4,635
+max3d,00713,second,Giải Nhì,5,916
+max3d,00713,second,Giải Nhì,6,757
+max3d,00713,third,Giải Ba,1,043
+max3d,00713,third,Giải Ba,2,175
+max3d,00713,third,Giải Ba,3,368
+max3d,00713,third,Giải Ba,4,851
+max3d,00713,third,Giải Ba,5,960
+max3d,00713,third,Giải Ba,6,933
+max3d,00713,third,Giải Ba,7,765
+max3d,00713,third,Giải Ba,8,301
+max3d,00714,special,Giải Đặc biệt,1,309
+max3d,00714,special,Giải Đặc biệt,2,118
+max3d,00714,first,Giải Nhất,1,765
+max3d,00714,first,Giải Nhất,2,588
+max3d,00714,first,Giải Nhất,3,014
+max3d,00714,first,Giải Nhất,4,028
+max3d,00714,second,Giải Nhì,1,119
+max3d,00714,second,Giải Nhì,2,410
+max3d,00714,second,Giải Nhì,3,333
+max3d,00714,second,Giải Nhì,4,528
+max3d,00714,second,Giải Nhì,5,083
+max3d,00714,second,Giải Nhì,6,935
+max3d,00714,third,Giải Ba,1,332
+max3d,00714,third,Giải Ba,2,374
+max3d,00714,third,Giải Ba,3,912
+max3d,00714,third,Giải Ba,4,468
+max3d,00714,third,Giải Ba,5,732
+max3d,00714,third,Giải Ba,6,077
+max3d,00714,third,Giải Ba,7,526
+max3d,00714,third,Giải Ba,8,090
+max3d,00715,special,Giải Đặc biệt,1,607
+max3d,00715,special,Giải Đặc biệt,2,929
+max3d,00715,first,Giải Nhất,1,905
+max3d,00715,first,Giải Nhất,2,350
+max3d,00715,first,Giải Nhất,3,807
+max3d,00715,first,Giải Nhất,4,803
+max3d,00715,second,Giải Nhì,1,243
+max3d,00715,second,Giải Nhì,2,376
+max3d,00715,second,Giải Nhì,3,744
+max3d,00715,second,Giải Nhì,4,438
+max3d,00715,second,Giải Nhì,5,569
+max3d,00715,second,Giải Nhì,6,197
+max3d,00715,third,Giải Ba,1,453
+max3d,00715,third,Giải Ba,2,722
+max3d,00715,third,Giải Ba,3,414
+max3d,00715,third,Giải Ba,4,671
+max3d,00715,third,Giải Ba,5,763
+max3d,00715,third,Giải Ba,6,447
+max3d,00715,third,Giải Ba,7,226
+max3d,00715,third,Giải Ba,8,661
+max3d,00716,special,Giải Đặc biệt,1,204
+max3d,00716,special,Giải Đặc biệt,2,079
+max3d,00716,first,Giải Nhất,1,169
+max3d,00716,first,Giải Nhất,2,978
+max3d,00716,first,Giải Nhất,3,536
+max3d,00716,first,Giải Nhất,4,412
+max3d,00716,second,Giải Nhì,1,310
+max3d,00716,second,Giải Nhì,2,417
+max3d,00716,second,Giải Nhì,3,625
+max3d,00716,second,Giải Nhì,4,993
+max3d,00716,second,Giải Nhì,5,835
+max3d,00716,second,Giải Nhì,6,340
+max3d,00716,third,Giải Ba,1,911
+max3d,00716,third,Giải Ba,2,018
+max3d,00716,third,Giải Ba,3,444
+max3d,00716,third,Giải Ba,4,953
+max3d,00716,third,Giải Ba,5,667
+max3d,00716,third,Giải Ba,6,320
+max3d,00716,third,Giải Ba,7,246
+max3d,00716,third,Giải Ba,8,238
+max3d,00717,special,Giải Đặc biệt,1,666
+max3d,00717,special,Giải Đặc biệt,2,636
+max3d,00717,first,Giải Nhất,1,742
+max3d,00717,first,Giải Nhất,2,624
+max3d,00717,first,Giải Nhất,3,612
+max3d,00717,first,Giải Nhất,4,091
+max3d,00717,second,Giải Nhì,1,809
+max3d,00717,second,Giải Nhì,2,284
+max3d,00717,second,Giải Nhì,3,877
+max3d,00717,second,Giải Nhì,4,356
+max3d,00717,second,Giải Nhì,5,130
+max3d,00717,second,Giải Nhì,6,699
+max3d,00717,third,Giải Ba,1,154
+max3d,00717,third,Giải Ba,2,876
+max3d,00717,third,Giải Ba,3,594
+max3d,00717,third,Giải Ba,4,368
+max3d,00717,third,Giải Ba,5,180
+max3d,00717,third,Giải Ba,6,060
+max3d,00717,third,Giải Ba,7,454
+max3d,00717,third,Giải Ba,8,161
+max3d,00718,special,Giải Đặc biệt,1,347
+max3d,00718,special,Giải Đặc biệt,2,578
+max3d,00718,first,Giải Nhất,1,323
+max3d,00718,first,Giải Nhất,2,140
+max3d,00718,first,Giải Nhất,3,931
+max3d,00718,first,Giải Nhất,4,750
+max3d,00718,second,Giải Nhì,1,213
+max3d,00718,second,Giải Nhì,2,473
+max3d,00718,second,Giải Nhì,3,083
+max3d,00718,second,Giải Nhì,4,806
+max3d,00718,second,Giải Nhì,5,161
+max3d,00718,second,Giải Nhì,6,771
+max3d,00718,third,Giải Ba,1,818
+max3d,00718,third,Giải Ba,2,088
+max3d,00718,third,Giải Ba,3,841
+max3d,00718,third,Giải Ba,4,267
+max3d,00718,third,Giải Ba,5,489
+max3d,00718,third,Giải Ba,6,463
+max3d,00718,third,Giải Ba,7,204
+max3d,00718,third,Giải Ba,8,359
+max3d,00719,special,Giải Đặc biệt,1,653
+max3d,00719,special,Giải Đặc biệt,2,325
+max3d,00719,first,Giải Nhất,1,658
+max3d,00719,first,Giải Nhất,2,212
+max3d,00719,first,Giải Nhất,3,456
+max3d,00719,first,Giải Nhất,4,255
+max3d,00719,second,Giải Nhì,1,709
+max3d,00719,second,Giải Nhì,2,554
+max3d,00719,second,Giải Nhì,3,776
+max3d,00719,second,Giải Nhì,4,651
+max3d,00719,second,Giải Nhì,5,230
+max3d,00719,second,Giải Nhì,6,804
+max3d,00719,third,Giải Ba,1,720
+max3d,00719,third,Giải Ba,2,436
+max3d,00719,third,Giải Ba,3,437
+max3d,00719,third,Giải Ba,4,338
+max3d,00719,third,Giải Ba,5,164
+max3d,00719,third,Giải Ba,6,517
+max3d,00719,third,Giải Ba,7,405
+max3d,00719,third,Giải Ba,8,340
+max3d,00720,special,Giải Đặc biệt,1,705
+max3d,00720,special,Giải Đặc biệt,2,245
+max3d,00720,first,Giải Nhất,1,895
+max3d,00720,first,Giải Nhất,2,582
+max3d,00720,first,Giải Nhất,3,290
+max3d,00720,first,Giải Nhất,4,262
+max3d,00720,second,Giải Nhì,1,182
+max3d,00720,second,Giải Nhì,2,766
+max3d,00720,second,Giải Nhì,3,676
+max3d,00720,second,Giải Nhì,4,569
+max3d,00720,second,Giải Nhì,5,022
+max3d,00720,second,Giải Nhì,6,383
+max3d,00720,third,Giải Ba,1,537
+max3d,00720,third,Giải Ba,2,948
+max3d,00720,third,Giải Ba,3,710
+max3d,00720,third,Giải Ba,4,667
+max3d,00720,third,Giải Ba,5,324
+max3d,00720,third,Giải Ba,6,428
+max3d,00720,third,Giải Ba,7,420
+max3d,00720,third,Giải Ba,8,716
+max3d,00721,special,Giải Đặc biệt,1,450
+max3d,00721,special,Giải Đặc biệt,2,476
+max3d,00721,first,Giải Nhất,1,447
+max3d,00721,first,Giải Nhất,2,315
+max3d,00721,first,Giải Nhất,3,310
+max3d,00721,first,Giải Nhất,4,623
+max3d,00721,second,Giải Nhì,1,530
+max3d,00721,second,Giải Nhì,2,954
+max3d,00721,second,Giải Nhì,3,735
+max3d,00721,second,Giải Nhì,4,138
+max3d,00721,second,Giải Nhì,5,796
+max3d,00721,second,Giải Nhì,6,238
+max3d,00721,third,Giải Ba,1,388
+max3d,00721,third,Giải Ba,2,342
+max3d,00721,third,Giải Ba,3,448
+max3d,00721,third,Giải Ba,4,242
+max3d,00721,third,Giải Ba,5,986
+max3d,00721,third,Giải Ba,6,749
+max3d,00721,third,Giải Ba,7,054
+max3d,00721,third,Giải Ba,8,723
+max3d,00722,special,Giải Đặc biệt,1,353
+max3d,00722,special,Giải Đặc biệt,2,790
+max3d,00722,first,Giải Nhất,1,570
+max3d,00722,first,Giải Nhất,2,135
+max3d,00722,first,Giải Nhất,3,627
+max3d,00722,first,Giải Nhất,4,290
+max3d,00722,second,Giải Nhì,1,664
+max3d,00722,second,Giải Nhì,2,447
+max3d,00722,second,Giải Nhì,3,829
+max3d,00722,second,Giải Nhì,4,637
+max3d,00722,second,Giải Nhì,5,504
+max3d,00722,second,Giải Nhì,6,345
+max3d,00722,third,Giải Ba,1,040
+max3d,00722,third,Giải Ba,2,320
+max3d,00722,third,Giải Ba,3,562
+max3d,00722,third,Giải Ba,4,721
+max3d,00722,third,Giải Ba,5,836
+max3d,00722,third,Giải Ba,6,783
+max3d,00722,third,Giải Ba,7,252
+max3d,00722,third,Giải Ba,8,213
+max3d,00723,special,Giải Đặc biệt,1,248
+max3d,00723,special,Giải Đặc biệt,2,346
+max3d,00723,first,Giải Nhất,1,883
+max3d,00723,first,Giải Nhất,2,158
+max3d,00723,first,Giải Nhất,3,074
+max3d,00723,first,Giải Nhất,4,725
+max3d,00723,second,Giải Nhì,1,761
+max3d,00723,second,Giải Nhì,2,459
+max3d,00723,second,Giải Nhì,3,118
+max3d,00723,second,Giải Nhì,4,305
+max3d,00723,second,Giải Nhì,5,785
+max3d,00723,second,Giải Nhì,6,209
+max3d,00723,third,Giải Ba,1,443
+max3d,00723,third,Giải Ba,2,106
+max3d,00723,third,Giải Ba,3,262
+max3d,00723,third,Giải Ba,4,273
+max3d,00723,third,Giải Ba,5,733
+max3d,00723,third,Giải Ba,6,928
+max3d,00723,third,Giải Ba,7,419
+max3d,00723,third,Giải Ba,8,646
+max3d,00724,special,Giải Đặc biệt,1,156
+max3d,00724,special,Giải Đặc biệt,2,885
+max3d,00724,first,Giải Nhất,1,616
+max3d,00724,first,Giải Nhất,2,176
+max3d,00724,first,Giải Nhất,3,143
+max3d,00724,first,Giải Nhất,4,691
+max3d,00724,second,Giải Nhì,1,109
+max3d,00724,second,Giải Nhì,2,525
+max3d,00724,second,Giải Nhì,3,688
+max3d,00724,second,Giải Nhì,4,315
+max3d,00724,second,Giải Nhì,5,004
+max3d,00724,second,Giải Nhì,6,782
+max3d,00724,third,Giải Ba,1,650
+max3d,00724,third,Giải Ba,2,020
+max3d,00724,third,Giải Ba,3,794
+max3d,00724,third,Giải Ba,4,538
+max3d,00724,third,Giải Ba,5,710
+max3d,00724,third,Giải Ba,6,769
+max3d,00724,third,Giải Ba,7,183
+max3d,00724,third,Giải Ba,8,967
+max3d,00725,special,Giải Đặc biệt,1,919
+max3d,00725,special,Giải Đặc biệt,2,310
+max3d,00725,first,Giải Nhất,1,288
+max3d,00725,first,Giải Nhất,2,426
+max3d,00725,first,Giải Nhất,3,989
+max3d,00725,first,Giải Nhất,4,946
+max3d,00725,second,Giải Nhì,1,193
+max3d,00725,second,Giải Nhì,2,743
+max3d,00725,second,Giải Nhì,3,152
+max3d,00725,second,Giải Nhì,4,447
+max3d,00725,second,Giải Nhì,5,510
+max3d,00725,second,Giải Nhì,6,625
+max3d,00725,third,Giải Ba,1,783
+max3d,00725,third,Giải Ba,2,687
+max3d,00725,third,Giải Ba,3,198
+max3d,00725,third,Giải Ba,4,211
+max3d,00725,third,Giải Ba,5,393
+max3d,00725,third,Giải Ba,6,306
+max3d,00725,third,Giải Ba,7,456
+max3d,00725,third,Giải Ba,8,121
+max3d,00726,special,Giải Đặc biệt,1,204
+max3d,00726,special,Giải Đặc biệt,2,959
+max3d,00726,first,Giải Nhất,1,484
+max3d,00726,first,Giải Nhất,2,859
+max3d,00726,first,Giải Nhất,3,772
+max3d,00726,first,Giải Nhất,4,687
+max3d,00726,second,Giải Nhì,1,289
+max3d,00726,second,Giải Nhì,2,780
+max3d,00726,second,Giải Nhì,3,806
+max3d,00726,second,Giải Nhì,4,619
+max3d,00726,second,Giải Nhì,5,805
+max3d,00726,second,Giải Nhì,6,824
+max3d,00726,third,Giải Ba,1,750
+max3d,00726,third,Giải Ba,2,069
+max3d,00726,third,Giải Ba,3,729
+max3d,00726,third,Giải Ba,4,384
+max3d,00726,third,Giải Ba,5,307
+max3d,00726,third,Giải Ba,6,041
+max3d,00726,third,Giải Ba,7,593
+max3d,00726,third,Giải Ba,8,152
+max3d,00727,special,Giải Đặc biệt,1,851
+max3d,00727,special,Giải Đặc biệt,2,879
+max3d,00727,first,Giải Nhất,1,094
+max3d,00727,first,Giải Nhất,2,088
+max3d,00727,first,Giải Nhất,3,195
+max3d,00727,first,Giải Nhất,4,106
+max3d,00727,second,Giải Nhì,1,569
+max3d,00727,second,Giải Nhì,2,072
+max3d,00727,second,Giải Nhì,3,466
+max3d,00727,second,Giải Nhì,4,063
+max3d,00727,second,Giải Nhì,5,769
+max3d,00727,second,Giải Nhì,6,015
+max3d,00727,third,Giải Ba,1,111
+max3d,00727,third,Giải Ba,2,695
+max3d,00727,third,Giải Ba,3,055
+max3d,00727,third,Giải Ba,4,082
+max3d,00727,third,Giải Ba,5,161
+max3d,00727,third,Giải Ba,6,035
+max3d,00727,third,Giải Ba,7,521
+max3d,00727,third,Giải Ba,8,752
+max3d,00728,special,Giải Đặc biệt,1,942
+max3d,00728,special,Giải Đặc biệt,2,275
+max3d,00728,first,Giải Nhất,1,421
+max3d,00728,first,Giải Nhất,2,878
+max3d,00728,first,Giải Nhất,3,407
+max3d,00728,first,Giải Nhất,4,321
+max3d,00728,second,Giải Nhì,1,968
+max3d,00728,second,Giải Nhì,2,938
+max3d,00728,second,Giải Nhì,3,506
+max3d,00728,second,Giải Nhì,4,653
+max3d,00728,second,Giải Nhì,5,291
+max3d,00728,second,Giải Nhì,6,605
+max3d,00728,third,Giải Ba,1,927
+max3d,00728,third,Giải Ba,2,075
+max3d,00728,third,Giải Ba,3,152
+max3d,00728,third,Giải Ba,4,114
+max3d,00728,third,Giải Ba,5,848
+max3d,00728,third,Giải Ba,6,070
+max3d,00728,third,Giải Ba,7,328
+max3d,00728,third,Giải Ba,8,105
+max3d,00729,special,Giải Đặc biệt,1,358
+max3d,00729,special,Giải Đặc biệt,2,312
+max3d,00729,first,Giải Nhất,1,143
+max3d,00729,first,Giải Nhất,2,469
+max3d,00729,first,Giải Nhất,3,453
+max3d,00729,first,Giải Nhất,4,114
+max3d,00729,second,Giải Nhì,1,391
+max3d,00729,second,Giải Nhì,2,839
+max3d,00729,second,Giải Nhì,3,543
+max3d,00729,second,Giải Nhì,4,226
+max3d,00729,second,Giải Nhì,5,761
+max3d,00729,second,Giải Nhì,6,563
+max3d,00729,third,Giải Ba,1,538
+max3d,00729,third,Giải Ba,2,585
+max3d,00729,third,Giải Ba,3,823
+max3d,00729,third,Giải Ba,4,543
+max3d,00729,third,Giải Ba,5,902
+max3d,00729,third,Giải Ba,6,556
+max3d,00729,third,Giải Ba,7,246
+max3d,00729,third,Giải Ba,8,082
+max3d,00730,special,Giải Đặc biệt,1,184
+max3d,00730,special,Giải Đặc biệt,2,236
+max3d,00730,first,Giải Nhất,1,507
+max3d,00730,first,Giải Nhất,2,051
+max3d,00730,first,Giải Nhất,3,640
+max3d,00730,first,Giải Nhất,4,584
+max3d,00730,second,Giải Nhì,1,969
+max3d,00730,second,Giải Nhì,2,006
+max3d,00730,second,Giải Nhì,3,298
+max3d,00730,second,Giải Nhì,4,520
+max3d,00730,second,Giải Nhì,5,497
+max3d,00730,second,Giải Nhì,6,729
+max3d,00730,third,Giải Ba,1,357
+max3d,00730,third,Giải Ba,2,026
+max3d,00730,third,Giải Ba,3,896
+max3d,00730,third,Giải Ba,4,284
+max3d,00730,third,Giải Ba,5,650
+max3d,00730,third,Giải Ba,6,349
+max3d,00730,third,Giải Ba,7,780
+max3d,00730,third,Giải Ba,8,861
+max3d,00731,special,Giải Đặc biệt,1,415
+max3d,00731,special,Giải Đặc biệt,2,036
+max3d,00731,first,Giải Nhất,1,902
+max3d,00731,first,Giải Nhất,2,783
+max3d,00731,first,Giải Nhất,3,851
+max3d,00731,first,Giải Nhất,4,122
+max3d,00731,second,Giải Nhì,1,676
+max3d,00731,second,Giải Nhì,2,880
+max3d,00731,second,Giải Nhì,3,780
+max3d,00731,second,Giải Nhì,4,819
+max3d,00731,second,Giải Nhì,5,972
+max3d,00731,second,Giải Nhì,6,881
+max3d,00731,third,Giải Ba,1,436
+max3d,00731,third,Giải Ba,2,335
+max3d,00731,third,Giải Ba,3,696
+max3d,00731,third,Giải Ba,4,713
+max3d,00731,third,Giải Ba,5,895
+max3d,00731,third,Giải Ba,6,408
+max3d,00731,third,Giải Ba,7,621
+max3d,00731,third,Giải Ba,8,599
+max3d,00732,special,Giải Đặc biệt,1,659
+max3d,00732,special,Giải Đặc biệt,2,370
+max3d,00732,first,Giải Nhất,1,766
+max3d,00732,first,Giải Nhất,2,092
+max3d,00732,first,Giải Nhất,3,622
+max3d,00732,first,Giải Nhất,4,447
+max3d,00732,second,Giải Nhì,1,535
+max3d,00732,second,Giải Nhì,2,280
+max3d,00732,second,Giải Nhì,3,142
+max3d,00732,second,Giải Nhì,4,421
+max3d,00732,second,Giải Nhì,5,941
+max3d,00732,second,Giải Nhì,6,250
+max3d,00732,third,Giải Ba,1,033
+max3d,00732,third,Giải Ba,2,799
+max3d,00732,third,Giải Ba,3,713
+max3d,00732,third,Giải Ba,4,379
+max3d,00732,third,Giải Ba,5,832
+max3d,00732,third,Giải Ba,6,606
+max3d,00732,third,Giải Ba,7,238
+max3d,00732,third,Giải Ba,8,425
+max3d,00733,special,Giải Đặc biệt,1,785
+max3d,00733,special,Giải Đặc biệt,2,987
+max3d,00733,first,Giải Nhất,1,989
+max3d,00733,first,Giải Nhất,2,337
+max3d,00733,first,Giải Nhất,3,766
+max3d,00733,first,Giải Nhất,4,569
+max3d,00733,second,Giải Nhì,1,697
+max3d,00733,second,Giải Nhì,2,885
+max3d,00733,second,Giải Nhì,3,107
+max3d,00733,second,Giải Nhì,4,306
+max3d,00733,second,Giải Nhì,5,134
+max3d,00733,second,Giải Nhì,6,336
+max3d,00733,third,Giải Ba,1,475
+max3d,00733,third,Giải Ba,2,612
+max3d,00733,third,Giải Ba,3,410
+max3d,00733,third,Giải Ba,4,172
+max3d,00733,third,Giải Ba,5,155
+max3d,00733,third,Giải Ba,6,093
+max3d,00733,third,Giải Ba,7,135
+max3d,00733,third,Giải Ba,8,388
+max3d,00734,special,Giải Đặc biệt,1,928
+max3d,00734,special,Giải Đặc biệt,2,870
+max3d,00734,first,Giải Nhất,1,757
+max3d,00734,first,Giải Nhất,2,567
+max3d,00734,first,Giải Nhất,3,541
+max3d,00734,first,Giải Nhất,4,718
+max3d,00734,second,Giải Nhì,1,256
+max3d,00734,second,Giải Nhì,2,167
+max3d,00734,second,Giải Nhì,3,824
+max3d,00734,second,Giải Nhì,4,097
+max3d,00734,second,Giải Nhì,5,400
+max3d,00734,second,Giải Nhì,6,574
+max3d,00734,third,Giải Ba,1,088
+max3d,00734,third,Giải Ba,2,475
+max3d,00734,third,Giải Ba,3,925
+max3d,00734,third,Giải Ba,4,599
+max3d,00734,third,Giải Ba,5,930
+max3d,00734,third,Giải Ba,6,383
+max3d,00734,third,Giải Ba,7,970
+max3d,00734,third,Giải Ba,8,607
+max3d,00735,special,Giải Đặc biệt,1,526
+max3d,00735,special,Giải Đặc biệt,2,275
+max3d,00735,first,Giải Nhất,1,239
+max3d,00735,first,Giải Nhất,2,795
+max3d,00735,first,Giải Nhất,3,406
+max3d,00735,first,Giải Nhất,4,141
+max3d,00735,second,Giải Nhì,1,852
+max3d,00735,second,Giải Nhì,2,566
+max3d,00735,second,Giải Nhì,3,664
+max3d,00735,second,Giải Nhì,4,357
+max3d,00735,second,Giải Nhì,5,413
+max3d,00735,second,Giải Nhì,6,249
+max3d,00735,third,Giải Ba,1,390
+max3d,00735,third,Giải Ba,2,707
+max3d,00735,third,Giải Ba,3,766
+max3d,00735,third,Giải Ba,4,374
+max3d,00735,third,Giải Ba,5,646
+max3d,00735,third,Giải Ba,6,342
+max3d,00735,third,Giải Ba,7,131
+max3d,00735,third,Giải Ba,8,363
+max3d,00736,special,Giải Đặc biệt,1,902
+max3d,00736,special,Giải Đặc biệt,2,630
+max3d,00736,first,Giải Nhất,1,294
+max3d,00736,first,Giải Nhất,2,466
+max3d,00736,first,Giải Nhất,3,054
+max3d,00736,first,Giải Nhất,4,310
+max3d,00736,second,Giải Nhì,1,369
+max3d,00736,second,Giải Nhì,2,975
+max3d,00736,second,Giải Nhì,3,284
+max3d,00736,second,Giải Nhì,4,793
+max3d,00736,second,Giải Nhì,5,269
+max3d,00736,second,Giải Nhì,6,203
+max3d,00736,third,Giải Ba,1,239
+max3d,00736,third,Giải Ba,2,808
+max3d,00736,third,Giải Ba,3,782
+max3d,00736,third,Giải Ba,4,683
+max3d,00736,third,Giải Ba,5,385
+max3d,00736,third,Giải Ba,6,271
+max3d,00736,third,Giải Ba,7,876
+max3d,00736,third,Giải Ba,8,489
+max3d,00737,special,Giải Đặc biệt,1,689
+max3d,00737,special,Giải Đặc biệt,2,686
+max3d,00737,first,Giải Nhất,1,718
+max3d,00737,first,Giải Nhất,2,183
+max3d,00737,first,Giải Nhất,3,323
+max3d,00737,first,Giải Nhất,4,620
+max3d,00737,second,Giải Nhì,1,470
+max3d,00737,second,Giải Nhì,2,429
+max3d,00737,second,Giải Nhì,3,137
+max3d,00737,second,Giải Nhì,4,891
+max3d,00737,second,Giải Nhì,5,924
+max3d,00737,second,Giải Nhì,6,772
+max3d,00737,third,Giải Ba,1,934
+max3d,00737,third,Giải Ba,2,086
+max3d,00737,third,Giải Ba,3,689
+max3d,00737,third,Giải Ba,4,052
+max3d,00737,third,Giải Ba,5,866
+max3d,00737,third,Giải Ba,6,660
+max3d,00737,third,Giải Ba,7,096
+max3d,00737,third,Giải Ba,8,201
+max3d,00738,special,Giải Đặc biệt,1,264
+max3d,00738,special,Giải Đặc biệt,2,759
+max3d,00738,first,Giải Nhất,1,074
+max3d,00738,first,Giải Nhất,2,514
+max3d,00738,first,Giải Nhất,3,644
+max3d,00738,first,Giải Nhất,4,603
+max3d,00738,second,Giải Nhì,1,827
+max3d,00738,second,Giải Nhì,2,698
+max3d,00738,second,Giải Nhì,3,038
+max3d,00738,second,Giải Nhì,4,664
+max3d,00738,second,Giải Nhì,5,671
+max3d,00738,second,Giải Nhì,6,984
+max3d,00738,third,Giải Ba,1,643
+max3d,00738,third,Giải Ba,2,682
+max3d,00738,third,Giải Ba,3,615
+max3d,00738,third,Giải Ba,4,872
+max3d,00738,third,Giải Ba,5,294
+max3d,00738,third,Giải Ba,6,979
+max3d,00738,third,Giải Ba,7,570
+max3d,00738,third,Giải Ba,8,937
+max3d,00739,special,Giải Đặc biệt,1,864
+max3d,00739,special,Giải Đặc biệt,2,325
+max3d,00739,first,Giải Nhất,1,846
+max3d,00739,first,Giải Nhất,2,892
+max3d,00739,first,Giải Nhất,3,827
+max3d,00739,first,Giải Nhất,4,091
+max3d,00739,second,Giải Nhì,1,410
+max3d,00739,second,Giải Nhì,2,813
+max3d,00739,second,Giải Nhì,3,413
+max3d,00739,second,Giải Nhì,4,696
+max3d,00739,second,Giải Nhì,5,559
+max3d,00739,second,Giải Nhì,6,076
+max3d,00739,third,Giải Ba,1,683
+max3d,00739,third,Giải Ba,2,906
+max3d,00739,third,Giải Ba,3,335
+max3d,00739,third,Giải Ba,4,750
+max3d,00739,third,Giải Ba,5,079
+max3d,00739,third,Giải Ba,6,223
+max3d,00739,third,Giải Ba,7,713
+max3d,00739,third,Giải Ba,8,663
+max3d,00740,special,Giải Đặc biệt,1,427
+max3d,00740,special,Giải Đặc biệt,2,334
+max3d,00740,first,Giải Nhất,1,312
+max3d,00740,first,Giải Nhất,2,611
+max3d,00740,first,Giải Nhất,3,794
+max3d,00740,first,Giải Nhất,4,805
+max3d,00740,second,Giải Nhì,1,688
+max3d,00740,second,Giải Nhì,2,304
+max3d,00740,second,Giải Nhì,3,215
+max3d,00740,second,Giải Nhì,4,580
+max3d,00740,second,Giải Nhì,5,455
+max3d,00740,second,Giải Nhì,6,689
+max3d,00740,third,Giải Ba,1,103
+max3d,00740,third,Giải Ba,2,051
+max3d,00740,third,Giải Ba,3,374
+max3d,00740,third,Giải Ba,4,615
+max3d,00740,third,Giải Ba,5,342
+max3d,00740,third,Giải Ba,6,625
+max3d,00740,third,Giải Ba,7,004
+max3d,00740,third,Giải Ba,8,226
+max3d,00741,special,Giải Đặc biệt,1,323
+max3d,00741,special,Giải Đặc biệt,2,457
+max3d,00741,first,Giải Nhất,1,959
+max3d,00741,first,Giải Nhất,2,237
+max3d,00741,first,Giải Nhất,3,736
+max3d,00741,first,Giải Nhất,4,094
+max3d,00741,second,Giải Nhì,1,973
+max3d,00741,second,Giải Nhì,2,795
+max3d,00741,second,Giải Nhì,3,165
+max3d,00741,second,Giải Nhì,4,957
+max3d,00741,second,Giải Nhì,5,119
+max3d,00741,second,Giải Nhì,6,556
+max3d,00741,third,Giải Ba,1,673
+max3d,00741,third,Giải Ba,2,778
+max3d,00741,third,Giải Ba,3,240
+max3d,00741,third,Giải Ba,4,358
+max3d,00741,third,Giải Ba,5,031
+max3d,00741,third,Giải Ba,6,485
+max3d,00741,third,Giải Ba,7,159
+max3d,00741,third,Giải Ba,8,321
+max3d,00742,special,Giải Đặc biệt,1,376
+max3d,00742,special,Giải Đặc biệt,2,444
+max3d,00742,first,Giải Nhất,1,408
+max3d,00742,first,Giải Nhất,2,533
+max3d,00742,first,Giải Nhất,3,174
+max3d,00742,first,Giải Nhất,4,330
+max3d,00742,second,Giải Nhì,1,629
+max3d,00742,second,Giải Nhì,2,480
+max3d,00742,second,Giải Nhì,3,846
+max3d,00742,second,Giải Nhì,4,856
+max3d,00742,second,Giải Nhì,5,962
+max3d,00742,second,Giải Nhì,6,094
+max3d,00742,third,Giải Ba,1,157
+max3d,00742,third,Giải Ba,2,568
+max3d,00742,third,Giải Ba,3,737
+max3d,00742,third,Giải Ba,4,795
+max3d,00742,third,Giải Ba,5,556
+max3d,00742,third,Giải Ba,6,861
+max3d,00742,third,Giải Ba,7,735
+max3d,00742,third,Giải Ba,8,136
+max3d,00743,special,Giải Đặc biệt,1,892
+max3d,00743,special,Giải Đặc biệt,2,153
+max3d,00743,first,Giải Nhất,1,632
+max3d,00743,first,Giải Nhất,2,595
+max3d,00743,first,Giải Nhất,3,546
+max3d,00743,first,Giải Nhất,4,990
+max3d,00743,second,Giải Nhì,1,203
+max3d,00743,second,Giải Nhì,2,106
+max3d,00743,second,Giải Nhì,3,021
+max3d,00743,second,Giải Nhì,4,939
+max3d,00743,second,Giải Nhì,5,290
+max3d,00743,second,Giải Nhì,6,799
+max3d,00743,third,Giải Ba,1,316
+max3d,00743,third,Giải Ba,2,355
+max3d,00743,third,Giải Ba,3,830
+max3d,00743,third,Giải Ba,4,677
+max3d,00743,third,Giải Ba,5,528
+max3d,00743,third,Giải Ba,6,445
+max3d,00743,third,Giải Ba,7,395
+max3d,00743,third,Giải Ba,8,593
+max3d,00744,special,Giải Đặc biệt,1,189
+max3d,00744,special,Giải Đặc biệt,2,011
+max3d,00744,first,Giải Nhất,1,603
+max3d,00744,first,Giải Nhất,2,177
+max3d,00744,first,Giải Nhất,3,486
+max3d,00744,first,Giải Nhất,4,517
+max3d,00744,second,Giải Nhì,1,668
+max3d,00744,second,Giải Nhì,2,658
+max3d,00744,second,Giải Nhì,3,020
+max3d,00744,second,Giải Nhì,4,611
+max3d,00744,second,Giải Nhì,5,570
+max3d,00744,second,Giải Nhì,6,735
+max3d,00744,third,Giải Ba,1,685
+max3d,00744,third,Giải Ba,2,487
+max3d,00744,third,Giải Ba,3,899
+max3d,00744,third,Giải Ba,4,650
+max3d,00744,third,Giải Ba,5,134
+max3d,00744,third,Giải Ba,6,843
+max3d,00744,third,Giải Ba,7,785
+max3d,00744,third,Giải Ba,8,623
+max3d,00745,special,Giải Đặc biệt,1,918
+max3d,00745,special,Giải Đặc biệt,2,551
+max3d,00745,first,Giải Nhất,1,305
+max3d,00745,first,Giải Nhất,2,428
+max3d,00745,first,Giải Nhất,3,862
+max3d,00745,first,Giải Nhất,4,084
+max3d,00745,second,Giải Nhì,1,801
+max3d,00745,second,Giải Nhì,2,435
+max3d,00745,second,Giải Nhì,3,542
+max3d,00745,second,Giải Nhì,4,662
+max3d,00745,second,Giải Nhì,5,330
+max3d,00745,second,Giải Nhì,6,297
+max3d,00745,third,Giải Ba,1,354
+max3d,00745,third,Giải Ba,2,827
+max3d,00745,third,Giải Ba,3,420
+max3d,00745,third,Giải Ba,4,356
+max3d,00745,third,Giải Ba,5,463
+max3d,00745,third,Giải Ba,6,800
+max3d,00745,third,Giải Ba,7,817
+max3d,00745,third,Giải Ba,8,390
+max3d,00746,special,Giải Đặc biệt,1,415
+max3d,00746,special,Giải Đặc biệt,2,783
+max3d,00746,first,Giải Nhất,1,400
+max3d,00746,first,Giải Nhất,2,139
+max3d,00746,first,Giải Nhất,3,075
+max3d,00746,first,Giải Nhất,4,401
+max3d,00746,second,Giải Nhì,1,356
+max3d,00746,second,Giải Nhì,2,791
+max3d,00746,second,Giải Nhì,3,888
+max3d,00746,second,Giải Nhì,4,386
+max3d,00746,second,Giải Nhì,5,669
+max3d,00746,second,Giải Nhì,6,470
+max3d,00746,third,Giải Ba,1,487
+max3d,00746,third,Giải Ba,2,927
+max3d,00746,third,Giải Ba,3,277
+max3d,00746,third,Giải Ba,4,748
+max3d,00746,third,Giải Ba,5,988
+max3d,00746,third,Giải Ba,6,993
+max3d,00746,third,Giải Ba,7,755
+max3d,00746,third,Giải Ba,8,222
+max3d,00747,special,Giải Đặc biệt,1,359
+max3d,00747,special,Giải Đặc biệt,2,924
+max3d,00747,first,Giải Nhất,1,177
+max3d,00747,first,Giải Nhất,2,280
+max3d,00747,first,Giải Nhất,3,851
+max3d,00747,first,Giải Nhất,4,941
+max3d,00747,second,Giải Nhì,1,991
+max3d,00747,second,Giải Nhì,2,273
+max3d,00747,second,Giải Nhì,3,976
+max3d,00747,second,Giải Nhì,4,706
+max3d,00747,second,Giải Nhì,5,691
+max3d,00747,second,Giải Nhì,6,844
+max3d,00747,third,Giải Ba,1,286
+max3d,00747,third,Giải Ba,2,068
+max3d,00747,third,Giải Ba,3,691
+max3d,00747,third,Giải Ba,4,271
+max3d,00747,third,Giải Ba,5,832
+max3d,00747,third,Giải Ba,6,407
+max3d,00747,third,Giải Ba,7,551
+max3d,00747,third,Giải Ba,8,279
+max3d,00748,special,Giải Đặc biệt,1,887
+max3d,00748,special,Giải Đặc biệt,2,272
+max3d,00748,first,Giải Nhất,1,766
+max3d,00748,first,Giải Nhất,2,046
+max3d,00748,first,Giải Nhất,3,292
+max3d,00748,first,Giải Nhất,4,276
+max3d,00748,second,Giải Nhì,1,140
+max3d,00748,second,Giải Nhì,2,081
+max3d,00748,second,Giải Nhì,3,967
+max3d,00748,second,Giải Nhì,4,302
+max3d,00748,second,Giải Nhì,5,514
+max3d,00748,second,Giải Nhì,6,930
+max3d,00748,third,Giải Ba,1,910
+max3d,00748,third,Giải Ba,2,704
+max3d,00748,third,Giải Ba,3,797
+max3d,00748,third,Giải Ba,4,728
+max3d,00748,third,Giải Ba,5,824
+max3d,00748,third,Giải Ba,6,866
+max3d,00748,third,Giải Ba,7,256
+max3d,00748,third,Giải Ba,8,696
+max3d,00749,special,Giải Đặc biệt,1,021
+max3d,00749,special,Giải Đặc biệt,2,859
+max3d,00749,first,Giải Nhất,1,971
+max3d,00749,first,Giải Nhất,2,420
+max3d,00749,first,Giải Nhất,3,088
+max3d,00749,first,Giải Nhất,4,572
+max3d,00749,second,Giải Nhì,1,450
+max3d,00749,second,Giải Nhì,2,371
+max3d,00749,second,Giải Nhì,3,362
+max3d,00749,second,Giải Nhì,4,973
+max3d,00749,second,Giải Nhì,5,171
+max3d,00749,second,Giải Nhì,6,032
+max3d,00749,third,Giải Ba,1,598
+max3d,00749,third,Giải Ba,2,290
+max3d,00749,third,Giải Ba,3,276
+max3d,00749,third,Giải Ba,4,149
+max3d,00749,third,Giải Ba,5,661
+max3d,00749,third,Giải Ba,6,233
+max3d,00749,third,Giải Ba,7,454
+max3d,00749,third,Giải Ba,8,367
+max3d,00750,special,Giải Đặc biệt,1,572
+max3d,00750,special,Giải Đặc biệt,2,211
+max3d,00750,first,Giải Nhất,1,914
+max3d,00750,first,Giải Nhất,2,900
+max3d,00750,first,Giải Nhất,3,845
+max3d,00750,first,Giải Nhất,4,854
+max3d,00750,second,Giải Nhì,1,346
+max3d,00750,second,Giải Nhì,2,081
+max3d,00750,second,Giải Nhì,3,560
+max3d,00750,second,Giải Nhì,4,199
+max3d,00750,second,Giải Nhì,5,991
+max3d,00750,second,Giải Nhì,6,016
+max3d,00750,third,Giải Ba,1,314
+max3d,00750,third,Giải Ba,2,280
+max3d,00750,third,Giải Ba,3,317
+max3d,00750,third,Giải Ba,4,717
+max3d,00750,third,Giải Ba,5,076
+max3d,00750,third,Giải Ba,6,340
+max3d,00750,third,Giải Ba,7,462
+max3d,00750,third,Giải Ba,8,708
+max3d,00751,special,Giải Đặc biệt,1,572
+max3d,00751,special,Giải Đặc biệt,2,807
+max3d,00751,first,Giải Nhất,1,459
+max3d,00751,first,Giải Nhất,2,252
+max3d,00751,first,Giải Nhất,3,285
+max3d,00751,first,Giải Nhất,4,085
+max3d,00751,second,Giải Nhì,1,507
+max3d,00751,second,Giải Nhì,2,222
+max3d,00751,second,Giải Nhì,3,125
+max3d,00751,second,Giải Nhì,4,363
+max3d,00751,second,Giải Nhì,5,829
+max3d,00751,second,Giải Nhì,6,739
+max3d,00751,third,Giải Ba,1,970
+max3d,00751,third,Giải Ba,2,130
+max3d,00751,third,Giải Ba,3,362
+max3d,00751,third,Giải Ba,4,808
+max3d,00751,third,Giải Ba,5,599
+max3d,00751,third,Giải Ba,6,150
+max3d,00751,third,Giải Ba,7,825
+max3d,00751,third,Giải Ba,8,070
+max3d,00752,special,Giải Đặc biệt,1,677
+max3d,00752,special,Giải Đặc biệt,2,048
+max3d,00752,first,Giải Nhất,1,734
+max3d,00752,first,Giải Nhất,2,538
+max3d,00752,first,Giải Nhất,3,040
+max3d,00752,first,Giải Nhất,4,803
+max3d,00752,second,Giải Nhì,1,493
+max3d,00752,second,Giải Nhì,2,844
+max3d,00752,second,Giải Nhì,3,085
+max3d,00752,second,Giải Nhì,4,850
+max3d,00752,second,Giải Nhì,5,556
+max3d,00752,second,Giải Nhì,6,432
+max3d,00752,third,Giải Ba,1,723
+max3d,00752,third,Giải Ba,2,115
+max3d,00752,third,Giải Ba,3,538
+max3d,00752,third,Giải Ba,4,007
+max3d,00752,third,Giải Ba,5,418
+max3d,00752,third,Giải Ba,6,992
+max3d,00752,third,Giải Ba,7,060
+max3d,00752,third,Giải Ba,8,202
+max3d,00753,special,Giải Đặc biệt,1,356
+max3d,00753,special,Giải Đặc biệt,2,026
+max3d,00753,first,Giải Nhất,1,553
+max3d,00753,first,Giải Nhất,2,466
+max3d,00753,first,Giải Nhất,3,562
+max3d,00753,first,Giải Nhất,4,100
+max3d,00753,second,Giải Nhì,1,206
+max3d,00753,second,Giải Nhì,2,479
+max3d,00753,second,Giải Nhì,3,436
+max3d,00753,second,Giải Nhì,4,998
+max3d,00753,second,Giải Nhì,5,641
+max3d,00753,second,Giải Nhì,6,371
+max3d,00753,third,Giải Ba,1,093
+max3d,00753,third,Giải Ba,2,484
+max3d,00753,third,Giải Ba,3,673
+max3d,00753,third,Giải Ba,4,820
+max3d,00753,third,Giải Ba,5,117
+max3d,00753,third,Giải Ba,6,149
+max3d,00753,third,Giải Ba,7,111
+max3d,00753,third,Giải Ba,8,888
+max3d,00754,special,Giải Đặc biệt,1,577
+max3d,00754,special,Giải Đặc biệt,2,268
+max3d,00754,first,Giải Nhất,1,353
+max3d,00754,first,Giải Nhất,2,360
+max3d,00754,first,Giải Nhất,3,313
+max3d,00754,first,Giải Nhất,4,399
+max3d,00754,second,Giải Nhì,1,669
+max3d,00754,second,Giải Nhì,2,493
+max3d,00754,second,Giải Nhì,3,577
+max3d,00754,second,Giải Nhì,4,671
+max3d,00754,second,Giải Nhì,5,090
+max3d,00754,second,Giải Nhì,6,720
+max3d,00754,third,Giải Ba,1,626
+max3d,00754,third,Giải Ba,2,240
+max3d,00754,third,Giải Ba,3,729
+max3d,00754,third,Giải Ba,4,972
+max3d,00754,third,Giải Ba,5,531
+max3d,00754,third,Giải Ba,6,445
+max3d,00754,third,Giải Ba,7,921
+max3d,00754,third,Giải Ba,8,216
+max3d,00755,special,Giải Đặc biệt,1,720
+max3d,00755,special,Giải Đặc biệt,2,217
+max3d,00755,first,Giải Nhất,1,573
+max3d,00755,first,Giải Nhất,2,379
+max3d,00755,first,Giải Nhất,3,612
+max3d,00755,first,Giải Nhất,4,338
+max3d,00755,second,Giải Nhì,1,264
+max3d,00755,second,Giải Nhì,2,144
+max3d,00755,second,Giải Nhì,3,114
+max3d,00755,second,Giải Nhì,4,025
+max3d,00755,second,Giải Nhì,5,465
+max3d,00755,second,Giải Nhì,6,932
+max3d,00755,third,Giải Ba,1,041
+max3d,00755,third,Giải Ba,2,665
+max3d,00755,third,Giải Ba,3,038
+max3d,00755,third,Giải Ba,4,389
+max3d,00755,third,Giải Ba,5,067
+max3d,00755,third,Giải Ba,6,748
+max3d,00755,third,Giải Ba,7,226
+max3d,00755,third,Giải Ba,8,557
+max3d,00756,special,Giải Đặc biệt,1,157
+max3d,00756,special,Giải Đặc biệt,2,349
+max3d,00756,first,Giải Nhất,1,832
+max3d,00756,first,Giải Nhất,2,311
+max3d,00756,first,Giải Nhất,3,228
+max3d,00756,first,Giải Nhất,4,735
+max3d,00756,second,Giải Nhì,1,650
+max3d,00756,second,Giải Nhì,2,867
+max3d,00756,second,Giải Nhì,3,963
+max3d,00756,second,Giải Nhì,4,236
+max3d,00756,second,Giải Nhì,5,487
+max3d,00756,second,Giải Nhì,6,513
+max3d,00756,third,Giải Ba,1,300
+max3d,00756,third,Giải Ba,2,819
+max3d,00756,third,Giải Ba,3,478
+max3d,00756,third,Giải Ba,4,882
+max3d,00756,third,Giải Ba,5,979
+max3d,00756,third,Giải Ba,6,692
+max3d,00756,third,Giải Ba,7,611
+max3d,00756,third,Giải Ba,8,094
+max3d,00757,special,Giải Đặc biệt,1,273
+max3d,00757,special,Giải Đặc biệt,2,124
+max3d,00757,first,Giải Nhất,1,317
+max3d,00757,first,Giải Nhất,2,333
+max3d,00757,first,Giải Nhất,3,298
+max3d,00757,first,Giải Nhất,4,812
+max3d,00757,second,Giải Nhì,1,644
+max3d,00757,second,Giải Nhì,2,636
+max3d,00757,second,Giải Nhì,3,420
+max3d,00757,second,Giải Nhì,4,510
+max3d,00757,second,Giải Nhì,5,307
+max3d,00757,second,Giải Nhì,6,709
+max3d,00757,third,Giải Ba,1,914
+max3d,00757,third,Giải Ba,2,571
+max3d,00757,third,Giải Ba,3,612
+max3d,00757,third,Giải Ba,4,278
+max3d,00757,third,Giải Ba,5,441
+max3d,00757,third,Giải Ba,6,796
+max3d,00757,third,Giải Ba,7,128
+max3d,00757,third,Giải Ba,8,234
+max3d,00758,special,Giải Đặc biệt,1,400
+max3d,00758,special,Giải Đặc biệt,2,736
+max3d,00758,first,Giải Nhất,1,226
+max3d,00758,first,Giải Nhất,2,212
+max3d,00758,first,Giải Nhất,3,454
+max3d,00758,first,Giải Nhất,4,631
+max3d,00758,second,Giải Nhì,1,641
+max3d,00758,second,Giải Nhì,2,669
+max3d,00758,second,Giải Nhì,3,445
+max3d,00758,second,Giải Nhì,4,154
+max3d,00758,second,Giải Nhì,5,183
+max3d,00758,second,Giải Nhì,6,867
+max3d,00758,third,Giải Ba,1,484
+max3d,00758,third,Giải Ba,2,923
+max3d,00758,third,Giải Ba,3,347
+max3d,00758,third,Giải Ba,4,270
+max3d,00758,third,Giải Ba,5,385
+max3d,00758,third,Giải Ba,6,460
+max3d,00758,third,Giải Ba,7,322
+max3d,00758,third,Giải Ba,8,141
+max3d,00759,special,Giải Đặc biệt,1,879
+max3d,00759,special,Giải Đặc biệt,2,319
+max3d,00759,first,Giải Nhất,1,299
+max3d,00759,first,Giải Nhất,2,833
+max3d,00759,first,Giải Nhất,3,926
+max3d,00759,first,Giải Nhất,4,356
+max3d,00759,second,Giải Nhì,1,686
+max3d,00759,second,Giải Nhì,2,270
+max3d,00759,second,Giải Nhì,3,011
+max3d,00759,second,Giải Nhì,4,983
+max3d,00759,second,Giải Nhì,5,076
+max3d,00759,second,Giải Nhì,6,048
+max3d,00759,third,Giải Ba,1,271
+max3d,00759,third,Giải Ba,2,131
+max3d,00759,third,Giải Ba,3,766
+max3d,00759,third,Giải Ba,4,852
+max3d,00759,third,Giải Ba,5,100
+max3d,00759,third,Giải Ba,6,760
+max3d,00759,third,Giải Ba,7,835
+max3d,00759,third,Giải Ba,8,225
+max3d,00760,special,Giải Đặc biệt,1,200
+max3d,00760,special,Giải Đặc biệt,2,297
+max3d,00760,first,Giải Nhất,1,501
+max3d,00760,first,Giải Nhất,2,387
+max3d,00760,first,Giải Nhất,3,402
+max3d,00760,first,Giải Nhất,4,733
+max3d,00760,second,Giải Nhì,1,043
+max3d,00760,second,Giải Nhì,2,024
+max3d,00760,second,Giải Nhì,3,346
+max3d,00760,second,Giải Nhì,4,578
+max3d,00760,second,Giải Nhì,5,729
+max3d,00760,second,Giải Nhì,6,548
+max3d,00760,third,Giải Ba,1,545
+max3d,00760,third,Giải Ba,2,067
+max3d,00760,third,Giải Ba,3,608
+max3d,00760,third,Giải Ba,4,388
+max3d,00760,third,Giải Ba,5,305
+max3d,00760,third,Giải Ba,6,726
+max3d,00760,third,Giải Ba,7,700
+max3d,00760,third,Giải Ba,8,216
+max3d,00761,special,Giải Đặc biệt,1,848
+max3d,00761,special,Giải Đặc biệt,2,528
+max3d,00761,first,Giải Nhất,1,158
+max3d,00761,first,Giải Nhất,2,438
+max3d,00761,first,Giải Nhất,3,060
+max3d,00761,first,Giải Nhất,4,879
+max3d,00761,second,Giải Nhì,1,300
+max3d,00761,second,Giải Nhì,2,246
+max3d,00761,second,Giải Nhì,3,826
+max3d,00761,second,Giải Nhì,4,422
+max3d,00761,second,Giải Nhì,5,959
+max3d,00761,second,Giải Nhì,6,300
+max3d,00761,third,Giải Ba,1,308
+max3d,00761,third,Giải Ba,2,523
+max3d,00761,third,Giải Ba,3,285
+max3d,00761,third,Giải Ba,4,509
+max3d,00761,third,Giải Ba,5,686
+max3d,00761,third,Giải Ba,6,998
+max3d,00761,third,Giải Ba,7,088
+max3d,00761,third,Giải Ba,8,266
+max3d,00762,special,Giải Đặc biệt,1,171
+max3d,00762,special,Giải Đặc biệt,2,119
+max3d,00762,first,Giải Nhất,1,882
+max3d,00762,first,Giải Nhất,2,271
+max3d,00762,first,Giải Nhất,3,027
+max3d,00762,first,Giải Nhất,4,078
+max3d,00762,second,Giải Nhì,1,431
+max3d,00762,second,Giải Nhì,2,340
+max3d,00762,second,Giải Nhì,3,087
+max3d,00762,second,Giải Nhì,4,988
+max3d,00762,second,Giải Nhì,5,744
+max3d,00762,second,Giải Nhì,6,204
+max3d,00762,third,Giải Ba,1,476
+max3d,00762,third,Giải Ba,2,806
+max3d,00762,third,Giải Ba,3,441
+max3d,00762,third,Giải Ba,4,918
+max3d,00762,third,Giải Ba,5,490
+max3d,00762,third,Giải Ba,6,218
+max3d,00762,third,Giải Ba,7,865
+max3d,00762,third,Giải Ba,8,255
+max3d,00763,special,Giải Đặc biệt,1,577
+max3d,00763,special,Giải Đặc biệt,2,704
+max3d,00763,first,Giải Nhất,1,380
+max3d,00763,first,Giải Nhất,2,287
+max3d,00763,first,Giải Nhất,3,186
+max3d,00763,first,Giải Nhất,4,594
+max3d,00763,second,Giải Nhì,1,360
+max3d,00763,second,Giải Nhì,2,551
+max3d,00763,second,Giải Nhì,3,407
+max3d,00763,second,Giải Nhì,4,717
+max3d,00763,second,Giải Nhì,5,174
+max3d,00763,second,Giải Nhì,6,332
+max3d,00763,third,Giải Ba,1,334
+max3d,00763,third,Giải Ba,2,650
+max3d,00763,third,Giải Ba,3,073
+max3d,00763,third,Giải Ba,4,456
+max3d,00763,third,Giải Ba,5,296
+max3d,00763,third,Giải Ba,6,592
+max3d,00763,third,Giải Ba,7,819
+max3d,00763,third,Giải Ba,8,496
+max3d,00764,special,Giải Đặc biệt,1,119
+max3d,00764,special,Giải Đặc biệt,2,793
+max3d,00764,first,Giải Nhất,1,750
+max3d,00764,first,Giải Nhất,2,665
+max3d,00764,first,Giải Nhất,3,323
+max3d,00764,first,Giải Nhất,4,285
+max3d,00764,second,Giải Nhì,1,448
+max3d,00764,second,Giải Nhì,2,247
+max3d,00764,second,Giải Nhì,3,905
+max3d,00764,second,Giải Nhì,4,501
+max3d,00764,second,Giải Nhì,5,588
+max3d,00764,second,Giải Nhì,6,309
+max3d,00764,third,Giải Ba,1,364
+max3d,00764,third,Giải Ba,2,323
+max3d,00764,third,Giải Ba,3,421
+max3d,00764,third,Giải Ba,4,386
+max3d,00764,third,Giải Ba,5,190
+max3d,00764,third,Giải Ba,6,065
+max3d,00764,third,Giải Ba,7,594
+max3d,00764,third,Giải Ba,8,694
+max3d,00765,special,Giải Đặc biệt,1,713
+max3d,00765,special,Giải Đặc biệt,2,446
+max3d,00765,first,Giải Nhất,1,061
+max3d,00765,first,Giải Nhất,2,858
+max3d,00765,first,Giải Nhất,3,288
+max3d,00765,first,Giải Nhất,4,321
+max3d,00765,second,Giải Nhì,1,167
+max3d,00765,second,Giải Nhì,2,529
+max3d,00765,second,Giải Nhì,3,730
+max3d,00765,second,Giải Nhì,4,305
+max3d,00765,second,Giải Nhì,5,585
+max3d,00765,second,Giải Nhì,6,336
+max3d,00765,third,Giải Ba,1,000
+max3d,00765,third,Giải Ba,2,096
+max3d,00765,third,Giải Ba,3,578
+max3d,00765,third,Giải Ba,4,780
+max3d,00765,third,Giải Ba,5,367
+max3d,00765,third,Giải Ba,6,233
+max3d,00765,third,Giải Ba,7,050
+max3d,00765,third,Giải Ba,8,943
+max3d,00766,special,Giải Đặc biệt,1,687
+max3d,00766,special,Giải Đặc biệt,2,453
+max3d,00766,first,Giải Nhất,1,345
+max3d,00766,first,Giải Nhất,2,933
+max3d,00766,first,Giải Nhất,3,468
+max3d,00766,first,Giải Nhất,4,666
+max3d,00766,second,Giải Nhì,1,446
+max3d,00766,second,Giải Nhì,2,996
+max3d,00766,second,Giải Nhì,3,899
+max3d,00766,second,Giải Nhì,4,426
+max3d,00766,second,Giải Nhì,5,559
+max3d,00766,second,Giải Nhì,6,051
+max3d,00766,third,Giải Ba,1,060
+max3d,00766,third,Giải Ba,2,616
+max3d,00766,third,Giải Ba,3,667
+max3d,00766,third,Giải Ba,4,024
+max3d,00766,third,Giải Ba,5,615
+max3d,00766,third,Giải Ba,6,821
+max3d,00766,third,Giải Ba,7,899
+max3d,00766,third,Giải Ba,8,790
+max3d,00767,special,Giải Đặc biệt,1,289
+max3d,00767,special,Giải Đặc biệt,2,278
+max3d,00767,first,Giải Nhất,1,890
+max3d,00767,first,Giải Nhất,2,982
+max3d,00767,first,Giải Nhất,3,099
+max3d,00767,first,Giải Nhất,4,204
+max3d,00767,second,Giải Nhì,1,613
+max3d,00767,second,Giải Nhì,2,000
+max3d,00767,second,Giải Nhì,3,618
+max3d,00767,second,Giải Nhì,4,763
+max3d,00767,second,Giải Nhì,5,380
+max3d,00767,second,Giải Nhì,6,830
+max3d,00767,third,Giải Ba,1,817
+max3d,00767,third,Giải Ba,2,484
+max3d,00767,third,Giải Ba,3,920
+max3d,00767,third,Giải Ba,4,732
+max3d,00767,third,Giải Ba,5,842
+max3d,00767,third,Giải Ba,6,292
+max3d,00767,third,Giải Ba,7,484
+max3d,00767,third,Giải Ba,8,733
+max3d,00768,special,Giải Đặc biệt,1,134
+max3d,00768,special,Giải Đặc biệt,2,952
+max3d,00768,first,Giải Nhất,1,752
+max3d,00768,first,Giải Nhất,2,760
+max3d,00768,first,Giải Nhất,3,202
+max3d,00768,first,Giải Nhất,4,164
+max3d,00768,second,Giải Nhì,1,722
+max3d,00768,second,Giải Nhì,2,236
+max3d,00768,second,Giải Nhì,3,943
+max3d,00768,second,Giải Nhì,4,895
+max3d,00768,second,Giải Nhì,5,656
+max3d,00768,second,Giải Nhì,6,260
+max3d,00768,third,Giải Ba,1,430
+max3d,00768,third,Giải Ba,2,510
+max3d,00768,third,Giải Ba,3,669
+max3d,00768,third,Giải Ba,4,746
+max3d,00768,third,Giải Ba,5,607
+max3d,00768,third,Giải Ba,6,384
+max3d,00768,third,Giải Ba,7,998
+max3d,00768,third,Giải Ba,8,972
+max3d,00769,special,Giải Đặc biệt,1,388
+max3d,00769,special,Giải Đặc biệt,2,887
+max3d,00769,first,Giải Nhất,1,883
+max3d,00769,first,Giải Nhất,2,167
+max3d,00769,first,Giải Nhất,3,854
+max3d,00769,first,Giải Nhất,4,931
+max3d,00769,second,Giải Nhì,1,510
+max3d,00769,second,Giải Nhì,2,133
+max3d,00769,second,Giải Nhì,3,637
+max3d,00769,second,Giải Nhì,4,876
+max3d,00769,second,Giải Nhì,5,075
+max3d,00769,second,Giải Nhì,6,756
+max3d,00769,third,Giải Ba,1,193
+max3d,00769,third,Giải Ba,2,683
+max3d,00769,third,Giải Ba,3,756
+max3d,00769,third,Giải Ba,4,800
+max3d,00769,third,Giải Ba,5,682
+max3d,00769,third,Giải Ba,6,877
+max3d,00769,third,Giải Ba,7,807
+max3d,00769,third,Giải Ba,8,163
+max3d,00770,special,Giải Đặc biệt,1,750
+max3d,00770,special,Giải Đặc biệt,2,193
+max3d,00770,first,Giải Nhất,1,202
+max3d,00770,first,Giải Nhất,2,250
+max3d,00770,first,Giải Nhất,3,007
+max3d,00770,first,Giải Nhất,4,800
+max3d,00770,second,Giải Nhì,1,499
+max3d,00770,second,Giải Nhì,2,570
+max3d,00770,second,Giải Nhì,3,233
+max3d,00770,second,Giải Nhì,4,548
+max3d,00770,second,Giải Nhì,5,604
+max3d,00770,second,Giải Nhì,6,739
+max3d,00770,third,Giải Ba,1,047
+max3d,00770,third,Giải Ba,2,966
+max3d,00770,third,Giải Ba,3,682
+max3d,00770,third,Giải Ba,4,748
+max3d,00770,third,Giải Ba,5,494
+max3d,00770,third,Giải Ba,6,549
+max3d,00770,third,Giải Ba,7,052
+max3d,00770,third,Giải Ba,8,659
+max3d,00771,special,Giải Đặc biệt,1,820
+max3d,00771,special,Giải Đặc biệt,2,749
+max3d,00771,first,Giải Nhất,1,174
+max3d,00771,first,Giải Nhất,2,017
+max3d,00771,first,Giải Nhất,3,235
+max3d,00771,first,Giải Nhất,4,707
+max3d,00771,second,Giải Nhì,1,785
+max3d,00771,second,Giải Nhì,2,789
+max3d,00771,second,Giải Nhì,3,510
+max3d,00771,second,Giải Nhì,4,930
+max3d,00771,second,Giải Nhì,5,123
+max3d,00771,second,Giải Nhì,6,123
+max3d,00771,third,Giải Ba,1,769
+max3d,00771,third,Giải Ba,2,743
+max3d,00771,third,Giải Ba,3,308
+max3d,00771,third,Giải Ba,4,593
+max3d,00771,third,Giải Ba,5,675
+max3d,00771,third,Giải Ba,6,056
+max3d,00771,third,Giải Ba,7,927
+max3d,00771,third,Giải Ba,8,346
+max3d,00772,special,Giải Đặc biệt,1,493
+max3d,00772,special,Giải Đặc biệt,2,691
+max3d,00772,first,Giải Nhất,1,066
+max3d,00772,first,Giải Nhất,2,566
+max3d,00772,first,Giải Nhất,3,928
+max3d,00772,first,Giải Nhất,4,691
+max3d,00772,second,Giải Nhì,1,096
+max3d,00772,second,Giải Nhì,2,541
+max3d,00772,second,Giải Nhì,3,183
+max3d,00772,second,Giải Nhì,4,645
+max3d,00772,second,Giải Nhì,5,195
+max3d,00772,second,Giải Nhì,6,093
+max3d,00772,third,Giải Ba,1,411
+max3d,00772,third,Giải Ba,2,564
+max3d,00772,third,Giải Ba,3,679
+max3d,00772,third,Giải Ba,4,472
+max3d,00772,third,Giải Ba,5,579
+max3d,00772,third,Giải Ba,6,625
+max3d,00772,third,Giải Ba,7,802
+max3d,00772,third,Giải Ba,8,469
+max3d,00773,special,Giải Đặc biệt,1,465
+max3d,00773,special,Giải Đặc biệt,2,479
+max3d,00773,first,Giải Nhất,1,780
+max3d,00773,first,Giải Nhất,2,250
+max3d,00773,first,Giải Nhất,3,206
+max3d,00773,first,Giải Nhất,4,786
+max3d,00773,second,Giải Nhì,1,362
+max3d,00773,second,Giải Nhì,2,233
+max3d,00773,second,Giải Nhì,3,606
+max3d,00773,second,Giải Nhì,4,552
+max3d,00773,second,Giải Nhì,5,222
+max3d,00773,second,Giải Nhì,6,075
+max3d,00773,third,Giải Ba,1,209
+max3d,00773,third,Giải Ba,2,706
+max3d,00773,third,Giải Ba,3,218
+max3d,00773,third,Giải Ba,4,094
+max3d,00773,third,Giải Ba,5,500
+max3d,00773,third,Giải Ba,6,445
+max3d,00773,third,Giải Ba,7,480
+max3d,00773,third,Giải Ba,8,018
+max3d,00774,special,Giải Đặc biệt,1,896
+max3d,00774,special,Giải Đặc biệt,2,253
+max3d,00774,first,Giải Nhất,1,211
+max3d,00774,first,Giải Nhất,2,224
+max3d,00774,first,Giải Nhất,3,982
+max3d,00774,first,Giải Nhất,4,519
+max3d,00774,second,Giải Nhì,1,476
+max3d,00774,second,Giải Nhì,2,782
+max3d,00774,second,Giải Nhì,3,701
+max3d,00774,second,Giải Nhì,4,173
+max3d,00774,second,Giải Nhì,5,530
+max3d,00774,second,Giải Nhì,6,459
+max3d,00774,third,Giải Ba,1,328
+max3d,00774,third,Giải Ba,2,324
+max3d,00774,third,Giải Ba,3,172
+max3d,00774,third,Giải Ba,4,939
+max3d,00774,third,Giải Ba,5,298
+max3d,00774,third,Giải Ba,6,073
+max3d,00774,third,Giải Ba,7,410
+max3d,00774,third,Giải Ba,8,133
+max3d,00775,special,Giải Đặc biệt,1,368
+max3d,00775,special,Giải Đặc biệt,2,126
+max3d,00775,first,Giải Nhất,1,477
+max3d,00775,first,Giải Nhất,2,410
+max3d,00775,first,Giải Nhất,3,745
+max3d,00775,first,Giải Nhất,4,611
+max3d,00775,second,Giải Nhì,1,098
+max3d,00775,second,Giải Nhì,2,608
+max3d,00775,second,Giải Nhì,3,206
+max3d,00775,second,Giải Nhì,4,528
+max3d,00775,second,Giải Nhì,5,836
+max3d,00775,second,Giải Nhì,6,750
+max3d,00775,third,Giải Ba,1,625
+max3d,00775,third,Giải Ba,2,520
+max3d,00775,third,Giải Ba,3,657
+max3d,00775,third,Giải Ba,4,322
+max3d,00775,third,Giải Ba,5,617
+max3d,00775,third,Giải Ba,6,029
+max3d,00775,third,Giải Ba,7,466
+max3d,00775,third,Giải Ba,8,470
+max3d,00776,special,Giải Đặc biệt,1,041
+max3d,00776,special,Giải Đặc biệt,2,146
+max3d,00776,first,Giải Nhất,1,641
+max3d,00776,first,Giải Nhất,2,008
+max3d,00776,first,Giải Nhất,3,928
+max3d,00776,first,Giải Nhất,4,874
+max3d,00776,second,Giải Nhì,1,067
+max3d,00776,second,Giải Nhì,2,472
+max3d,00776,second,Giải Nhì,3,175
+max3d,00776,second,Giải Nhì,4,755
+max3d,00776,second,Giải Nhì,5,872
+max3d,00776,second,Giải Nhì,6,170
+max3d,00776,third,Giải Ba,1,855
+max3d,00776,third,Giải Ba,2,089
+max3d,00776,third,Giải Ba,3,098
+max3d,00776,third,Giải Ba,4,630
+max3d,00776,third,Giải Ba,5,707
+max3d,00776,third,Giải Ba,6,286
+max3d,00776,third,Giải Ba,7,960
+max3d,00776,third,Giải Ba,8,019
+max3d,00777,special,Giải Đặc biệt,1,042
+max3d,00777,special,Giải Đặc biệt,2,881
+max3d,00777,first,Giải Nhất,1,021
+max3d,00777,first,Giải Nhất,2,698
+max3d,00777,first,Giải Nhất,3,050
+max3d,00777,first,Giải Nhất,4,006
+max3d,00777,second,Giải Nhì,1,151
+max3d,00777,second,Giải Nhì,2,608
+max3d,00777,second,Giải Nhì,3,119
+max3d,00777,second,Giải Nhì,4,514
+max3d,00777,second,Giải Nhì,5,380
+max3d,00777,second,Giải Nhì,6,898
+max3d,00777,third,Giải Ba,1,699
+max3d,00777,third,Giải Ba,2,857
+max3d,00777,third,Giải Ba,3,626
+max3d,00777,third,Giải Ba,4,628
+max3d,00777,third,Giải Ba,5,492
+max3d,00777,third,Giải Ba,6,995
+max3d,00777,third,Giải Ba,7,649
+max3d,00777,third,Giải Ba,8,006
+max3d,00778,special,Giải Đặc biệt,1,043
+max3d,00778,special,Giải Đặc biệt,2,147
+max3d,00778,first,Giải Nhất,1,683
+max3d,00778,first,Giải Nhất,2,484
+max3d,00778,first,Giải Nhất,3,064
+max3d,00778,first,Giải Nhất,4,243
+max3d,00778,second,Giải Nhì,1,943
+max3d,00778,second,Giải Nhì,2,773
+max3d,00778,second,Giải Nhì,3,276
+max3d,00778,second,Giải Nhì,4,937
+max3d,00778,second,Giải Nhì,5,358
+max3d,00778,second,Giải Nhì,6,834
+max3d,00778,third,Giải Ba,1,119
+max3d,00778,third,Giải Ba,2,786
+max3d,00778,third,Giải Ba,3,691
+max3d,00778,third,Giải Ba,4,514
+max3d,00778,third,Giải Ba,5,227
+max3d,00778,third,Giải Ba,6,207
+max3d,00778,third,Giải Ba,7,747
+max3d,00778,third,Giải Ba,8,726
+max3d,00779,special,Giải Đặc biệt,1,538
+max3d,00779,special,Giải Đặc biệt,2,391
+max3d,00779,first,Giải Nhất,1,394
+max3d,00779,first,Giải Nhất,2,550
+max3d,00779,first,Giải Nhất,3,409
+max3d,00779,first,Giải Nhất,4,724
+max3d,00779,second,Giải Nhì,1,523
+max3d,00779,second,Giải Nhì,2,112
+max3d,00779,second,Giải Nhì,3,873
+max3d,00779,second,Giải Nhì,4,266
+max3d,00779,second,Giải Nhì,5,912
+max3d,00779,second,Giải Nhì,6,383
+max3d,00779,third,Giải Ba,1,554
+max3d,00779,third,Giải Ba,2,255
+max3d,00779,third,Giải Ba,3,635
+max3d,00779,third,Giải Ba,4,487
+max3d,00779,third,Giải Ba,5,119
+max3d,00779,third,Giải Ba,6,165
+max3d,00779,third,Giải Ba,7,100
+max3d,00779,third,Giải Ba,8,551
+max3d,00780,special,Giải Đặc biệt,1,950
+max3d,00780,special,Giải Đặc biệt,2,472
+max3d,00780,first,Giải Nhất,1,570
+max3d,00780,first,Giải Nhất,2,905
+max3d,00780,first,Giải Nhất,3,705
+max3d,00780,first,Giải Nhất,4,574
+max3d,00780,second,Giải Nhì,1,641
+max3d,00780,second,Giải Nhì,2,086
+max3d,00780,second,Giải Nhì,3,091
+max3d,00780,second,Giải Nhì,4,661
+max3d,00780,second,Giải Nhì,5,139
+max3d,00780,second,Giải Nhì,6,563
+max3d,00780,third,Giải Ba,1,396
+max3d,00780,third,Giải Ba,2,204
+max3d,00780,third,Giải Ba,3,591
+max3d,00780,third,Giải Ba,4,085
+max3d,00780,third,Giải Ba,5,849
+max3d,00780,third,Giải Ba,6,862
+max3d,00780,third,Giải Ba,7,756
+max3d,00780,third,Giải Ba,8,058
+max3d,00781,special,Giải Đặc biệt,1,889
+max3d,00781,special,Giải Đặc biệt,2,812
+max3d,00781,first,Giải Nhất,1,477
+max3d,00781,first,Giải Nhất,2,756
+max3d,00781,first,Giải Nhất,3,072
+max3d,00781,first,Giải Nhất,4,724
+max3d,00781,second,Giải Nhì,1,493
+max3d,00781,second,Giải Nhì,2,222
+max3d,00781,second,Giải Nhì,3,779
+max3d,00781,second,Giải Nhì,4,827
+max3d,00781,second,Giải Nhì,5,101
+max3d,00781,second,Giải Nhì,6,319
+max3d,00781,third,Giải Ba,1,985
+max3d,00781,third,Giải Ba,2,473
+max3d,00781,third,Giải Ba,3,706
+max3d,00781,third,Giải Ba,4,070
+max3d,00781,third,Giải Ba,5,606
+max3d,00781,third,Giải Ba,6,321
+max3d,00781,third,Giải Ba,7,027
+max3d,00781,third,Giải Ba,8,638
+max3d,00782,special,Giải Đặc biệt,1,870
+max3d,00782,special,Giải Đặc biệt,2,689
+max3d,00782,first,Giải Nhất,1,686
+max3d,00782,first,Giải Nhất,2,881
+max3d,00782,first,Giải Nhất,3,543
+max3d,00782,first,Giải Nhất,4,581
+max3d,00782,second,Giải Nhì,1,415
+max3d,00782,second,Giải Nhì,2,870
+max3d,00782,second,Giải Nhì,3,959
+max3d,00782,second,Giải Nhì,4,244
+max3d,00782,second,Giải Nhì,5,994
+max3d,00782,second,Giải Nhì,6,412
+max3d,00782,third,Giải Ba,1,219
+max3d,00782,third,Giải Ba,2,779
+max3d,00782,third,Giải Ba,3,161
+max3d,00782,third,Giải Ba,4,503
+max3d,00782,third,Giải Ba,5,468
+max3d,00782,third,Giải Ba,6,577
+max3d,00782,third,Giải Ba,7,577
+max3d,00782,third,Giải Ba,8,096
+max3d,00783,special,Giải Đặc biệt,1,687
+max3d,00783,special,Giải Đặc biệt,2,382
+max3d,00783,first,Giải Nhất,1,866
+max3d,00783,first,Giải Nhất,2,359
+max3d,00783,first,Giải Nhất,3,553
+max3d,00783,first,Giải Nhất,4,146
+max3d,00783,second,Giải Nhì,1,220
+max3d,00783,second,Giải Nhì,2,772
+max3d,00783,second,Giải Nhì,3,240
+max3d,00783,second,Giải Nhì,4,461
+max3d,00783,second,Giải Nhì,5,740
+max3d,00783,second,Giải Nhì,6,506
+max3d,00783,third,Giải Ba,1,122
+max3d,00783,third,Giải Ba,2,728
+max3d,00783,third,Giải Ba,3,603
+max3d,00783,third,Giải Ba,4,050
+max3d,00783,third,Giải Ba,5,687
+max3d,00783,third,Giải Ba,6,347
+max3d,00783,third,Giải Ba,7,302
+max3d,00783,third,Giải Ba,8,746
+max3d,00784,special,Giải Đặc biệt,1,340
+max3d,00784,special,Giải Đặc biệt,2,260
+max3d,00784,first,Giải Nhất,1,597
+max3d,00784,first,Giải Nhất,2,845
+max3d,00784,first,Giải Nhất,3,507
+max3d,00784,first,Giải Nhất,4,434
+max3d,00784,second,Giải Nhì,1,330
+max3d,00784,second,Giải Nhì,2,387
+max3d,00784,second,Giải Nhì,3,765
+max3d,00784,second,Giải Nhì,4,589
+max3d,00784,second,Giải Nhì,5,366
+max3d,00784,second,Giải Nhì,6,159
+max3d,00784,third,Giải Ba,1,368
+max3d,00784,third,Giải Ba,2,768
+max3d,00784,third,Giải Ba,3,090
+max3d,00784,third,Giải Ba,4,253
+max3d,00784,third,Giải Ba,5,847
+max3d,00784,third,Giải Ba,6,892
+max3d,00784,third,Giải Ba,7,125
+max3d,00784,third,Giải Ba,8,537
+max3d,00785,special,Giải Đặc biệt,1,057
+max3d,00785,special,Giải Đặc biệt,2,188
+max3d,00785,first,Giải Nhất,1,550
+max3d,00785,first,Giải Nhất,2,607
+max3d,00785,first,Giải Nhất,3,554
+max3d,00785,first,Giải Nhất,4,264
+max3d,00785,second,Giải Nhì,1,512
+max3d,00785,second,Giải Nhì,2,904
+max3d,00785,second,Giải Nhì,3,410
+max3d,00785,second,Giải Nhì,4,068
+max3d,00785,second,Giải Nhì,5,248
+max3d,00785,second,Giải Nhì,6,369
+max3d,00785,third,Giải Ba,1,858
+max3d,00785,third,Giải Ba,2,835
+max3d,00785,third,Giải Ba,3,115
+max3d,00785,third,Giải Ba,4,459
+max3d,00785,third,Giải Ba,5,365
+max3d,00785,third,Giải Ba,6,150
+max3d,00785,third,Giải Ba,7,855
+max3d,00785,third,Giải Ba,8,288
+max3d,00786,special,Giải Đặc biệt,1,825
+max3d,00786,special,Giải Đặc biệt,2,663
+max3d,00786,first,Giải Nhất,1,377
+max3d,00786,first,Giải Nhất,2,661
+max3d,00786,first,Giải Nhất,3,355
+max3d,00786,first,Giải Nhất,4,554
+max3d,00786,second,Giải Nhì,1,148
+max3d,00786,second,Giải Nhì,2,851
+max3d,00786,second,Giải Nhì,3,602
+max3d,00786,second,Giải Nhì,4,822
+max3d,00786,second,Giải Nhì,5,619
+max3d,00786,second,Giải Nhì,6,273
+max3d,00786,third,Giải Ba,1,795
+max3d,00786,third,Giải Ba,2,107
+max3d,00786,third,Giải Ba,3,599
+max3d,00786,third,Giải Ba,4,549
+max3d,00786,third,Giải Ba,5,322
+max3d,00786,third,Giải Ba,6,921
+max3d,00786,third,Giải Ba,7,432
+max3d,00786,third,Giải Ba,8,630
+max3d,00787,special,Giải Đặc biệt,1,443
+max3d,00787,special,Giải Đặc biệt,2,532
+max3d,00787,first,Giải Nhất,1,275
+max3d,00787,first,Giải Nhất,2,039
+max3d,00787,first,Giải Nhất,3,977
+max3d,00787,first,Giải Nhất,4,916
+max3d,00787,second,Giải Nhì,1,865
+max3d,00787,second,Giải Nhì,2,078
+max3d,00787,second,Giải Nhì,3,630
+max3d,00787,second,Giải Nhì,4,275
+max3d,00787,second,Giải Nhì,5,723
+max3d,00787,second,Giải Nhì,6,436
+max3d,00787,third,Giải Ba,1,678
+max3d,00787,third,Giải Ba,2,522
+max3d,00787,third,Giải Ba,3,424
+max3d,00787,third,Giải Ba,4,167
+max3d,00787,third,Giải Ba,5,706
+max3d,00787,third,Giải Ba,6,372
+max3d,00787,third,Giải Ba,7,993
+max3d,00787,third,Giải Ba,8,637
+max3d,00788,special,Giải Đặc biệt,1,398
+max3d,00788,special,Giải Đặc biệt,2,551
+max3d,00788,first,Giải Nhất,1,993
+max3d,00788,first,Giải Nhất,2,519
+max3d,00788,first,Giải Nhất,3,662
+max3d,00788,first,Giải Nhất,4,919
+max3d,00788,second,Giải Nhì,1,051
+max3d,00788,second,Giải Nhì,2,306
+max3d,00788,second,Giải Nhì,3,093
+max3d,00788,second,Giải Nhì,4,380
+max3d,00788,second,Giải Nhì,5,520
+max3d,00788,second,Giải Nhì,6,586
+max3d,00788,third,Giải Ba,1,772
+max3d,00788,third,Giải Ba,2,918
+max3d,00788,third,Giải Ba,3,867
+max3d,00788,third,Giải Ba,4,591
+max3d,00788,third,Giải Ba,5,605
+max3d,00788,third,Giải Ba,6,314
+max3d,00788,third,Giải Ba,7,422
+max3d,00788,third,Giải Ba,8,411
+max3d,00789,special,Giải Đặc biệt,1,789
+max3d,00789,special,Giải Đặc biệt,2,895
+max3d,00789,first,Giải Nhất,1,015
+max3d,00789,first,Giải Nhất,2,106
+max3d,00789,first,Giải Nhất,3,141
+max3d,00789,first,Giải Nhất,4,652
+max3d,00789,second,Giải Nhì,1,835
+max3d,00789,second,Giải Nhì,2,875
+max3d,00789,second,Giải Nhì,3,379
+max3d,00789,second,Giải Nhì,4,060
+max3d,00789,second,Giải Nhì,5,008
+max3d,00789,second,Giải Nhì,6,619
+max3d,00789,third,Giải Ba,1,356
+max3d,00789,third,Giải Ba,2,450
+max3d,00789,third,Giải Ba,3,005
+max3d,00789,third,Giải Ba,4,661
+max3d,00789,third,Giải Ba,5,814
+max3d,00789,third,Giải Ba,6,215
+max3d,00789,third,Giải Ba,7,052
+max3d,00789,third,Giải Ba,8,904
+max3d,00790,special,Giải Đặc biệt,1,571
+max3d,00790,special,Giải Đặc biệt,2,631
+max3d,00790,first,Giải Nhất,1,448
+max3d,00790,first,Giải Nhất,2,203
+max3d,00790,first,Giải Nhất,3,410
+max3d,00790,first,Giải Nhất,4,087
+max3d,00790,second,Giải Nhì,1,305
+max3d,00790,second,Giải Nhì,2,684
+max3d,00790,second,Giải Nhì,3,073
+max3d,00790,second,Giải Nhì,4,527
+max3d,00790,second,Giải Nhì,5,910
+max3d,00790,second,Giải Nhì,6,242
+max3d,00790,third,Giải Ba,1,353
+max3d,00790,third,Giải Ba,2,211
+max3d,00790,third,Giải Ba,3,914
+max3d,00790,third,Giải Ba,4,769
+max3d,00790,third,Giải Ba,5,580
+max3d,00790,third,Giải Ba,6,707
+max3d,00790,third,Giải Ba,7,114
+max3d,00790,third,Giải Ba,8,020
+max3d,00791,special,Giải Đặc biệt,1,769
+max3d,00791,special,Giải Đặc biệt,2,867
+max3d,00791,first,Giải Nhất,1,769
+max3d,00791,first,Giải Nhất,2,564
+max3d,00791,first,Giải Nhất,3,514
+max3d,00791,first,Giải Nhất,4,056
+max3d,00791,second,Giải Nhì,1,509
+max3d,00791,second,Giải Nhì,2,811
+max3d,00791,second,Giải Nhì,3,579
+max3d,00791,second,Giải Nhì,4,438
+max3d,00791,second,Giải Nhì,5,389
+max3d,00791,second,Giải Nhì,6,628
+max3d,00791,third,Giải Ba,1,579
+max3d,00791,third,Giải Ba,2,691
+max3d,00791,third,Giải Ba,3,374
+max3d,00791,third,Giải Ba,4,022
+max3d,00791,third,Giải Ba,5,137
+max3d,00791,third,Giải Ba,6,275
+max3d,00791,third,Giải Ba,7,147
+max3d,00791,third,Giải Ba,8,341
+max3d,00792,special,Giải Đặc biệt,1,534
+max3d,00792,special,Giải Đặc biệt,2,467
+max3d,00792,first,Giải Nhất,1,823
+max3d,00792,first,Giải Nhất,2,933
+max3d,00792,first,Giải Nhất,3,435
+max3d,00792,first,Giải Nhất,4,908
+max3d,00792,second,Giải Nhì,1,365
+max3d,00792,second,Giải Nhì,2,341
+max3d,00792,second,Giải Nhì,3,639
+max3d,00792,second,Giải Nhì,4,313
+max3d,00792,second,Giải Nhì,5,877
+max3d,00792,second,Giải Nhì,6,154
+max3d,00792,third,Giải Ba,1,393
+max3d,00792,third,Giải Ba,2,970
+max3d,00792,third,Giải Ba,3,831
+max3d,00792,third,Giải Ba,4,147
+max3d,00792,third,Giải Ba,5,384
+max3d,00792,third,Giải Ba,6,284
+max3d,00792,third,Giải Ba,7,017
+max3d,00792,third,Giải Ba,8,784
+max3d,00793,special,Giải Đặc biệt,1,630
+max3d,00793,special,Giải Đặc biệt,2,172
+max3d,00793,first,Giải Nhất,1,985
+max3d,00793,first,Giải Nhất,2,124
+max3d,00793,first,Giải Nhất,3,646
+max3d,00793,first,Giải Nhất,4,271
+max3d,00793,second,Giải Nhì,1,016
+max3d,00793,second,Giải Nhì,2,038
+max3d,00793,second,Giải Nhì,3,466
+max3d,00793,second,Giải Nhì,4,438
+max3d,00793,second,Giải Nhì,5,781
+max3d,00793,second,Giải Nhì,6,237
+max3d,00793,third,Giải Ba,1,381
+max3d,00793,third,Giải Ba,2,030
+max3d,00793,third,Giải Ba,3,343
+max3d,00793,third,Giải Ba,4,805
+max3d,00793,third,Giải Ba,5,963
+max3d,00793,third,Giải Ba,6,601
+max3d,00793,third,Giải Ba,7,193
+max3d,00793,third,Giải Ba,8,516
+max3d,00794,special,Giải Đặc biệt,1,459
+max3d,00794,special,Giải Đặc biệt,2,218
+max3d,00794,first,Giải Nhất,1,471
+max3d,00794,first,Giải Nhất,2,818
+max3d,00794,first,Giải Nhất,3,493
+max3d,00794,first,Giải Nhất,4,293
+max3d,00794,second,Giải Nhì,1,742
+max3d,00794,second,Giải Nhì,2,659
+max3d,00794,second,Giải Nhì,3,284
+max3d,00794,second,Giải Nhì,4,745
+max3d,00794,second,Giải Nhì,5,294
+max3d,00794,second,Giải Nhì,6,904
+max3d,00794,third,Giải Ba,1,706
+max3d,00794,third,Giải Ba,2,241
+max3d,00794,third,Giải Ba,3,950
+max3d,00794,third,Giải Ba,4,536
+max3d,00794,third,Giải Ba,5,444
+max3d,00794,third,Giải Ba,6,827
+max3d,00794,third,Giải Ba,7,763
+max3d,00794,third,Giải Ba,8,897
+max3d,00795,special,Giải Đặc biệt,1,443
+max3d,00795,special,Giải Đặc biệt,2,995
+max3d,00795,first,Giải Nhất,1,328
+max3d,00795,first,Giải Nhất,2,463
+max3d,00795,first,Giải Nhất,3,787
+max3d,00795,first,Giải Nhất,4,466
+max3d,00795,second,Giải Nhì,1,095
+max3d,00795,second,Giải Nhì,2,884
+max3d,00795,second,Giải Nhì,3,933
+max3d,00795,second,Giải Nhì,4,917
+max3d,00795,second,Giải Nhì,5,875
+max3d,00795,second,Giải Nhì,6,972
+max3d,00795,third,Giải Ba,1,631
+max3d,00795,third,Giải Ba,2,599
+max3d,00795,third,Giải Ba,3,104
+max3d,00795,third,Giải Ba,4,304
+max3d,00795,third,Giải Ba,5,235
+max3d,00795,third,Giải Ba,6,866
+max3d,00795,third,Giải Ba,7,807
+max3d,00795,third,Giải Ba,8,261
+max3d,00796,special,Giải Đặc biệt,1,918
+max3d,00796,special,Giải Đặc biệt,2,543
+max3d,00796,first,Giải Nhất,1,195
+max3d,00796,first,Giải Nhất,2,052
+max3d,00796,first,Giải Nhất,3,156
+max3d,00796,first,Giải Nhất,4,286
+max3d,00796,second,Giải Nhì,1,144
+max3d,00796,second,Giải Nhì,2,097
+max3d,00796,second,Giải Nhì,3,952
+max3d,00796,second,Giải Nhì,4,732
+max3d,00796,second,Giải Nhì,5,763
+max3d,00796,second,Giải Nhì,6,830
+max3d,00796,third,Giải Ba,1,425
+max3d,00796,third,Giải Ba,2,872
+max3d,00796,third,Giải Ba,3,303
+max3d,00796,third,Giải Ba,4,349
+max3d,00796,third,Giải Ba,5,219
+max3d,00796,third,Giải Ba,6,436
+max3d,00796,third,Giải Ba,7,006
+max3d,00796,third,Giải Ba,8,118
+max3d,00797,special,Giải Đặc biệt,1,735
+max3d,00797,special,Giải Đặc biệt,2,400
+max3d,00797,first,Giải Nhất,1,411
+max3d,00797,first,Giải Nhất,2,531
+max3d,00797,first,Giải Nhất,3,310
+max3d,00797,first,Giải Nhất,4,975
+max3d,00797,second,Giải Nhì,1,229
+max3d,00797,second,Giải Nhì,2,374
+max3d,00797,second,Giải Nhì,3,018
+max3d,00797,second,Giải Nhì,4,765
+max3d,00797,second,Giải Nhì,5,358
+max3d,00797,second,Giải Nhì,6,725
+max3d,00797,third,Giải Ba,1,151
+max3d,00797,third,Giải Ba,2,945
+max3d,00797,third,Giải Ba,3,707
+max3d,00797,third,Giải Ba,4,448
+max3d,00797,third,Giải Ba,5,546
+max3d,00797,third,Giải Ba,6,282
+max3d,00797,third,Giải Ba,7,099
+max3d,00797,third,Giải Ba,8,270
+max3d,00798,special,Giải Đặc biệt,1,487
+max3d,00798,special,Giải Đặc biệt,2,484
+max3d,00798,first,Giải Nhất,1,350
+max3d,00798,first,Giải Nhất,2,441
+max3d,00798,first,Giải Nhất,3,296
+max3d,00798,first,Giải Nhất,4,493
+max3d,00798,second,Giải Nhì,1,151
+max3d,00798,second,Giải Nhì,2,994
+max3d,00798,second,Giải Nhì,3,465
+max3d,00798,second,Giải Nhì,4,412
+max3d,00798,second,Giải Nhì,5,825
+max3d,00798,second,Giải Nhì,6,159
+max3d,00798,third,Giải Ba,1,822
+max3d,00798,third,Giải Ba,2,897
+max3d,00798,third,Giải Ba,3,939
+max3d,00798,third,Giải Ba,4,663
+max3d,00798,third,Giải Ba,5,191
+max3d,00798,third,Giải Ba,6,814
+max3d,00798,third,Giải Ba,7,585
+max3d,00798,third,Giải Ba,8,050
+max3d,00799,special,Giải Đặc biệt,1,662
+max3d,00799,special,Giải Đặc biệt,2,611
+max3d,00799,first,Giải Nhất,1,280
+max3d,00799,first,Giải Nhất,2,163
+max3d,00799,first,Giải Nhất,3,199
+max3d,00799,first,Giải Nhất,4,162
+max3d,00799,second,Giải Nhì,1,489
+max3d,00799,second,Giải Nhì,2,924
+max3d,00799,second,Giải Nhì,3,359
+max3d,00799,second,Giải Nhì,4,326
+max3d,00799,second,Giải Nhì,5,389
+max3d,00799,second,Giải Nhì,6,150
+max3d,00799,third,Giải Ba,1,618
+max3d,00799,third,Giải Ba,2,622
+max3d,00799,third,Giải Ba,3,928
+max3d,00799,third,Giải Ba,4,597
+max3d,00799,third,Giải Ba,5,519
+max3d,00799,third,Giải Ba,6,808
+max3d,00799,third,Giải Ba,7,300
+max3d,00799,third,Giải Ba,8,670
+max3d,00800,special,Giải Đặc biệt,1,360
+max3d,00800,special,Giải Đặc biệt,2,935
+max3d,00800,first,Giải Nhất,1,887
+max3d,00800,first,Giải Nhất,2,861
+max3d,00800,first,Giải Nhất,3,356
+max3d,00800,first,Giải Nhất,4,650
+max3d,00800,second,Giải Nhì,1,596
+max3d,00800,second,Giải Nhì,2,269
+max3d,00800,second,Giải Nhì,3,165
+max3d,00800,second,Giải Nhì,4,863
+max3d,00800,second,Giải Nhì,5,537
+max3d,00800,second,Giải Nhì,6,091
+max3d,00800,third,Giải Ba,1,837
+max3d,00800,third,Giải Ba,2,373
+max3d,00800,third,Giải Ba,3,884
+max3d,00800,third,Giải Ba,4,443
+max3d,00800,third,Giải Ba,5,659
+max3d,00800,third,Giải Ba,6,242
+max3d,00800,third,Giải Ba,7,688
+max3d,00800,third,Giải Ba,8,026
+max3d,00801,special,Giải Đặc biệt,1,502
+max3d,00801,special,Giải Đặc biệt,2,081
+max3d,00801,first,Giải Nhất,1,616
+max3d,00801,first,Giải Nhất,2,055
+max3d,00801,first,Giải Nhất,3,415
+max3d,00801,first,Giải Nhất,4,459
+max3d,00801,second,Giải Nhì,1,804
+max3d,00801,second,Giải Nhì,2,450
+max3d,00801,second,Giải Nhì,3,755
+max3d,00801,second,Giải Nhì,4,999
+max3d,00801,second,Giải Nhì,5,816
+max3d,00801,second,Giải Nhì,6,823
+max3d,00801,third,Giải Ba,1,705
+max3d,00801,third,Giải Ba,2,465
+max3d,00801,third,Giải Ba,3,115
+max3d,00801,third,Giải Ba,4,764
+max3d,00801,third,Giải Ba,5,943
+max3d,00801,third,Giải Ba,6,205
+max3d,00801,third,Giải Ba,7,832
+max3d,00801,third,Giải Ba,8,748
+max3d,00802,special,Giải Đặc biệt,1,315
+max3d,00802,special,Giải Đặc biệt,2,437
+max3d,00802,first,Giải Nhất,1,479
+max3d,00802,first,Giải Nhất,2,536
+max3d,00802,first,Giải Nhất,3,337
+max3d,00802,first,Giải Nhất,4,626
+max3d,00802,second,Giải Nhì,1,716
+max3d,00802,second,Giải Nhì,2,942
+max3d,00802,second,Giải Nhì,3,290
+max3d,00802,second,Giải Nhì,4,195
+max3d,00802,second,Giải Nhì,5,216
+max3d,00802,second,Giải Nhì,6,702
+max3d,00802,third,Giải Ba,1,957
+max3d,00802,third,Giải Ba,2,653
+max3d,00802,third,Giải Ba,3,924
+max3d,00802,third,Giải Ba,4,120
+max3d,00802,third,Giải Ba,5,053
+max3d,00802,third,Giải Ba,6,463
+max3d,00802,third,Giải Ba,7,672
+max3d,00802,third,Giải Ba,8,922
+max3d,00803,special,Giải Đặc biệt,1,677
+max3d,00803,special,Giải Đặc biệt,2,066
+max3d,00803,first,Giải Nhất,1,569
+max3d,00803,first,Giải Nhất,2,468
+max3d,00803,first,Giải Nhất,3,004
+max3d,00803,first,Giải Nhất,4,697
+max3d,00803,second,Giải Nhì,1,651
+max3d,00803,second,Giải Nhì,2,944
+max3d,00803,second,Giải Nhì,3,416
+max3d,00803,second,Giải Nhì,4,334
+max3d,00803,second,Giải Nhì,5,535
+max3d,00803,second,Giải Nhì,6,046
+max3d,00803,third,Giải Ba,1,619
+max3d,00803,third,Giải Ba,2,807
+max3d,00803,third,Giải Ba,3,199
+max3d,00803,third,Giải Ba,4,774
+max3d,00803,third,Giải Ba,5,688
+max3d,00803,third,Giải Ba,6,953
+max3d,00803,third,Giải Ba,7,923
+max3d,00803,third,Giải Ba,8,588
+max3d,00804,special,Giải Đặc biệt,1,638
+max3d,00804,special,Giải Đặc biệt,2,793
+max3d,00804,first,Giải Nhất,1,036
+max3d,00804,first,Giải Nhất,2,809
+max3d,00804,first,Giải Nhất,3,431
+max3d,00804,first,Giải Nhất,4,606
+max3d,00804,second,Giải Nhì,1,667
+max3d,00804,second,Giải Nhì,2,634
+max3d,00804,second,Giải Nhì,3,637
+max3d,00804,second,Giải Nhì,4,692
+max3d,00804,second,Giải Nhì,5,222
+max3d,00804,second,Giải Nhì,6,947
+max3d,00804,third,Giải Ba,1,390
+max3d,00804,third,Giải Ba,2,749
+max3d,00804,third,Giải Ba,3,596
+max3d,00804,third,Giải Ba,4,753
+max3d,00804,third,Giải Ba,5,331
+max3d,00804,third,Giải Ba,6,542
+max3d,00804,third,Giải Ba,7,190
+max3d,00804,third,Giải Ba,8,976
+max3d,00805,special,Giải Đặc biệt,1,129
+max3d,00805,special,Giải Đặc biệt,2,728
+max3d,00805,first,Giải Nhất,1,478
+max3d,00805,first,Giải Nhất,2,707
+max3d,00805,first,Giải Nhất,3,769
+max3d,00805,first,Giải Nhất,4,872
+max3d,00805,second,Giải Nhì,1,339
+max3d,00805,second,Giải Nhì,2,007
+max3d,00805,second,Giải Nhì,3,553
+max3d,00805,second,Giải Nhì,4,159
+max3d,00805,second,Giải Nhì,5,277
+max3d,00805,second,Giải Nhì,6,959
+max3d,00805,third,Giải Ba,1,068
+max3d,00805,third,Giải Ba,2,450
+max3d,00805,third,Giải Ba,3,016
+max3d,00805,third,Giải Ba,4,586
+max3d,00805,third,Giải Ba,5,302
+max3d,00805,third,Giải Ba,6,252
+max3d,00805,third,Giải Ba,7,591
+max3d,00805,third,Giải Ba,8,783
+max3d,00806,special,Giải Đặc biệt,1,481
+max3d,00806,special,Giải Đặc biệt,2,347
+max3d,00806,first,Giải Nhất,1,093
+max3d,00806,first,Giải Nhất,2,842
+max3d,00806,first,Giải Nhất,3,715
+max3d,00806,first,Giải Nhất,4,034
+max3d,00806,second,Giải Nhì,1,887
+max3d,00806,second,Giải Nhì,2,769
+max3d,00806,second,Giải Nhì,3,569
+max3d,00806,second,Giải Nhì,4,569
+max3d,00806,second,Giải Nhì,5,664
+max3d,00806,second,Giải Nhì,6,422
+max3d,00806,third,Giải Ba,1,177
+max3d,00806,third,Giải Ba,2,657
+max3d,00806,third,Giải Ba,3,375
+max3d,00806,third,Giải Ba,4,726
+max3d,00806,third,Giải Ba,5,364
+max3d,00806,third,Giải Ba,6,554
+max3d,00806,third,Giải Ba,7,542
+max3d,00806,third,Giải Ba,8,568
+max3d,00807,special,Giải Đặc biệt,1,140
+max3d,00807,special,Giải Đặc biệt,2,114
+max3d,00807,first,Giải Nhất,1,054
+max3d,00807,first,Giải Nhất,2,218
+max3d,00807,first,Giải Nhất,3,629
+max3d,00807,first,Giải Nhất,4,612
+max3d,00807,second,Giải Nhì,1,704
+max3d,00807,second,Giải Nhì,2,648
+max3d,00807,second,Giải Nhì,3,484
+max3d,00807,second,Giải Nhì,4,117
+max3d,00807,second,Giải Nhì,5,681
+max3d,00807,second,Giải Nhì,6,335
+max3d,00807,third,Giải Ba,1,629
+max3d,00807,third,Giải Ba,2,125
+max3d,00807,third,Giải Ba,3,230
+max3d,00807,third,Giải Ba,4,134
+max3d,00807,third,Giải Ba,5,401
+max3d,00807,third,Giải Ba,6,013
+max3d,00807,third,Giải Ba,7,199
+max3d,00807,third,Giải Ba,8,690
+max3d,00808,special,Giải Đặc biệt,1,282
+max3d,00808,special,Giải Đặc biệt,2,633
+max3d,00808,first,Giải Nhất,1,655
+max3d,00808,first,Giải Nhất,2,256
+max3d,00808,first,Giải Nhất,3,698
+max3d,00808,first,Giải Nhất,4,582
+max3d,00808,second,Giải Nhì,1,977
+max3d,00808,second,Giải Nhì,2,075
+max3d,00808,second,Giải Nhì,3,831
+max3d,00808,second,Giải Nhì,4,211
+max3d,00808,second,Giải Nhì,5,515
+max3d,00808,second,Giải Nhì,6,028
+max3d,00808,third,Giải Ba,1,643
+max3d,00808,third,Giải Ba,2,386
+max3d,00808,third,Giải Ba,3,185
+max3d,00808,third,Giải Ba,4,354
+max3d,00808,third,Giải Ba,5,465
+max3d,00808,third,Giải Ba,6,151
+max3d,00808,third,Giải Ba,7,335
+max3d,00808,third,Giải Ba,8,552
+max3d,00809,special,Giải Đặc biệt,1,782
+max3d,00809,special,Giải Đặc biệt,2,772
+max3d,00809,first,Giải Nhất,1,881
+max3d,00809,first,Giải Nhất,2,474
+max3d,00809,first,Giải Nhất,3,666
+max3d,00809,first,Giải Nhất,4,045
+max3d,00809,second,Giải Nhì,1,861
+max3d,00809,second,Giải Nhì,2,055
+max3d,00809,second,Giải Nhì,3,719
+max3d,00809,second,Giải Nhì,4,851
+max3d,00809,second,Giải Nhì,5,026
+max3d,00809,second,Giải Nhì,6,853
+max3d,00809,third,Giải Ba,1,204
+max3d,00809,third,Giải Ba,2,576
+max3d,00809,third,Giải Ba,3,256
+max3d,00809,third,Giải Ba,4,521
+max3d,00809,third,Giải Ba,5,504
+max3d,00809,third,Giải Ba,6,911
+max3d,00809,third,Giải Ba,7,326
+max3d,00809,third,Giải Ba,8,621
+max3d,00810,special,Giải Đặc biệt,1,179
+max3d,00810,special,Giải Đặc biệt,2,740
+max3d,00810,first,Giải Nhất,1,319
+max3d,00810,first,Giải Nhất,2,990
+max3d,00810,first,Giải Nhất,3,099
+max3d,00810,first,Giải Nhất,4,949
+max3d,00810,second,Giải Nhì,1,750
+max3d,00810,second,Giải Nhì,2,084
+max3d,00810,second,Giải Nhì,3,636
+max3d,00810,second,Giải Nhì,4,770
+max3d,00810,second,Giải Nhì,5,867
+max3d,00810,second,Giải Nhì,6,836
+max3d,00810,third,Giải Ba,1,547
+max3d,00810,third,Giải Ba,2,615
+max3d,00810,third,Giải Ba,3,314
+max3d,00810,third,Giải Ba,4,445
+max3d,00810,third,Giải Ba,5,768
+max3d,00810,third,Giải Ba,6,488
+max3d,00810,third,Giải Ba,7,543
+max3d,00810,third,Giải Ba,8,240
+max3d,00811,special,Giải Đặc biệt,1,246
+max3d,00811,special,Giải Đặc biệt,2,886
+max3d,00811,first,Giải Nhất,1,435
+max3d,00811,first,Giải Nhất,2,615
+max3d,00811,first,Giải Nhất,3,885
+max3d,00811,first,Giải Nhất,4,850
+max3d,00811,second,Giải Nhì,1,865
+max3d,00811,second,Giải Nhì,2,478
+max3d,00811,second,Giải Nhì,3,154
+max3d,00811,second,Giải Nhì,4,178
+max3d,00811,second,Giải Nhì,5,129
+max3d,00811,second,Giải Nhì,6,027
+max3d,00811,third,Giải Ba,1,929
+max3d,00811,third,Giải Ba,2,561
+max3d,00811,third,Giải Ba,3,256
+max3d,00811,third,Giải Ba,4,649
+max3d,00811,third,Giải Ba,5,428
+max3d,00811,third,Giải Ba,6,744
+max3d,00811,third,Giải Ba,7,545
+max3d,00811,third,Giải Ba,8,465
+max3d,00812,special,Giải Đặc biệt,1,338
+max3d,00812,special,Giải Đặc biệt,2,836
+max3d,00812,first,Giải Nhất,1,249
+max3d,00812,first,Giải Nhất,2,851
+max3d,00812,first,Giải Nhất,3,923
+max3d,00812,first,Giải Nhất,4,789
+max3d,00812,second,Giải Nhì,1,333
+max3d,00812,second,Giải Nhì,2,497
+max3d,00812,second,Giải Nhì,3,273
+max3d,00812,second,Giải Nhì,4,251
+max3d,00812,second,Giải Nhì,5,295
+max3d,00812,second,Giải Nhì,6,290
+max3d,00812,third,Giải Ba,1,935
+max3d,00812,third,Giải Ba,2,232
+max3d,00812,third,Giải Ba,3,526
+max3d,00812,third,Giải Ba,4,599
+max3d,00812,third,Giải Ba,5,379
+max3d,00812,third,Giải Ba,6,497
+max3d,00812,third,Giải Ba,7,775
+max3d,00812,third,Giải Ba,8,143
+max3d,00813,special,Giải Đặc biệt,1,283
+max3d,00813,special,Giải Đặc biệt,2,417
+max3d,00813,first,Giải Nhất,1,213
+max3d,00813,first,Giải Nhất,2,130
+max3d,00813,first,Giải Nhất,3,273
+max3d,00813,first,Giải Nhất,4,184
+max3d,00813,second,Giải Nhì,1,587
+max3d,00813,second,Giải Nhì,2,719
+max3d,00813,second,Giải Nhì,3,369
+max3d,00813,second,Giải Nhì,4,205
+max3d,00813,second,Giải Nhì,5,810
+max3d,00813,second,Giải Nhì,6,290
+max3d,00813,third,Giải Ba,1,816
+max3d,00813,third,Giải Ba,2,145
+max3d,00813,third,Giải Ba,3,825
+max3d,00813,third,Giải Ba,4,913
+max3d,00813,third,Giải Ba,5,334
+max3d,00813,third,Giải Ba,6,916
+max3d,00813,third,Giải Ba,7,559
+max3d,00813,third,Giải Ba,8,833
+max3d,00814,special,Giải Đặc biệt,1,606
+max3d,00814,special,Giải Đặc biệt,2,590
+max3d,00814,first,Giải Nhất,1,538
+max3d,00814,first,Giải Nhất,2,838
+max3d,00814,first,Giải Nhất,3,741
+max3d,00814,first,Giải Nhất,4,474
+max3d,00814,second,Giải Nhì,1,618
+max3d,00814,second,Giải Nhì,2,707
+max3d,00814,second,Giải Nhì,3,316
+max3d,00814,second,Giải Nhì,4,088
+max3d,00814,second,Giải Nhì,5,034
+max3d,00814,second,Giải Nhì,6,618
+max3d,00814,third,Giải Ba,1,680
+max3d,00814,third,Giải Ba,2,208
+max3d,00814,third,Giải Ba,3,448
+max3d,00814,third,Giải Ba,4,922
+max3d,00814,third,Giải Ba,5,385
+max3d,00814,third,Giải Ba,6,703
+max3d,00814,third,Giải Ba,7,792
+max3d,00814,third,Giải Ba,8,806
+max3d,00815,special,Giải Đặc biệt,1,257
+max3d,00815,special,Giải Đặc biệt,2,816
+max3d,00815,first,Giải Nhất,1,038
+max3d,00815,first,Giải Nhất,2,137
+max3d,00815,first,Giải Nhất,3,688
+max3d,00815,first,Giải Nhất,4,222
+max3d,00815,second,Giải Nhì,1,994
+max3d,00815,second,Giải Nhì,2,703
+max3d,00815,second,Giải Nhì,3,164
+max3d,00815,second,Giải Nhì,4,891
+max3d,00815,second,Giải Nhì,5,333
+max3d,00815,second,Giải Nhì,6,167
+max3d,00815,third,Giải Ba,1,397
+max3d,00815,third,Giải Ba,2,844
+max3d,00815,third,Giải Ba,3,992
+max3d,00815,third,Giải Ba,4,890
+max3d,00815,third,Giải Ba,5,143
+max3d,00815,third,Giải Ba,6,224
+max3d,00815,third,Giải Ba,7,668
+max3d,00815,third,Giải Ba,8,850
+max3d,00816,special,Giải Đặc biệt,1,026
+max3d,00816,special,Giải Đặc biệt,2,933
+max3d,00816,first,Giải Nhất,1,891
+max3d,00816,first,Giải Nhất,2,152
+max3d,00816,first,Giải Nhất,3,201
+max3d,00816,first,Giải Nhất,4,526
+max3d,00816,second,Giải Nhì,1,607
+max3d,00816,second,Giải Nhì,2,500
+max3d,00816,second,Giải Nhì,3,919
+max3d,00816,second,Giải Nhì,4,010
+max3d,00816,second,Giải Nhì,5,770
+max3d,00816,second,Giải Nhì,6,186
+max3d,00816,third,Giải Ba,1,922
+max3d,00816,third,Giải Ba,2,655
+max3d,00816,third,Giải Ba,3,690
+max3d,00816,third,Giải Ba,4,271
+max3d,00816,third,Giải Ba,5,784
+max3d,00816,third,Giải Ba,6,186
+max3d,00816,third,Giải Ba,7,545
+max3d,00816,third,Giải Ba,8,221
+max3d,00817,special,Giải Đặc biệt,1,812
+max3d,00817,special,Giải Đặc biệt,2,143
+max3d,00817,first,Giải Nhất,1,217
+max3d,00817,first,Giải Nhất,2,139
+max3d,00817,first,Giải Nhất,3,206
+max3d,00817,first,Giải Nhất,4,859
+max3d,00817,second,Giải Nhì,1,630
+max3d,00817,second,Giải Nhì,2,553
+max3d,00817,second,Giải Nhì,3,121
+max3d,00817,second,Giải Nhì,4,840
+max3d,00817,second,Giải Nhì,5,620
+max3d,00817,second,Giải Nhì,6,786
+max3d,00817,third,Giải Ba,1,280
+max3d,00817,third,Giải Ba,2,305
+max3d,00817,third,Giải Ba,3,139
+max3d,00817,third,Giải Ba,4,900
+max3d,00817,third,Giải Ba,5,448
+max3d,00817,third,Giải Ba,6,883
+max3d,00817,third,Giải Ba,7,587
+max3d,00817,third,Giải Ba,8,528
+max3d,00818,special,Giải Đặc biệt,1,243
+max3d,00818,special,Giải Đặc biệt,2,902
+max3d,00818,first,Giải Nhất,1,379
+max3d,00818,first,Giải Nhất,2,805
+max3d,00818,first,Giải Nhất,3,723
+max3d,00818,first,Giải Nhất,4,672
+max3d,00818,second,Giải Nhì,1,172
+max3d,00818,second,Giải Nhì,2,906
+max3d,00818,second,Giải Nhì,3,067
+max3d,00818,second,Giải Nhì,4,885
+max3d,00818,second,Giải Nhì,5,486
+max3d,00818,second,Giải Nhì,6,045
+max3d,00818,third,Giải Ba,1,991
+max3d,00818,third,Giải Ba,2,886
+max3d,00818,third,Giải Ba,3,350
+max3d,00818,third,Giải Ba,4,659
+max3d,00818,third,Giải Ba,5,213
+max3d,00818,third,Giải Ba,6,151
+max3d,00818,third,Giải Ba,7,778
+max3d,00818,third,Giải Ba,8,416
+max3d,00819,special,Giải Đặc biệt,1,101
+max3d,00819,special,Giải Đặc biệt,2,952
+max3d,00819,first,Giải Nhất,1,204
+max3d,00819,first,Giải Nhất,2,681
+max3d,00819,first,Giải Nhất,3,011
+max3d,00819,first,Giải Nhất,4,098
+max3d,00819,second,Giải Nhì,1,910
+max3d,00819,second,Giải Nhì,2,760
+max3d,00819,second,Giải Nhì,3,572
+max3d,00819,second,Giải Nhì,4,633
+max3d,00819,second,Giải Nhì,5,750
+max3d,00819,second,Giải Nhì,6,831
+max3d,00819,third,Giải Ba,1,251
+max3d,00819,third,Giải Ba,2,473
+max3d,00819,third,Giải Ba,3,613
+max3d,00819,third,Giải Ba,4,791
+max3d,00819,third,Giải Ba,5,296
+max3d,00819,third,Giải Ba,6,670
+max3d,00819,third,Giải Ba,7,539
+max3d,00819,third,Giải Ba,8,493
+max3d,00820,special,Giải Đặc biệt,1,120
+max3d,00820,special,Giải Đặc biệt,2,363
+max3d,00820,first,Giải Nhất,1,629
+max3d,00820,first,Giải Nhất,2,251
+max3d,00820,first,Giải Nhất,3,702
+max3d,00820,first,Giải Nhất,4,969
+max3d,00820,second,Giải Nhì,1,490
+max3d,00820,second,Giải Nhì,2,547
+max3d,00820,second,Giải Nhì,3,145
+max3d,00820,second,Giải Nhì,4,752
+max3d,00820,second,Giải Nhì,5,449
+max3d,00820,second,Giải Nhì,6,853
+max3d,00820,third,Giải Ba,1,320
+max3d,00820,third,Giải Ba,2,745
+max3d,00820,third,Giải Ba,3,993
+max3d,00820,third,Giải Ba,4,037
+max3d,00820,third,Giải Ba,5,512
+max3d,00820,third,Giải Ba,6,279
+max3d,00820,third,Giải Ba,7,496
+max3d,00820,third,Giải Ba,8,147
+max3d,00821,special,Giải Đặc biệt,1,546
+max3d,00821,special,Giải Đặc biệt,2,800
+max3d,00821,first,Giải Nhất,1,232
+max3d,00821,first,Giải Nhất,2,158
+max3d,00821,first,Giải Nhất,3,382
+max3d,00821,first,Giải Nhất,4,194
+max3d,00821,second,Giải Nhì,1,353
+max3d,00821,second,Giải Nhì,2,962
+max3d,00821,second,Giải Nhì,3,400
+max3d,00821,second,Giải Nhì,4,404
+max3d,00821,second,Giải Nhì,5,102
+max3d,00821,second,Giải Nhì,6,494
+max3d,00821,third,Giải Ba,1,209
+max3d,00821,third,Giải Ba,2,106
+max3d,00821,third,Giải Ba,3,731
+max3d,00821,third,Giải Ba,4,327
+max3d,00821,third,Giải Ba,5,220
+max3d,00821,third,Giải Ba,6,965
+max3d,00821,third,Giải Ba,7,789
+max3d,00821,third,Giải Ba,8,426
+max3d,00822,special,Giải Đặc biệt,1,597
+max3d,00822,special,Giải Đặc biệt,2,016
+max3d,00822,first,Giải Nhất,1,793
+max3d,00822,first,Giải Nhất,2,345
+max3d,00822,first,Giải Nhất,3,618
+max3d,00822,first,Giải Nhất,4,825
+max3d,00822,second,Giải Nhì,1,074
+max3d,00822,second,Giải Nhì,2,059
+max3d,00822,second,Giải Nhì,3,761
+max3d,00822,second,Giải Nhì,4,353
+max3d,00822,second,Giải Nhì,5,161
+max3d,00822,second,Giải Nhì,6,463
+max3d,00822,third,Giải Ba,1,805
+max3d,00822,third,Giải Ba,2,915
+max3d,00822,third,Giải Ba,3,655
+max3d,00822,third,Giải Ba,4,812
+max3d,00822,third,Giải Ba,5,061
+max3d,00822,third,Giải Ba,6,592
+max3d,00822,third,Giải Ba,7,519
+max3d,00822,third,Giải Ba,8,768
+max3d,00823,special,Giải Đặc biệt,1,627
+max3d,00823,special,Giải Đặc biệt,2,968
+max3d,00823,first,Giải Nhất,1,718
+max3d,00823,first,Giải Nhất,2,867
+max3d,00823,first,Giải Nhất,3,689
+max3d,00823,first,Giải Nhất,4,014
+max3d,00823,second,Giải Nhì,1,397
+max3d,00823,second,Giải Nhì,2,364
+max3d,00823,second,Giải Nhì,3,164
+max3d,00823,second,Giải Nhì,4,750
+max3d,00823,second,Giải Nhì,5,885
+max3d,00823,second,Giải Nhì,6,066
+max3d,00823,third,Giải Ba,1,655
+max3d,00823,third,Giải Ba,2,429
+max3d,00823,third,Giải Ba,3,480
+max3d,00823,third,Giải Ba,4,623
+max3d,00823,third,Giải Ba,5,845
+max3d,00823,third,Giải Ba,6,347
+max3d,00823,third,Giải Ba,7,203
+max3d,00823,third,Giải Ba,8,644
+max3d,00824,special,Giải Đặc biệt,1,833
+max3d,00824,special,Giải Đặc biệt,2,961
+max3d,00824,first,Giải Nhất,1,568
+max3d,00824,first,Giải Nhất,2,429
+max3d,00824,first,Giải Nhất,3,454
+max3d,00824,first,Giải Nhất,4,561
+max3d,00824,second,Giải Nhì,1,828
+max3d,00824,second,Giải Nhì,2,391
+max3d,00824,second,Giải Nhì,3,053
+max3d,00824,second,Giải Nhì,4,201
+max3d,00824,second,Giải Nhì,5,413
+max3d,00824,second,Giải Nhì,6,349
+max3d,00824,third,Giải Ba,1,876
+max3d,00824,third,Giải Ba,2,284
+max3d,00824,third,Giải Ba,3,010
+max3d,00824,third,Giải Ba,4,965
+max3d,00824,third,Giải Ba,5,223
+max3d,00824,third,Giải Ba,6,714
+max3d,00824,third,Giải Ba,7,043
+max3d,00824,third,Giải Ba,8,004
+max3d,00825,special,Giải Đặc biệt,1,210
+max3d,00825,special,Giải Đặc biệt,2,102
+max3d,00825,first,Giải Nhất,1,752
+max3d,00825,first,Giải Nhất,2,000
+max3d,00825,first,Giải Nhất,3,533
+max3d,00825,first,Giải Nhất,4,275
+max3d,00825,second,Giải Nhì,1,525
+max3d,00825,second,Giải Nhì,2,190
+max3d,00825,second,Giải Nhì,3,862
+max3d,00825,second,Giải Nhì,4,742
+max3d,00825,second,Giải Nhì,5,886
+max3d,00825,second,Giải Nhì,6,375
+max3d,00825,third,Giải Ba,1,672
+max3d,00825,third,Giải Ba,2,431
+max3d,00825,third,Giải Ba,3,690
+max3d,00825,third,Giải Ba,4,109
+max3d,00825,third,Giải Ba,5,455
+max3d,00825,third,Giải Ba,6,086
+max3d,00825,third,Giải Ba,7,362
+max3d,00825,third,Giải Ba,8,750
+max3d,00826,special,Giải Đặc biệt,1,080
+max3d,00826,special,Giải Đặc biệt,2,309
+max3d,00826,first,Giải Nhất,1,789
+max3d,00826,first,Giải Nhất,2,795
+max3d,00826,first,Giải Nhất,3,981
+max3d,00826,first,Giải Nhất,4,488
+max3d,00826,second,Giải Nhì,1,210
+max3d,00826,second,Giải Nhì,2,463
+max3d,00826,second,Giải Nhì,3,109
+max3d,00826,second,Giải Nhì,4,674
+max3d,00826,second,Giải Nhì,5,470
+max3d,00826,second,Giải Nhì,6,592
+max3d,00826,third,Giải Ba,1,973
+max3d,00826,third,Giải Ba,2,541
+max3d,00826,third,Giải Ba,3,001
+max3d,00826,third,Giải Ba,4,196
+max3d,00826,third,Giải Ba,5,673
+max3d,00826,third,Giải Ba,6,461
+max3d,00826,third,Giải Ba,7,626
+max3d,00826,third,Giải Ba,8,559
+max3d,00827,special,Giải Đặc biệt,1,721
+max3d,00827,special,Giải Đặc biệt,2,546
+max3d,00827,first,Giải Nhất,1,806
+max3d,00827,first,Giải Nhất,2,693
+max3d,00827,first,Giải Nhất,3,193
+max3d,00827,first,Giải Nhất,4,373
+max3d,00827,second,Giải Nhì,1,154
+max3d,00827,second,Giải Nhì,2,996
+max3d,00827,second,Giải Nhì,3,290
+max3d,00827,second,Giải Nhì,4,757
+max3d,00827,second,Giải Nhì,5,340
+max3d,00827,second,Giải Nhì,6,010
+max3d,00827,third,Giải Ba,1,745
+max3d,00827,third,Giải Ba,2,350
+max3d,00827,third,Giải Ba,3,939
+max3d,00827,third,Giải Ba,4,924
+max3d,00827,third,Giải Ba,5,077
+max3d,00827,third,Giải Ba,6,093
+max3d,00827,third,Giải Ba,7,489
+max3d,00827,third,Giải Ba,8,913
+max3d,00828,special,Giải Đặc biệt,1,199
+max3d,00828,special,Giải Đặc biệt,2,691
+max3d,00828,first,Giải Nhất,1,266
+max3d,00828,first,Giải Nhất,2,059
+max3d,00828,first,Giải Nhất,3,516
+max3d,00828,first,Giải Nhất,4,367
+max3d,00828,second,Giải Nhì,1,557
+max3d,00828,second,Giải Nhì,2,477
+max3d,00828,second,Giải Nhì,3,878
+max3d,00828,second,Giải Nhì,4,491
+max3d,00828,second,Giải Nhì,5,099
+max3d,00828,second,Giải Nhì,6,045
+max3d,00828,third,Giải Ba,1,088
+max3d,00828,third,Giải Ba,2,233
+max3d,00828,third,Giải Ba,3,804
+max3d,00828,third,Giải Ba,4,014
+max3d,00828,third,Giải Ba,5,086
+max3d,00828,third,Giải Ba,6,474
+max3d,00828,third,Giải Ba,7,638
+max3d,00828,third,Giải Ba,8,278
+max3d,00829,special,Giải Đặc biệt,1,399
+max3d,00829,special,Giải Đặc biệt,2,105
+max3d,00829,first,Giải Nhất,1,850
+max3d,00829,first,Giải Nhất,2,999
+max3d,00829,first,Giải Nhất,3,696
+max3d,00829,first,Giải Nhất,4,190
+max3d,00829,second,Giải Nhì,1,720
+max3d,00829,second,Giải Nhì,2,429
+max3d,00829,second,Giải Nhì,3,454
+max3d,00829,second,Giải Nhì,4,327
+max3d,00829,second,Giải Nhì,5,676
+max3d,00829,second,Giải Nhì,6,161
+max3d,00829,third,Giải Ba,1,267
+max3d,00829,third,Giải Ba,2,907
+max3d,00829,third,Giải Ba,3,006
+max3d,00829,third,Giải Ba,4,634
+max3d,00829,third,Giải Ba,5,909
+max3d,00829,third,Giải Ba,6,516
+max3d,00829,third,Giải Ba,7,656
+max3d,00829,third,Giải Ba,8,105
+max3d,00830,special,Giải Đặc biệt,1,979
+max3d,00830,special,Giải Đặc biệt,2,487
+max3d,00830,first,Giải Nhất,1,352
+max3d,00830,first,Giải Nhất,2,376
+max3d,00830,first,Giải Nhất,3,285
+max3d,00830,first,Giải Nhất,4,278
+max3d,00830,second,Giải Nhì,1,722
+max3d,00830,second,Giải Nhì,2,479
+max3d,00830,second,Giải Nhì,3,662
+max3d,00830,second,Giải Nhì,4,710
+max3d,00830,second,Giải Nhì,5,216
+max3d,00830,second,Giải Nhì,6,643
+max3d,00830,third,Giải Ba,1,510
+max3d,00830,third,Giải Ba,2,018
+max3d,00830,third,Giải Ba,3,435
+max3d,00830,third,Giải Ba,4,435
+max3d,00830,third,Giải Ba,5,893
+max3d,00830,third,Giải Ba,6,964
+max3d,00830,third,Giải Ba,7,928
+max3d,00830,third,Giải Ba,8,196
+max3d,00831,special,Giải Đặc biệt,1,548
+max3d,00831,special,Giải Đặc biệt,2,011
+max3d,00831,first,Giải Nhất,1,861
+max3d,00831,first,Giải Nhất,2,396
+max3d,00831,first,Giải Nhất,3,242
+max3d,00831,first,Giải Nhất,4,172
+max3d,00831,second,Giải Nhì,1,716
+max3d,00831,second,Giải Nhì,2,172
+max3d,00831,second,Giải Nhì,3,094
+max3d,00831,second,Giải Nhì,4,656
+max3d,00831,second,Giải Nhì,5,812
+max3d,00831,second,Giải Nhì,6,287
+max3d,00831,third,Giải Ba,1,323
+max3d,00831,third,Giải Ba,2,434
+max3d,00831,third,Giải Ba,3,488
+max3d,00831,third,Giải Ba,4,934
+max3d,00831,third,Giải Ba,5,665
+max3d,00831,third,Giải Ba,6,763
+max3d,00831,third,Giải Ba,7,008
+max3d,00831,third,Giải Ba,8,546
+max3d,00832,special,Giải Đặc biệt,1,265
+max3d,00832,special,Giải Đặc biệt,2,036
+max3d,00832,first,Giải Nhất,1,385
+max3d,00832,first,Giải Nhất,2,158
+max3d,00832,first,Giải Nhất,3,246
+max3d,00832,first,Giải Nhất,4,447
+max3d,00832,second,Giải Nhì,1,425
+max3d,00832,second,Giải Nhì,2,222
+max3d,00832,second,Giải Nhì,3,166
+max3d,00832,second,Giải Nhì,4,667
+max3d,00832,second,Giải Nhì,5,865
+max3d,00832,second,Giải Nhì,6,438
+max3d,00832,third,Giải Ba,1,794
+max3d,00832,third,Giải Ba,2,649
+max3d,00832,third,Giải Ba,3,587
+max3d,00832,third,Giải Ba,4,516
+max3d,00832,third,Giải Ba,5,551
+max3d,00832,third,Giải Ba,6,869
+max3d,00832,third,Giải Ba,7,358
+max3d,00832,third,Giải Ba,8,166
+max3d,00833,special,Giải Đặc biệt,1,977
+max3d,00833,special,Giải Đặc biệt,2,877
+max3d,00833,first,Giải Nhất,1,770
+max3d,00833,first,Giải Nhất,2,759
+max3d,00833,first,Giải Nhất,3,776
+max3d,00833,first,Giải Nhất,4,913
+max3d,00833,second,Giải Nhì,1,543
+max3d,00833,second,Giải Nhì,2,190
+max3d,00833,second,Giải Nhì,3,478
+max3d,00833,second,Giải Nhì,4,468
+max3d,00833,second,Giải Nhì,5,425
+max3d,00833,second,Giải Nhì,6,795
+max3d,00833,third,Giải Ba,1,860
+max3d,00833,third,Giải Ba,2,329
+max3d,00833,third,Giải Ba,3,389
+max3d,00833,third,Giải Ba,4,921
+max3d,00833,third,Giải Ba,5,759
+max3d,00833,third,Giải Ba,6,411
+max3d,00833,third,Giải Ba,7,430
+max3d,00833,third,Giải Ba,8,348
+max3d,00834,special,Giải Đặc biệt,1,955
+max3d,00834,special,Giải Đặc biệt,2,076
+max3d,00834,first,Giải Nhất,1,334
+max3d,00834,first,Giải Nhất,2,294
+max3d,00834,first,Giải Nhất,3,814
+max3d,00834,first,Giải Nhất,4,513
+max3d,00834,second,Giải Nhì,1,462
+max3d,00834,second,Giải Nhì,2,914
+max3d,00834,second,Giải Nhì,3,577
+max3d,00834,second,Giải Nhì,4,423
+max3d,00834,second,Giải Nhì,5,897
+max3d,00834,second,Giải Nhì,6,688
+max3d,00834,third,Giải Ba,1,266
+max3d,00834,third,Giải Ba,2,354
+max3d,00834,third,Giải Ba,3,494
+max3d,00834,third,Giải Ba,4,793
+max3d,00834,third,Giải Ba,5,037
+max3d,00834,third,Giải Ba,6,672
+max3d,00834,third,Giải Ba,7,214
+max3d,00834,third,Giải Ba,8,005
+max3d,00835,special,Giải Đặc biệt,1,517
+max3d,00835,special,Giải Đặc biệt,2,445
+max3d,00835,first,Giải Nhất,1,701
+max3d,00835,first,Giải Nhất,2,065
+max3d,00835,first,Giải Nhất,3,786
+max3d,00835,first,Giải Nhất,4,716
+max3d,00835,second,Giải Nhì,1,929
+max3d,00835,second,Giải Nhì,2,383
+max3d,00835,second,Giải Nhì,3,392
+max3d,00835,second,Giải Nhì,4,326
+max3d,00835,second,Giải Nhì,5,332
+max3d,00835,second,Giải Nhì,6,979
+max3d,00835,third,Giải Ba,1,051
+max3d,00835,third,Giải Ba,2,550
+max3d,00835,third,Giải Ba,3,513
+max3d,00835,third,Giải Ba,4,596
+max3d,00835,third,Giải Ba,5,151
+max3d,00835,third,Giải Ba,6,528
+max3d,00835,third,Giải Ba,7,523
+max3d,00835,third,Giải Ba,8,068
+max3d,00836,special,Giải Đặc biệt,1,387
+max3d,00836,special,Giải Đặc biệt,2,695
+max3d,00836,first,Giải Nhất,1,524
+max3d,00836,first,Giải Nhất,2,062
+max3d,00836,first,Giải Nhất,3,066
+max3d,00836,first,Giải Nhất,4,506
+max3d,00836,second,Giải Nhì,1,836
+max3d,00836,second,Giải Nhì,2,183
+max3d,00836,second,Giải Nhì,3,696
+max3d,00836,second,Giải Nhì,4,175
+max3d,00836,second,Giải Nhì,5,741
+max3d,00836,second,Giải Nhì,6,228
+max3d,00836,third,Giải Ba,1,995
+max3d,00836,third,Giải Ba,2,255
+max3d,00836,third,Giải Ba,3,479
+max3d,00836,third,Giải Ba,4,074
+max3d,00836,third,Giải Ba,5,993
+max3d,00836,third,Giải Ba,6,768
+max3d,00836,third,Giải Ba,7,619
+max3d,00836,third,Giải Ba,8,531
+max3d,00837,special,Giải Đặc biệt,1,623
+max3d,00837,special,Giải Đặc biệt,2,244
+max3d,00837,first,Giải Nhất,1,991
+max3d,00837,first,Giải Nhất,2,238
+max3d,00837,first,Giải Nhất,3,238
+max3d,00837,first,Giải Nhất,4,432
+max3d,00837,second,Giải Nhì,1,478
+max3d,00837,second,Giải Nhì,2,927
+max3d,00837,second,Giải Nhì,3,970
+max3d,00837,second,Giải Nhì,4,861
+max3d,00837,second,Giải Nhì,5,269
+max3d,00837,second,Giải Nhì,6,275
+max3d,00837,third,Giải Ba,1,630
+max3d,00837,third,Giải Ba,2,550
+max3d,00837,third,Giải Ba,3,364
+max3d,00837,third,Giải Ba,4,761
+max3d,00837,third,Giải Ba,5,573
+max3d,00837,third,Giải Ba,6,148
+max3d,00837,third,Giải Ba,7,218
+max3d,00837,third,Giải Ba,8,764
+max3d,00838,special,Giải Đặc biệt,1,664
+max3d,00838,special,Giải Đặc biệt,2,786
+max3d,00838,first,Giải Nhất,1,829
+max3d,00838,first,Giải Nhất,2,871
+max3d,00838,first,Giải Nhất,3,738
+max3d,00838,first,Giải Nhất,4,306
+max3d,00838,second,Giải Nhì,1,991
+max3d,00838,second,Giải Nhì,2,394
+max3d,00838,second,Giải Nhì,3,298
+max3d,00838,second,Giải Nhì,4,747
+max3d,00838,second,Giải Nhì,5,333
+max3d,00838,second,Giải Nhì,6,133
+max3d,00838,third,Giải Ba,1,004
+max3d,00838,third,Giải Ba,2,578
+max3d,00838,third,Giải Ba,3,393
+max3d,00838,third,Giải Ba,4,376
+max3d,00838,third,Giải Ba,5,415
+max3d,00838,third,Giải Ba,6,983
+max3d,00838,third,Giải Ba,7,549
+max3d,00838,third,Giải Ba,8,186
+max3d,00839,special,Giải Đặc biệt,1,725
+max3d,00839,special,Giải Đặc biệt,2,012
+max3d,00839,first,Giải Nhất,1,244
+max3d,00839,first,Giải Nhất,2,235
+max3d,00839,first,Giải Nhất,3,021
+max3d,00839,first,Giải Nhất,4,550
+max3d,00839,second,Giải Nhì,1,569
+max3d,00839,second,Giải Nhì,2,533
+max3d,00839,second,Giải Nhì,3,694
+max3d,00839,second,Giải Nhì,4,491
+max3d,00839,second,Giải Nhì,5,631
+max3d,00839,second,Giải Nhì,6,332
+max3d,00839,third,Giải Ba,1,885
+max3d,00839,third,Giải Ba,2,881
+max3d,00839,third,Giải Ba,3,242
+max3d,00839,third,Giải Ba,4,361
+max3d,00839,third,Giải Ba,5,797
+max3d,00839,third,Giải Ba,6,671
+max3d,00839,third,Giải Ba,7,930
+max3d,00839,third,Giải Ba,8,016
+max3d,00840,special,Giải Đặc biệt,1,582
+max3d,00840,special,Giải Đặc biệt,2,046
+max3d,00840,first,Giải Nhất,1,312
+max3d,00840,first,Giải Nhất,2,383
+max3d,00840,first,Giải Nhất,3,097
+max3d,00840,first,Giải Nhất,4,180
+max3d,00840,second,Giải Nhì,1,637
+max3d,00840,second,Giải Nhì,2,330
+max3d,00840,second,Giải Nhì,3,871
+max3d,00840,second,Giải Nhì,4,111
+max3d,00840,second,Giải Nhì,5,887
+max3d,00840,second,Giải Nhì,6,033
+max3d,00840,third,Giải Ba,1,284
+max3d,00840,third,Giải Ba,2,445
+max3d,00840,third,Giải Ba,3,216
+max3d,00840,third,Giải Ba,4,160
+max3d,00840,third,Giải Ba,5,347
+max3d,00840,third,Giải Ba,6,689
+max3d,00840,third,Giải Ba,7,218
+max3d,00840,third,Giải Ba,8,973
+max3d,00841,special,Giải Đặc biệt,1,433
+max3d,00841,special,Giải Đặc biệt,2,853
+max3d,00841,first,Giải Nhất,1,022
+max3d,00841,first,Giải Nhất,2,615
+max3d,00841,first,Giải Nhất,3,105
+max3d,00841,first,Giải Nhất,4,771
+max3d,00841,second,Giải Nhì,1,951
+max3d,00841,second,Giải Nhì,2,666
+max3d,00841,second,Giải Nhì,3,489
+max3d,00841,second,Giải Nhì,4,467
+max3d,00841,second,Giải Nhì,5,831
+max3d,00841,second,Giải Nhì,6,861
+max3d,00841,third,Giải Ba,1,096
+max3d,00841,third,Giải Ba,2,166
+max3d,00841,third,Giải Ba,3,905
+max3d,00841,third,Giải Ba,4,363
+max3d,00841,third,Giải Ba,5,470
+max3d,00841,third,Giải Ba,6,476
+max3d,00841,third,Giải Ba,7,590
+max3d,00841,third,Giải Ba,8,122
+max3d,00842,special,Giải Đặc biệt,1,099
+max3d,00842,special,Giải Đặc biệt,2,751
+max3d,00842,first,Giải Nhất,1,125
+max3d,00842,first,Giải Nhất,2,900
+max3d,00842,first,Giải Nhất,3,380
+max3d,00842,first,Giải Nhất,4,109
+max3d,00842,second,Giải Nhì,1,228
+max3d,00842,second,Giải Nhì,2,964
+max3d,00842,second,Giải Nhì,3,174
+max3d,00842,second,Giải Nhì,4,998
+max3d,00842,second,Giải Nhì,5,448
+max3d,00842,second,Giải Nhì,6,120
+max3d,00842,third,Giải Ba,1,724
+max3d,00842,third,Giải Ba,2,328
+max3d,00842,third,Giải Ba,3,709
+max3d,00842,third,Giải Ba,4,471
+max3d,00842,third,Giải Ba,5,199
+max3d,00842,third,Giải Ba,6,537
+max3d,00842,third,Giải Ba,7,611
+max3d,00842,third,Giải Ba,8,086
+max3d,00843,special,Giải Đặc biệt,1,070
+max3d,00843,special,Giải Đặc biệt,2,945
+max3d,00843,first,Giải Nhất,1,490
+max3d,00843,first,Giải Nhất,2,401
+max3d,00843,first,Giải Nhất,3,873
+max3d,00843,first,Giải Nhất,4,342
+max3d,00843,second,Giải Nhì,1,785
+max3d,00843,second,Giải Nhì,2,188
+max3d,00843,second,Giải Nhì,3,171
+max3d,00843,second,Giải Nhì,4,809
+max3d,00843,second,Giải Nhì,5,832
+max3d,00843,second,Giải Nhì,6,788
+max3d,00843,third,Giải Ba,1,931
+max3d,00843,third,Giải Ba,2,170
+max3d,00843,third,Giải Ba,3,709
+max3d,00843,third,Giải Ba,4,407
+max3d,00843,third,Giải Ba,5,491
+max3d,00843,third,Giải Ba,6,130
+max3d,00843,third,Giải Ba,7,504
+max3d,00843,third,Giải Ba,8,640
+max3d,00844,special,Giải Đặc biệt,1,578
+max3d,00844,special,Giải Đặc biệt,2,337
+max3d,00844,first,Giải Nhất,1,602
+max3d,00844,first,Giải Nhất,2,066
+max3d,00844,first,Giải Nhất,3,359
+max3d,00844,first,Giải Nhất,4,692
+max3d,00844,second,Giải Nhì,1,494
+max3d,00844,second,Giải Nhì,2,283
+max3d,00844,second,Giải Nhì,3,658
+max3d,00844,second,Giải Nhì,4,529
+max3d,00844,second,Giải Nhì,5,185
+max3d,00844,second,Giải Nhì,6,810
+max3d,00844,third,Giải Ba,1,652
+max3d,00844,third,Giải Ba,2,590
+max3d,00844,third,Giải Ba,3,845
+max3d,00844,third,Giải Ba,4,436
+max3d,00844,third,Giải Ba,5,546
+max3d,00844,third,Giải Ba,6,951
+max3d,00844,third,Giải Ba,7,081
+max3d,00844,third,Giải Ba,8,437
+max3d,00845,special,Giải Đặc biệt,1,222
+max3d,00845,special,Giải Đặc biệt,2,108
+max3d,00845,first,Giải Nhất,1,571
+max3d,00845,first,Giải Nhất,2,222
+max3d,00845,first,Giải Nhất,3,082
+max3d,00845,first,Giải Nhất,4,622
+max3d,00845,second,Giải Nhì,1,756
+max3d,00845,second,Giải Nhì,2,569
+max3d,00845,second,Giải Nhì,3,428
+max3d,00845,second,Giải Nhì,4,294
+max3d,00845,second,Giải Nhì,5,844
+max3d,00845,second,Giải Nhì,6,873
+max3d,00845,third,Giải Ba,1,856
+max3d,00845,third,Giải Ba,2,033
+max3d,00845,third,Giải Ba,3,020
+max3d,00845,third,Giải Ba,4,276
+max3d,00845,third,Giải Ba,5,119
+max3d,00845,third,Giải Ba,6,480
+max3d,00845,third,Giải Ba,7,335
+max3d,00845,third,Giải Ba,8,693
+max3d,00846,special,Giải Đặc biệt,1,323
+max3d,00846,special,Giải Đặc biệt,2,439
+max3d,00846,first,Giải Nhất,1,863
+max3d,00846,first,Giải Nhất,2,196
+max3d,00846,first,Giải Nhất,3,986
+max3d,00846,first,Giải Nhất,4,086
+max3d,00846,second,Giải Nhì,1,256
+max3d,00846,second,Giải Nhì,2,104
+max3d,00846,second,Giải Nhì,3,289
+max3d,00846,second,Giải Nhì,4,606
+max3d,00846,second,Giải Nhì,5,180
+max3d,00846,second,Giải Nhì,6,457
+max3d,00846,third,Giải Ba,1,276
+max3d,00846,third,Giải Ba,2,689
+max3d,00846,third,Giải Ba,3,061
+max3d,00846,third,Giải Ba,4,952
+max3d,00846,third,Giải Ba,5,975
+max3d,00846,third,Giải Ba,6,247
+max3d,00846,third,Giải Ba,7,694
+max3d,00846,third,Giải Ba,8,115
+max3d,00847,special,Giải Đặc biệt,1,464
+max3d,00847,special,Giải Đặc biệt,2,934
+max3d,00847,first,Giải Nhất,1,835
+max3d,00847,first,Giải Nhất,2,909
+max3d,00847,first,Giải Nhất,3,893
+max3d,00847,first,Giải Nhất,4,041
+max3d,00847,second,Giải Nhì,1,910
+max3d,00847,second,Giải Nhì,2,656
+max3d,00847,second,Giải Nhì,3,949
+max3d,00847,second,Giải Nhì,4,548
+max3d,00847,second,Giải Nhì,5,715
+max3d,00847,second,Giải Nhì,6,306
+max3d,00847,third,Giải Ba,1,908
+max3d,00847,third,Giải Ba,2,810
+max3d,00847,third,Giải Ba,3,246
+max3d,00847,third,Giải Ba,4,306
+max3d,00847,third,Giải Ba,5,289
+max3d,00847,third,Giải Ba,6,863
+max3d,00847,third,Giải Ba,7,333
+max3d,00847,third,Giải Ba,8,980
+max3d,00848,special,Giải Đặc biệt,1,529
+max3d,00848,special,Giải Đặc biệt,2,723
+max3d,00848,first,Giải Nhất,1,119
+max3d,00848,first,Giải Nhất,2,365
+max3d,00848,first,Giải Nhất,3,319
+max3d,00848,first,Giải Nhất,4,934
+max3d,00848,second,Giải Nhì,1,936
+max3d,00848,second,Giải Nhì,2,031
+max3d,00848,second,Giải Nhì,3,583
+max3d,00848,second,Giải Nhì,4,675
+max3d,00848,second,Giải Nhì,5,155
+max3d,00848,second,Giải Nhì,6,959
+max3d,00848,third,Giải Ba,1,498
+max3d,00848,third,Giải Ba,2,123
+max3d,00848,third,Giải Ba,3,402
+max3d,00848,third,Giải Ba,4,189
+max3d,00848,third,Giải Ba,5,639
+max3d,00848,third,Giải Ba,6,447
+max3d,00848,third,Giải Ba,7,280
+max3d,00848,third,Giải Ba,8,363
+max3d,00849,special,Giải Đặc biệt,1,125
+max3d,00849,special,Giải Đặc biệt,2,618
+max3d,00849,first,Giải Nhất,1,674
+max3d,00849,first,Giải Nhất,2,262
+max3d,00849,first,Giải Nhất,3,125
+max3d,00849,first,Giải Nhất,4,654
+max3d,00849,second,Giải Nhì,1,817
+max3d,00849,second,Giải Nhì,2,371
+max3d,00849,second,Giải Nhì,3,422
+max3d,00849,second,Giải Nhì,4,450
+max3d,00849,second,Giải Nhì,5,169
+max3d,00849,second,Giải Nhì,6,952
+max3d,00849,third,Giải Ba,1,597
+max3d,00849,third,Giải Ba,2,645
+max3d,00849,third,Giải Ba,3,927
+max3d,00849,third,Giải Ba,4,965
+max3d,00849,third,Giải Ba,5,338
+max3d,00849,third,Giải Ba,6,083
+max3d,00849,third,Giải Ba,7,452
+max3d,00849,third,Giải Ba,8,012
+max3d,00850,special,Giải Đặc biệt,1,382
+max3d,00850,special,Giải Đặc biệt,2,002
+max3d,00850,first,Giải Nhất,1,370
+max3d,00850,first,Giải Nhất,2,888
+max3d,00850,first,Giải Nhất,3,233
+max3d,00850,first,Giải Nhất,4,360
+max3d,00850,second,Giải Nhì,1,657
+max3d,00850,second,Giải Nhì,2,852
+max3d,00850,second,Giải Nhì,3,175
+max3d,00850,second,Giải Nhì,4,405
+max3d,00850,second,Giải Nhì,5,137
+max3d,00850,second,Giải Nhì,6,078
+max3d,00850,third,Giải Ba,1,790
+max3d,00850,third,Giải Ba,2,832
+max3d,00850,third,Giải Ba,3,105
+max3d,00850,third,Giải Ba,4,548
+max3d,00850,third,Giải Ba,5,610
+max3d,00850,third,Giải Ba,6,722
+max3d,00850,third,Giải Ba,7,553
+max3d,00850,third,Giải Ba,8,537
+max3d,00851,special,Giải Đặc biệt,1,101
+max3d,00851,special,Giải Đặc biệt,2,509
+max3d,00851,first,Giải Nhất,1,817
+max3d,00851,first,Giải Nhất,2,115
+max3d,00851,first,Giải Nhất,3,110
+max3d,00851,first,Giải Nhất,4,192
+max3d,00851,second,Giải Nhì,1,025
+max3d,00851,second,Giải Nhì,2,275
+max3d,00851,second,Giải Nhì,3,751
+max3d,00851,second,Giải Nhì,4,619
+max3d,00851,second,Giải Nhì,5,154
+max3d,00851,second,Giải Nhì,6,338
+max3d,00851,third,Giải Ba,1,867
+max3d,00851,third,Giải Ba,2,965
+max3d,00851,third,Giải Ba,3,714
+max3d,00851,third,Giải Ba,4,105
+max3d,00851,third,Giải Ba,5,241
+max3d,00851,third,Giải Ba,6,651
+max3d,00851,third,Giải Ba,7,460
+max3d,00851,third,Giải Ba,8,419
+max3d,00852,special,Giải Đặc biệt,1,959
+max3d,00852,special,Giải Đặc biệt,2,972
+max3d,00852,first,Giải Nhất,1,454
+max3d,00852,first,Giải Nhất,2,559
+max3d,00852,first,Giải Nhất,3,380
+max3d,00852,first,Giải Nhất,4,504
+max3d,00852,second,Giải Nhì,1,085
+max3d,00852,second,Giải Nhì,2,863
+max3d,00852,second,Giải Nhì,3,524
+max3d,00852,second,Giải Nhì,4,916
+max3d,00852,second,Giải Nhì,5,163
+max3d,00852,second,Giải Nhì,6,694
+max3d,00852,third,Giải Ba,1,901
+max3d,00852,third,Giải Ba,2,249
+max3d,00852,third,Giải Ba,3,339
+max3d,00852,third,Giải Ba,4,142
+max3d,00852,third,Giải Ba,5,902
+max3d,00852,third,Giải Ba,6,374
+max3d,00852,third,Giải Ba,7,068
+max3d,00852,third,Giải Ba,8,110
+max3d,00853,special,Giải Đặc biệt,1,704
+max3d,00853,special,Giải Đặc biệt,2,065
+max3d,00853,first,Giải Nhất,1,624
+max3d,00853,first,Giải Nhất,2,821
+max3d,00853,first,Giải Nhất,3,867
+max3d,00853,first,Giải Nhất,4,623
+max3d,00853,second,Giải Nhì,1,604
+max3d,00853,second,Giải Nhì,2,852
+max3d,00853,second,Giải Nhì,3,347
+max3d,00853,second,Giải Nhì,4,420
+max3d,00853,second,Giải Nhì,5,443
+max3d,00853,second,Giải Nhì,6,512
+max3d,00853,third,Giải Ba,1,192
+max3d,00853,third,Giải Ba,2,190
+max3d,00853,third,Giải Ba,3,726
+max3d,00853,third,Giải Ba,4,492
+max3d,00853,third,Giải Ba,5,784
+max3d,00853,third,Giải Ba,6,188
+max3d,00853,third,Giải Ba,7,909
+max3d,00853,third,Giải Ba,8,009
+max3d,00854,special,Giải Đặc biệt,1,818
+max3d,00854,special,Giải Đặc biệt,2,391
+max3d,00854,first,Giải Nhất,1,217
+max3d,00854,first,Giải Nhất,2,227
+max3d,00854,first,Giải Nhất,3,472
+max3d,00854,first,Giải Nhất,4,926
+max3d,00854,second,Giải Nhì,1,323
+max3d,00854,second,Giải Nhì,2,005
+max3d,00854,second,Giải Nhì,3,759
+max3d,00854,second,Giải Nhì,4,201
+max3d,00854,second,Giải Nhì,5,396
+max3d,00854,second,Giải Nhì,6,872
+max3d,00854,third,Giải Ba,1,498
+max3d,00854,third,Giải Ba,2,470
+max3d,00854,third,Giải Ba,3,135
+max3d,00854,third,Giải Ba,4,498
+max3d,00854,third,Giải Ba,5,178
+max3d,00854,third,Giải Ba,6,413
+max3d,00854,third,Giải Ba,7,215
+max3d,00854,third,Giải Ba,8,328
+max3d,00855,special,Giải Đặc biệt,1,473
+max3d,00855,special,Giải Đặc biệt,2,645
+max3d,00855,first,Giải Nhất,1,952
+max3d,00855,first,Giải Nhất,2,098
+max3d,00855,first,Giải Nhất,3,872
+max3d,00855,first,Giải Nhất,4,559
+max3d,00855,second,Giải Nhì,1,950
+max3d,00855,second,Giải Nhì,2,234
+max3d,00855,second,Giải Nhì,3,820
+max3d,00855,second,Giải Nhì,4,158
+max3d,00855,second,Giải Nhì,5,794
+max3d,00855,second,Giải Nhì,6,367
+max3d,00855,third,Giải Ba,1,621
+max3d,00855,third,Giải Ba,2,298
+max3d,00855,third,Giải Ba,3,726
+max3d,00855,third,Giải Ba,4,212
+max3d,00855,third,Giải Ba,5,552
+max3d,00855,third,Giải Ba,6,643
+max3d,00855,third,Giải Ba,7,722
+max3d,00855,third,Giải Ba,8,704
+max3d,00856,special,Giải Đặc biệt,1,999
+max3d,00856,special,Giải Đặc biệt,2,481
+max3d,00856,first,Giải Nhất,1,934
+max3d,00856,first,Giải Nhất,2,934
+max3d,00856,first,Giải Nhất,3,415
+max3d,00856,first,Giải Nhất,4,902
+max3d,00856,second,Giải Nhì,1,326
+max3d,00856,second,Giải Nhì,2,617
+max3d,00856,second,Giải Nhì,3,618
+max3d,00856,second,Giải Nhì,4,835
+max3d,00856,second,Giải Nhì,5,322
+max3d,00856,second,Giải Nhì,6,460
+max3d,00856,third,Giải Ba,1,382
+max3d,00856,third,Giải Ba,2,173
+max3d,00856,third,Giải Ba,3,705
+max3d,00856,third,Giải Ba,4,794
+max3d,00856,third,Giải Ba,5,176
+max3d,00856,third,Giải Ba,6,997
+max3d,00856,third,Giải Ba,7,420
+max3d,00856,third,Giải Ba,8,135
+max3d,00857,special,Giải Đặc biệt,1,981
+max3d,00857,special,Giải Đặc biệt,2,230
+max3d,00857,first,Giải Nhất,1,458
+max3d,00857,first,Giải Nhất,2,388
+max3d,00857,first,Giải Nhất,3,255
+max3d,00857,first,Giải Nhất,4,221
+max3d,00857,second,Giải Nhì,1,257
+max3d,00857,second,Giải Nhì,2,075
+max3d,00857,second,Giải Nhì,3,879
+max3d,00857,second,Giải Nhì,4,659
+max3d,00857,second,Giải Nhì,5,656
+max3d,00857,second,Giải Nhì,6,734
+max3d,00857,third,Giải Ba,1,069
+max3d,00857,third,Giải Ba,2,824
+max3d,00857,third,Giải Ba,3,736
+max3d,00857,third,Giải Ba,4,358
+max3d,00857,third,Giải Ba,5,872
+max3d,00857,third,Giải Ba,6,224
+max3d,00857,third,Giải Ba,7,206
+max3d,00857,third,Giải Ba,8,609
+max3d,00858,special,Giải Đặc biệt,1,972
+max3d,00858,special,Giải Đặc biệt,2,403
+max3d,00858,first,Giải Nhất,1,903
+max3d,00858,first,Giải Nhất,2,311
+max3d,00858,first,Giải Nhất,3,502
+max3d,00858,first,Giải Nhất,4,648
+max3d,00858,second,Giải Nhì,1,869
+max3d,00858,second,Giải Nhì,2,564
+max3d,00858,second,Giải Nhì,3,345
+max3d,00858,second,Giải Nhì,4,828
+max3d,00858,second,Giải Nhì,5,881
+max3d,00858,second,Giải Nhì,6,316
+max3d,00858,third,Giải Ba,1,114
+max3d,00858,third,Giải Ba,2,723
+max3d,00858,third,Giải Ba,3,289
+max3d,00858,third,Giải Ba,4,358
+max3d,00858,third,Giải Ba,5,809
+max3d,00858,third,Giải Ba,6,469
+max3d,00858,third,Giải Ba,7,149
+max3d,00858,third,Giải Ba,8,722
+max3d,00859,special,Giải Đặc biệt,1,622
+max3d,00859,special,Giải Đặc biệt,2,809
+max3d,00859,first,Giải Nhất,1,214
+max3d,00859,first,Giải Nhất,2,052
+max3d,00859,first,Giải Nhất,3,217
+max3d,00859,first,Giải Nhất,4,932
+max3d,00859,second,Giải Nhì,1,713
+max3d,00859,second,Giải Nhì,2,069
+max3d,00859,second,Giải Nhì,3,496
+max3d,00859,second,Giải Nhì,4,061
+max3d,00859,second,Giải Nhì,5,006
+max3d,00859,second,Giải Nhì,6,195
+max3d,00859,third,Giải Ba,1,080
+max3d,00859,third,Giải Ba,2,084
+max3d,00859,third,Giải Ba,3,439
+max3d,00859,third,Giải Ba,4,240
+max3d,00859,third,Giải Ba,5,192
+max3d,00859,third,Giải Ba,6,529
+max3d,00859,third,Giải Ba,7,407
+max3d,00859,third,Giải Ba,8,311
+max3d,00860,special,Giải Đặc biệt,1,449
+max3d,00860,special,Giải Đặc biệt,2,999
+max3d,00860,first,Giải Nhất,1,188
+max3d,00860,first,Giải Nhất,2,667
+max3d,00860,first,Giải Nhất,3,883
+max3d,00860,first,Giải Nhất,4,486
+max3d,00860,second,Giải Nhì,1,642
+max3d,00860,second,Giải Nhì,2,676
+max3d,00860,second,Giải Nhì,3,406
+max3d,00860,second,Giải Nhì,4,386
+max3d,00860,second,Giải Nhì,5,375
+max3d,00860,second,Giải Nhì,6,706
+max3d,00860,third,Giải Ba,1,720
+max3d,00860,third,Giải Ba,2,219
+max3d,00860,third,Giải Ba,3,747
+max3d,00860,third,Giải Ba,4,746
+max3d,00860,third,Giải Ba,5,229
+max3d,00860,third,Giải Ba,6,912
+max3d,00860,third,Giải Ba,7,216
+max3d,00860,third,Giải Ba,8,612
+max3d,00861,special,Giải Đặc biệt,1,752
+max3d,00861,special,Giải Đặc biệt,2,491
+max3d,00861,first,Giải Nhất,1,991
+max3d,00861,first,Giải Nhất,2,970
+max3d,00861,first,Giải Nhất,3,873
+max3d,00861,first,Giải Nhất,4,082
+max3d,00861,second,Giải Nhì,1,977
+max3d,00861,second,Giải Nhì,2,125
+max3d,00861,second,Giải Nhì,3,936
+max3d,00861,second,Giải Nhì,4,651
+max3d,00861,second,Giải Nhì,5,003
+max3d,00861,second,Giải Nhì,6,168
+max3d,00861,third,Giải Ba,1,608
+max3d,00861,third,Giải Ba,2,005
+max3d,00861,third,Giải Ba,3,177
+max3d,00861,third,Giải Ba,4,087
+max3d,00861,third,Giải Ba,5,293
+max3d,00861,third,Giải Ba,6,894
+max3d,00861,third,Giải Ba,7,690
+max3d,00861,third,Giải Ba,8,462
+max3d,00862,special,Giải Đặc biệt,1,720
+max3d,00862,special,Giải Đặc biệt,2,842
+max3d,00862,first,Giải Nhất,1,606
+max3d,00862,first,Giải Nhất,2,288
+max3d,00862,first,Giải Nhất,3,922
+max3d,00862,first,Giải Nhất,4,762
+max3d,00862,second,Giải Nhì,1,020
+max3d,00862,second,Giải Nhì,2,608
+max3d,00862,second,Giải Nhì,3,441
+max3d,00862,second,Giải Nhì,4,499
+max3d,00862,second,Giải Nhì,5,915
+max3d,00862,second,Giải Nhì,6,577
+max3d,00862,third,Giải Ba,1,202
+max3d,00862,third,Giải Ba,2,549
+max3d,00862,third,Giải Ba,3,232
+max3d,00862,third,Giải Ba,4,144
+max3d,00862,third,Giải Ba,5,821
+max3d,00862,third,Giải Ba,6,842
+max3d,00862,third,Giải Ba,7,512
+max3d,00862,third,Giải Ba,8,142
+max3d,00863,special,Giải Đặc biệt,1,441
+max3d,00863,special,Giải Đặc biệt,2,004
+max3d,00863,first,Giải Nhất,1,182
+max3d,00863,first,Giải Nhất,2,414
+max3d,00863,first,Giải Nhất,3,508
+max3d,00863,first,Giải Nhất,4,527
+max3d,00863,second,Giải Nhì,1,128
+max3d,00863,second,Giải Nhì,2,380
+max3d,00863,second,Giải Nhì,3,535
+max3d,00863,second,Giải Nhì,4,296
+max3d,00863,second,Giải Nhì,5,105
+max3d,00863,second,Giải Nhì,6,854
+max3d,00863,third,Giải Ba,1,396
+max3d,00863,third,Giải Ba,2,864
+max3d,00863,third,Giải Ba,3,498
+max3d,00863,third,Giải Ba,4,453
+max3d,00863,third,Giải Ba,5,568
+max3d,00863,third,Giải Ba,6,073
+max3d,00863,third,Giải Ba,7,559
+max3d,00863,third,Giải Ba,8,325
 max3d,00864,special,Giải Đặc biệt,1,776
 max3d,00864,special,Giải Đặc biệt,2,991
 max3d,00864,first,Giải Nhất,1,043

@@ -1,12 +1,12 @@
 {
   "backfill_complete": false,
-  "earliest_draw_date": "2024-12-24",
-  "earliest_draw_id": "00511",
+  "earliest_draw_date": "2023-05-18",
+  "earliest_draw_id": "00261",
   "game": "max3d_pro",
   "latest_draw_date": "2026-08-01",
   "latest_draw_id": "00760",
   "missing_ids": [],
-  "next_page_index": 50,
-  "record_count": 250,
+  "next_page_index": 100,
+  "record_count": 500,
   "unavailable_ranges": []
 }
