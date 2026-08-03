@@ -16,7 +16,7 @@ from urllib.parse import urlencode, urlparse
 
 import httpx
 
-from vietlott.config import WEB_BASE
+from vietlott.config import OFFICIAL_HOSTS, WEB_BASE
 from vietlott.errors import FetchError, ParseError
 
 
@@ -164,6 +164,8 @@ class VietlottClient:
         )
 
     def _request(self, method: str, url: str, **kwargs: Any) -> httpx.Response:
+        if not _is_approved_official_url(url):
+            raise FetchError(f"Refusing non-official Vietlott URL: {url}")
         request_url = url
         if self.relay_url:
             request_url = f"{self.relay_url}/proxy?{urlencode({'url': url})}"
@@ -174,25 +176,34 @@ class VietlottClient:
         last_error: Exception | None = None
         max_attempts = self.retries + 1
         for attempt in range(max_attempts):
+            retry_after: float | None = None
             try:
                 response = self.client.request(method, request_url, **kwargs)
             except httpx.HTTPError as exc:
                 last_error = exc
             else:
-                if response.status_code in {403, 429}:
+                if response.status_code == 403:
                     raise FetchError(
                         f"Official Vietlott source rejected the request with HTTP "
                         f"{response.status_code}"
                     )
                 if response.is_success:
+                    if not self.relay_url and not _is_approved_official_url(str(response.url)):
+                        raise FetchError(
+                            "Official Vietlott request redirected outside the allowlist"
+                        )
                     return response
-                if response.status_code not in {408, 425, 500, 502, 503, 504}:
+                if response.status_code not in {408, 425, 429, 500, 502, 503, 504}:
                     raise FetchError(
                         f"Official Vietlott source returned HTTP {response.status_code}"
                     )
                 last_error = FetchError(f"Transient HTTP {response.status_code}")
+                if response.status_code == 429:
+                    retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
             if attempt + 1 < max_attempts:
-                delay = self.backoff_base * (2**attempt) + random.uniform(0.0, 0.35)
+                delay = retry_after or (
+                    self.backoff_base * (2**attempt) + random.uniform(0.0, 0.35)
+                )
                 time.sleep(delay)
         raise FetchError(
             f"Official Vietlott request failed after {max_attempts} attempts"
@@ -202,10 +213,38 @@ class VietlottClient:
         if not self.relay_url:
             return str(response.url)
         reported_url = response.headers.get("X-Vietlott-Source-Url")
-        return str(reported_url) if reported_url else requested_url
+        source_url = str(reported_url) if reported_url else requested_url
+        if not _is_approved_official_url(source_url):
+            raise FetchError("Relay reported a source URL outside the Vietlott allowlist")
+        return source_url
 
 
 def _utc_now() -> str:
     from datetime import datetime
 
     return datetime.now(UTC).isoformat(timespec="seconds")
+
+
+def _is_approved_official_url(value: str) -> bool:
+    parsed = urlparse(value)
+    try:
+        port = parsed.port
+    except ValueError:
+        return False
+    return (
+        parsed.scheme == "https"
+        and parsed.hostname in OFFICIAL_HOSTS
+        and parsed.username is None
+        and parsed.password is None
+        and port in {None, 443}
+    )
+
+
+def _retry_after_seconds(value: str | None) -> float | None:
+    if value is None:
+        return None
+    try:
+        delay = float(value)
+    except ValueError:
+        return None
+    return min(max(delay, 0.0), 30.0) or None

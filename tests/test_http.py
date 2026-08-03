@@ -50,6 +50,42 @@ def test_transient_failure_is_retried_three_times() -> None:
     raw_client.close()
 
 
+def test_rate_limit_honors_retry_after_and_recovers() -> None:
+    attempts = 0
+
+    def rate_limited(request: httpx.Request) -> httpx.Response:
+        nonlocal attempts
+        attempts += 1
+        if attempts == 1:
+            return httpx.Response(429, request=request, headers={"Retry-After": "2"})
+        return httpx.Response(200, request=request, text="ok")
+
+    raw_client = httpx.Client(transport=httpx.MockTransport(rate_limited))
+    client = VietlottClient(
+        client=raw_client,
+        retries=1,
+        bootstrap_ajax_cookie=False,
+    )
+    with patch("vietlott.http.time.sleep") as sleep:
+        response = client.get_html("https://vietlott.vn/result")
+    assert response.html == "ok"
+    assert attempts == 2
+    sleep.assert_called_once_with(2.0)
+    raw_client.close()
+
+
+def test_non_official_url_is_rejected_before_request() -> None:
+    raw_client = httpx.Client(
+        transport=httpx.MockTransport(
+            lambda request: pytest.fail(f"unexpected request: {request.url}")
+        )
+    )
+    client = VietlottClient(client=raw_client, bootstrap_ajax_cookie=False)
+    with pytest.raises(FetchError):
+        client.get_html("https://example.com/result")
+    raw_client.close()
+
+
 def test_ajax_bootstrap_sends_first_party_cookie() -> None:
     requests: list[httpx.Request] = []
 

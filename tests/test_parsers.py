@@ -6,10 +6,11 @@ import pytest
 
 from vietlott.adapters import get_adapter
 from vietlott.adapters.base import parse_prizes
+from vietlott.adapters.number_set import _assign_lotto_slots
 from vietlott.config import get_game
 from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse
-from vietlott.models import NumberSetResult, ThreeDigitResult
+from vietlott.models import DrawRecord, NumberSetResult, ThreeDigitResult
 from vietlott.pdf import audit_pdf
 
 
@@ -44,6 +45,47 @@ def test_number_set_and_lotto_slots(official_response) -> None:
     )
     assert [record.draw_time for record in lotto] == ["13:00:00", "21:00:00"]
     assert [record.draw_slot for record in lotto] == ["afternoon", "night"]
+
+
+def _lotto_record(draw_id: str, draw_date: str, slot: str | None = None) -> DrawRecord:
+    draw_time = {"afternoon": "13:00:00", "night": "21:00:00"}.get(slot)
+    return DrawRecord(
+        game="lotto535",
+        draw_id=draw_id,
+        draw_date=draw_date,
+        draw_time=draw_time,
+        draw_slot=slot,
+        result=NumberSetResult(main_numbers=[1, 2, 3, 4, 5], bonus_numbers=[6]),
+        source_url=get_game("lotto535").endpoint,
+        source_sha256="a" * 64,
+        retrieved_at="2026-08-03T00:00:00+07:00",
+    )
+
+
+def test_lotto_slot_is_inferred_across_page_and_day_boundaries() -> None:
+    records = [
+        _lotto_record("00794", "2026-07-31"),
+        _lotto_record("00795", "2026-08-01", "afternoon"),
+        _lotto_record("00800", "2026-08-02", "night"),
+        _lotto_record("00801", "2026-08-03"),
+    ]
+    assigned = _assign_lotto_slots(records)
+    assert [(item.draw_id, item.draw_slot) for item in assigned] == [
+        ("00794", "night"),
+        ("00795", "afternoon"),
+        ("00800", "night"),
+        ("00801", "afternoon"),
+    ]
+
+
+def test_lotto_slot_is_not_guessed_for_non_consecutive_ids() -> None:
+    records = [
+        _lotto_record("00800", "2026-08-02", "night"),
+        _lotto_record("00802", "2026-08-03"),
+        _lotto_record("00804", "2026-08-03"),
+    ]
+    assigned = _assign_lotto_slots(records)
+    assert [item.draw_slot for item in assigned] == ["night", None, None]
 
 
 def test_max3d_preserves_leading_zeroes(official_response) -> None:

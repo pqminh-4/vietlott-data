@@ -19,16 +19,16 @@ liệu ngày/kỳ luôn lấy từ phản hồi chính thức thay vì tự suy 
 
 ## Kết quả kỳ quay thưởng gần nhất
 
-Đối chiếu nguồn Vietlott lúc **13:18 ngày 02/08/2026 (UTC+7)**. Bảng này là
+Đối chiếu nguồn Vietlott lúc **19:28 ngày 03/08/2026 (UTC+7)**. Bảng này là
 snapshot tại thời điểm cập nhật README; liên kết ở mã kỳ luôn trỏ tới bản ghi
 `latest.json` mới nhất của từng sản phẩm.
 
 | Sản phẩm | Kỳ quay | Kết quả |
 |---|---|---|
-| Mega 6/45 | [#01543](site/api/v1/mega645/latest.json) · 31/07/2026 | **06 · 16 · 24 · 25 · 38 · 43** |
+| Mega 6/45 | [#01544](site/api/v1/mega645/latest.json) · 02/08/2026 | **03 · 12 · 20 · 25 · 27 · 37** |
 | Power 6/55 | [#01379](site/api/v1/power655/latest.json) · 01/08/2026 | **11 · 14 · 16 · 44 · 49 · 55** · Số đặc biệt: **39** |
-| Lotto 5/35 | [#00798](site/api/v1/lotto535/latest.json) · 21:00 01/08/2026 | **06 · 09 · 20 · 23 · 33** · Số đặc biệt: **10** |
-| Max 3D / Max 3D+ | [#01113](site/api/v1/max3d/latest.json) · 31/07/2026 | Đặc biệt: **133, 706**<br>Nhất: **413, 123, 179, 393**<br>Nhì: **752, 873, 003, 589, 746, 083**<br>Ba: **819, 172, 783, 083, 200, 549, 803, 223** |
+| Lotto 5/35 | [#00801](site/api/v1/lotto535/latest.json) · 13:00 03/08/2026 | **02 · 09 · 12 · 21 · 25** · Số đặc biệt: **10** |
+| Max 3D / Max 3D+ | [#01114](site/api/v1/max3d/latest.json) · 03/08/2026 | Đặc biệt: **268, 568**<br>Nhất: **351, 979, 231, 691**<br>Nhì: **973, 102, 063, 537, 359, 727**<br>Ba: **845, 548, 123, 502, 052, 124, 635, 850** |
 | Max 3D Pro | [#00760](site/api/v1/max3d_pro/latest.json) · 01/08/2026 | Đặc biệt: **452, 600**<br>Nhất: **484, 745, 243, 256**<br>Nhì: **580, 006, 849, 538, 564, 451**<br>Ba: **571, 794, 881, 129, 804, 686, 941, 374** |
 
 ## Cài đặt và sử dụng
@@ -43,6 +43,9 @@ vietlott backfill --game all --resume --max-draws 250
 vietlott reconcile --games all
 vietlott validate
 vietlott build-api
+vietlott check-freshness --games all --max-delay-minutes 60
+vietlott check-freshness --games all --max-delay-minutes 60 \
+  --api-base-url https://pqminh-4.github.io/vietlott-data/api/v1
 ```
 
 `collect --dry-run` thực hiện request, parse và validation nhưng không ghi dữ
@@ -60,8 +63,9 @@ Repository điều khiển checkout nhánh `main`, thu thập và validate trự
 `data/` cùng `site/`, rồi dùng installation token ngắn hạn của một GitHub App chỉ có
 quyền ghi nội dung repository này để push khi dữ liệu thực sự thay đổi.
 
-Mã Cloudflare Worker còn được giữ tạm trong cửa sổ chuyển đổi 48 giờ và không còn
-được workflow sử dụng. Nó sẽ được xóa sau khi self-hosted runner đạt nghiệm thu.
+Mã Cloudflare Worker không còn được workflow sử dụng. Nó chỉ được giữ để rollback
+cho tới khi self-hosted runner và watchdog vượt qua trọn chu kỳ 13:00–18:00–21:00;
+sau đó hai Worker, secret và service binding mới được gỡ theo thứ tự đã ghi nhận.
 
 ## Bố cục dữ liệu
 
@@ -85,7 +89,7 @@ Các endpoint chính sau khi bật GitHub Pages:
 ## Tự động hóa trên GitHub
 
 1. Repository public này chỉ chạy CI và deploy GitHub Pages trên GitHub-hosted runner.
-2. Repository private `pqminh-4/vietlott-ops` giữ lịch thu thập, smoke test và watchdog.
+2. Repository private `pqminh-4/vietlott-ops` giữ lịch thu thập và smoke test.
 3. Self-hosted runner chỉ được đăng ký vào repository private với label `vietlott-vn`.
 4. GitHub App ghi dữ liệu chỉ được cài trên `pqminh-4/vietlott-data` với quyền
    `Contents: read/write`; private key chỉ lưu trong secrets của repository private.
@@ -94,9 +98,11 @@ Các endpoint chính sau khi bật GitHub Pages:
    khi hoàn tất.
 
 Workflow polling chạy ở phút 07, 22, 37 và 52 quanh các giờ quay theo
-`Asia/Ho_Chi_Minh`. Mục tiêu cập nhật trong 30 phút là best-effort vì scheduled
-workflow của GitHub có thể bị trì hoãn khi hệ thống tải cao. Lượt reconcile sẽ
-tự bù dữ liệu bị lỡ.
+`Asia/Ho_Chi_Minh`. SLA chính thức là dữ liệu phải xuất hiện trên production trong
+vòng 60 phút. Workflow **Freshness watchdog** chạy độc lập trên GitHub-hosted runner
+sau các mốc 13:00, 18:00 và 21:00, kiểm tra riêng API theo `main` và GitHub Pages,
+ghi Job Summary rồi thất bại nếu dữ liệu `stale` hoặc `invalid`. Trước deadline,
+trạng thái `pending` không tạo cảnh báo. Lượt reconcile vẫn tự bù dữ liệu bị lỡ.
 
 ## An toàn dữ liệu
 

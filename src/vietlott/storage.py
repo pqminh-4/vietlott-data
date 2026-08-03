@@ -7,7 +7,7 @@ import json
 import os
 import tempfile
 from collections.abc import Iterable
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Any
 
@@ -61,8 +61,9 @@ class DataStore:
             if record.game != game:
                 raise ValidationError(f"Cannot store {record.game} in the {game} dataset")
             previous = existing.get(record.draw_id)
-            if previous is None or _semantic_payload(previous) != _semantic_payload(record):
-                existing[record.draw_id] = record
+            merged = _merge_enrichment(previous, record) if previous is not None else record
+            if previous is None or _semantic_payload(previous) != _semantic_payload(merged):
+                existing[record.draw_id] = merged
                 changed += 1
         if changed:
             self._write_jsonl(self.canonical_path(game), sorted(existing.values(), key=_sort_key))
@@ -77,6 +78,16 @@ class DataStore:
         if records != sorted(records, key=_sort_key):
             raise ValidationError(f"Canonical JSONL is not sorted for {game}")
         coverage = self.coverage(game)
+        coverage_path = self.root / "coverage" / f"{game}.json"
+        if not coverage_path.exists() and self.canonical_path(game).exists():
+            raise ValidationError(f"Missing tracked coverage for {game}")
+        if coverage_path.exists():
+            try:
+                tracked_coverage = json.loads(coverage_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                raise ValidationError(f"Invalid tracked coverage for {game}: {exc}") from exc
+            if tracked_coverage != coverage:
+                raise ValidationError(f"Tracked coverage is stale for {game}")
         if coverage["backfill_complete"]:
             unexplained = _unexplained_missing(
                 coverage["missing_ids"], coverage["unavailable_ranges"]
@@ -121,9 +132,13 @@ class DataStore:
         return {
             "game": game,
             "record_count": len(records),
-            "earliest_draw_id": min(records, key=_sort_key).draw_id if records else None,
+            "earliest_draw_id": min(records, key=lambda record: int(record.draw_id)).draw_id
+            if records
+            else None,
             "earliest_draw_date": min((record.draw_date for record in records), default=None),
-            "latest_draw_id": max(records, key=_sort_key).draw_id if records else None,
+            "latest_draw_id": max(records, key=lambda record: int(record.draw_id)).draw_id
+            if records
+            else None,
             "latest_draw_date": max((record.draw_date for record in records), default=None),
             "missing_ids": missing,
             "unavailable_ranges": state.unavailable_ranges,
@@ -192,15 +207,35 @@ class DataStore:
         os.replace(temporary, path)
 
 
-def _sort_key(record: DrawRecord) -> tuple[str, str, int]:
-    return record.draw_date, record.draw_time or "", int(record.draw_id)
+def _sort_key(record: DrawRecord) -> tuple[str, int]:
+    return record.draw_date, int(record.draw_id)
 
 
 def _semantic_payload(record: DrawRecord) -> dict[str, Any]:
     payload = record.to_dict()
-    for field_name in ("retrieved_at", "source_sha256", "source_pdf_sha256"):
+    for field_name in ("retrieved_at", "source_sha256"):
         payload.pop(field_name, None)
     return payload
+
+
+def _merge_enrichment(previous: DrawRecord, incoming: DrawRecord) -> DrawRecord:
+    """Keep known enrichment when a thinner source page omits it on refresh."""
+    source_pdf_url = incoming.source_pdf_url or previous.source_pdf_url
+    source_pdf_sha256: str | None
+    if incoming.source_pdf_sha256 is not None:
+        source_pdf_sha256 = incoming.source_pdf_sha256
+    elif incoming.source_pdf_url is None or incoming.source_pdf_url == previous.source_pdf_url:
+        source_pdf_sha256 = previous.source_pdf_sha256
+    else:
+        source_pdf_sha256 = None
+    return replace(
+        incoming,
+        draw_time=incoming.draw_time or previous.draw_time,
+        draw_slot=incoming.draw_slot or previous.draw_slot,
+        prizes=incoming.prizes or previous.prizes,
+        source_pdf_url=source_pdf_url,
+        source_pdf_sha256=source_pdf_sha256,
+    )
 
 
 def _compact_json(payload: dict[str, Any]) -> str:

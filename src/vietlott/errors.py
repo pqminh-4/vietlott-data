@@ -15,3 +15,7 @@ class ParseError(VietlottError):
 
 class ValidationError(VietlottError):
     """A normalized record violated the public schema."""
+
+
+class FreshnessError(VietlottError):
+    """A freshness check could not be configured safely."""

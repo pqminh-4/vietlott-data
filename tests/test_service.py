@@ -94,6 +94,11 @@ def test_dry_run_does_not_write(tmp_path: Path) -> None:
         summary = collector.collect_latest(["mega645"], dry_run=True)
     assert summary.fetched == {"mega645": 1}
     assert store.load("mega645") == []
+    assert summary.telemetry["mega645"]["before_latest_draw_id"] is None
+    assert summary.telemetry["mega645"]["fetched_latest_draw_id"] == "00002"
+    assert summary.telemetry["mega645"]["stored_latest_draw_id"] is None
+    assert summary.telemetry["mega645"]["status"] == "dry-run"
+    assert summary.to_dict()["selected_games"] == ["mega645"]
 
 
 def test_backfill_reports_history_that_the_source_no_longer_returns(tmp_path: Path) -> None:

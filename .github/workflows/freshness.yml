@@ -1,0 +1,64 @@
+name: Freshness watchdog
+
+on:
+  schedule:
+    # 14:05, 19:05 and 22:05 in Asia/Ho_Chi_Minh (UTC+7, no DST).
+    - cron: "5 7,12,15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vietlott-freshness-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install .
+      - name: Check static API tracked on main
+        id: main
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          vietlott check-freshness \
+            --games all \
+            --max-delay-minutes 60 \
+            --api-base-url https://raw.githubusercontent.com/pqminh-4/vietlott-data/main/site/api/v1 \
+            | tee freshness-main.json
+      - name: Check GitHub Pages production
+        id: pages
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          vietlott check-freshness \
+            --games all \
+            --max-delay-minutes 60 \
+            --api-base-url https://pqminh-4.github.io/vietlott-data/api/v1 \
+            | tee freshness-pages.json
+      - name: Publish watchdog summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## Vietlott freshness watchdog" >> "$GITHUB_STEP_SUMMARY"
+          echo "Main: ${{ steps.main.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat freshness-main.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "Pages: ${{ steps.pages.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat freshness-pages.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Enforce SLA
+        if: steps.main.outcome != 'success' || steps.pages.outcome != 'success'
+        run: exit 1

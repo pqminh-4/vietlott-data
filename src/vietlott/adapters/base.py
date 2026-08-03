@@ -81,6 +81,8 @@ class BaseAdapter(ABC):
                 raise ParseError(f"Official list/detail mismatch for draw {record.key}")
         prizes = parse_prizes(response.html)
         pdf_url = find_pdf_url(response.html, response.url) or record.source_pdf_url
+        if not matching and not prizes and pdf_url is None:
+            raise ParseError(f"Official detail page had no auditable content for {record.key}")
         return replace(
             record,
             prizes=prizes or record.prizes,
