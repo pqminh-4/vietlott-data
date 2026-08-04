@@ -1,0 +1,55 @@
+{
+  "draw_date": "2021-12-17",
+  "draw_id": "00824",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "mega645",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot",
+      "jackpot_vnd": 18887000500,
+      "name": "Jackpot",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 23
+    },
+    {
+      "amount_vnd": 300000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 1044
+    },
+    {
+      "amount_vnd": 30000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 17892
+    }
+  ],
+  "result": {
+    "bonus_numbers": [],
+    "kind": "number_set",
+    "main_numbers": [
+      8,
+      15,
+      16,
+      21,
+      25,
+      33
+    ]
+  },
+  "retrieved_at": "2026-08-04T20:47:57+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00824_mega_a5_00824.pdf",
+  "source_sha256": "9c619a546735ffd64b6f62bf54d2049ffd26be92a1478b2f01a6c1313c6e919e",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=00824&nocatche=1"
+}

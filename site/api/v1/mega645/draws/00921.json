@@ -1,0 +1,55 @@
+{
+  "draw_date": "2022-07-31",
+  "draw_id": "00921",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "mega645",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot",
+      "jackpot_vnd": 24608526000,
+      "name": "Jackpot",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 27
+    },
+    {
+      "amount_vnd": 300000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 1238
+    },
+    {
+      "amount_vnd": 30000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 19034
+    }
+  ],
+  "result": {
+    "bonus_numbers": [],
+    "kind": "number_set",
+    "main_numbers": [
+      3,
+      8,
+      15,
+      16,
+      40,
+      42
+    ]
+  },
+  "retrieved_at": "2026-08-04T20:47:20+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn/main/07.2022/system/game.pdf.result/00921_mega_a5_00921.pdf",
+  "source_sha256": "c9a3562604289fc7e4d2790a7e6587ed3844c1814d0b0db03440c76d3170ff62",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=00921&nocatche=1"
+}

@@ -1,0 +1,4322 @@
+[
+  {
+    "draw_date": "2021-10-09",
+    "draw_id": "00012",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "134",
+            "575"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "152",
+            "208",
+            "728",
+            "041"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "203",
+            "110",
+            "979",
+            "334",
+            "928",
+            "482"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "730",
+            "098",
+            "836",
+            "366",
+            "484",
+            "551",
+            "460",
+            "118"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:35+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00012_max3dpro_a5_v2_00012.pdf",
+    "source_sha256": "9473a1b646a23104e485fe391948383be87bce2434ccb6e20525c7207deffbd7",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00012&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-12",
+    "draw_id": "00013",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "232",
+            "426"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "021",
+            "626",
+            "628",
+            "436"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "297",
+            "269",
+            "073",
+            "208",
+            "335",
+            "026"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "865",
+            "463",
+            "554",
+            "679",
+            "515",
+            "538",
+            "407",
+            "967"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:35+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00013_max3dpro_a5_v2_00013.pdf",
+    "source_sha256": "bb35bec7061530b68cc79aaae4f98abb355ec4de54f6da30fbd474725bba4f1d",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00013&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-14",
+    "draw_id": "00014",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "744",
+            "066"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "290",
+            "881",
+            "830",
+            "513"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "776",
+            "270",
+            "787",
+            "212",
+            "352",
+            "695"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "902",
+            "810",
+            "578",
+            "871",
+            "928",
+            "941",
+            "064",
+            "607"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:35+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00014_max3dpro_a5_v2_00014.pdf",
+    "source_sha256": "4baa2efc0f1b8203a2a3fc5b089b1e5c8427e5f73e4e4c6c4a6359b6cd56304d",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00014&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-16",
+    "draw_id": "00015",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "362",
+            "339"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "864",
+            "962",
+            "784",
+            "230"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "861",
+            "188",
+            "189",
+            "085",
+            "748",
+            "623"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "825",
+            "062",
+            "488",
+            "288",
+            "538",
+            "720",
+            "236",
+            "108"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:34+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00015_max3dpro_a5_v2_00015.pdf",
+    "source_sha256": "0916cdc2aa675efbea07ee96134ce11ff616a897056054bb52bb8c176196f174",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00015&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-19",
+    "draw_id": "00016",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "702",
+            "929"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "984",
+            "204",
+            "900",
+            "942"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "126",
+            "330",
+            "882",
+            "903",
+            "217",
+            "369"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "047",
+            "907",
+            "407",
+            "134",
+            "332",
+            "059",
+            "434",
+            "123"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:34+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00016_max3dpro_a5_v2_00016.pdf",
+    "source_sha256": "e2781a96ccefd9f70af367a806d64b9f57fef3facdc5089218748eff879b4f52",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00016&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-21",
+    "draw_id": "00017",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "762",
+            "717"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "218",
+            "060",
+            "863",
+            "078"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "320",
+            "598",
+            "187",
+            "642",
+            "165",
+            "294"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "769",
+            "005",
+            "605",
+            "078",
+            "619",
+            "226",
+            "678",
+            "679"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:36+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00017_max3dpro_a5_v2_00017.pdf",
+    "source_sha256": "ddbbb1a0c490a4f34abbe4ccbe342a4b7afb25927baf437b0b06b43574f7a2ac",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00017&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-23",
+    "draw_id": "00018",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "841",
+            "363"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "543",
+            "562",
+            "797",
+            "573"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "621",
+            "160",
+            "658",
+            "965",
+            "173",
+            "668"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "645",
+            "124",
+            "241",
+            "475",
+            "497",
+            "073",
+            "146",
+            "482"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:36+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00018_max3dpro_a5_v2_00018.pdf",
+    "source_sha256": "8c8390a1d4fe0abb4bb1ffb0b7031e1e8a3973a76e3457589eb0ecbcfc8c70e7",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00018&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-26",
+    "draw_id": "00019",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "164",
+            "042"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "487",
+            "921",
+            "590",
+            "236"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "342",
+            "880",
+            "105",
+            "458",
+            "602",
+            "738"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "108",
+            "973",
+            "246",
+            "081",
+            "989",
+            "534",
+            "019",
+            "704"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:36+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00019_max3dpro_a5_v2_00019.pdf",
+    "source_sha256": "32d747c9a4a684190427e31ae9e078c874b1b9d042e1faccf145d175335e692c",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00019&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-28",
+    "draw_id": "00020",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "998",
+            "244"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "796",
+            "599",
+            "310",
+            "183"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "046",
+            "118",
+            "687",
+            "068",
+            "327",
+            "154"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "768",
+            "964",
+            "150",
+            "097",
+            "204",
+            "336",
+            "404",
+            "194"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:36+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00020_max3dpro_a5_v2_00020.pdf",
+    "source_sha256": "a80d0ee38b836e1492fd102f6cfb15dd142fb2f90540b086c635986a36a78e52",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00020&nocatche=1"
+  },
+  {
+    "draw_date": "2021-10-30",
+    "draw_id": "00021",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "818",
+            "283"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "613",
+            "809",
+            "401",
+            "616"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "542",
+            "598",
+            "839",
+            "687",
+            "777",
+            "581"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "967",
+            "948",
+            "518",
+            "809",
+            "224",
+            "646",
+            "083",
+            "522"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:35+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2021/system/game.pdf.result/00021_max3dpro_a5_v2_00021.pdf",
+    "source_sha256": "bff38634106aff52c3e384f6fe128d5a635b364f875ee3824cff54328df0e33a",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00021&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-02",
+    "draw_id": "00022",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "848",
+            "361"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "496",
+            "168",
+            "716",
+            "412"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "666",
+            "640",
+            "168",
+            "279",
+            "318",
+            "429"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "951",
+            "067",
+            "682",
+            "220",
+            "433",
+            "145",
+            "186",
+            "766"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:38+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00022_max3dpro_a5_v2_00022.pdf",
+    "source_sha256": "095402b1a6f95b0abdbcabd4136faff950005331b7f2dfb9eeb568e9a78b7eba",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00022&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-04",
+    "draw_id": "00023",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "767",
+            "869"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "342",
+            "173",
+            "193",
+            "480"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "877",
+            "005",
+            "803",
+            "559",
+            "841",
+            "739"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "618",
+            "662",
+            "167",
+            "516",
+            "238",
+            "219",
+            "575",
+            "738"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:37+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00023_max3dpro_a5_v2_00023.pdf",
+    "source_sha256": "5bfa3300fa18eb956aa49b9ea33cb31fe7d7360f68f1fe38faf70189f38c6844",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00023&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-06",
+    "draw_id": "00024",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "770",
+            "542"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "594",
+            "539",
+            "384",
+            "107"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "624",
+            "189",
+            "934",
+            "545",
+            "944",
+            "248"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "471",
+            "957",
+            "399",
+            "662",
+            "076",
+            "736",
+            "694",
+            "190"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:37+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00024_max3dpro_a5_v2_00024.pdf",
+    "source_sha256": "50b0339c085d0c8a8c72aef87c94702aa15dd5d75b50daffe81e7abd6c6b18ab",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00024&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-09",
+    "draw_id": "00025",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "542",
+            "973"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "415",
+            "338",
+            "064",
+            "679"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "815",
+            "467",
+            "068",
+            "714",
+            "316",
+            "200"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "117",
+            "951",
+            "610",
+            "557",
+            "759",
+            "968",
+            "120",
+            "087"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:37+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00025_max3dpro_a5_v2_00025.pdf",
+    "source_sha256": "851b1c60c1cb4d3cb77369c9468f9d4b3444d04230ff255e76316b8d8fc762c2",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00025&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-11",
+    "draw_id": "00026",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "110",
+            "271"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "437",
+            "873",
+            "689",
+            "988"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "389",
+            "735",
+            "367",
+            "390",
+            "563",
+            "406"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "473",
+            "144",
+            "996",
+            "451",
+            "438",
+            "799",
+            "255",
+            "782"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:37+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00026_max3dpro_a5_v2_00026.pdf",
+    "source_sha256": "7833871f2e519e5d86da45d823f9ffeef667c27b264926422b38b24025c792b9",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00026&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-13",
+    "draw_id": "00027",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "406",
+            "419"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "445",
+            "559",
+            "430",
+            "376"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "267",
+            "456",
+            "568",
+            "396",
+            "745",
+            "867"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "553",
+            "371",
+            "402",
+            "524",
+            "542",
+            "039",
+            "219",
+            "000"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:33+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00027_max3dpro_a5_v2_00027.pdf",
+    "source_sha256": "2d0969d9118eb7a4ec2c111ec1cd30971799ccf89316b274fb7296569451f069",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00027&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-16",
+    "draw_id": "00028",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "427",
+            "245"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "612",
+            "747",
+            "276",
+            "659"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "671",
+            "811",
+            "605",
+            "153",
+            "781",
+            "091"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "775",
+            "888",
+            "122",
+            "923",
+            "765",
+            "486",
+            "124",
+            "326"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:33+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00028_max3dpro_a5_v2_00028.pdf",
+    "source_sha256": "366312c01835c4fc1324305f7aaf97dea92d5255aeaeaf35939d76ce8f85cdab",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00028&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-18",
+    "draw_id": "00029",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "139",
+            "729"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "614",
+            "989",
+            "996",
+            "746"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "503",
+            "389",
+            "287",
+            "674",
+            "297",
+            "586"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "737",
+            "791",
+            "302",
+            "820",
+            "639",
+            "591",
+            "592",
+            "033"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:33+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00029_max3dpro_a5_v2_00029.pdf",
+    "source_sha256": "1c6a9c608ee70986ce92e2b1bc58835da48f55f3d6a0dbb6072ec9c1186a856e",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00029&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-20",
+    "draw_id": "00030",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "361",
+            "135"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "904",
+            "410",
+            "276",
+            "656"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "103",
+            "607",
+            "790",
+            "666",
+            "749",
+            "981"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "063",
+            "176",
+            "447",
+            "470",
+            "794",
+            "214",
+            "240",
+            "974"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:32+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00030_max3dpro_a5_v2_00030.pdf",
+    "source_sha256": "aeb6176526a7c497191e80f907fa6ee91f80a8bfccbbcd58acdc9b6ff2842a17",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00030&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-23",
+    "draw_id": "00031",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "248",
+            "477"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "740",
+            "862",
+            "459",
+            "943"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "964",
+            "488",
+            "384",
+            "707",
+            "455",
+            "016"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "189",
+            "059",
+            "798",
+            "168",
+            "079",
+            "666",
+            "067",
+            "134"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:32+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00031_max3dpro_a5_v2_00031.pdf",
+    "source_sha256": "800c2d38b532328e00590147a04e3543bd097c00cf02361ad16eaa10934c61fe",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00031&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-25",
+    "draw_id": "00032",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "019",
+            "602"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "177",
+            "854",
+            "553",
+            "589"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "231",
+            "082",
+            "236",
+            "425",
+            "164",
+            "171"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "611",
+            "412",
+            "223",
+            "885",
+            "639",
+            "589",
+            "207",
+            "121"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:31+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00032_max3dpro_a5_v2_00032.pdf",
+    "source_sha256": "42dddff53447ee63bbbcc092f078fde9c921170b28241c971b5bb93b34b571d4",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00032&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-27",
+    "draw_id": "00033",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "319",
+            "822"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "956",
+            "232",
+            "329",
+            "794"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "030",
+            "915",
+            "270",
+            "251",
+            "014",
+            "006"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "229",
+            "946",
+            "021",
+            "323",
+            "626",
+            "254",
+            "355",
+            "095"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:30+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00033_max3dpro_a5_v2_00033.pdf",
+    "source_sha256": "6579aa6e2b0b17eb08c7bb434f2b8d6ab022cba64d691d88ca406bf773b2ff70",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00033&nocatche=1"
+  },
+  {
+    "draw_date": "2021-11-30",
+    "draw_id": "00034",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "612",
+            "054"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "948",
+            "310",
+            "977",
+            "297"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "656",
+            "572",
+            "704",
+            "133",
+            "951",
+            "258"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "451",
+            "612",
+            "197",
+            "702",
+            "155",
+            "779",
+            "731",
+            "984"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:30+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/11.2021/system/game.pdf.result/00034_max3dpro_a5_v2_00034.pdf",
+    "source_sha256": "f0c2ae384dfd413155ce236181ad42b0c0b41f6ff3d49ac71a8eb42d3a62ae41",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00034&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-02",
+    "draw_id": "00035",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "231",
+            "875"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "450",
+            "899",
+            "833",
+            "731"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "947",
+            "677",
+            "495",
+            "032",
+            "118",
+            "248"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "978",
+            "364",
+            "204",
+            "279",
+            "414",
+            "752",
+            "543",
+            "146"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:30+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00035_max3dpro_a5_v2_00035.pdf",
+    "source_sha256": "7ffdaeace07ea6bc9415efa7b549308238a12f2472e933d58c5b585f7d7d9114",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00035&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-04",
+    "draw_id": "00036",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "809",
+            "900"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "097",
+            "851",
+            "216",
+            "164"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "975",
+            "369",
+            "256",
+            "359",
+            "435",
+            "982"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "284",
+            "993",
+            "897",
+            "030",
+            "454",
+            "458",
+            "612",
+            "961"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:30+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00036_max3dpro_a5_v2_00036.pdf",
+    "source_sha256": "0f56b4ed8d599b524374a700b73eda957f2ce509ea543e593849ad892691773a",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00036&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-07",
+    "draw_id": "00037",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "602",
+            "846"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "220",
+            "634",
+            "017",
+            "195"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "073",
+            "078",
+            "707",
+            "406",
+            "577",
+            "109"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "727",
+            "863",
+            "005",
+            "570",
+            "499",
+            "115",
+            "338",
+            "859"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:32+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00037_max3dpro_a5_v2_00037.pdf",
+    "source_sha256": "7cf7e8a730db9538a688b7d62f2436b5c16e5f56c67340bc40226611b73e89ad",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00037&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-09",
+    "draw_id": "00038",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "966",
+            "381"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "116",
+            "673",
+            "373",
+            "113"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "882",
+            "121",
+            "666",
+            "758",
+            "536",
+            "657"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "327",
+            "511",
+            "678",
+            "216",
+            "455",
+            "287",
+            "421",
+            "477"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:32+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00038_max3dpro_a5_v2_00038.pdf",
+    "source_sha256": "2af502dfc53ec8b9865644461718bd4281e3d11455937065602fbff150627988",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00038&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-11",
+    "draw_id": "00039",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "486",
+            "745"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "972",
+            "441",
+            "032",
+            "530"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "209",
+            "217",
+            "801",
+            "859",
+            "365",
+            "606"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "666",
+            "123",
+            "346",
+            "214",
+            "162",
+            "113",
+            "077",
+            "613"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:31+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00039_max3dpro_a5_v2_00039.pdf",
+    "source_sha256": "14d29ac87c2104debfd4c6ee2d7c1a6bfd26d5cad6e40de4b36beed34a17ec0e",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00039&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-14",
+    "draw_id": "00040",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "825",
+            "082"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "187",
+            "817",
+            "371",
+            "028"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "698",
+            "080",
+            "553",
+            "572",
+            "460",
+            "863"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "478",
+            "402",
+            "025",
+            "025",
+            "449",
+            "830",
+            "074",
+            "524"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:31+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00040_max3dpro_a5_v2_00040.pdf",
+    "source_sha256": "4c9ad8ffaed9fec0b8c50b627ae702ea1de80a91259037ae55140d7edc678fac",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00040&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-16",
+    "draw_id": "00041",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "938",
+            "723"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "589",
+            "555",
+            "971",
+            "303"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "826",
+            "156",
+            "410",
+            "008",
+            "057",
+            "388"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "453",
+            "614",
+            "290",
+            "130",
+            "110",
+            "459",
+            "366",
+            "074"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:31+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00041_max3dpro_a5_v2_00041.pdf",
+    "source_sha256": "047afd31cae34c2e6fe5f8bd0a2717f6d11afb9fd3a5404c8fc7985d608fa647",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00041&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-18",
+    "draw_id": "00042",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "164",
+            "092"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "382",
+            "826",
+            "681",
+            "925"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "962",
+            "394",
+            "147",
+            "555",
+            "762",
+            "303"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "689",
+            "144",
+            "368",
+            "232",
+            "698",
+            "322",
+            "591",
+            "309"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:28+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00042_max3dpro_a5_v2_00042.pdf",
+    "source_sha256": "d6fa882216fb8e34ddd57d2d28f4ea28043d82e9833327529730fd7b17a9a7a8",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00042&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-21",
+    "draw_id": "00043",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "474",
+            "784"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "871",
+            "926",
+            "034",
+            "262"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "343",
+            "087",
+            "809",
+            "763",
+            "129",
+            "082"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "848",
+            "676",
+            "929",
+            "336",
+            "338",
+            "399",
+            "178",
+            "325"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:27+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00043_max3dpro_a5_v2_00043.pdf",
+    "source_sha256": "b8d3cd3f5e9f433dd0c595974827c94610ba3488535d54bf8b8b41501ef5deb3",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00043&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-23",
+    "draw_id": "00044",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "609",
+            "770"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "915",
+            "490",
+            "800",
+            "277"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "473",
+            "038",
+            "556",
+            "966",
+            "719",
+            "426"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "953",
+            "900",
+            "365",
+            "885",
+            "619",
+            "830",
+            "369",
+            "729"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:27+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00044_max3dpro_a5_v2_00044.pdf",
+    "source_sha256": "a072957483eec16a8c87c578823caea156812e5dceb06a9509dc6f765705061f",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00044&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-25",
+    "draw_id": "00045",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "878",
+            "480"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "519",
+            "433",
+            "840",
+            "816"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "291",
+            "586",
+            "397",
+            "174",
+            "145",
+            "485"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "763",
+            "682",
+            "691",
+            "124",
+            "430",
+            "511",
+            "861",
+            "716"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:22+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00045_max3dpro_a5_v2_00045.pdf",
+    "source_sha256": "d86f8cdae816723cafbb425ec11a3fab1cd5d84ef76b02700971780f08828f79",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00045&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-28",
+    "draw_id": "00046",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "829",
+            "217"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "711",
+            "614",
+            "886",
+            "538"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "024",
+            "863",
+            "411",
+            "148",
+            "426",
+            "229"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "417",
+            "487",
+            "899",
+            "340",
+            "375",
+            "413",
+            "918",
+            "057"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:22+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00046_max3dpro_a5_v2_00046.pdf",
+    "source_sha256": "79c50627cedb7cf8ad3d6d7b7ddb92e4747ef39cae10bf6d321bc66b05327864",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00046&nocatche=1"
+  },
+  {
+    "draw_date": "2021-12-30",
+    "draw_id": "00047",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d_pro",
+    "prizes": [
+      {
+        "amount_vnd": 2000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 400000000,
+        "code": "giai-phu-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải phụ Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 30000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 4000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "957",
+            "052"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "615",
+            "462",
+            "685",
+            "652"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "374",
+            "476",
+            "234",
+            "863",
+            "316",
+            "803"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "693",
+            "674",
+            "416",
+            "055",
+            "851",
+            "395",
+            "028",
+            "872"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-08-04T20:55:29+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": "https://media.vietlott.vn/main/12.2021/system/game.pdf.result/00047_max3dpro_a5_v2_00047.pdf",
+    "source_sha256": "f53f4976e28c04608fb173258de49cf3c360bef0ddfe79535d69913fc421429a",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00047&nocatche=1"
+  }
+]

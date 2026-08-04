@@ -1,4 +1,996 @@
 game,draw_id,prize_code,prize_name,amount_vnd,winner_count,jackpot_vnd
+mega645,00777,jackpot,Jackpot,,0,21293308500
+mega645,00777,giai-nhat,Giải Nhất,10000000,4,
+mega645,00777,giai-nhi,Giải Nhì,300000,409,
+mega645,00777,giai-ba,Giải Ba,30000,6986,
+mega645,00778,jackpot,Jackpot,,0,22155215500
+mega645,00778,giai-nhat,Giải Nhất,10000000,9,
+mega645,00778,giai-nhi,Giải Nhì,300000,446,
+mega645,00778,giai-ba,Giải Ba,30000,8169,
+mega645,00779,jackpot,Jackpot,,0,22852645000
+mega645,00779,giai-nhat,Giải Nhất,10000000,11,
+mega645,00779,giai-nhi,Giải Nhì,300000,589,
+mega645,00779,giai-ba,Giải Ba,30000,8794,
+mega645,00780,jackpot,Jackpot,,0,23703678500
+mega645,00780,giai-nhat,Giải Nhất,10000000,10,
+mega645,00780,giai-nhi,Giải Nhì,300000,448,
+mega645,00780,giai-ba,Giải Ba,30000,7674,
+mega645,00781,jackpot,Jackpot,,0,24753445000
+mega645,00781,giai-nhat,Giải Nhất,10000000,11,
+mega645,00781,giai-nhi,Giải Nhì,300000,560,
+mega645,00781,giai-ba,Giải Ba,30000,9398,
+mega645,00782,jackpot,Jackpot,,0,26526202500
+mega645,00782,giai-nhat,Giải Nhất,10000000,13,
+mega645,00782,giai-nhi,Giải Nhì,300000,480,
+mega645,00782,giai-ba,Giải Ba,30000,9179,
+mega645,00783,jackpot,Jackpot,,2,14139591250
+mega645,00783,giai-nhat,Giải Nhất,10000000,23,
+mega645,00783,giai-nhi,Giải Nhì,300000,750,
+mega645,00783,giai-ba,Giải Ba,30000,11647,
+mega645,00784,jackpot,Jackpot,,0,12731541500
+mega645,00784,giai-nhat,Giải Nhất,10000000,13,
+mega645,00784,giai-nhi,Giải Nhì,300000,483,
+mega645,00784,giai-ba,Giải Ba,30000,7669,
+mega645,00785,jackpot,Jackpot,,0,13530158500
+mega645,00785,giai-nhat,Giải Nhất,10000000,7,
+mega645,00785,giai-nhi,Giải Nhì,300000,577,
+mega645,00785,giai-ba,Giải Ba,30000,8982,
+mega645,00786,jackpot,Jackpot,,0,14451502500
+mega645,00786,giai-nhat,Giải Nhất,10000000,7,
+mega645,00786,giai-nhi,Giải Nhì,300000,548,
+mega645,00786,giai-ba,Giải Ba,30000,9519,
+mega645,00787,jackpot,Jackpot,,0,15141186500
+mega645,00787,giai-nhat,Giải Nhất,10000000,26,
+mega645,00787,giai-nhi,Giải Nhì,300000,918,
+mega645,00787,giai-ba,Giải Ba,30000,12187,
+mega645,00788,jackpot,Jackpot,,0,16086062000
+mega645,00788,giai-nhat,Giải Nhất,10000000,18,
+mega645,00788,giai-nhi,Giải Nhì,300000,635,
+mega645,00788,giai-ba,Giải Ba,30000,9897,
+mega645,00789,jackpot,Jackpot,,0,17252470500
+mega645,00789,giai-nhat,Giải Nhất,10000000,12,
+mega645,00789,giai-nhi,Giải Nhì,300000,704,
+mega645,00789,giai-ba,Giải Ba,30000,10302,
+mega645,00790,jackpot,Jackpot,,0,18375874000
+mega645,00790,giai-nhat,Giải Nhất,10000000,16,
+mega645,00790,giai-nhi,Giải Nhì,300000,799,
+mega645,00790,giai-ba,Giải Ba,30000,12748,
+mega645,00791,jackpot,Jackpot,,0,19241396000
+mega645,00791,giai-nhat,Giải Nhất,10000000,18,
+mega645,00791,giai-nhi,Giải Nhì,300000,701,
+mega645,00791,giai-ba,Giải Ba,30000,11189,
+mega645,00792,jackpot,Jackpot,,0,20403874500
+mega645,00792,giai-nhat,Giải Nhất,10000000,6,
+mega645,00792,giai-nhi,Giải Nhì,300000,709,
+mega645,00792,giai-ba,Giải Ba,30000,12096,
+mega645,00793,jackpot,Jackpot,,0,21685002000
+mega645,00793,giai-nhat,Giải Nhất,10000000,12,
+mega645,00793,giai-nhi,Giải Nhì,300000,967,
+mega645,00793,giai-ba,Giải Ba,30000,14737,
+mega645,00794,jackpot,Jackpot,,0,22803507000
+mega645,00794,giai-nhat,Giải Nhất,10000000,36,
+mega645,00794,giai-nhi,Giải Nhì,300000,1187,
+mega645,00794,giai-ba,Giải Ba,30000,15500,
+mega645,00795,jackpot,Jackpot,,0,24429731000
+mega645,00795,giai-nhat,Giải Nhất,10000000,24,
+mega645,00795,giai-nhi,Giải Nhì,300000,939,
+mega645,00795,giai-ba,Giải Ba,30000,15257,
+mega645,00796,jackpot,Jackpot,,0,27804912500
+mega645,00796,giai-nhat,Giải Nhất,10000000,14,
+mega645,00796,giai-nhi,Giải Nhì,300000,822,
+mega645,00796,giai-ba,Giải Ba,30000,15428,
+mega645,00797,jackpot,Jackpot,,1,30980331000
+mega645,00797,giai-nhat,Giải Nhất,10000000,18,
+mega645,00797,giai-nhi,Giải Nhì,300000,1195,
+mega645,00797,giai-ba,Giải Ba,30000,17257,
+mega645,00798,jackpot,Jackpot,,0,13176319000
+mega645,00798,giai-nhat,Giải Nhất,10000000,25,
+mega645,00798,giai-nhi,Giải Nhì,300000,793,
+mega645,00798,giai-ba,Giải Ba,30000,13242,
+mega645,00799,jackpot,Jackpot,,0,14504128500
+mega645,00799,giai-nhat,Giải Nhất,10000000,14,
+mega645,00799,giai-nhi,Giải Nhì,300000,828,
+mega645,00799,giai-ba,Giải Ba,30000,13446,
+mega645,00800,jackpot,Jackpot,,0,15801269000
+mega645,00800,giai-nhat,Giải Nhất,10000000,11,
+mega645,00800,giai-nhi,Giải Nhì,300000,773,
+mega645,00800,giai-ba,Giải Ba,30000,14206,
+mega645,00801,jackpot,Jackpot,,0,17106173500
+mega645,00801,giai-nhat,Giải Nhất,10000000,24,
+mega645,00801,giai-nhi,Giải Nhì,300000,782,
+mega645,00801,giai-ba,Giải Ba,30000,13841,
+mega645,00802,jackpot,Jackpot,,0,18378377000
+mega645,00802,giai-nhat,Giải Nhất,10000000,29,
+mega645,00802,giai-nhi,Giải Nhì,300000,913,
+mega645,00802,giai-ba,Giải Ba,30000,15036,
+mega645,00803,jackpot,Jackpot,,0,19914830000
+mega645,00803,giai-nhat,Giải Nhất,10000000,13,
+mega645,00803,giai-nhi,Giải Nhì,300000,834,
+mega645,00803,giai-ba,Giải Ba,30000,13340,
+mega645,00804,jackpot,Jackpot,,0,21433245500
+mega645,00804,giai-nhat,Giải Nhất,10000000,16,
+mega645,00804,giai-nhi,Giải Nhì,300000,1072,
+mega645,00804,giai-ba,Giải Ba,30000,16772,
+mega645,00805,jackpot,Jackpot,,0,23137555500
+mega645,00805,giai-nhat,Giải Nhất,10000000,18,
+mega645,00805,giai-nhi,Giải Nhì,300000,947,
+mega645,00805,giai-ba,Giải Ba,30000,16944,
+mega645,00806,jackpot,Jackpot,,0,24823862000
+mega645,00806,giai-nhat,Giải Nhất,10000000,27,
+mega645,00806,giai-nhi,Giải Nhì,300000,1125,
+mega645,00806,giai-ba,Giải Ba,30000,16896,
+mega645,00807,jackpot,Jackpot,,0,28473605000
+mega645,00807,giai-nhat,Giải Nhất,10000000,16,
+mega645,00807,giai-nhi,Giải Nhì,300000,1030,
+mega645,00807,giai-ba,Giải Ba,30000,17718,
+mega645,00808,jackpot,Jackpot,,0,32121468500
+mega645,00808,giai-nhat,Giải Nhất,10000000,30,
+mega645,00808,giai-nhi,Giải Nhì,300000,1174,
+mega645,00808,giai-ba,Giải Ba,30000,19574,
+mega645,00809,jackpot,Jackpot,,0,35913676000
+mega645,00809,giai-nhat,Giải Nhất,10000000,26,
+mega645,00809,giai-nhi,Giải Nhì,300000,1182,
+mega645,00809,giai-ba,Giải Ba,30000,19640,
+mega645,00810,jackpot,Jackpot,,0,40056685000
+mega645,00810,giai-nhat,Giải Nhất,10000000,32,
+mega645,00810,giai-nhi,Giải Nhì,300000,1282,
+mega645,00810,giai-ba,Giải Ba,30000,21647,
+mega645,00811,jackpot,Jackpot,,0,44760096500
+mega645,00811,giai-nhat,Giải Nhất,10000000,19,
+mega645,00811,giai-nhi,Giải Nhì,300000,1474,
+mega645,00811,giai-ba,Giải Ba,30000,23654,
+mega645,00812,jackpot,Jackpot,,0,49093217500
+mega645,00812,giai-nhat,Giải Nhất,10000000,43,
+mega645,00812,giai-nhi,Giải Nhì,300000,1622,
+mega645,00812,giai-ba,Giải Ba,30000,26009,
+mega645,00813,jackpot,Jackpot,,0,53981901500
+mega645,00813,giai-nhat,Giải Nhất,10000000,34,
+mega645,00813,giai-nhi,Giải Nhì,300000,1701,
+mega645,00813,giai-ba,Giải Ba,30000,27481,
+mega645,00814,jackpot,Jackpot,,0,59369630000
+mega645,00814,giai-nhat,Giải Nhất,10000000,39,
+mega645,00814,giai-nhi,Giải Nhì,300000,1705,
+mega645,00814,giai-ba,Giải Ba,30000,28085,
+mega645,00815,jackpot,Jackpot,,0,65028430500
+mega645,00815,giai-nhat,Giải Nhất,10000000,34,
+mega645,00815,giai-nhi,Giải Nhì,300000,1471,
+mega645,00815,giai-ba,Giải Ba,30000,26760,
+mega645,00816,jackpot,Jackpot,,0,71075874500
+mega645,00816,giai-nhat,Giải Nhất,10000000,49,
+mega645,00816,giai-nhi,Giải Nhì,300000,2297,
+mega645,00816,giai-ba,Giải Ba,30000,35169,
+mega645,00817,jackpot,Jackpot,,0,77215625000
+mega645,00817,giai-nhat,Giải Nhất,10000000,38,
+mega645,00817,giai-nhi,Giải Nhì,300000,1789,
+mega645,00817,giai-ba,Giải Ba,30000,31669,
+mega645,00818,jackpot,Jackpot,,0,83634807000
+mega645,00818,giai-nhat,Giải Nhất,10000000,23,
+mega645,00818,giai-nhi,Giải Nhì,300000,1568,
+mega645,00818,giai-ba,Giải Ba,30000,29952,
+mega645,00819,jackpot,Jackpot,,0,90627189000
+mega645,00819,giai-nhat,Giải Nhất,10000000,41,
+mega645,00819,giai-nhi,Giải Nhì,300000,1988,
+mega645,00819,giai-ba,Giải Ba,30000,35904,
+mega645,00820,jackpot,Jackpot,,1,98295409000
+mega645,00820,giai-nhat,Giải Nhất,10000000,53,
+mega645,00820,giai-nhi,Giải Nhì,300000,2046,
+mega645,00820,giai-ba,Giải Ba,30000,35683,
+mega645,00821,jackpot,Jackpot,,0,13578476000
+mega645,00821,giai-nhat,Giải Nhất,10000000,13,
+mega645,00821,giai-nhi,Giải Nhì,300000,928,
+mega645,00821,giai-ba,Giải Ba,30000,15479,
+mega645,00822,jackpot,Jackpot,,0,15281516500
+mega645,00822,giai-nhat,Giải Nhất,10000000,17,
+mega645,00822,giai-nhi,Giải Nhì,300000,965,
+mega645,00822,giai-ba,Giải Ba,30000,16237,
+mega645,00823,jackpot,Jackpot,,0,17097562500
+mega645,00823,giai-nhat,Giải Nhất,10000000,13,
+mega645,00823,giai-nhi,Giải Nhì,300000,1071,
+mega645,00823,giai-ba,Giải Ba,30000,17477,
+mega645,00824,jackpot,Jackpot,,0,18887000500
+mega645,00824,giai-nhat,Giải Nhất,10000000,23,
+mega645,00824,giai-nhi,Giải Nhì,300000,1044,
+mega645,00824,giai-ba,Giải Ba,30000,17892,
+mega645,00825,jackpot,Jackpot,,1,20636521000
+mega645,00825,giai-nhat,Giải Nhất,10000000,31,
+mega645,00825,giai-nhi,Giải Nhì,300000,1213,
+mega645,00825,giai-ba,Giải Ba,30000,19203,
+mega645,00826,jackpot,Jackpot,,0,13485049000
+mega645,00826,giai-nhat,Giải Nhất,10000000,19,
+mega645,00826,giai-nhi,Giải Nhì,300000,1053,
+mega645,00826,giai-ba,Giải Ba,30000,17156,
+mega645,00827,jackpot,Jackpot,,0,15138833000
+mega645,00827,giai-nhat,Giải Nhất,10000000,16,
+mega645,00827,giai-nhi,Giải Nhì,300000,928,
+mega645,00827,giai-ba,Giải Ba,30000,16116,
+mega645,00828,jackpot,Jackpot,,1,16762864500
+mega645,00828,giai-nhat,Giải Nhất,10000000,23,
+mega645,00828,giai-nhi,Giải Nhì,300000,1166,
+mega645,00828,giai-ba,Giải Ba,30000,18758,
+mega645,00829,jackpot,Jackpot,,0,13578555500
+mega645,00829,giai-nhat,Giải Nhất,10000000,13,
+mega645,00829,giai-nhi,Giải Nhì,300000,787,
+mega645,00829,giai-ba,Giải Ba,30000,14436,
+mega645,00830,jackpot,Jackpot,,0,15087497500
+mega645,00830,giai-nhat,Giải Nhất,10000000,21,
+mega645,00830,giai-nhi,Giải Nhì,300000,964,
+mega645,00830,giai-ba,Giải Ba,30000,15941,
+mega645,00831,jackpot,Jackpot,,0,16699523500
+mega645,00831,giai-nhat,Giải Nhất,10000000,23,
+mega645,00831,giai-nhi,Giải Nhì,300000,1003,
+mega645,00831,giai-ba,Giải Ba,30000,16498,
+mega645,00832,jackpot,Jackpot,,0,18547498500
+mega645,00832,giai-nhat,Giải Nhất,10000000,20,
+mega645,00832,giai-nhi,Giải Nhì,300000,969,
+mega645,00832,giai-ba,Giải Ba,30000,17593,
+mega645,00833,jackpot,Jackpot,,0,20272931500
+mega645,00833,giai-nhat,Giải Nhất,10000000,28,
+mega645,00833,giai-nhi,Giải Nhì,300000,1063,
+mega645,00833,giai-ba,Giải Ba,30000,18275,
+mega645,00834,jackpot,Jackpot,,0,21975994000
+mega645,00834,giai-nhat,Giải Nhất,10000000,31,
+mega645,00834,giai-nhi,Giải Nhì,300000,1397,
+mega645,00834,giai-ba,Giải Ba,30000,21832,
+mega645,00835,jackpot,Jackpot,,1,23657658500
+mega645,00835,giai-nhat,Giải Nhất,10000000,46,
+mega645,00835,giai-nhi,Giải Nhì,300000,1362,
+mega645,00835,giai-ba,Giải Ba,30000,21287,
+mega645,00836,jackpot,Jackpot,,0,13303467000
+mega645,00836,giai-nhat,Giải Nhất,10000000,29,
+mega645,00836,giai-nhi,Giải Nhì,300000,1069,
+mega645,00836,giai-ba,Giải Ba,30000,16417,
+mega645,00837,jackpot,Jackpot,,0,15005629500
+mega645,00837,giai-nhat,Giải Nhất,10000000,15,
+mega645,00837,giai-nhi,Giải Nhì,300000,971,
+mega645,00837,giai-ba,Giải Ba,30000,15122,
+mega645,00838,jackpot,Jackpot,,0,16793959500
+mega645,00838,giai-nhat,Giải Nhất,10000000,13,
+mega645,00838,giai-nhi,Giải Nhì,300000,1021,
+mega645,00838,giai-ba,Giải Ba,30000,16442,
+mega645,00839,jackpot,Jackpot,,0,18432653000
+mega645,00839,giai-nhat,Giải Nhất,10000000,25,
+mega645,00839,giai-nhi,Giải Nhì,300000,969,
+mega645,00839,giai-ba,Giải Ba,30000,16200,
+mega645,00840,jackpot,Jackpot,,0,20275298500
+mega645,00840,giai-nhat,Giải Nhất,10000000,27,
+mega645,00840,giai-nhi,Giải Nhì,300000,970,
+mega645,00840,giai-ba,Giải Ba,30000,16340,
+mega645,00841,jackpot,Jackpot,,0,21964946000
+mega645,00841,giai-nhat,Giải Nhất,10000000,32,
+mega645,00841,giai-nhi,Giải Nhì,300000,1410,
+mega645,00841,giai-ba,Giải Ba,30000,21684,
+mega645,00842,jackpot,Jackpot,,0,23684465000
+mega645,00842,giai-nhat,Giải Nhất,10000000,28,
+mega645,00842,giai-nhi,Giải Nhì,300000,1502,
+mega645,00842,giai-ba,Giải Ba,30000,22442,
+mega645,00843,jackpot,Jackpot,,0,25769631000
+mega645,00843,giai-nhat,Giải Nhất,10000000,29,
+mega645,00843,giai-nhi,Giải Nhì,300000,1354,
+mega645,00843,giai-ba,Giải Ba,30000,21686,
+mega645,00844,jackpot,Jackpot,,0,27709922500
+mega645,00844,giai-nhat,Giải Nhất,10000000,22,
+mega645,00844,giai-nhi,Giải Nhì,300000,1056,
+mega645,00844,giai-ba,Giải Ba,30000,18957,
+mega645,00845,jackpot,Jackpot,,0,29607165500
+mega645,00845,giai-nhat,Giải Nhất,10000000,16,
+mega645,00845,giai-nhi,Giải Nhì,300000,1046,
+mega645,00845,giai-ba,Giải Ba,30000,18580,
+mega645,00846,jackpot,Jackpot,,0,31614479500
+mega645,00846,giai-nhat,Giải Nhất,10000000,25,
+mega645,00846,giai-nhi,Giải Nhì,300000,1441,
+mega645,00846,giai-ba,Giải Ba,30000,22377,
+mega645,00847,jackpot,Jackpot,,0,34007667500
+mega645,00847,giai-nhat,Giải Nhất,10000000,29,
+mega645,00847,giai-nhi,Giải Nhì,300000,1522,
+mega645,00847,giai-ba,Giải Ba,30000,24573,
+mega645,00848,jackpot,Jackpot,,0,36100164000
+mega645,00848,giai-nhat,Giải Nhất,10000000,37,
+mega645,00848,giai-nhi,Giải Nhì,300000,1560,
+mega645,00848,giai-ba,Giải Ba,30000,25526,
+mega645,00849,jackpot,Jackpot,,0,38734645000
+mega645,00849,giai-nhat,Giải Nhất,10000000,21,
+mega645,00849,giai-nhi,Giải Nhì,300000,1217,
+mega645,00849,giai-ba,Giải Ba,30000,21289,
+mega645,00850,jackpot,Jackpot,,1,43057471000
+mega645,00850,giai-nhat,Giải Nhất,10000000,31,
+mega645,00850,giai-nhi,Giải Nhì,300000,1816,
+mega645,00850,giai-ba,Giải Ba,30000,27072,
+mega645,00851,jackpot,Jackpot,,0,13446070000
+mega645,00851,giai-nhat,Giải Nhất,10000000,17,
+mega645,00851,giai-nhi,Giải Nhì,300000,897,
+mega645,00851,giai-ba,Giải Ba,30000,14896,
+mega645,00852,jackpot,Jackpot,,0,14939869500
+mega645,00852,giai-nhat,Giải Nhất,10000000,15,
+mega645,00852,giai-nhi,Giải Nhì,300000,886,
+mega645,00852,giai-ba,Giải Ba,30000,15115,
+mega645,00853,jackpot,Jackpot,,0,16542911000
+mega645,00853,giai-nhat,Giải Nhất,10000000,23,
+mega645,00853,giai-nhi,Giải Nhì,300000,919,
+mega645,00853,giai-ba,Giải Ba,30000,16582,
+mega645,00854,jackpot,Jackpot,,0,18128463500
+mega645,00854,giai-nhat,Giải Nhất,10000000,24,
+mega645,00854,giai-nhi,Giải Nhì,300000,888,
+mega645,00854,giai-ba,Giải Ba,30000,15187,
+mega645,00855,jackpot,Jackpot,,0,19617776000
+mega645,00855,giai-nhat,Giải Nhất,10000000,25,
+mega645,00855,giai-nhi,Giải Nhì,300000,1024,
+mega645,00855,giai-ba,Giải Ba,30000,17110,
+mega645,00856,jackpot,Jackpot,,0,21457475500
+mega645,00856,giai-nhat,Giải Nhất,10000000,16,
+mega645,00856,giai-nhi,Giải Nhì,300000,957,
+mega645,00856,giai-ba,Giải Ba,30000,16922,
+mega645,00857,jackpot,Jackpot,,0,23151086500
+mega645,00857,giai-nhat,Giải Nhất,10000000,24,
+mega645,00857,giai-nhi,Giải Nhì,300000,1104,
+mega645,00857,giai-ba,Giải Ba,30000,18734,
+mega645,00858,jackpot,Jackpot,,0,25072243500
+mega645,00858,giai-nhat,Giải Nhất,10000000,15,
+mega645,00858,giai-nhi,Giải Nhì,300000,1001,
+mega645,00858,giai-ba,Giải Ba,30000,18002,
+mega645,00859,jackpot,Jackpot,,0,28814538500
+mega645,00859,giai-nhat,Giải Nhất,10000000,21,
+mega645,00859,giai-nhi,Giải Nhì,300000,1186,
+mega645,00859,giai-ba,Giải Ba,30000,20727,
+mega645,00860,jackpot,Jackpot,,0,32340443500
+mega645,00860,giai-nhat,Giải Nhất,10000000,31,
+mega645,00860,giai-nhi,Giải Nhì,300000,1096,
+mega645,00860,giai-ba,Giải Ba,30000,19395,
+mega645,00861,jackpot,Jackpot,,1,36253032000
+mega645,00861,giai-nhat,Giải Nhất,10000000,16,
+mega645,00861,giai-nhi,Giải Nhì,300000,1251,
+mega645,00861,giai-ba,Giải Ba,30000,20889,
+mega645,00862,jackpot,Jackpot,,0,13414721000
+mega645,00862,giai-nhat,Giải Nhất,10000000,10,
+mega645,00862,giai-nhi,Giải Nhì,300000,833,
+mega645,00862,giai-ba,Giải Ba,30000,14064,
+mega645,00863,jackpot,Jackpot,,0,14843907500
+mega645,00863,giai-nhat,Giải Nhất,10000000,10,
+mega645,00863,giai-nhi,Giải Nhì,300000,810,
+mega645,00863,giai-ba,Giải Ba,30000,13685,
+mega645,00864,jackpot,Jackpot,,0,16182991000
+mega645,00864,giai-nhat,Giải Nhất,10000000,24,
+mega645,00864,giai-nhi,Giải Nhì,300000,1084,
+mega645,00864,giai-ba,Giải Ba,30000,16380,
+mega645,00865,jackpot,Jackpot,,0,17867079000
+mega645,00865,giai-nhat,Giải Nhất,10000000,6,
+mega645,00865,giai-nhi,Giải Nhì,300000,777,
+mega645,00865,giai-ba,Giải Ba,30000,14324,
+mega645,00866,jackpot,Jackpot,,0,19431284000
+mega645,00866,giai-nhat,Giải Nhất,10000000,15,
+mega645,00866,giai-nhi,Giải Nhì,300000,835,
+mega645,00866,giai-ba,Giải Ba,30000,14115,
+mega645,00867,jackpot,Jackpot,,0,20912630500
+mega645,00867,giai-nhat,Giải Nhất,10000000,23,
+mega645,00867,giai-nhi,Giải Nhì,300000,1148,
+mega645,00867,giai-ba,Giải Ba,30000,17596,
+mega645,00868,jackpot,Jackpot,,1,22422244500
+mega645,00868,giai-nhat,Giải Nhất,10000000,32,
+mega645,00868,giai-nhi,Giải Nhì,300000,1035,
+mega645,00868,giai-ba,Giải Ba,30000,17596,
+mega645,00869,jackpot,Jackpot,,0,13219566000
+mega645,00869,giai-nhat,Giải Nhất,10000000,18,
+mega645,00869,giai-nhi,Giải Nhì,300000,771,
+mega645,00869,giai-ba,Giải Ba,30000,12527,
+mega645,00870,jackpot,Jackpot,,0,14573466500
+mega645,00870,giai-nhat,Giải Nhất,10000000,18,
+mega645,00870,giai-nhi,Giải Nhì,300000,836,
+mega645,00870,giai-ba,Giải Ba,30000,14127,
+mega645,00871,jackpot,Jackpot,,0,16086020000
+mega645,00871,giai-nhat,Giải Nhất,10000000,12,
+mega645,00871,giai-nhi,Giải Nhì,300000,843,
+mega645,00871,giai-ba,Giải Ba,30000,14973,
+mega645,00872,jackpot,Jackpot,,0,17611855000
+mega645,00872,giai-nhat,Giải Nhất,10000000,16,
+mega645,00872,giai-nhi,Giải Nhì,300000,879,
+mega645,00872,giai-ba,Giải Ba,30000,14420,
+mega645,00873,jackpot,Jackpot,,0,19102705000
+mega645,00873,giai-nhat,Giải Nhất,10000000,22,
+mega645,00873,giai-nhi,Giải Nhì,300000,1010,
+mega645,00873,giai-ba,Giải Ba,30000,16188,
+mega645,00874,jackpot,Jackpot,,0,20906620000
+mega645,00874,giai-nhat,Giải Nhất,10000000,13,
+mega645,00874,giai-nhi,Giải Nhì,300000,978,
+mega645,00874,giai-ba,Giải Ba,30000,16552,
+mega645,00875,jackpot,Jackpot,,0,22501089500
+mega645,00875,giai-nhat,Giải Nhất,10000000,20,
+mega645,00875,giai-nhi,Giải Nhì,300000,1186,
+mega645,00875,giai-ba,Giải Ba,30000,18953,
+mega645,00876,jackpot,Jackpot,,0,24256968000
+mega645,00876,giai-nhat,Giải Nhất,10000000,24,
+mega645,00876,giai-nhi,Giải Nhì,300000,1198,
+mega645,00876,giai-ba,Giải Ba,30000,18932,
+mega645,00877,jackpot,Jackpot,,0,26148270500
+mega645,00877,giai-nhat,Giải Nhất,10000000,27,
+mega645,00877,giai-nhi,Giải Nhì,300000,1180,
+mega645,00877,giai-ba,Giải Ba,30000,19371,
+mega645,00878,jackpot,Jackpot,,0,28476669500
+mega645,00878,giai-nhat,Giải Nhất,10000000,17,
+mega645,00878,giai-nhi,Giải Nhì,300000,1157,
+mega645,00878,giai-ba,Giải Ba,30000,19603,
+mega645,00879,jackpot,Jackpot,,0,32384289000
+mega645,00879,giai-nhat,Giải Nhất,10000000,21,
+mega645,00879,giai-nhi,Giải Nhì,300000,1274,
+mega645,00879,giai-ba,Giải Ba,30000,21604,
+mega645,00880,jackpot,Jackpot,,1,36546933000
+mega645,00880,giai-nhat,Giải Nhất,10000000,26,
+mega645,00880,giai-nhi,Giải Nhì,300000,1540,
+mega645,00880,giai-ba,Giải Ba,30000,23355,
+mega645,00881,jackpot,Jackpot,,0,13161021000
+mega645,00881,giai-nhat,Giải Nhất,10000000,24,
+mega645,00881,giai-nhi,Giải Nhì,300000,885,
+mega645,00881,giai-ba,Giải Ba,30000,13925,
+mega645,00882,jackpot,Jackpot,,0,14476477000
+mega645,00882,giai-nhat,Giải Nhất,10000000,18,
+mega645,00882,giai-nhi,Giải Nhì,300000,791,
+mega645,00882,giai-ba,Giải Ba,30000,12766,
+mega645,00883,jackpot,Jackpot,,0,15915138500
+mega645,00883,giai-nhat,Giải Nhất,10000000,17,
+mega645,00883,giai-nhi,Giải Nhì,300000,874,
+mega645,00883,giai-ba,Giải Ba,30000,14422,
+mega645,00884,jackpot,Jackpot,,0,17465051000
+mega645,00884,giai-nhat,Giải Nhất,10000000,17,
+mega645,00884,giai-nhi,Giải Nhì,300000,876,
+mega645,00884,giai-ba,Giải Ba,30000,14878,
+mega645,00885,jackpot,Jackpot,,0,19023068000
+mega645,00885,giai-nhat,Giải Nhất,10000000,17,
+mega645,00885,giai-nhi,Giải Nhì,300000,994,
+mega645,00885,giai-ba,Giải Ba,30000,16140,
+mega645,00886,jackpot,Jackpot,,0,20622299500
+mega645,00886,giai-nhat,Giải Nhất,10000000,30,
+mega645,00886,giai-nhi,Giải Nhì,300000,1025,
+mega645,00886,giai-ba,Giải Ba,30000,17700,
+mega645,00887,jackpot,Jackpot,,0,22293891500
+mega645,00887,giai-nhat,Giải Nhất,10000000,25,
+mega645,00887,giai-nhi,Giải Nhì,300000,969,
+mega645,00887,giai-ba,Giải Ba,30000,16983,
+mega645,00888,jackpot,Jackpot,,0,24169204000
+mega645,00888,giai-nhat,Giải Nhất,10000000,19,
+mega645,00888,giai-nhi,Giải Nhì,300000,984,
+mega645,00888,giai-ba,Giải Ba,30000,17246,
+mega645,00889,jackpot,Jackpot,,0,26804142000
+mega645,00889,giai-nhat,Giải Nhất,10000000,27,
+mega645,00889,giai-nhi,Giải Nhì,300000,1295,
+mega645,00889,giai-ba,Giải Ba,30000,19331,
+mega645,00890,jackpot,Jackpot,,0,30055438000
+mega645,00890,giai-nhat,Giải Nhất,10000000,24,
+mega645,00890,giai-nhi,Giải Nhì,300000,1065,
+mega645,00890,giai-ba,Giải Ba,30000,18205,
+mega645,00891,jackpot,Jackpot,,0,33635682500
+mega645,00891,giai-nhat,Giải Nhất,10000000,29,
+mega645,00891,giai-nhi,Giải Nhì,300000,1168,
+mega645,00891,giai-ba,Giải Ba,30000,18995,
+mega645,00892,jackpot,Jackpot,,1,37336878000
+mega645,00892,giai-nhat,Giải Nhất,10000000,28,
+mega645,00892,giai-nhi,Giải Nhì,300000,1266,
+mega645,00892,giai-ba,Giải Ba,30000,21478,
+mega645,00893,jackpot,Jackpot,,0,13079045500
+mega645,00893,giai-nhat,Giải Nhất,10000000,25,
+mega645,00893,giai-nhi,Giải Nhì,300000,784,
+mega645,00893,giai-ba,Giải Ba,30000,12281,
+mega645,00894,jackpot,Jackpot,,0,14256983000
+mega645,00894,giai-nhat,Giải Nhất,10000000,21,
+mega645,00894,giai-nhi,Giải Nhì,300000,1003,
+mega645,00894,giai-ba,Giải Ba,30000,13916,
+mega645,00895,jackpot,Jackpot,,0,15582586500
+mega645,00895,giai-nhat,Giải Nhất,10000000,18,
+mega645,00895,giai-nhi,Giải Nhì,300000,993,
+mega645,00895,giai-ba,Giải Ba,30000,14935,
+mega645,00896,jackpot,Jackpot,,0,16907266000
+mega645,00896,giai-nhat,Giải Nhất,10000000,19,
+mega645,00896,giai-nhi,Giải Nhì,300000,836,
+mega645,00896,giai-ba,Giải Ba,30000,14298,
+mega645,00897,jackpot,Jackpot,,0,18393789500
+mega645,00897,giai-nhat,Giải Nhất,10000000,18,
+mega645,00897,giai-nhi,Giải Nhì,300000,927,
+mega645,00897,giai-ba,Giải Ba,30000,15355,
+mega645,00898,jackpot,Jackpot,,0,19988694000
+mega645,00898,giai-nhat,Giải Nhất,10000000,21,
+mega645,00898,giai-nhi,Giải Nhì,300000,1124,
+mega645,00898,giai-ba,Giải Ba,30000,17341,
+mega645,00899,jackpot,Jackpot,,0,21682925500
+mega645,00899,giai-nhat,Giải Nhất,10000000,14,
+mega645,00899,giai-nhi,Giải Nhì,300000,919,
+mega645,00899,giai-ba,Giải Ba,30000,15658,
+mega645,00900,jackpot,Jackpot,,0,23453316000
+mega645,00900,giai-nhat,Giải Nhất,10000000,15,
+mega645,00900,giai-nhi,Giải Nhì,300000,1073,
+mega645,00900,giai-ba,Giải Ba,30000,17270,
+mega645,00901,jackpot,Jackpot,,0,25773380500
+mega645,00901,giai-nhat,Giải Nhất,10000000,14,
+mega645,00901,giai-nhi,Giải Nhì,300000,1067,
+mega645,00901,giai-ba,Giải Ba,30000,18620,
+mega645,00902,jackpot,Jackpot,,0,28961809500
+mega645,00902,giai-nhat,Giải Nhất,10000000,32,
+mega645,00902,giai-nhi,Giải Nhì,300000,1347,
+mega645,00902,giai-ba,Giải Ba,30000,19105,
+mega645,00903,jackpot,Jackpot,,0,32798069000
+mega645,00903,giai-nhat,Giải Nhất,10000000,19,
+mega645,00903,giai-nhi,Giải Nhì,300000,969,
+mega645,00903,giai-ba,Giải Ba,30000,16901,
+mega645,00904,jackpot,Jackpot,,0,36830904000
+mega645,00904,giai-nhat,Giải Nhất,10000000,22,
+mega645,00904,giai-nhi,Giải Nhì,300000,1112,
+mega645,00904,giai-ba,Giải Ba,30000,20653,
+mega645,00905,jackpot,Jackpot,,0,40655214000
+mega645,00905,giai-nhat,Giải Nhất,10000000,42,
+mega645,00905,giai-nhi,Giải Nhì,300000,1456,
+mega645,00905,giai-ba,Giải Ba,30000,22966,
+mega645,00906,jackpot,Jackpot,,0,44984697500
+mega645,00906,giai-nhat,Giải Nhất,10000000,36,
+mega645,00906,giai-nhi,Giải Nhì,300000,1501,
+mega645,00906,giai-ba,Giải Ba,30000,24565,
+mega645,00907,jackpot,Jackpot,,0,50036747000
+mega645,00907,giai-nhat,Giải Nhất,10000000,37,
+mega645,00907,giai-nhi,Giải Nhì,300000,1281,
+mega645,00907,giai-ba,Giải Ba,30000,25584,
+mega645,00908,jackpot,Jackpot,,0,55416491000
+mega645,00908,giai-nhat,Giải Nhất,10000000,21,
+mega645,00908,giai-nhi,Giải Nhì,300000,1509,
+mega645,00908,giai-ba,Giải Ba,30000,25810,
+mega645,00909,jackpot,Jackpot,,0,60754135000
+mega645,00909,giai-nhat,Giải Nhất,10000000,31,
+mega645,00909,giai-nhi,Giải Nhì,300000,2107,
+mega645,00909,giai-ba,Giải Ba,30000,30979,
+mega645,00910,jackpot,Jackpot,,1,66844435000
+mega645,00910,giai-nhat,Giải Nhất,10000000,46,
+mega645,00910,giai-nhi,Giải Nhì,300000,2051,
+mega645,00910,giai-ba,Giải Ba,30000,32568,
+mega645,00911,jackpot,Jackpot,,0,13152583000
+mega645,00911,giai-nhat,Giải Nhất,10000000,27,
+mega645,00911,giai-nhi,Giải Nhì,300000,1287,
+mega645,00911,giai-ba,Giải Ba,30000,17744,
+mega645,00912,jackpot,Jackpot,,0,14744806000
+mega645,00912,giai-nhat,Giải Nhất,10000000,15,
+mega645,00912,giai-nhi,Giải Nhì,300000,822,
+mega645,00912,giai-ba,Giải Ba,30000,15006,
+mega645,00913,jackpot,Jackpot,,1,16263765000
+mega645,00913,giai-nhat,Giải Nhất,10000000,40,
+mega645,00913,giai-nhi,Giải Nhì,300000,1017,
+mega645,00913,giai-ba,Giải Ba,30000,17081,
+mega645,00914,jackpot,Jackpot,,0,13568382000
+mega645,00914,giai-nhat,Giải Nhất,10000000,17,
+mega645,00914,giai-nhi,Giải Nhì,300000,730,
+mega645,00914,giai-ba,Giải Ba,30000,13608,
+mega645,00915,jackpot,Jackpot,,0,15129926500
+mega645,00915,giai-nhat,Giải Nhất,10000000,12,
+mega645,00915,giai-nhi,Giải Nhì,300000,876,
+mega645,00915,giai-ba,Giải Ba,30000,15176,
+mega645,00916,jackpot,Jackpot,,0,16450587000
+mega645,00916,giai-nhat,Giải Nhất,10000000,32,
+mega645,00916,giai-nhi,Giải Nhì,300000,1105,
+mega645,00916,giai-ba,Giải Ba,30000,17333,
+mega645,00917,jackpot,Jackpot,,0,17983538500
+mega645,00917,giai-nhat,Giải Nhất,10000000,31,
+mega645,00917,giai-nhi,Giải Nhì,300000,951,
+mega645,00917,giai-ba,Giải Ba,30000,15906,
+mega645,00918,jackpot,Jackpot,,0,19644682500
+mega645,00918,giai-nhat,Giải Nhất,10000000,17,
+mega645,00918,giai-nhi,Giải Nhì,300000,1034,
+mega645,00918,giai-ba,Giải Ba,30000,16820,
+mega645,00919,jackpot,Jackpot,,0,21311501500
+mega645,00919,giai-nhat,Giải Nhất,10000000,27,
+mega645,00919,giai-nhi,Giải Nhì,300000,1126,
+mega645,00919,giai-ba,Giải Ba,30000,18457,
+mega645,00920,jackpot,Jackpot,,0,22900672000
+mega645,00920,giai-nhat,Giải Nhất,10000000,32,
+mega645,00920,giai-nhi,Giải Nhì,300000,1376,
+mega645,00920,giai-ba,Giải Ba,30000,20683,
+mega645,00921,jackpot,Jackpot,,0,24608526000
+mega645,00921,giai-nhat,Giải Nhất,10000000,27,
+mega645,00921,giai-nhi,Giải Nhì,300000,1238,
+mega645,00921,giai-ba,Giải Ba,30000,19034,
+mega645,00922,jackpot,Jackpot,,0,26577005500
+mega645,00922,giai-nhat,Giải Nhất,10000000,24,
+mega645,00922,giai-nhi,Giải Nhì,300000,1034,
+mega645,00922,giai-ba,Giải Ba,30000,18645,
+mega645,00923,jackpot,Jackpot,,0,28638819500
+mega645,00923,giai-nhat,Giải Nhất,10000000,21,
+mega645,00923,giai-nhi,Giải Nhì,300000,876,
+mega645,00923,giai-ba,Giải Ba,30000,16787,
+mega645,00924,jackpot,Jackpot,,0,30408294000
+mega645,00924,giai-nhat,Giải Nhất,10000000,28,
+mega645,00924,giai-nhi,Giải Nhì,300000,1350,
+mega645,00924,giai-ba,Giải Ba,30000,21491,
+mega645,00925,jackpot,Jackpot,,0,32328305000
+mega645,00925,giai-nhat,Giải Nhất,10000000,31,
+mega645,00925,giai-nhi,Giải Nhì,300000,1349,
+mega645,00925,giai-ba,Giải Ba,30000,22875,
+mega645,00926,jackpot,Jackpot,,0,35660319500
+mega645,00926,giai-nhat,Giải Nhất,10000000,34,
+mega645,00926,giai-nhi,Giải Nhì,300000,1519,
+mega645,00926,giai-ba,Giải Ba,30000,22779,
+mega645,00927,jackpot,Jackpot,,0,39833936500
+mega645,00927,giai-nhat,Giải Nhất,10000000,22,
+mega645,00927,giai-nhi,Giải Nhì,300000,1317,
+mega645,00927,giai-ba,Giải Ba,30000,21347,
+mega645,00928,jackpot,Jackpot,,0,44200260000
+mega645,00928,giai-nhat,Giải Nhất,10000000,37,
+mega645,00928,giai-nhi,Giải Nhì,300000,1581,
+mega645,00928,giai-ba,Giải Ba,30000,25412,
+mega645,00929,jackpot,Jackpot,,1,48127997000
+mega645,00929,giai-nhat,Giải Nhất,10000000,76,
+mega645,00929,giai-nhi,Giải Nhì,300000,1922,
+mega645,00929,giai-ba,Giải Ba,30000,26349,
+mega645,00930,jackpot,Jackpot,,0,13332771500
+mega645,00930,giai-nhat,Giải Nhất,10000000,16,
+mega645,00930,giai-nhi,Giải Nhì,300000,899,
+mega645,00930,giai-ba,Giải Ba,30000,14850,
+mega645,00931,jackpot,Jackpot,,0,14664625000
+mega645,00931,giai-nhat,Giải Nhất,10000000,28,
+mega645,00931,giai-nhi,Giải Nhì,300000,823,
+mega645,00931,giai-ba,Giải Ba,30000,14232,
+mega645,00932,jackpot,Jackpot,,0,16154250500
+mega645,00932,giai-nhat,Giải Nhất,10000000,16,
+mega645,00932,giai-nhi,Giải Nhì,300000,734,
+mega645,00932,giai-ba,Giải Ba,30000,13337,
+mega645,00933,jackpot,Jackpot,,0,17727644000
+mega645,00933,giai-nhat,Giải Nhất,10000000,15,
+mega645,00933,giai-nhi,Giải Nhì,300000,905,
+mega645,00933,giai-ba,Giải Ba,30000,15413,
+mega645,00934,jackpot,Jackpot,,0,19404163000
+mega645,00934,giai-nhat,Giải Nhất,10000000,20,
+mega645,00934,giai-nhi,Giải Nhì,300000,917,
+mega645,00934,giai-ba,Giải Ba,30000,15942,
+mega645,00935,jackpot,Jackpot,,0,21055715000
+mega645,00935,giai-nhat,Giải Nhất,10000000,16,
+mega645,00935,giai-nhi,Giải Nhì,300000,788,
+mega645,00935,giai-ba,Giải Ba,30000,14628,
+mega645,00936,jackpot,Jackpot,,0,22380171500
+mega645,00936,giai-nhat,Giải Nhất,10000000,37,
+mega645,00936,giai-nhi,Giải Nhì,300000,1294,
+mega645,00936,giai-ba,Giải Ba,30000,19436,
+mega645,00937,jackpot,Jackpot,,0,24136566500
+mega645,00937,giai-nhat,Giải Nhất,10000000,19,
+mega645,00937,giai-nhi,Giải Nhì,300000,1299,
+mega645,00937,giai-ba,Giải Ba,30000,21347,
+mega645,00938,jackpot,Jackpot,,0,27126697500
+mega645,00938,giai-nhat,Giải Nhất,10000000,21,
+mega645,00938,giai-nhi,Giải Nhì,300000,1097,
+mega645,00938,giai-ba,Giải Ba,30000,19700,
+mega645,00939,jackpot,Jackpot,,0,30720902000
+mega645,00939,giai-nhat,Giải Nhất,10000000,27,
+mega645,00939,giai-nhi,Giải Nhì,300000,1084,
+mega645,00939,giai-ba,Giải Ba,30000,17631,
+mega645,00940,jackpot,Jackpot,,0,34942394000
+mega645,00940,giai-nhat,Giải Nhất,10000000,24,
+mega645,00940,giai-nhi,Giải Nhì,300000,1371,
+mega645,00940,giai-ba,Giải Ba,30000,22015,
+mega645,00941,jackpot,Jackpot,,0,39062754000
+mega645,00941,giai-nhat,Giải Nhất,10000000,32,
+mega645,00941,giai-nhi,Giải Nhì,300000,1341,
+mega645,00941,giai-ba,Giải Ba,30000,21596,
+mega645,00942,jackpot,Jackpot,,1,43132025000
+mega645,00942,giai-nhat,Giải Nhất,10000000,47,
+mega645,00942,giai-nhi,Giải Nhì,300000,1581,
+mega645,00942,giai-ba,Giải Ba,30000,24131,
+mega645,00943,jackpot,Jackpot,,0,13397869000
+mega645,00943,giai-nhat,Giải Nhất,10000000,15,
+mega645,00943,giai-nhi,Giải Nhì,300000,871,
+mega645,00943,giai-ba,Giải Ba,30000,14638,
+mega645,00944,jackpot,Jackpot,,0,14840078500
+mega645,00944,giai-nhat,Giải Nhất,10000000,18,
+mega645,00944,giai-nhi,Giải Nhì,300000,788,
+mega645,00944,giai-ba,Giải Ba,30000,14836,
+mega645,00945,jackpot,Jackpot,,0,16272183500
+mega645,00945,giai-nhat,Giải Nhất,10000000,21,
+mega645,00945,giai-nhi,Giải Nhì,300000,793,
+mega645,00945,giai-ba,Giải Ba,30000,14773,
+mega645,00946,jackpot,Jackpot,,0,17875801500
+mega645,00946,giai-nhat,Giải Nhất,10000000,17,
+mega645,00946,giai-nhi,Giải Nhì,300000,953,
+mega645,00946,giai-ba,Giải Ba,30000,16363,
+mega645,00947,jackpot,Jackpot,,0,19422090500
+mega645,00947,giai-nhat,Giải Nhất,10000000,24,
+mega645,00947,giai-nhi,Giải Nhì,300000,1131,
+mega645,00947,giai-ba,Giải Ba,30000,17869,
+mega645,00948,jackpot,Jackpot,,1,21270243500
+mega645,00948,giai-nhat,Giải Nhất,10000000,17,
+mega645,00948,giai-nhi,Giải Nhì,300000,971,
+mega645,00948,giai-ba,Giải Ba,30000,17210,
+mega645,00949,jackpot,Jackpot,,0,13427711000
+mega645,00949,giai-nhat,Giải Nhất,10000000,18,
+mega645,00949,giai-nhi,Giải Nhì,300000,990,
+mega645,00949,giai-ba,Giải Ba,30000,15944,
+mega645,00950,jackpot,Jackpot,,0,15061056500
+mega645,00950,giai-nhat,Giải Nhất,10000000,19,
+mega645,00950,giai-nhi,Giải Nhì,300000,793,
+mega645,00950,giai-ba,Giải Ba,30000,14206,
+mega645,00951,jackpot,Jackpot,,0,16803160500
+mega645,00951,giai-nhat,Giải Nhất,10000000,15,
+mega645,00951,giai-nhi,Giải Nhì,300000,1014,
+mega645,00951,giai-ba,Giải Ba,30000,17746,
+mega645,00952,jackpot,Jackpot,,0,18611883000
+mega645,00952,giai-nhat,Giải Nhất,10000000,21,
+mega645,00952,giai-nhi,Giải Nhì,300000,1223,
+mega645,00952,giai-ba,Giải Ba,30000,18782,
+mega645,00953,jackpot,Jackpot,,0,20562119000
+mega645,00953,giai-nhat,Giải Nhất,10000000,18,
+mega645,00953,giai-nhi,Giải Nhì,300000,928,
+mega645,00953,giai-ba,Giải Ba,30000,16342,
+mega645,00954,jackpot,Jackpot,,0,22314157500
+mega645,00954,giai-nhat,Giải Nhất,10000000,21,
+mega645,00954,giai-nhi,Giải Nhì,300000,1297,
+mega645,00954,giai-ba,Giải Ba,30000,19525,
+mega645,00955,jackpot,Jackpot,,0,24040873500
+mega645,00955,giai-nhat,Giải Nhất,10000000,25,
+mega645,00955,giai-nhi,Giải Nhì,300000,1221,
+mega645,00955,giai-ba,Giải Ba,30000,19955,
+mega645,00956,jackpot,Jackpot,,0,26156971000
+mega645,00956,giai-nhat,Giải Nhất,10000000,16,
+mega645,00956,giai-nhi,Giải Nhì,300000,989,
+mega645,00956,giai-ba,Giải Ba,30000,18466,
+mega645,00957,jackpot,Jackpot,,0,28053087500
+mega645,00957,giai-nhat,Giải Nhất,10000000,32,
+mega645,00957,giai-nhi,Giải Nhì,300000,1250,
+mega645,00957,giai-ba,Giải Ba,30000,19271,
+mega645,00958,jackpot,Jackpot,,0,31027945500
+mega645,00958,giai-nhat,Giải Nhất,10000000,29,
+mega645,00958,giai-nhi,Giải Nhì,300000,1178,
+mega645,00958,giai-ba,Giải Ba,30000,20480,
+mega645,00959,jackpot,Jackpot,,0,35108565500
+mega645,00959,giai-nhat,Giải Nhất,10000000,15,
+mega645,00959,giai-nhi,Giải Nhì,300000,1127,
+mega645,00959,giai-ba,Giải Ba,30000,19038,
+mega645,00960,jackpot,Jackpot,,0,39364640500
+mega645,00960,giai-nhat,Giải Nhất,10000000,17,
+mega645,00960,giai-nhi,Giải Nhì,300000,1307,
+mega645,00960,giai-ba,Giải Ba,30000,20863,
+mega645,00961,jackpot,Jackpot,,0,43928011000
+mega645,00961,giai-nhat,Giải Nhất,10000000,33,
+mega645,00961,giai-nhi,Giải Nhì,300000,1512,
+mega645,00961,giai-ba,Giải Ba,30000,24221,
+mega645,00962,jackpot,Jackpot,,0,48556175000
+mega645,00962,giai-nhat,Giải Nhất,10000000,45,
+mega645,00962,giai-nhi,Giải Nhì,300000,1623,
+mega645,00962,giai-ba,Giải Ba,30000,26077,
+mega645,00963,jackpot,Jackpot,,0,53746736500
+mega645,00963,giai-nhat,Giải Nhất,10000000,27,
+mega645,00963,giai-nhi,Giải Nhì,300000,1797,
+mega645,00963,giai-ba,Giải Ba,30000,29173,
+mega645,00964,jackpot,Jackpot,,0,59325037000
+mega645,00964,giai-nhat,Giải Nhất,10000000,62,
+mega645,00964,giai-nhi,Giải Nhì,300000,2023,
+mega645,00964,giai-ba,Giải Ba,30000,33642,
+mega645,00965,jackpot,Jackpot,,0,65752184000
+mega645,00965,giai-nhat,Giải Nhất,10000000,28,
+mega645,00965,giai-nhi,Giải Nhì,300000,1806,
+mega645,00965,giai-ba,Giải Ba,30000,33272,
+mega645,00966,jackpot,Jackpot,,1,72397323000
+mega645,00966,giai-nhat,Giải Nhất,10000000,34,
+mega645,00966,giai-nhi,Giải Nhì,300000,1655,
+mega645,00966,giai-ba,Giải Ba,30000,29161,
+mega645,00967,jackpot,Jackpot,,0,13531338500
+mega645,00967,giai-nhat,Giải Nhất,10000000,21,
+mega645,00967,giai-nhi,Giải Nhì,300000,900,
+mega645,00967,giai-ba,Giải Ba,30000,15111,
+mega645,00968,jackpot,Jackpot,,0,15234059500
+mega645,00968,giai-nhat,Giải Nhất,10000000,5,
+mega645,00968,giai-nhi,Giải Nhì,300000,793,
+mega645,00968,giai-ba,Giải Ba,30000,14863,
+mega645,00969,jackpot,Jackpot,,0,16973364000
+mega645,00969,giai-nhat,Giải Nhất,10000000,14,
+mega645,00969,giai-nhi,Giải Nhì,300000,860,
+mega645,00969,giai-ba,Giải Ba,30000,14925,
+mega645,00970,jackpot,Jackpot,,0,18822931500
+mega645,00970,giai-nhat,Giải Nhất,10000000,14,
+mega645,00970,giai-nhi,Giải Nhì,300000,918,
+mega645,00970,giai-ba,Giải Ba,30000,16183,
+mega645,00971,jackpot,Jackpot,,1,20737613500
+mega645,00971,giai-nhat,Giải Nhất,10000000,16,
+mega645,00971,giai-nhi,Giải Nhì,300000,893,
+mega645,00971,giai-ba,Giải Ba,30000,15776,
+mega645,00972,jackpot,Jackpot,,0,13440836000
+mega645,00972,giai-nhat,Giải Nhất,10000000,19,
+mega645,00972,giai-nhi,Giải Nhì,300000,687,
+mega645,00972,giai-ba,Giải Ba,30000,12763,
+mega645,00973,jackpot,Jackpot,,0,14921807000
+mega645,00973,giai-nhat,Giải Nhất,10000000,20,
+mega645,00973,giai-nhi,Giải Nhì,300000,1097,
+mega645,00973,giai-ba,Giải Ba,30000,17206,
+mega645,00974,jackpot,Jackpot,,1,16514716500
+mega645,00974,giai-nhat,Giải Nhất,10000000,18,
+mega645,00974,giai-nhi,Giải Nhì,300000,962,
+mega645,00974,giai-ba,Giải Ba,30000,15586,
+mega645,00975,jackpot,Jackpot,,0,13282007000
+mega645,00975,giai-nhat,Giải Nhất,10000000,15,
+mega645,00975,giai-nhi,Giải Nhì,300000,1089,
+mega645,00975,giai-ba,Giải Ba,30000,16580,
+mega645,00976,jackpot,Jackpot,,0,14667783000
+mega645,00976,giai-nhat,Giải Nhất,10000000,27,
+mega645,00976,giai-nhi,Giải Nhì,300000,1191,
+mega645,00976,giai-ba,Giải Ba,30000,18318,
+mega645,00977,jackpot,Jackpot,,0,16429073500
+mega645,00977,giai-nhat,Giải Nhất,10000000,20,
+mega645,00977,giai-nhi,Giải Nhì,300000,909,
+mega645,00977,giai-ba,Giải Ba,30000,16184,
+mega645,00978,jackpot,Jackpot,,0,17974244000
+mega645,00978,giai-nhat,Giải Nhất,10000000,31,
+mega645,00978,giai-nhi,Giải Nhì,300000,1340,
+mega645,00978,giai-ba,Giải Ba,30000,20036,
+mega645,00979,jackpot,Jackpot,,0,20043738500
+mega645,00979,giai-nhat,Giải Nhất,10000000,24,
+mega645,00979,giai-nhi,Giải Nhì,300000,1031,
+mega645,00979,giai-ba,Giải Ba,30000,19355,
+mega645,00980,jackpot,Jackpot,,0,21908289000
+mega645,00980,giai-nhat,Giải Nhất,10000000,32,
+mega645,00980,giai-nhi,Giải Nhì,300000,1406,
+mega645,00980,giai-ba,Giải Ba,30000,22518,
+mega645,00981,jackpot,Jackpot,,0,23854749000
+mega645,00981,giai-nhat,Giải Nhất,10000000,41,
+mega645,00981,giai-nhi,Giải Nhì,300000,1380,
+mega645,00981,giai-ba,Giải Ba,30000,21511,
+mega645,00982,jackpot,Jackpot,,0,26018721000
+mega645,00982,giai-nhat,Giải Nhất,10000000,34,
+mega645,00982,giai-nhi,Giải Nhì,300000,1519,
+mega645,00982,giai-ba,Giải Ba,30000,24555,
+mega645,00983,jackpot,Jackpot,,0,28424712500
+mega645,00983,giai-nhat,Giải Nhất,10000000,25,
+mega645,00983,giai-nhi,Giải Nhì,300000,1360,
+mega645,00983,giai-ba,Giải Ba,30000,22153,
+mega645,00984,jackpot,Jackpot,,0,30681148000
+mega645,00984,giai-nhat,Giải Nhất,10000000,29,
+mega645,00984,giai-nhi,Giải Nhì,300000,1372,
+mega645,00984,giai-ba,Giải Ba,30000,22442,
+mega645,00985,jackpot,Jackpot,,0,33302021500
+mega645,00985,giai-nhat,Giải Nhất,10000000,19,
+mega645,00985,giai-nhi,Giải Nhì,300000,1287,
+mega645,00985,giai-ba,Giải Ba,30000,23429,
+mega645,00986,jackpot,Jackpot,,0,35588379500
+mega645,00986,giai-nhat,Giải Nhất,10000000,40,
+mega645,00986,giai-nhi,Giải Nhì,300000,1466,
+mega645,00986,giai-ba,Giải Ba,30000,24885,
+mega645,00987,jackpot,Jackpot,,0,38125966500
+mega645,00987,giai-nhat,Giải Nhất,10000000,30,
+mega645,00987,giai-nhi,Giải Nhì,300000,1524,
+mega645,00987,giai-ba,Giải Ba,30000,23608,
+mega645,00988,jackpot,Jackpot,,0,42607722500
+mega645,00988,giai-nhat,Giải Nhất,10000000,43,
+mega645,00988,giai-nhi,Giải Nhì,300000,1570,
+mega645,00988,giai-ba,Giải Ba,30000,25848,
+mega645,00989,jackpot,Jackpot,,0,47263059500
+mega645,00989,giai-nhat,Giải Nhất,10000000,31,
+mega645,00989,giai-nhi,Giải Nhì,300000,1659,
+mega645,00989,giai-ba,Giải Ba,30000,26245,
+mega645,00990,jackpot,Jackpot,,0,52449684000
+mega645,00990,giai-nhat,Giải Nhất,10000000,28,
+mega645,00990,giai-nhi,Giải Nhì,300000,1548,
+mega645,00990,giai-ba,Giải Ba,30000,26215,
+mega645,00991,jackpot,Jackpot,,1,58214087500
+mega645,00991,giai-nhat,Giải Nhất,10000000,46,
+mega645,00991,giai-nhi,Giải Nhì,300000,1995,
+mega645,00991,giai-ba,Giải Ba,30000,30864,
+mega645,00992,jackpot,Jackpot,,0,13505185000
+mega645,00992,giai-nhat,Giải Nhất,10000000,17,
+mega645,00992,giai-nhi,Giải Nhì,300000,937,
+mega645,00992,giai-ba,Giải Ba,30000,15672,
+mega645,00993,jackpot,Jackpot,,0,14962713000
+mega645,00993,giai-nhat,Giải Nhất,10000000,20,
+mega645,00993,giai-nhi,Giải Nhì,300000,1133,
+mega645,00993,giai-ba,Giải Ba,30000,18386,
+mega645,00994,jackpot,Jackpot,,0,17047650000
+mega645,00994,giai-nhat,Giải Nhất,10000000,50,
+mega645,00994,giai-nhi,Giải Nhì,300000,1475,
+mega645,00994,giai-ba,Giải Ba,30000,23940,
+mega645,00995,jackpot,Jackpot,,0,18900382500
+mega645,00995,giai-nhat,Giải Nhất,10000000,28,
+mega645,00995,giai-nhi,Giải Nhì,300000,1102,
+mega645,00995,giai-ba,Giải Ba,30000,19302,
+mega645,00996,jackpot,Jackpot,,0,20897525000
+mega645,00996,giai-nhat,Giải Nhất,10000000,19,
+mega645,00996,giai-nhi,Giải Nhì,300000,1095,
+mega645,00996,giai-ba,Giải Ba,30000,18662,
+mega645,00997,jackpot,Jackpot,,0,22873004500
+mega645,00997,giai-nhat,Giải Nhất,10000000,19,
+mega645,00997,giai-nhi,Giải Nhì,300000,1026,
+mega645,00997,giai-ba,Giải Ba,30000,18196,
+mega645,00998,jackpot,Jackpot,,0,25270714500
+mega645,00998,giai-nhat,Giải Nhất,10000000,22,
+mega645,00998,giai-nhi,Giải Nhì,300000,1084,
+mega645,00998,giai-ba,Giải Ba,30000,19505,
+mega645,00999,jackpot,Jackpot,,0,28986447000
+mega645,00999,giai-nhat,Giải Nhất,10000000,29,
+mega645,00999,giai-nhi,Giải Nhì,300000,1133,
+mega645,00999,giai-ba,Giải Ba,30000,19206,
+mega645,01000,jackpot,Jackpot,,0,32791181500
+mega645,01000,giai-nhat,Giải Nhất,10000000,29,
+mega645,01000,giai-nhi,Giải Nhì,300000,1261,
+mega645,01000,giai-ba,Giải Ba,30000,20845,
+mega645,01001,jackpot,Jackpot,,0,37143174500
+mega645,01001,giai-nhat,Giải Nhất,10000000,36,
+mega645,01001,giai-nhi,Giải Nhì,300000,1600,
+mega645,01001,giai-ba,Giải Ba,30000,23600,
+mega645,01002,jackpot,Jackpot,,0,41745505000
+mega645,01002,giai-nhat,Giải Nhất,10000000,28,
+mega645,01002,giai-nhi,Giải Nhì,300000,1664,
+mega645,01002,giai-ba,Giải Ba,30000,26501,
+mega645,01003,jackpot,Jackpot,,0,46539623000
+mega645,01003,giai-nhat,Giải Nhất,10000000,30,
+mega645,01003,giai-nhi,Giải Nhì,300000,1700,
+mega645,01003,giai-ba,Giải Ba,30000,27864,
+mega645,01004,jackpot,Jackpot,,0,52573149000
+mega645,01004,giai-nhat,Giải Nhất,10000000,34,
+mega645,01004,giai-nhi,Giải Nhì,300000,1663,
+mega645,01004,giai-ba,Giải Ba,30000,29392,
+mega645,01005,jackpot,Jackpot,,0,58862337500
+mega645,01005,giai-nhat,Giải Nhất,10000000,49,
+mega645,01005,giai-nhi,Giải Nhì,300000,2036,
+mega645,01005,giai-ba,Giải Ba,30000,33358,
+mega645,01006,jackpot,Jackpot,,0,65155827000
+mega645,01006,giai-nhat,Giải Nhất,10000000,43,
+mega645,01006,giai-nhi,Giải Nhì,300000,1979,
+mega645,01006,giai-ba,Giải Ba,30000,31792,
+mega645,01007,jackpot,Jackpot,,0,72458330000
+mega645,01007,giai-nhat,Giải Nhất,10000000,51,
+mega645,01007,giai-nhi,Giải Nhì,300000,2338,
+mega645,01007,giai-ba,Giải Ba,30000,39630,
+mega645,01008,jackpot,Jackpot,,0,79907120500
+mega645,01008,giai-nhat,Giải Nhất,10000000,49,
+mega645,01008,giai-nhi,Giải Nhì,300000,2192,
+mega645,01008,giai-ba,Giải Ba,30000,35356,
+mega645,01009,jackpot,Jackpot,,0,87754341500
+mega645,01009,giai-nhat,Giải Nhất,10000000,47,
+mega645,01009,giai-nhi,Giải Nhì,300000,2444,
+mega645,01009,giai-ba,Giải Ba,30000,41868,
+mega645,01010,jackpot,Jackpot,,2,48383620000
+mega645,01010,giai-nhat,Giải Nhất,10000000,59,
+mega645,01010,giai-nhi,Giải Nhì,300000,3101,
+mega645,01010,giai-ba,Giải Ba,30000,48675,
+mega645,01011,jackpot,Jackpot,,0,13518471500
+mega645,01011,giai-nhat,Giải Nhất,10000000,16,
+mega645,01011,giai-nhi,Giải Nhì,300000,792,
+mega645,01011,giai-ba,Giải Ba,30000,14455,
+mega645,01012,jackpot,Jackpot,,0,15021254500
+mega645,01012,giai-nhat,Giải Nhất,10000000,19,
+mega645,01012,giai-nhi,Giải Nhì,300000,911,
+mega645,01012,giai-ba,Giải Ba,30000,16310,
+mega645,01013,jackpot,Jackpot,,0,16668406500
+mega645,01013,giai-nhat,Giải Nhất,10000000,21,
+mega645,01013,giai-nhi,Giải Nhì,300000,1085,
+mega645,01013,giai-ba,Giải Ba,30000,17257,
+mega645,01014,jackpot,Jackpot,,0,18137132500
+mega645,01014,giai-nhat,Giải Nhất,10000000,24,
+mega645,01014,giai-nhi,Giải Nhì,300000,1156,
+mega645,01014,giai-ba,Giải Ba,30000,17148,
+mega645,01015,jackpot,Jackpot,,0,19674351500
+mega645,01015,giai-nhat,Giải Nhất,10000000,39,
+mega645,01015,giai-nhi,Giải Nhì,300000,1103,
+mega645,01015,giai-ba,Giải Ba,30000,16711,
+mega645,01016,jackpot,Jackpot,,0,21319497500
+mega645,01016,giai-nhat,Giải Nhất,10000000,30,
+mega645,01016,giai-nhi,Giải Nhì,300000,1141,
+mega645,01016,giai-ba,Giải Ba,30000,19544,
+mega645,01017,jackpot,Jackpot,,0,22922875000
+mega645,01017,giai-nhat,Giải Nhất,10000000,25,
+mega645,01017,giai-nhi,Giải Nhì,300000,1311,
+mega645,01017,giai-ba,Giải Ba,30000,20099,
+mega645,01018,jackpot,Jackpot,,0,24811119000
+mega645,01018,giai-nhat,Giải Nhất,10000000,26,
+mega645,01018,giai-nhi,Giải Nhì,300000,1382,
+mega645,01018,giai-ba,Giải Ba,30000,19960,
+mega645,01019,jackpot,Jackpot,,0,28336399500
+mega645,01019,giai-nhat,Giải Nhất,10000000,27,
+mega645,01019,giai-nhi,Giải Nhì,300000,1226,
+mega645,01019,giai-ba,Giải Ba,30000,20102,
+mega645,01020,jackpot,Jackpot,,0,32015387000
+mega645,01020,giai-nhat,Giải Nhất,10000000,24,
+mega645,01020,giai-nhi,Giải Nhì,300000,1101,
+mega645,01020,giai-ba,Giải Ba,30000,19684,
+mega645,01021,jackpot,Jackpot,,0,35931924500
+mega645,01021,giai-nhat,Giải Nhất,10000000,22,
+mega645,01021,giai-nhi,Giải Nhì,300000,1380,
+mega645,01021,giai-ba,Giải Ba,30000,21185,
+mega645,01022,jackpot,Jackpot,,0,40039098000
+mega645,01022,giai-nhat,Giải Nhất,10000000,50,
+mega645,01022,giai-nhi,Giải Nhì,300000,1679,
+mega645,01022,giai-ba,Giải Ba,30000,25976,
+mega645,01023,jackpot,Jackpot,,0,44269078000
+mega645,01023,giai-nhat,Giải Nhất,10000000,50,
+mega645,01023,giai-nhi,Giải Nhì,300000,1872,
+mega645,01023,giai-ba,Giải Ba,30000,26806,
+mega645,01024,jackpot,Jackpot,,0,49214478000
+mega645,01024,giai-nhat,Giải Nhất,10000000,21,
+mega645,01024,giai-nhi,Giải Nhì,300000,1488,
+mega645,01024,giai-ba,Giải Ba,30000,24763,
 mega645,01025,jackpot,Jackpot,,0,54938892500
 mega645,01025,giai-nhat,Giải Nhất,10000000,30,
 mega645,01025,giai-nhi,Giải Nhì,300000,1930,

@@ -1,0 +1,120 @@
+{
+  "draw_date": "2022-10-15",
+  "draw_id": "00170",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "max3d_pro",
+  "prizes": [
+    {
+      "amount_vnd": 2000000000,
+      "code": "giai-dac-biet",
+      "jackpot_vnd": null,
+      "name": "Giải Đặc biệt",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 400000000,
+      "code": "giai-phu-dac-biet",
+      "jackpot_vnd": null,
+      "name": "Giải phụ Đặc biệt",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 30000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 4000000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 1000000,
+      "code": "giai-tu",
+      "jackpot_vnd": null,
+      "name": "Giải tư",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 100000,
+      "code": "giai-nam",
+      "jackpot_vnd": null,
+      "name": "Giải năm",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 40000,
+      "code": "giai-sau",
+      "jackpot_vnd": null,
+      "name": "Giải sáu",
+      "winner_count": null
+    }
+  ],
+  "result": {
+    "kind": "three_digit_tiers",
+    "tiers": [
+      {
+        "code": "special",
+        "name": "Giải Đặc biệt",
+        "numbers": [
+          "462",
+          "693"
+        ]
+      },
+      {
+        "code": "first",
+        "name": "Giải Nhất",
+        "numbers": [
+          "771",
+          "750",
+          "270",
+          "268"
+        ]
+      },
+      {
+        "code": "second",
+        "name": "Giải Nhì",
+        "numbers": [
+          "196",
+          "241",
+          "217",
+          "505",
+          "720",
+          "435"
+        ]
+      },
+      {
+        "code": "third",
+        "name": "Giải Ba",
+        "numbers": [
+          "556",
+          "050",
+          "555",
+          "620",
+          "913",
+          "329",
+          "327",
+          "804"
+        ]
+      }
+    ]
+  },
+  "retrieved_at": "2026-08-04T20:54:38+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn/main/10.2022/system/game.pdf.result/00170_max3dpro_a5_v2_00170.pdf",
+  "source_sha256": "fd45acebb8f0188e75e419743b9e70432efcf9df5bd96d675fcb28381b729236",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00170&nocatche=1"
+}

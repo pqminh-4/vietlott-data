@@ -1,0 +1,64 @@
+{
+  "draw_date": "2022-07-09",
+  "draw_id": "00747",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "power655",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot-1",
+      "jackpot_vnd": 183948645900,
+      "name": "Jackpot 1",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": null,
+      "code": "jackpot-2",
+      "jackpot_vnd": 11533601550,
+      "name": "Jackpot 2",
+      "winner_count": 0
+    },
+    {
+      "amount_vnd": 40000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 17
+    },
+    {
+      "amount_vnd": 500000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 1497
+    },
+    {
+      "amount_vnd": 50000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 32603
+    }
+  ],
+  "result": {
+    "bonus_numbers": [
+      20
+    ],
+    "kind": "number_set",
+    "main_numbers": [
+      5,
+      21,
+      24,
+      47,
+      52,
+      55
+    ]
+  },
+  "retrieved_at": "2026-08-04T20:49:26+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn/main/07.2022/system/game.pdf.result/00747_power_a5_00747.pdf",
+  "source_sha256": "7c121cffdd4222b0a6abd5e0a127fa1689b4460f5f6c49af92ae12634af9efb7",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=00747&nocatche=1"
+}
