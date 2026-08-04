@@ -14,6 +14,7 @@ from vietlott.adapters import BaseAdapter, get_adapter
 from vietlott.adapters.number_set import _assign_lotto_slots
 from vietlott.config import GAMES, get_game
 from vietlott.errors import ParseError
+from vietlott.freshness import _latest_scheduled_draw, _record_schedule_time
 from vietlott.http import OfficialResponse, VietlottClient
 from vietlott.models import DrawRecord
 from vietlott.pdf import audit_pdf
@@ -233,9 +234,9 @@ class Collector:
 
     def run_scheduled(self) -> CollectionSummary:
         now = local_now()
-        games = due_games(now)
+        games = list(dict.fromkeys([*due_games(now), *_overdue_games(self.store, now)]))
         if games:
-            LOGGER.info("Collecting due games: %s", ", ".join(games))
+            LOGGER.info("Collecting due or overdue games: %s", ", ".join(games))
             return self.collect_latest(games, audit_official_pdf=True)
         if now.hour in {2, 3, 4}:
             LOGGER.info("Running nightly reconciliation")
@@ -301,6 +302,19 @@ def _deduplicate(records: Iterable[DrawRecord]) -> list[DrawRecord]:
     for record in records:
         unique[record.key] = record
     return list(unique.values())
+
+
+def _overdue_games(store: DataStore, current: datetime) -> list[str]:
+    """Return games whose latest stored draw predates the latest scheduled draw."""
+    overdue: list[str] = []
+    for game, spec in GAMES.items():
+        records = store.load(game)
+        if not records:
+            continue
+        latest = max(records, key=lambda record: int(record.draw_id))
+        if _record_schedule_time(latest, spec) < _latest_scheduled_draw(spec, current):
+            overdue.append(game)
+    return overdue
 
 
 def _latest_draw_id(records: Iterable[DrawRecord]) -> str | None:
