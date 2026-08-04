@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import replace
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
+from zoneinfo import ZoneInfo
 
 import pytest
 
@@ -10,7 +12,7 @@ from vietlott.config import get_game
 from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse
 from vietlott.models import DrawRecord, NumberSetResult
-from vietlott.service import Collector
+from vietlott.service import CollectionSummary, Collector
 from vietlott.storage import DataStore
 
 
@@ -23,6 +25,25 @@ def make_record(draw_id: str, draw_date: str) -> DrawRecord:
         source_url=get_game("mega645").endpoint,
         source_sha256="a" * 64,
         retrieved_at="2026-08-01T00:00:00+00:00",
+    )
+
+
+def make_lotto_record(
+    draw_id: str,
+    draw_date: str,
+    draw_time: str,
+    draw_slot: str,
+) -> DrawRecord:
+    return DrawRecord(
+        game="lotto535",
+        draw_id=draw_id,
+        draw_date=draw_date,
+        draw_time=draw_time,
+        draw_slot=draw_slot,
+        result=NumberSetResult(main_numbers=[1, 2, 3, 4, 5], bonus_numbers=[6]),
+        source_url=get_game("lotto535").endpoint,
+        source_sha256="a" * 64,
+        retrieved_at="2026-08-04T08:00:00+00:00",
     )
 
 
@@ -99,6 +120,45 @@ def test_dry_run_does_not_write(tmp_path: Path) -> None:
     assert summary.telemetry["mega645"]["stored_latest_draw_id"] is None
     assert summary.telemetry["mega645"]["status"] == "dry-run"
     assert summary.to_dict()["selected_games"] == ["mega645"]
+
+
+def test_scheduled_collection_recovers_draw_after_runner_delay(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    store.upsert(
+        "lotto535",
+        [make_lotto_record("00802", "2026-08-03", "21:00:00", "night")],
+    )
+    collector = Collector(store, FakeClient(), max_workers=1)  # type: ignore[arg-type]
+    now = datetime(2026, 8, 4, 15, 51, tzinfo=ZoneInfo("Asia/Ho_Chi_Minh"))
+    expected = CollectionSummary.empty()
+
+    with (
+        patch("vietlott.service.local_now", return_value=now),
+        patch.object(collector, "collect_latest", return_value=expected) as collect_latest,
+    ):
+        summary = collector.run_scheduled()
+
+    assert summary is expected
+    collect_latest.assert_called_once_with(["lotto535"], audit_official_pdf=True)
+
+
+def test_scheduled_collection_does_not_refetch_current_draw_after_delay(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    store.upsert(
+        "lotto535",
+        [make_lotto_record("00803", "2026-08-04", "13:00:00", "afternoon")],
+    )
+    collector = Collector(store, FakeClient(), max_workers=1)  # type: ignore[arg-type]
+    now = datetime(2026, 8, 4, 15, 51, tzinfo=ZoneInfo("Asia/Ho_Chi_Minh"))
+
+    with (
+        patch("vietlott.service.local_now", return_value=now),
+        patch.object(collector, "collect_latest") as collect_latest,
+    ):
+        summary = collector.run_scheduled()
+
+    assert summary.to_dict()["selected_games"] == []
+    collect_latest.assert_not_called()
 
 
 def test_backfill_reports_history_that_the_source_no_longer_returns(tmp_path: Path) -> None:
