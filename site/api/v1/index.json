@@ -11,7 +11,7 @@
         "latest": "mega645/latest.json",
         "years": "mega645/years/"
       },
-      "record_count": 769
+      "record_count": 1016
     },
     {
       "code": "power655",
@@ -23,7 +23,7 @@
         "latest": "power655/latest.json",
         "years": "power655/years/"
       },
-      "record_count": 744
+      "record_count": 992
     },
     {
       "code": "lotto535",
@@ -35,7 +35,7 @@
         "latest": "lotto535/latest.json",
         "years": "lotto535/years/"
       },
-      "record_count": 746
+      "record_count": 806
     },
     {
       "code": "max3d",
@@ -47,7 +47,7 @@
         "latest": "max3d/latest.json",
         "years": "max3d/years/"
       },
-      "record_count": 751
+      "record_count": 1000
     },
     {
       "code": "max3d_pro",
@@ -59,9 +59,9 @@
         "latest": "max3d_pro/latest.json",
         "years": "max3d_pro/years/"
       },
-      "record_count": 750
+      "record_count": 761
     }
   ],
-  "generated_at": "2026-08-05T16:07:20+00:00",
+  "generated_at": "2026-08-05T20:46:44+00:00",
   "schema_version": "1.0"
 }

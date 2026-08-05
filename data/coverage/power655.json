@@ -1,12 +1,12 @@
 {
   "backfill_complete": false,
-  "earliest_draw_date": "2021-10-23",
-  "earliest_draw_id": "00637",
+  "earliest_draw_date": "2020-01-30",
+  "earliest_draw_id": "00389",
   "game": "power655",
   "latest_draw_date": "2026-08-04",
   "latest_draw_id": "01380",
   "missing_ids": [],
-  "next_page_index": 93,
-  "record_count": 744,
+  "next_page_index": 124,
+  "record_count": 992,
   "unavailable_ranges": []
 }
