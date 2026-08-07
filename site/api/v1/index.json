@@ -11,7 +11,7 @@
         "latest": "mega645/latest.json",
         "years": "mega645/years/"
       },
-      "record_count": 1017
+      "record_count": 1264
     },
     {
       "code": "power655",
@@ -23,7 +23,7 @@
         "latest": "power655/latest.json",
         "years": "power655/years/"
       },
-      "record_count": 993
+      "record_count": 1240
     },
     {
       "code": "lotto535",
@@ -47,7 +47,7 @@
         "latest": "max3d/latest.json",
         "years": "max3d/years/"
       },
-      "record_count": 1001
+      "record_count": 1116
     },
     {
       "code": "max3d_pro",
@@ -62,6 +62,6 @@
       "record_count": 762
     }
   ],
-  "generated_at": "2026-08-07T15:06:08+00:00",
+  "generated_at": "2026-08-07T20:10:37+00:00",
   "schema_version": "1.0"
 }

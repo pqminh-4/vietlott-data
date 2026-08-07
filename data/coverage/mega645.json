@@ -1,12 +1,12 @@
 {
   "backfill_complete": false,
-  "earliest_draw_date": "2019-12-11",
-  "earliest_draw_id": "00530",
+  "earliest_draw_date": "2018-05-13",
+  "earliest_draw_id": "00283",
   "game": "mega645",
   "latest_draw_date": "2026-08-07",
   "latest_draw_id": "01546",
   "missing_ids": [],
-  "next_page_index": 127,
-  "record_count": 1017,
+  "next_page_index": 158,
+  "record_count": 1264,
   "unavailable_ranges": []
 }
