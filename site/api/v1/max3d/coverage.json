@@ -3,10 +3,10 @@
   "earliest_draw_date": "2020-01-15",
   "earliest_draw_id": "00116",
   "game": "max3d",
-  "latest_draw_date": "2026-08-05",
-  "latest_draw_id": "01115",
+  "latest_draw_date": "2026-08-07",
+  "latest_draw_id": "01116",
   "missing_ids": [],
   "next_page_index": 200,
-  "record_count": 1000,
+  "record_count": 1001,
   "unavailable_ranges": []
 }
