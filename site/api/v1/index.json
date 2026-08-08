@@ -11,7 +11,7 @@
         "latest": "mega645/latest.json",
         "years": "mega645/years/"
       },
-      "record_count": 1264
+      "record_count": 1512
     },
     {
       "code": "power655",
@@ -23,7 +23,7 @@
         "latest": "power655/latest.json",
         "years": "power655/years/"
       },
-      "record_count": 1241
+      "record_count": 1382
     },
     {
       "code": "lotto535",
@@ -62,6 +62,6 @@
       "record_count": 763
     }
   ],
-  "generated_at": "2026-08-08T14:45:28+00:00",
+  "generated_at": "2026-08-08T19:50:58+00:00",
   "schema_version": "1.0"
 }

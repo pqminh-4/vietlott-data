@@ -1,0 +1,55 @@
+{
+  "draw_date": "2016-12-25",
+  "draw_id": "00069",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "mega645",
+  "prizes": [
+    {
+      "amount_vnd": null,
+      "code": "jackpot",
+      "jackpot_vnd": 159232985000,
+      "name": "Jackpot",
+      "winner_count": 2
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": 196
+    },
+    {
+      "amount_vnd": 300000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": 10127
+    },
+    {
+      "amount_vnd": 30000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": 176792
+    }
+  ],
+  "result": {
+    "bonus_numbers": [],
+    "kind": "number_set",
+    "main_numbers": [
+      5,
+      12,
+      20,
+      29,
+      34,
+      36
+    ]
+  },
+  "retrieved_at": "2026-08-08T19:49:33+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": null,
+  "source_pdf_url": "https://media.vietlott.vn//main/12.2016/system/game.pdf.result/00069_mega_a5_00069.pdf",
+  "source_sha256": "390bc5de781bd48f64f68ea8bace82717bd9eb03ea0de875bd40aace49da2a06",
+  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=00069&nocatche=1"
+}
