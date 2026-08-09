@@ -5,13 +5,13 @@
       "code": "mega645",
       "display_name": "Mega 6/45",
       "kind": "number_set",
-      "latest_draw_id": "01546",
+      "latest_draw_id": "01547",
       "paths": {
         "coverage": "mega645/coverage.json",
         "latest": "mega645/latest.json",
         "years": "mega645/years/"
       },
-      "record_count": 1512
+      "record_count": 1513
     },
     {
       "code": "power655",
@@ -62,6 +62,6 @@
       "record_count": 763
     }
   ],
-  "generated_at": "2026-08-09T07:11:29+00:00",
+  "generated_at": "2026-08-09T11:38:51+00:00",
   "schema_version": "1.0"
 }
