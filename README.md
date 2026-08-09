@@ -67,6 +67,24 @@ Mã Cloudflare Worker không còn được workflow sử dụng. Nó chỉ đư�
 cho tới khi self-hosted runner và watchdog vượt qua trọn chu kỳ 13:00–18:00–21:00;
 sau đó hai Worker, secret và service binding mới được gỡ theo thứ tự đã ghi nhận.
 
+## Lịch xử lý UTC+7
+
+`Asia/Ho_Chi_Minh` (UTC+7, không có DST) là múi giờ nghiệp vụ chuẩn. GitHub Actions
+vẫn lưu biểu thức cron bằng UTC và chú thích rõ phép quy đổi để tránh phụ thuộc vào
+trường `schedule.timezone` tùy chọn.
+
+| Kỳ quay | `vietlott-ops` thu thập | `vietlott-data` xử lý và deploy |
+|---|---|---|
+| 13:00 | 13:10–14:55 | 13:15–15:00 |
+| 18:00 | 18:10–19:55 | 18:15–20:00 |
+| 21:00 | 21:10–22:55 | 21:15–23:00 |
+
+Mỗi repository được kích hoạt tám lần, cách nhau 15 phút; lịch của `vietlott-data`
+luôn trễ hơn lịch `vietlott-ops` 5 phút. `vietlott-data` chỉ checkout `main`, validate,
+build và deploy nội dung mà `vietlott-ops` đã đẩy sang; workflow public không gọi nguồn
+Vietlott và không có quyền ghi repository. Các lượt sau phút thứ 60 là cơ chế tự phục
+hồi, không nới SLA production 60 phút.
+
 ## Bố cục dữ liệu
 
 - `data/canonical/<game>.jsonl`: nguồn dữ liệu chuẩn, một kỳ trên mỗi dòng.
@@ -97,12 +115,14 @@ Các endpoint chính sau khi bật GitHub Pages:
    để bắt đầu lịch sử; lượt reconcile 02:17 tiếp tục checkpoint mỗi ngày cho tới
    khi hoàn tất.
 
-Workflow polling chạy ở phút 07, 22, 37 và 52 quanh các giờ quay theo
-`Asia/Ho_Chi_Minh`. SLA chính thức là dữ liệu phải xuất hiện trên production trong
+Workflow collector bắt đầu ở phút thứ 10 sau kỳ quay và workflow Pages bắt đầu ở
+phút thứ 15; mỗi workflow tiếp tục chạy cách 15 phút trong cửa sổ hai giờ như bảng
+trên. Pages chỉ được kích hoạt theo lịch này hoặc bằng `workflow_dispatch`, không deploy
+tức thời theo CI. SLA chính thức vẫn yêu cầu dữ liệu xuất hiện trên production trong
 vòng 60 phút. Workflow **Freshness watchdog** chạy độc lập trên GitHub-hosted runner
-sau các mốc 13:00, 18:00 và 21:00, kiểm tra riêng API theo `main` và GitHub Pages,
-ghi Job Summary rồi thất bại nếu dữ liệu `stale` hoặc `invalid`. Trước deadline,
-trạng thái `pending` không tạo cảnh báo. Lượt reconcile vẫn tự bù dữ liệu bị lỡ.
+ở phút thứ 65 sau các mốc 13:00, 18:00 và 21:00, kiểm tra riêng API theo `main` và
+GitHub Pages, ghi Job Summary rồi thất bại nếu dữ liệu `stale` hoặc `invalid`. Trước
+deadline, trạng thái `pending` không tạo cảnh báo. Lượt reconcile vẫn tự bù dữ liệu bị lỡ.
 
 ## An toàn dữ liệu
 
