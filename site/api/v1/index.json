@@ -41,13 +41,13 @@
       "code": "max3d",
       "display_name": "Max 3D / Max 3D+",
       "kind": "three_digit_tiers",
-      "latest_draw_id": "01116",
+      "latest_draw_id": "01117",
       "paths": {
         "coverage": "max3d/coverage.json",
         "latest": "max3d/latest.json",
         "years": "max3d/years/"
       },
-      "record_count": 1116
+      "record_count": 1117
     },
     {
       "code": "max3d_pro",
@@ -62,6 +62,6 @@
       "record_count": 763
     }
   ],
-  "generated_at": "2026-08-10T07:59:34+00:00",
+  "generated_at": "2026-08-10T11:56:02+00:00",
   "schema_version": "1.0"
 }
