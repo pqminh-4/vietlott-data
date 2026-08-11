@@ -29,13 +29,13 @@
       "code": "lotto535",
       "display_name": "Lotto 5/35",
       "kind": "number_set",
-      "latest_draw_id": "00817",
+      "latest_draw_id": "00818",
       "paths": {
         "coverage": "lotto535/coverage.json",
         "latest": "lotto535/latest.json",
         "years": "lotto535/years/"
       },
-      "record_count": 817
+      "record_count": 818
     },
     {
       "code": "max3d",
@@ -62,6 +62,6 @@
       "record_count": 764
     }
   ],
-  "generated_at": "2026-08-11T11:53:10+00:00",
+  "generated_at": "2026-08-11T14:02:52+00:00",
   "schema_version": "1.0"
 }
