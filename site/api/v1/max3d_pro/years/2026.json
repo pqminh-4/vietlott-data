@@ -11767,14 +11767,14 @@
     "game": "max3d_pro",
     "prizes": [
       {
-        "amount_vnd": 0,
+        "amount_vnd": 2000000000,
         "code": "giai-dac-biet",
         "jackpot_vnd": null,
         "name": "Giải Đặc biệt",
         "winner_count": null
       },
       {
-        "amount_vnd": 0,
+        "amount_vnd": 400000000,
         "code": "giai-phu-dac-biet",
         "jackpot_vnd": null,
         "name": "Giải phụ Đặc biệt",
@@ -11788,28 +11788,28 @@
         "winner_count": null
       },
       {
-        "amount_vnd": 0,
+        "amount_vnd": 10000000,
         "code": "giai-nhi",
         "jackpot_vnd": null,
         "name": "Giải Nhì",
         "winner_count": null
       },
       {
-        "amount_vnd": 0,
+        "amount_vnd": 4000000,
         "code": "giai-ba",
         "jackpot_vnd": null,
         "name": "Giải Ba",
         "winner_count": null
       },
       {
-        "amount_vnd": 0,
+        "amount_vnd": 1000000,
         "code": "giai-tu",
         "jackpot_vnd": null,
         "name": "Giải tư",
         "winner_count": null
       },
       {
-        "amount_vnd": 0,
+        "amount_vnd": 100000,
         "code": "giai-nam",
         "jackpot_vnd": null,
         "name": "Giải năm",
@@ -11872,11 +11872,11 @@
         }
       ]
     },
-    "retrieved_at": "2026-08-20T11:37:25+00:00",
+    "retrieved_at": "2026-08-21T19:41:05+00:00",
     "schema_version": "1.0",
-    "source_pdf_sha256": "a22bf4749d7926d14647cffc575c66de999860835adc9c516b2e34322bcd9cf1",
-    "source_pdf_url": "https://media.vietlott.vn/main/08.2026/system/game.pdf.result/00768_max3dpro_a4_v2_00768.pdf",
-    "source_sha256": "6136b5ea74432c39f0d6544d0e2ef084703d973cfef0a484d2764f139f35f9ad",
+    "source_pdf_sha256": "5202425c2d94be0b1e4c5cc9e2f557ab736f90555977c8c274f7b10ca3d7dfbf",
+    "source_pdf_url": "https://media.vietlott.vn/main/08.2026/system/game.pdf.result/00768_max3dpro_a5_v2_00768.pdf",
+    "source_sha256": "4ec72457b3f2b617a2914d173a3cfa4d944f971468c442792442de98b070d134",
     "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00768&nocatche=1"
   }
 ]
