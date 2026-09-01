@@ -37497,5 +37497,82 @@
     "source_pdf_url": null,
     "source_sha256": "dc8306308c0ab833eee4da85769d3104415da5ad143135c3b3554472ca5e96d0",
     "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00859&nocatche=1"
+  },
+  {
+    "draw_date": "2026-09-01",
+    "draw_id": "00860",
+    "draw_slot": "night",
+    "draw_time": "21:00:00",
+    "game": "lotto535",
+    "prizes": [
+      {
+        "amount_vnd": null,
+        "code": "giai-doc-dac",
+        "jackpot_vnd": 8405040000,
+        "name": "Giải Độc Đắc",
+        "winner_count": 0
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": 2
+      },
+      {
+        "amount_vnd": 5000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": 3
+      },
+      {
+        "amount_vnd": 500000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": 82
+      },
+      {
+        "amount_vnd": 100000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải Tư",
+        "winner_count": 291
+      },
+      {
+        "amount_vnd": 30000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải Năm",
+        "winner_count": 2851
+      },
+      {
+        "amount_vnd": 10000,
+        "code": "giai-khuyen-khich",
+        "jackpot_vnd": null,
+        "name": "Giải Khuyến Khích",
+        "winner_count": 27839
+      }
+    ],
+    "result": {
+      "bonus_numbers": [
+        9
+      ],
+      "kind": "number_set",
+      "main_numbers": [
+        3,
+        4,
+        6,
+        15,
+        22
+      ]
+    },
+    "retrieved_at": "2026-09-01T15:35:04+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": null,
+    "source_pdf_url": null,
+    "source_sha256": "3c4cd4459bf197e790acfe439006b9b69014dca0359f85bedd1cc538c1d08dc5",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00860&nocatche=1"
   }
 ]
