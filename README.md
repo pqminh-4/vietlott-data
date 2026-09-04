@@ -97,12 +97,14 @@ Các endpoint chính sau khi bật GitHub Pages:
    để bắt đầu lịch sử; lượt reconcile 02:17 tiếp tục checkpoint mỗi ngày cho tới
    khi hoàn tất.
 
-Workflow polling chạy ở phút 07, 22, 37 và 52 quanh các giờ quay theo
-`Asia/Ho_Chi_Minh`. SLA chính thức là dữ liệu phải xuất hiện trên production trong
-vòng 60 phút. Workflow **Freshness watchdog** chạy độc lập trên GitHub-hosted runner
-sau các mốc 13:00, 18:00 và 21:00, kiểm tra riêng API theo `main` và GitHub Pages,
-ghi Job Summary rồi thất bại nếu dữ liệu `stale` hoặc `invalid`. Trước deadline,
-trạng thái `pending` không tạo cảnh báo. Lượt reconcile vẫn tự bù dữ liệu bị lỡ.
+Workflow mở cửa sổ polling chính ở phút +7 và cửa sổ dự phòng ở phút +67 sau mỗi
+giờ quay theo `Asia/Ho_Chi_Minh`; trong mỗi cửa sổ, collector thử lại mỗi 5 phút đến
+khi có dữ liệu hoặc chạm mốc phục hồi +120. SLA chính thức là dữ liệu phải xuất hiện
+trên production trong vòng 60 phút. Workflow **Freshness watchdog** chạy độc lập trên
+GitHub-hosted runner sau các mốc 13:00, 18:00 và 21:00, kiểm tra riêng API theo `main`
+và GitHub Pages, ghi Job Summary rồi thất bại nếu dữ liệu `stale` hoặc `invalid`.
+Trước deadline, trạng thái `pending` không tạo cảnh báo. Lượt deploy Pages tự thử lại
+một lần nếu backend bị kẹt ở timeout 10 phút; lượt reconcile vẫn tự bù dữ liệu bị lỡ.
 
 ## An toàn dữ liệu
 
