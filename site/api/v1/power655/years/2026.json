@@ -6718,5 +6718,69 @@
     "source_pdf_url": "https://media.vietlott.vn/main/09.2026/system/game.pdf.result/01393_power_a5_01393.pdf",
     "source_sha256": "07c7937ec548f222a60bfbb0e03eee1d65ab0c3a7bbda1bcaed157c4d2297532",
     "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=01393&nocatche=1"
+  },
+  {
+    "draw_date": "2026-09-05",
+    "draw_id": "01394",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "power655",
+    "prizes": [
+      {
+        "amount_vnd": null,
+        "code": "jackpot-1",
+        "jackpot_vnd": 55361787150,
+        "name": "Jackpot 1",
+        "winner_count": 0
+      },
+      {
+        "amount_vnd": null,
+        "code": "jackpot-2",
+        "jackpot_vnd": 4014301550,
+        "name": "Jackpot 2",
+        "winner_count": 0
+      },
+      {
+        "amount_vnd": 40000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": 11
+      },
+      {
+        "amount_vnd": 500000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": 947
+      },
+      {
+        "amount_vnd": 50000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": 18840
+      }
+    ],
+    "result": {
+      "bonus_numbers": [
+        21
+      ],
+      "kind": "number_set",
+      "main_numbers": [
+        9,
+        11,
+        24,
+        31,
+        33,
+        47
+      ]
+    },
+    "retrieved_at": "2026-09-05T13:50:55+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": "5b7d7d64b63377a30d76b8658be9a7da3e766202bb3ed69395df69d4feb94ecc",
+    "source_pdf_url": "https://media.vietlott.vn/main/09.2026/system/game.pdf.result/01394_power_a5_01394.pdf",
+    "source_sha256": "543be44f4645778def5bdaa86752c4e5f90ea7909d22321b0a0b2bc056bb98de",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=01394&nocatche=1"
   }
 ]

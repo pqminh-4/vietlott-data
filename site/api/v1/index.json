@@ -17,13 +17,13 @@
       "code": "power655",
       "display_name": "Power 6/55",
       "kind": "number_set",
-      "latest_draw_id": "01393",
+      "latest_draw_id": "01394",
       "paths": {
         "coverage": "power655/coverage.json",
         "latest": "power655/latest.json",
         "years": "power655/years/"
       },
-      "record_count": 1393
+      "record_count": 1394
     },
     {
       "code": "lotto535",
@@ -53,15 +53,15 @@
       "code": "max3d_pro",
       "display_name": "Max 3D Pro",
       "kind": "three_digit_tiers",
-      "latest_draw_id": "00774",
+      "latest_draw_id": "00775",
       "paths": {
         "coverage": "max3d_pro/coverage.json",
         "latest": "max3d_pro/latest.json",
         "years": "max3d_pro/years/"
       },
-      "record_count": 774
+      "record_count": 775
     }
   ],
-  "generated_at": "2026-09-05T10:29:44+00:00",
+  "generated_at": "2026-09-05T13:51:09+00:00",
   "schema_version": "1.0"
 }
