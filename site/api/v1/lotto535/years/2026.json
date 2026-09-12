@@ -39202,7 +39202,7 @@
       {
         "amount_vnd": null,
         "code": "giai-doc-dac",
-        "jackpot_vnd": 0,
+        "jackpot_vnd": 6874565000,
         "name": "Giải Độc Đắc",
         "winner_count": 0
       },
@@ -39262,11 +39262,11 @@
         25
       ]
     },
-    "retrieved_at": "2026-09-12T14:03:26+00:00",
+    "retrieved_at": "2026-09-12T21:29:21+00:00",
     "schema_version": "1.0",
     "source_pdf_sha256": null,
     "source_pdf_url": null,
-    "source_sha256": "e4cc4998a702dcfaf952f48341d8c1357810778b48019d33d84ca0acf91bade0",
+    "source_sha256": "077147b4091de283f6e44775e59fd6ac374c54f1f52375a0ddd6d6666e3c8657",
     "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/535?id=00882&nocatche=1"
   }
 ]
