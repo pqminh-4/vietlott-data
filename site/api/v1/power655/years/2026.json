@@ -7416,11 +7416,75 @@
         36
       ]
     },
-    "retrieved_at": "2026-09-29T12:43:56+00:00",
+    "retrieved_at": "2026-10-01T13:03:56+00:00",
     "schema_version": "1.0",
-    "source_pdf_sha256": "0b6d77cc27f338281dc1ec0ddcfd7b3753cf51d104f863b973653954cafe5f95",
-    "source_pdf_url": "https://media.vietlott.vn/main/09.2026/system/game.pdf.result/01404_power_a5_01404.pdf",
-    "source_sha256": "7aea7ad4ba3ca095401d25e978bc50d0beca9460b46c6e2f55b8c641dd705d62",
+    "source_pdf_sha256": "a528f553f720c41ab5739e75c3b367527b65d0eb8ccd4dbf2f492c5ce8ff11e8",
+    "source_pdf_url": "https://media.vietlott.vn/main/09.2026/system/game.pdf.result/01404_power_a4_01404.pdf",
+    "source_sha256": "631e70f54ed17e85b93754230821cbc0f77a99110bad5ce30142f7e4b76dc73d",
     "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=01404&nocatche=1"
+  },
+  {
+    "draw_date": "2026-10-01",
+    "draw_id": "01405",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "power655",
+    "prizes": [
+      {
+        "amount_vnd": null,
+        "code": "jackpot-1",
+        "jackpot_vnd": 106521287250,
+        "name": "Jackpot 1",
+        "winner_count": 0
+      },
+      {
+        "amount_vnd": null,
+        "code": "jackpot-2",
+        "jackpot_vnd": 1869544050,
+        "name": "Jackpot 2",
+        "winner_count": 2
+      },
+      {
+        "amount_vnd": 40000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": 13
+      },
+      {
+        "amount_vnd": 500000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": 1075
+      },
+      {
+        "amount_vnd": 50000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": 24686
+      }
+    ],
+    "result": {
+      "bonus_numbers": [
+        15
+      ],
+      "kind": "number_set",
+      "main_numbers": [
+        4,
+        5,
+        13,
+        34,
+        52,
+        55
+      ]
+    },
+    "retrieved_at": "2026-10-01T13:03:56+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": "5fbe6438755600ac2aa50c9e6e22057d0f2f302df5a2604bc3b91439def40fb4",
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01405_power_a5_01405.pdf",
+    "source_sha256": "96d4ff2a438f7325e9f665db57a633bd53e7e3a654d2d394ee54e3746e8d1ed6",
+    "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=01405&nocatche=1"
   }
 ]
