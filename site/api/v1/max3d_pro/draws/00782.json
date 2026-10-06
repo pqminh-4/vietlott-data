@@ -111,10 +111,10 @@
       }
     ]
   },
-  "retrieved_at": "2026-09-22T11:40:06+00:00",
+  "retrieved_at": "2026-10-06T19:36:26+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": "fd175495b762f92d24edc9275d2d2875c419f1047322fe90a8a6f984a7c3c752",
   "source_pdf_url": "https://media.vietlott.vn/main/09.2026/system/game.pdf.result/00782_max3dpro_a4_v2_00782.pdf",
-  "source_sha256": "e83f0a00a3c3b29063541a43498f39cffca814f7e18cad4dce1765241dfa7a5a",
-  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/max-3DPro?id=00782&nocatche=1"
+  "source_sha256": "913631c265da80125feab36420e5018eff517dd54d980e5adac0d43a9d7bbb0e",
+  "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DProResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }

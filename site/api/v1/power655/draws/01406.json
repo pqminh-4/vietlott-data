@@ -55,10 +55,10 @@
       54
     ]
   },
-  "retrieved_at": "2026-10-03T11:45:42+00:00",
+  "retrieved_at": "2026-10-06T19:30:54+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "b13624d7343c974231e0c37d88bcca4e5125244a1576db9f03ae035b93d89908",
-  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01406_power_a5_01406.pdf",
-  "source_sha256": "b5eea82ca5130387663f09ac6b2a47dd9481fc74156ca50af59035d94921c454",
-  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/655?id=01406&nocatche=1"
+  "source_pdf_sha256": "572eeca5e1c9289567e4a7a1885ba164b3f080b9fccd1a599785e4ac5c2931ce",
+  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01406_power_a4_01406.pdf",
+  "source_sha256": "f805bf146c48d10a406e37fdb104d8d8fe08a67737abad9796aa9b32f2312b50",
+  "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game655ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
