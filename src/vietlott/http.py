@@ -64,6 +64,7 @@ class VietlottClient:
         # Mọi luồng dùng chung một cổng request để tránh gửi dồn khi làm giàu dữ liệu.
         self._request_lock = Lock()
         self._next_request_at = 0.0
+        self._rate_limit_count = 0
         self.bootstrap_ajax_cookie = bootstrap_ajax_cookie
         relay_setting = relay_url if relay_url is not None else os.getenv("VIETLOTT_RELAY_URL", "")
         self.relay_url = relay_setting.rstrip("/")
@@ -204,17 +205,23 @@ class VietlottClient:
                         self._next_request_at = time.monotonic() + self.request_interval
                     if response.status_code == 429:
                         rate_limited = True
+                        self._rate_limit_count += 1
                         retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
                         cooldown = (
                             retry_after
                             if retry_after is not None
-                            else min(self.rate_limit_backoff * (2**attempt), 300.0)
+                            else min(
+                                self.rate_limit_backoff * (2 ** min(self._rate_limit_count - 1, 3)),
+                                300.0,
+                            )
                         )
                         # Cập nhật thời gian chờ trước khi mở khóa, kể cả ở lần thử cuối.
                         self._next_request_at = max(
                             self._next_request_at, time.monotonic() + cooldown
                         )
                         LOGGER.warning("Official source rate limited; pausing for %.1fs", cooldown)
+                    elif response.is_success:
+                        self._rate_limit_count = 0
             except httpx.HTTPError as exc:
                 last_error = exc
             else:

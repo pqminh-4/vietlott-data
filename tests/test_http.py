@@ -68,6 +68,30 @@ def test_retry_after_supports_http_date_without_shortening_server_delay() -> Non
         assert _retry_after_seconds("Tue, 06 Oct 2026 14:02:00 GMT") == 120
 
 
+def test_consecutive_rate_limits_from_different_requests_share_backoff() -> None:
+    clock = [0.0]
+    requested_at: list[float] = []
+
+    def sleep(delay: float) -> None:
+        clock[0] += delay
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        requested_at.append(clock[0])
+        return httpx.Response(429 if len(requested_at) < 4 else 200, request=request)
+
+    with (
+        httpx.Client(transport=httpx.MockTransport(handler)) as raw_client,
+        patch("vietlott.http.time.monotonic", side_effect=lambda: clock[0]),
+        patch("vietlott.http.time.sleep", side_effect=sleep),
+    ):
+        client = VietlottClient(client=raw_client, retries=0)
+        for _ in range(3):
+            with pytest.raises(TemporaryFetchError):
+                client.get_html("https://vietlott.vn/result")
+        client.get_html("https://vietlott.vn/result")
+    assert requested_at == [0, 60, 180, 420]
+
+
 @pytest.mark.parametrize("value", [None, "invalid", "nan", "inf", "-1"])
 def test_invalid_retry_after_uses_fallback(value: str | None) -> None:
     assert _retry_after_seconds(value) is None

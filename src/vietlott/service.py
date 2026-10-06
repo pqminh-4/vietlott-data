@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime, time, timedelta
 from typing import Any
+from urllib.parse import urlparse
 
 from vietlott.adapters import BaseAdapter, get_adapter
 from vietlott.adapters.number_set import _assign_lotto_slots
@@ -36,9 +37,7 @@ class CollectionSummary:
     fetched: dict[str, int]
     changed: dict[str, int]
     completed_backfills: list[str]
-    observed_at: str = field(
-        default_factory=lambda: local_now().isoformat(timespec="seconds")
-    )
+    observed_at: str = field(default_factory=lambda: local_now().isoformat(timespec="seconds"))
     telemetry: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     @classmethod
@@ -88,7 +87,9 @@ class Collector:
         summary = CollectionSummary.empty()
         for game in games:
             before = _latest_draw_id(self.store.load(game))
-            fetched = self._fetch_pages(get_adapter(game), [0], audit_official_pdf)
+            fetched = self._fetch_pages(
+                get_adapter(game), [0], audit_official_pdf, reuse_stored_details=True
+            )
             if not fetched[0].records:
                 raise ParseError(f"Latest official page for {game} contained no valid draws")
             records = _deduplicate(record for page in fetched for record in page.records)
@@ -122,9 +123,7 @@ class Collector:
                 summary.fetched[game] = 0
                 summary.changed[game] = 0
                 summary.completed_backfills.append(game)
-                self._record_telemetry(
-                    summary, game, before, [], 0, status="backfill-complete"
-                )
+                self._record_telemetry(summary, game, before, [], 0, status="backfill-complete")
                 continue
             start_page = state.next_page_index if resume else 0
             page_count = max(1, max_draws // spec.page_size)
@@ -249,6 +248,8 @@ class Collector:
         adapter: BaseAdapter,
         indexes: Iterable[int],
         audit_official_pdf: bool,
+        *,
+        reuse_stored_details: bool = False,
     ) -> list[FetchedPage]:
         index_list = list(indexes)
         pages: list[FetchedPage] = []
@@ -264,6 +265,28 @@ class Collector:
         if adapter.spec.code == "lotto535":
             records = _assign_lotto_slots(records)
         enriched: dict[tuple[str, str], DrawRecord] = {}
+        if reuse_stored_details:
+            stored = {record.key: record for record in self.store.load(adapter.spec.code)}
+            latest_id = _latest_draw_id(records)
+            for record in records:
+                previous = stored.get(record.key)
+                # Kỳ mới nhất luôn được đối chiếu; kỳ cũ không đổi giữ chi tiết đã kiểm tra.
+                if (
+                    record.draw_id != latest_id
+                    and previous is not None
+                    and urlparse(previous.source_url).path == adapter.spec.detail_path
+                    and previous.draw_date == record.draw_date
+                    and previous.draw_time == record.draw_time
+                    and previous.draw_slot == record.draw_slot
+                    and previous.result == record.result
+                    and (not record.prizes or previous.prizes == record.prizes)
+                    and (
+                        not record.source_pdf_url
+                        or previous.source_pdf_url == record.source_pdf_url
+                    )
+                ):
+                    previous.validate()
+                    enriched[record.key] = previous
         if records:
             with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
                 enrichment_futures = {
@@ -271,6 +294,7 @@ class Collector:
                         self._enrich_record, adapter, record, audit_official_pdf
                     ): record.key
                     for record in records
+                    if record.key not in enriched
                 }
                 for enrichment_future in as_completed(enrichment_futures):
                     enriched[enrichment_futures[enrichment_future]] = enrichment_future.result()
