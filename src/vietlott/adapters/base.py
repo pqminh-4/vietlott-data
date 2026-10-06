@@ -8,14 +8,14 @@ from abc import ABC, abstractmethod
 from dataclasses import replace
 from datetime import datetime
 from typing import Any
-from urllib.parse import urlencode, urljoin, urlparse
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup, Tag
 
-from vietlott.config import OFFICIAL_HOSTS, WEB_BASE, GameSpec, render_info
+from vietlott.config import OFFICIAL_HOSTS, GameSpec, render_info
 from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse, VietlottClient
-from vietlott.models import DrawRecord, Prize
+from vietlott.models import DrawRecord, NumberSetResult, Prize, ThreeDigitResult
 
 DATE_DMY_RE = re.compile(r"(?<!\d)(\d{1,2})/(\d{1,2})/(\d{4})(?!\d)")
 DATE_ISO_RE = re.compile(r"(?<!\d)(\d{4})-(\d{2})-(\d{2})(?!\d)")
@@ -59,18 +59,31 @@ class BaseAdapter(ABC):
         return response, self.parse_page(response)
 
     def fetch_detail(self, client: VietlottClient, record: DrawRecord) -> DrawRecord:
-        query = urlencode({"id": record.draw_id, "nocatche": "1"})
-        detail_url = f"{WEB_BASE}{self.spec.detail_path}?{query}"
-        response = client.get_html(detail_url)
+        assert self.spec.detail_render_key is not None
+        response = client.post_ajax(
+            self.spec.detail_endpoint,
+            {
+                "ORenderInfo": render_info(),
+                "Key": self.spec.detail_render_key,
+                "DrawId": record.draw_id,
+            },
+            detail=True,
+        )
         assert response.html is not None
         soup = BeautifulSoup(response.html, "lxml")
-        detail_text = soup.get_text(" ", strip=True)
+        # Chỉ lấy danh tính kỳ quay từ tiêu đề, không lấy ngày trong bảng giải phụ.
+        heading = soup.select_one("#divLeftContent .chitietketqua_title")
+        if heading is None:
+            raise ParseError(f"Official detail omitted the draw heading for {record.key}")
+        detail_text = heading.get_text(" ", strip=True)
         detail_draw_id = extract_draw_id(detail_text)
         detail_date = extract_date(detail_text)
-        if detail_draw_id is not None and detail_draw_id != record.draw_id:
+        if detail_draw_id != record.draw_id:
             raise ParseError(f"Official detail page id did not match requested draw {record.key}")
-        if detail_date is not None and detail_date != record.draw_date:
+        if detail_date != record.draw_date:
             raise ParseError(f"Official detail page date did not match requested draw {record.key}")
+        if self.parse_detail_result(response.html) != record.result:
+            raise ParseError(f"Official list/detail result mismatch for draw {record.key}")
         parsed = self.parse_page(response)
         matching = [item for item in parsed if item.draw_id == record.draw_id]
         if parsed and not matching:
@@ -94,6 +107,11 @@ class BaseAdapter(ABC):
 
     @abstractmethod
     def parse_page(self, response: OfficialResponse) -> list[DrawRecord]:
+        raise NotImplementedError
+
+    @abstractmethod
+    def parse_detail_result(self, html: str) -> NumberSetResult | ThreeDigitResult:
+        """Đọc kết quả trong vùng chi tiết để đối chiếu độc lập với danh sách."""
         raise NotImplementedError
 
 

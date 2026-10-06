@@ -109,6 +109,10 @@ một lần nếu backend bị kẹt ở timeout 10 phút; lượt reconcile v�
 ## An toàn dữ liệu
 
 - Chỉ chấp nhận URL HTTPS thuộc `vietlott.vn` và `media.vietlott.vn`.
+- Chi tiết kỳ quay dùng `ServerSideDrawResult` của `ResultDetailWebPart`, cùng API
+  AjaxPro mà giao diện Vietlott dùng để tải kết quả và bảng giải thưởng. Không phụ
+  thuộc GET trang chi tiết bị Cloudflare yêu cầu xác minh trình duyệt. Collector
+  đối chiếu mã kỳ, ngày và toàn bộ kết quả giữa danh sách và chi tiết trước khi ghi.
 - Request nguồn chính thức được tuần tự hóa, cách nhau ít nhất 2 giây. HTTP `429`
   đặt thời gian chờ chung cho mọi luồng theo `Retry-After` (số giây hoặc HTTP-date);
   nếu thiếu header, chờ tăng dần 60–120–240 giây trước các lần thử tiếp theo.

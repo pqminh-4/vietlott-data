@@ -107,7 +107,9 @@ class VietlottClient:
         if self._owns_client:
             self.client.close()
 
-    def post_ajax(self, url: str, body: dict[str, Any]) -> OfficialResponse:
+    def post_ajax(
+        self, url: str, body: dict[str, Any], *, detail: bool = False
+    ) -> OfficialResponse:
         self._ensure_ajax_cookie()
         content = json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode()
         response = self._request(
@@ -132,9 +134,27 @@ class VietlottClient:
         if not isinstance(payload, dict) or payload.get("error"):
             raise ParseError(f"Vietlott AjaxPro returned an error: {payload!r}")
         value = payload.get("value")
-        html = value.get("HtmlContent") if isinstance(value, dict) else None
-        if not isinstance(html, str):
-            raise ParseError("Vietlott AjaxPro response did not include value.HtmlContent")
+        if not isinstance(value, dict) or value.get("Error"):
+            raise ParseError("Vietlott AjaxPro returned an invalid or failed result")
+        html: str
+        if detail:
+            left, right = value.get("RetExtraParam1"), value.get("RetExtraParam2")
+            if (
+                not isinstance(left, str)
+                or not left.strip()
+                or not isinstance(right, str)
+                or not right.strip()
+            ):
+                raise ParseError("Vietlott detail response omitted result or prize HTML")
+            if value.get("RetExtraParam3") != body.get("DrawId"):
+                raise ParseError("Vietlott detail response did not match requested draw ID")
+            # Giữ nguyên hai phần HTML mà giao diện chính thức đặt vào các vùng này.
+            html = f'<div id="divLeftContent">{left}</div><div id="divRightContent">{right}</div>'
+        else:
+            list_html = value.get("HtmlContent")
+            if not isinstance(list_html, str):
+                raise ParseError("Vietlott AjaxPro response did not include value.HtmlContent")
+            html = list_html
         return OfficialResponse(
             url=self._source_url(response, url),
             content=response.content,

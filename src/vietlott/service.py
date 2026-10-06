@@ -274,7 +274,10 @@ class Collector:
                 if (
                     record.draw_id != latest_id
                     and previous is not None
-                    and urlparse(previous.source_url).path == adapter.spec.detail_path
+                    and (
+                        urlparse(previous.source_url).path == adapter.spec.detail_path
+                        or previous.source_url == adapter.spec.detail_endpoint
+                    )
                     and previous.draw_date == record.draw_date
                     and previous.draw_time == record.draw_time
                     and previous.draw_slot == record.draw_slot

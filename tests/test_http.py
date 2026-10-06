@@ -121,6 +121,28 @@ def test_ajax_response_requires_html_content() -> None:
     raw_client.close()
 
 
+@pytest.mark.parametrize(
+    "value",
+    [
+        {"Error": True, "HtmlContent": "<table></table>"},
+        {"RetExtraParam1": "", "RetExtraParam2": "prizes", "RetExtraParam3": "00001"},
+        {"RetExtraParam1": "result", "RetExtraParam2": None, "RetExtraParam3": "00001"},
+        {"RetExtraParam1": "result", "RetExtraParam2": "prizes", "RetExtraParam3": "00002"},
+    ],
+)
+def test_detail_ajax_rejects_failed_incomplete_or_wrong_draw(value) -> None:
+    with httpx.Client(
+        transport=httpx.MockTransport(
+            lambda request: httpx.Response(200, request=request, json={"value": value})
+        )
+    ) as raw:
+        client = VietlottClient(client=raw, bootstrap_ajax_cookie=False)
+        with pytest.raises(ParseError):
+            client.post_ajax(
+                "https://vietlott.vn/ajaxpro/detail.ashx", {"DrawId": "00001"}, detail=True
+            )
+
+
 def test_transient_failure_is_retried_three_times() -> None:
     attempts = 0
 

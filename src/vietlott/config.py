@@ -28,6 +28,12 @@ class GameSpec:
     array_rows: int | None = None
     array_columns: int | None = None
     game_id: str | None = None
+    detail_render_key: str | None = None
+
+    @property
+    def detail_endpoint(self) -> str:
+        # Tên web part chi tiết được xác minh từ ClientDrawResult của cả năm sản phẩm.
+        return self.endpoint.replace("CompareWebPart", "ResultDetailWebPart")
 
 
 OFFICIAL_HOSTS = frozenset({"vietlott.vn", "www.vietlott.vn", "media.vietlott.vn"})
@@ -51,6 +57,7 @@ GAMES: dict[str, GameSpec] = {
         main_min=1,
         main_max=45,
         render_key="8290fce2",
+        detail_render_key="9b4a068c",
         array_rows=6,
         array_columns=18,
     ),
@@ -73,6 +80,7 @@ GAMES: dict[str, GameSpec] = {
         bonus_min=1,
         bonus_max=55,
         render_key="23bbd667",
+        detail_render_key="1cca51eb",
         array_rows=5,
         array_columns=18,
     ),
@@ -95,6 +103,7 @@ GAMES: dict[str, GameSpec] = {
         bonus_min=1,
         bonus_max=12,
         render_key="d0ea794f",
+        detail_render_key="aa846ce1",
         array_rows=5,
         array_columns=35,
     ),
@@ -111,6 +120,7 @@ GAMES: dict[str, GameSpec] = {
         weekdays=frozenset({0, 2, 4}),
         draw_hours=(18,),
         game_id="5",
+        detail_render_key="34076b6e",
     ),
     "max3d_pro": GameSpec(
         code="max3d_pro",
@@ -125,6 +135,7 @@ GAMES: dict[str, GameSpec] = {
         weekdays=frozenset({1, 3, 5}),
         draw_hours=(18,),
         game_id="7",
+        detail_render_key="71887a01",
     ),
 }
 
