@@ -109,8 +109,12 @@ một lần nếu backend bị kẹt ở timeout 10 phút; lượt reconcile v�
 ## An toàn dữ liệu
 
 - Chỉ chấp nhận URL HTTPS thuộc `vietlott.vn` và `media.vietlott.vn`.
-- Phản hồi `403`, `429`, JSON/HTML lỗi hoặc bản ghi sai miền số làm workflow
-  thất bại trước khi commit/publish.
+- Request nguồn chính thức được tuần tự hóa, cách nhau ít nhất 2 giây. HTTP `429`
+  đặt thời gian chờ chung cho mọi luồng theo `Retry-After` (số giây hoặc HTTP-date);
+  nếu thiếu header, chờ tăng dần 60–120–240 giây trước các lần thử tiếp theo.
+- Lỗi mạng hoặc HTTP tạm thời hết lượt retry trả mã CLI `3`, để cửa sổ polling
+  thử lại có giới hạn. HTTP `403`, JSON/HTML lỗi hoặc bản ghi sai miền số vẫn
+  thất bại ngay trước khi commit/publish.
 - File JSONL được ghi nguyên tử, sắp xếp ổn định và chỉ thay đổi khi nội dung
   chuẩn hóa thay đổi.
 - Không có logic dự đoán hoặc khuyến nghị đánh bạc.

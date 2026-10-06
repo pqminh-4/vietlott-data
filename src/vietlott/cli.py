@@ -11,7 +11,7 @@ from pathlib import Path
 
 from vietlott.api import build_api
 from vietlott.config import GAMES
-from vietlott.errors import VietlottError
+from vietlott.errors import TemporaryFetchError, VietlottError
 from vietlott.freshness import check_freshness
 from vietlott.http import VietlottClient
 from vietlott.schedule import due_games
@@ -112,6 +112,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                 raise ValueError(f"Unknown command: {args.command}")
         print(json.dumps(summary.to_dict(), ensure_ascii=False, sort_keys=True))
         return 0
+    except TemporaryFetchError as exc:
+        # Mã 3 cho phép workflow thử lại lỗi mạng hoặc giới hạn request có thời hạn.
+        logging.getLogger(__name__).error("%s", exc)
+        return 3
     except (VietlottError, ValueError) as exc:
         logging.getLogger(__name__).error("%s", exc)
         return 1

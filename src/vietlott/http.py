@@ -3,12 +3,15 @@
 from __future__ import annotations
 
 import json
+import logging
+import math
 import os
 import random
 import re
 import time
 from dataclasses import dataclass
-from datetime import UTC
+from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from hashlib import sha256
 from threading import Lock
 from typing import Any
@@ -17,7 +20,9 @@ from urllib.parse import urlencode, urlparse
 import httpx
 
 from vietlott.config import OFFICIAL_HOSTS, WEB_BASE
-from vietlott.errors import FetchError, ParseError
+from vietlott.errors import FetchError, ParseError, TemporaryFetchError
+
+LOGGER = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True, slots=True)
@@ -41,6 +46,8 @@ class VietlottClient:
         timeout: float = 20.0,
         retries: int = 3,
         backoff_base: float = 0.75,
+        request_interval: float = 2.0,
+        rate_limit_backoff: float = 60.0,
         bootstrap_ajax_cookie: bool = True,
         relay_url: str | None = None,
         relay_token: str | None = None,
@@ -48,6 +55,15 @@ class VietlottClient:
     ) -> None:
         self.retries = retries
         self.backoff_base = backoff_base
+        if not math.isfinite(request_interval) or request_interval < 0:
+            raise ValueError("request_interval must be finite and non-negative")
+        if not math.isfinite(rate_limit_backoff) or rate_limit_backoff < 0:
+            raise ValueError("rate_limit_backoff must be finite and non-negative")
+        self.request_interval = request_interval
+        self.rate_limit_backoff = rate_limit_backoff
+        # Mọi luồng dùng chung một cổng request để tránh gửi dồn khi làm giàu dữ liệu.
+        self._request_lock = Lock()
+        self._next_request_at = 0.0
         self.bootstrap_ajax_cookie = bootstrap_ajax_cookie
         relay_setting = relay_url if relay_url is not None else os.getenv("VIETLOTT_RELAY_URL", "")
         self.relay_url = relay_setting.rstrip("/")
@@ -176,9 +192,29 @@ class VietlottClient:
         last_error: Exception | None = None
         max_attempts = self.retries + 1
         for attempt in range(max_attempts):
-            retry_after: float | None = None
+            rate_limited = False
             try:
-                response = self.client.request(method, request_url, **kwargs)
+                with self._request_lock:
+                    delay = self._next_request_at - time.monotonic()
+                    if delay > 0:
+                        time.sleep(delay)
+                    try:
+                        response = self.client.request(method, request_url, **kwargs)
+                    finally:
+                        self._next_request_at = time.monotonic() + self.request_interval
+                    if response.status_code == 429:
+                        rate_limited = True
+                        retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
+                        cooldown = (
+                            retry_after
+                            if retry_after is not None
+                            else min(self.rate_limit_backoff * (2**attempt), 300.0)
+                        )
+                        # Cập nhật thời gian chờ trước khi mở khóa, kể cả ở lần thử cuối.
+                        self._next_request_at = max(
+                            self._next_request_at, time.monotonic() + cooldown
+                        )
+                        LOGGER.warning("Official source rate limited; pausing for %.1fs", cooldown)
             except httpx.HTTPError as exc:
                 last_error = exc
             else:
@@ -198,15 +234,11 @@ class VietlottClient:
                         f"Official Vietlott source returned HTTP {response.status_code}"
                     )
                 last_error = FetchError(f"Transient HTTP {response.status_code}")
-                if response.status_code == 429:
-                    retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
-            if attempt + 1 < max_attempts:
-                delay = retry_after or (
-                    self.backoff_base * (2**attempt) + random.uniform(0.0, 0.35)
-                )
+            if attempt + 1 < max_attempts and not rate_limited:
+                delay = self.backoff_base * (2**attempt) + random.uniform(0.0, 0.35)
                 time.sleep(delay)
-        raise FetchError(
-            f"Official Vietlott request failed after {max_attempts} attempts"
+        raise TemporaryFetchError(
+            f"Official Vietlott request failed after {max_attempts} attempts: {last_error}"
         ) from last_error
 
     def _source_url(self, response: httpx.Response, requested_url: str) -> str:
@@ -220,8 +252,6 @@ class VietlottClient:
 
 
 def _utc_now() -> str:
-    from datetime import datetime
-
     return datetime.now(UTC).isoformat(timespec="seconds")
 
 
@@ -246,5 +276,14 @@ def _retry_after_seconds(value: str | None) -> float | None:
     try:
         delay = float(value)
     except ValueError:
+        try:
+            retry_at = parsedate_to_datetime(value)
+            if retry_at.tzinfo is None:
+                return None
+            delay = (retry_at - datetime.now(UTC)).total_seconds()
+        except (TypeError, ValueError, OverflowError):
+            return None
+    if not math.isfinite(delay) or delay < 0:
         return None
-    return min(max(delay, 0.0), 30.0) or None
+    # Retry-After có thể là HTTP-date; không rút ngắn thời hạn nguồn yêu cầu.
+    return delay
