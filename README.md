@@ -115,6 +115,9 @@ một lần nếu backend bị kẹt ở timeout 10 phút; lượt reconcile v�
 - Lỗi mạng hoặc HTTP tạm thời hết lượt retry trả mã CLI `3`, để cửa sổ polling
   thử lại có giới hạn. HTTP `403`, JSON/HTML lỗi hoặc bản ghi sai miền số vẫn
   thất bại ngay trước khi commit/publish.
+- Polling luôn lấy danh sách chính thức, đối chiếu chi tiết kỳ mới nhất và các kỳ
+  mới/đã thay đổi; kỳ cũ không đổi tái sử dụng chi tiết đã kiểm tra. Reconcile và
+  backfill vẫn tải lại chi tiết lịch sử đầy đủ.
 - File JSONL được ghi nguyên tử, sắp xếp ổn định và chỉ thay đổi khi nội dung
   chuẩn hóa thay đổi.
 - Không có logic dự đoán hoặc khuyến nghị đánh bạc.

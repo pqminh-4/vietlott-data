@@ -95,6 +95,74 @@ class InvalidDetailAdapter(FakeAdapter):
         raise ParseError(f"invalid official detail for {record.key}")
 
 
+def test_latest_collection_reuses_unchanged_older_details(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    older = replace(
+        make_record("00001", "2026-07-29"),
+        source_url="https://www.vietlott.vn" + get_game("mega645").detail_path + "?id=00001",
+    )
+    latest = make_record("00002", "2026-07-31")
+    store.upsert("mega645", [older, latest])
+    adapter = FakeAdapter()
+    response, _ = adapter.fetch_page(None, 0)
+    collector = Collector(store, FakeClient(), max_workers=1)  # type: ignore[arg-type]
+    with (
+        patch("vietlott.service.get_adapter", return_value=adapter),
+        patch.object(adapter, "fetch_page", return_value=(response, [latest, older])),
+        patch.object(adapter, "fetch_detail", wraps=adapter.fetch_detail) as detail,
+    ):
+        collector.collect_latest(["mega645"])
+    assert [call.args[1].draw_id for call in detail.call_args_list] == ["00002"]
+    assert store.load("mega645")[0] == older
+
+
+def test_latest_collection_refetches_changed_older_result(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    older = replace(
+        make_record("00001", "2026-07-29"),
+        source_url="https://www.vietlott.vn" + get_game("mega645").detail_path + "?id=00001",
+    )
+    latest = make_record("00002", "2026-07-31")
+    store.upsert("mega645", [older, latest])
+    corrected = replace(older, result=NumberSetResult(main_numbers=[1, 2, 3, 4, 5, 7]))
+    adapter = FakeAdapter()
+    response, _ = adapter.fetch_page(None, 0)
+    collector = Collector(store, FakeClient(), max_workers=1)  # type: ignore[arg-type]
+    with (
+        patch("vietlott.service.get_adapter", return_value=adapter),
+        patch.object(adapter, "fetch_page", return_value=(response, [latest, corrected])),
+        patch.object(adapter, "fetch_detail", wraps=adapter.fetch_detail) as detail,
+    ):
+        collector.collect_latest(["mega645"])
+    assert {call.args[1].draw_id for call in detail.call_args_list} == {"00001", "00002"}
+    assert store.load("mega645")[0].result == corrected.result
+
+
+def test_backfill_still_refetches_all_stored_details(tmp_path: Path) -> None:
+    store = DataStore(tmp_path / "data")
+    records = [
+        replace(
+            make_record(draw_id, draw_date),
+            source_url="https://www.vietlott.vn"
+            + get_game("mega645").detail_path
+            + "?id="
+            + draw_id,
+        )
+        for draw_id, draw_date in [("00001", "2026-07-29"), ("00002", "2026-07-31")]
+    ]
+    store.upsert("mega645", records)
+    adapter = FakeAdapter()
+    response, _ = adapter.fetch_page(None, 0)
+    collector = Collector(store, FakeClient(), max_workers=1)  # type: ignore[arg-type]
+    with (
+        patch("vietlott.service.get_adapter", return_value=adapter),
+        patch.object(adapter, "fetch_page", return_value=(response, records)),
+        patch.object(adapter, "fetch_detail", wraps=adapter.fetch_detail) as detail,
+    ):
+        collector.backfill(["mega645"], resume=False, max_draws=8)
+    assert {call.args[1].draw_id for call in detail.call_args_list} == {"00001", "00002"}
+
+
 def test_backfill_resumes_and_completes(tmp_path: Path) -> None:
     store = DataStore(tmp_path / "data")
     collector = Collector(store, FakeClient(), max_workers=2)  # type: ignore[arg-type]
