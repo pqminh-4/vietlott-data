@@ -9,6 +9,10 @@ class FetchError(VietlottError):
     """The official source could not be fetched safely."""
 
 
+class TemporaryFetchError(FetchError):
+    """Nguồn chính thức tạm thời không truy cập được; có thể thử lại."""
+
+
 class ParseError(VietlottError):
     """The official response did not match a supported structure."""
 
