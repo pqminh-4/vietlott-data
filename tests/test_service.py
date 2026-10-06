@@ -95,11 +95,18 @@ class InvalidDetailAdapter(FakeAdapter):
         raise ParseError(f"invalid official detail for {record.key}")
 
 
-def test_latest_collection_reuses_unchanged_older_details(tmp_path: Path) -> None:
+@pytest.mark.parametrize("ajax_detail", [False, True])
+def test_latest_collection_reuses_unchanged_older_details(
+    tmp_path: Path, ajax_detail: bool
+) -> None:
     store = DataStore(tmp_path / "data")
     older = replace(
         make_record("00001", "2026-07-29"),
-        source_url="https://www.vietlott.vn" + get_game("mega645").detail_path + "?id=00001",
+        source_url=(
+            get_game("mega645").detail_endpoint
+            if ajax_detail
+            else "https://www.vietlott.vn" + get_game("mega645").detail_path + "?id=00001"
+        ),
     )
     latest = make_record("00002", "2026-07-31")
     store.upsert("mega645", [older, latest])

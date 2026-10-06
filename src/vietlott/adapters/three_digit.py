@@ -13,6 +13,7 @@ from vietlott.adapters.base import (
     extract_time_and_slot,
     find_pdf_url,
 )
+from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse
 from vietlott.models import DrawRecord, ThreeDigitResult, ThreeDigitTier
 
@@ -25,6 +26,31 @@ TIER_LAYOUT = (
 
 
 class ThreeDigitAdapter(BaseAdapter):
+    def parse_detail_result(self, html: str) -> ThreeDigitResult:
+        soup = BeautifulSoup(html, "lxml")
+        left = soup.find(id="divLeftContent")
+        if not isinstance(left, Tag):
+            raise ParseError("Official detail omitted the result container")
+        texts = [span.get_text(strip=True) for span in left.select("span.bong_tron")]
+        if not (
+            len(texts) == 60
+            and all(re.fullmatch(r"\d", text) for text in texts)
+            or len(texts) == 20
+            and all(re.fullmatch(r"\d{3}", text) for text in texts)
+        ):
+            raise ParseError("Official detail contained malformed three-digit results")
+        values = _extract_three_digit_values(left)
+        if len(values) != 20:
+            raise ParseError("Official detail did not include all 20 three-digit results")
+        tiers: list[ThreeDigitTier] = []
+        cursor = 0
+        for code, name, count in TIER_LAYOUT:
+            tiers.append(
+                ThreeDigitTier(code=code, name=name, numbers=values[cursor : cursor + count])
+            )
+            cursor += count
+        return ThreeDigitResult(tiers=tiers)
+
     def parse_page(self, response: OfficialResponse) -> list[DrawRecord]:
         assert response.html is not None
         soup = BeautifulSoup(response.html, "lxml")

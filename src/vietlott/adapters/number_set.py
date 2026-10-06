@@ -14,11 +14,26 @@ from vietlott.adapters.base import (
     extract_time_and_slot,
     find_pdf_url,
 )
+from vietlott.errors import ParseError
 from vietlott.http import OfficialResponse
 from vietlott.models import DrawRecord, NumberSetResult
 
 
 class NumberSetAdapter(BaseAdapter):
+    def parse_detail_result(self, html: str) -> NumberSetResult:
+        soup = BeautifulSoup(html, "lxml")
+        values = [
+            span.get_text(strip=True) for span in soup.select("#divLeftContent span.bong_tron")
+        ]
+        expected = (self.spec.main_count or 0) + self.spec.bonus_count
+        if len(values) != expected or not all(value.isdigit() for value in values):
+            raise ParseError("Official detail did not include the expected winning numbers")
+        numbers = list(map(int, values))
+        return NumberSetResult(
+            main_numbers=numbers[: self.spec.main_count],
+            bonus_numbers=numbers[self.spec.main_count :],
+        )
+
     def parse_page(self, response: OfficialResponse) -> list[DrawRecord]:
         assert response.html is not None
         soup = BeautifulSoup(response.html, "lxml")
@@ -88,9 +103,7 @@ def _assign_lotto_slots(records: list[DrawRecord]) -> list[DrawRecord]:
         by_date.setdefault(record.draw_date, []).append(record)
     for daily in by_date.values():
         unresolved = [
-            record
-            for record in daily
-            if record.draw_time is None and record.draw_slot is None
+            record for record in daily if record.draw_time is None and record.draw_slot is None
         ]
         if len(unresolved) != 2:
             continue
@@ -116,8 +129,7 @@ def _assign_lotto_slots(records: list[DrawRecord]) -> list[DrawRecord]:
                 if previous.draw_slot == "afternoon" and previous_date == draw_date:
                     candidates.add("night")
                 elif (
-                    previous.draw_slot == "night"
-                    and previous_date + timedelta(days=1) == draw_date
+                    previous.draw_slot == "night" and previous_date + timedelta(days=1) == draw_date
                 ):
                     candidates.add("afternoon")
             following = by_id.get(draw_id + 1)
