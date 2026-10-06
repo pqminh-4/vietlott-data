@@ -46,10 +46,10 @@
       45
     ]
   },
-  "retrieved_at": "2026-10-04T12:15:39+00:00",
+  "retrieved_at": "2026-10-06T15:53:44+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "4373bb8f8a406032d1c7639f9b283f95fe40d3a85a020d83a4985e0b0f373dfd",
+  "source_pdf_sha256": "ee93cd786920ebbf2257fbbe7f349bd703db257c08f958db5327afa24e711abf",
   "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01571_mega_a5_01571.pdf",
-  "source_sha256": "dcb44e630363d13e1d389bb43ee77c292c2dbe55ff3a4357566b261a4ad4a58f",
-  "source_url": "https://www.vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/645?id=01571&nocatche=1"
+  "source_sha256": "673eb996ad3aa93c53780499ffb91cadd484d1869b084f0f750e0071b138ae87",
+  "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game645ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
