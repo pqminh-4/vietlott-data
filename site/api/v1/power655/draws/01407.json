@@ -55,10 +55,10 @@
       27
     ]
   },
-  "retrieved_at": "2026-10-06T15:53:54+00:00",
+  "retrieved_at": "2026-10-13T20:16:31+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "bfd1a97c89330f8bbaef56f4c112695bbc206461de119f08a9cd5b03da35d438",
-  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01407_power_a5_01407.pdf",
-  "source_sha256": "8c9f35fa368b84174117ff30a11a9a2353e27d61063f03f7f9280b8856342d74",
+  "source_pdf_sha256": "6dea89569b838a45ccfcc2111fa636f63fc5dca3fd310a0763cc58f01bb01aca",
+  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01407_power_a4_01407.pdf",
+  "source_sha256": "9ca8a87f27213487b3ac63a02a89820412f839bd57a321c8d90a9566cbb10c2f",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game655ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
