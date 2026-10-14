@@ -1,6 +1,6 @@
 {
-  "draw_date": "2026-10-11",
-  "draw_id": "01574",
+  "draw_date": "2026-10-14",
+  "draw_id": "01575",
   "draw_slot": "evening",
   "draw_time": "18:00:00",
   "game": "mega645",
@@ -8,7 +8,7 @@
     {
       "amount_vnd": null,
       "code": "jackpot",
-      "jackpot_vnd": 17917606500,
+      "jackpot_vnd": 20329744500,
       "name": "Jackpot",
       "winner_count": 0
     },
@@ -17,39 +17,39 @@
       "code": "giai-nhat",
       "jackpot_vnd": null,
       "name": "Giải Nhất",
-      "winner_count": 38
+      "winner_count": 32
     },
     {
       "amount_vnd": 300000,
       "code": "giai-nhi",
       "jackpot_vnd": null,
       "name": "Giải Nhì",
-      "winner_count": 1566
+      "winner_count": 1658
     },
     {
       "amount_vnd": 30000,
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 24656
+      "winner_count": 25751
     }
   ],
   "result": {
     "bonus_numbers": [],
     "kind": "number_set",
     "main_numbers": [
-      3,
-      9,
+      6,
       16,
-      29,
-      30,
-      44
+      19,
+      21,
+      34,
+      43
     ]
   },
-  "retrieved_at": "2026-10-11T12:41:24+00:00",
+  "retrieved_at": "2026-10-14T11:43:45+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "c6ba505d9eb0355969777f216f42ba758e668252073a9c28694e1c7417bb802f",
-  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01574_mega_a5_01574.pdf",
-  "source_sha256": "4961515baab940a337e36fe40478be909bc4324f1e26b684dcc844ad35f9a22a",
+  "source_pdf_sha256": "72f059c7f01f1179fbe7d4e006c8c87de0f7f0c7d214ca604b77d71f1311a707",
+  "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01575_mega_a5_01575.pdf",
+  "source_sha256": "cfb402ff5be7a99d95432980d71c56a9eb5956298eaa8378febbbd5cc8d53f62",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game645ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
