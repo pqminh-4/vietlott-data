@@ -1,14 +1,14 @@
 {
   "draw_date": "2026-10-19",
-  "draw_id": "00955",
-  "draw_slot": "afternoon",
-  "draw_time": "13:00:00",
+  "draw_id": "00956",
+  "draw_slot": "night",
+  "draw_time": "21:00:00",
   "game": "lotto535",
   "prizes": [
     {
       "amount_vnd": null,
       "code": "giai-doc-dac",
-      "jackpot_vnd": 6256662500,
+      "jackpot_vnd": 6347092500,
       "name": "Giải Độc Đắc",
       "winner_count": 0
     },
@@ -24,54 +24,54 @@
       "code": "giai-nhi",
       "jackpot_vnd": null,
       "name": "Giải Nhì",
-      "winner_count": 9
+      "winner_count": 22
     },
     {
       "amount_vnd": 500000,
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 103
+      "winner_count": 132
     },
     {
       "amount_vnd": 100000,
       "code": "giai-tu",
       "jackpot_vnd": null,
       "name": "Giải Tư",
-      "winner_count": 246
+      "winner_count": 454
     },
     {
       "amount_vnd": 30000,
       "code": "giai-nam",
       "jackpot_vnd": null,
       "name": "Giải Năm",
-      "winner_count": 2490
+      "winner_count": 3723
     },
     {
       "amount_vnd": 10000,
       "code": "giai-khuyen-khich",
       "jackpot_vnd": null,
       "name": "Giải Khuyến Khích",
-      "winner_count": 16337
+      "winner_count": 26534
     }
   ],
   "result": {
     "bonus_numbers": [
-      4
+      7
     ],
     "kind": "number_set",
     "main_numbers": [
-      5,
-      19,
-      23,
-      28,
-      31
+      11,
+      14,
+      17,
+      26,
+      28
     ]
   },
-  "retrieved_at": "2026-10-19T12:59:22+00:00",
+  "retrieved_at": "2026-10-19T19:50:08+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "2e41410d5d9846462067c3489d2f1bb71dd2213e3278cf7a7575a6adf725bd17",
+  "source_sha256": "5d36cb444246fd76608c26a7632d159d091db7b115e16c3bc866d4d55170a66e",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game535ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
