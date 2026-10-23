@@ -6922,11 +6922,66 @@
         44
       ]
     },
-    "retrieved_at": "2026-10-21T11:40:30+00:00",
+    "retrieved_at": "2026-10-23T11:30:52+00:00",
     "schema_version": "1.0",
-    "source_pdf_sha256": "23453003ba32a61e16d2d3cdfb1ee3b4b89d7bca917f24765051ec62a7c07902",
-    "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01578_mega_a5_01578.pdf",
-    "source_sha256": "045b3615c3be230b39edd31d20de71d5ba1eb10410e077d6531e06e57d0944c8",
+    "source_pdf_sha256": "cd1a98e772b5bb6f31394fcb3a80fca29620fe235005b15e5b0317edb557385f",
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01578_mega_a4_01578.pdf",
+    "source_sha256": "2e5ba4b7b65263f2384dad97b0ff7ed745d53af5155a3fa229238529b14c5b02",
+    "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game645ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
+  },
+  {
+    "draw_date": "2026-10-23",
+    "draw_id": "01579",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "mega645",
+    "prizes": [
+      {
+        "amount_vnd": null,
+        "code": "jackpot",
+        "jackpot_vnd": 13983147000,
+        "name": "Jackpot",
+        "winner_count": 0
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": 21
+      },
+      {
+        "amount_vnd": 300000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": 1064
+      },
+      {
+        "amount_vnd": 30000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": 19027
+      }
+    ],
+    "result": {
+      "bonus_numbers": [],
+      "kind": "number_set",
+      "main_numbers": [
+        2,
+        5,
+        11,
+        22,
+        32,
+        40
+      ]
+    },
+    "retrieved_at": "2026-10-23T11:57:39+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": "db099c98002fb7f35a3e381f0cddc24b95516316918e459cad87804efd80b9fe",
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01579_mega_a5_01579.pdf",
+    "source_sha256": "01e484010a11a17ab1638dc1f3d935c27bdecbfeba2b8dde67c708da88e301e7",
     "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game645ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
   }
 ]
