@@ -1,14 +1,14 @@
 {
   "draw_date": "2026-10-24",
-  "draw_id": "00965",
-  "draw_slot": "afternoon",
-  "draw_time": "13:00:00",
+  "draw_id": "00966",
+  "draw_slot": "night",
+  "draw_time": "21:00:00",
   "game": "lotto535",
   "prizes": [
     {
       "amount_vnd": null,
       "code": "giai-doc-dac",
-      "jackpot_vnd": 7881295000,
+      "jackpot_vnd": 8081552500,
       "name": "Giải Độc Đắc",
       "winner_count": 0
     },
@@ -24,54 +24,54 @@
       "code": "giai-nhi",
       "jackpot_vnd": null,
       "name": "Giải Nhì",
-      "winner_count": 11
+      "winner_count": 9
     },
     {
       "amount_vnd": 500000,
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 105
+      "winner_count": 148
     },
     {
       "amount_vnd": 100000,
       "code": "giai-tu",
       "jackpot_vnd": null,
       "name": "Giải Tư",
-      "winner_count": 261
+      "winner_count": 279
     },
     {
       "amount_vnd": 30000,
       "code": "giai-nam",
       "jackpot_vnd": null,
       "name": "Giải Năm",
-      "winner_count": 2599
+      "winner_count": 3315
     },
     {
       "amount_vnd": 10000,
       "code": "giai-khuyen-khich",
       "jackpot_vnd": null,
       "name": "Giải Khuyến Khích",
-      "winner_count": 17511
+      "winner_count": 22457
     }
   ],
   "result": {
     "bonus_numbers": [
-      8
+      3
     ],
     "kind": "number_set",
     "main_numbers": [
-      2,
-      7,
+      1,
+      5,
+      10,
       12,
-      22,
-      27
+      14
     ]
   },
-  "retrieved_at": "2026-10-24T10:50:25+00:00",
+  "retrieved_at": "2026-10-24T14:27:50+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "55cc07d65fca685afbda2cde5e06ee9a1ee677c13025b467130d84b3d4487c2d",
+  "source_sha256": "256b5963b47e5af5622935c574ea83c756381e70c5ca2b1ebd17b2758e92eaec",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game535ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
