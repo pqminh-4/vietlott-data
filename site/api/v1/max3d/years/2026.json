@@ -14236,5 +14236,118 @@
     "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01149_max3d_x2_01149.pdf",
     "source_sha256": "3e18d69b21cac7c666023eff7e3d706a97e32fe70b83eb8315c1442aab83c8b6",
     "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
+  },
+  {
+    "draw_date": "2026-10-26",
+    "draw_id": "01150",
+    "draw_slot": "evening",
+    "draw_time": "18:00:00",
+    "game": "max3d",
+    "prizes": [
+      {
+        "amount_vnd": 1000000000,
+        "code": "giai-dac-biet",
+        "jackpot_vnd": null,
+        "name": "Giải Đặc biệt",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000000,
+        "code": "giai-nhat",
+        "jackpot_vnd": null,
+        "name": "Giải Nhất",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 10000000,
+        "code": "giai-nhi",
+        "jackpot_vnd": null,
+        "name": "Giải Nhì",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 5000000,
+        "code": "giai-ba",
+        "jackpot_vnd": null,
+        "name": "Giải Ba",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 1000000,
+        "code": "giai-tu",
+        "jackpot_vnd": null,
+        "name": "Giải tư",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 150000,
+        "code": "giai-nam",
+        "jackpot_vnd": null,
+        "name": "Giải năm",
+        "winner_count": null
+      },
+      {
+        "amount_vnd": 40000,
+        "code": "giai-sau",
+        "jackpot_vnd": null,
+        "name": "Giải sáu",
+        "winner_count": null
+      }
+    ],
+    "result": {
+      "kind": "three_digit_tiers",
+      "tiers": [
+        {
+          "code": "special",
+          "name": "Giải Đặc biệt",
+          "numbers": [
+            "411",
+            "973"
+          ]
+        },
+        {
+          "code": "first",
+          "name": "Giải Nhất",
+          "numbers": [
+            "072",
+            "986",
+            "435",
+            "122"
+          ]
+        },
+        {
+          "code": "second",
+          "name": "Giải Nhì",
+          "numbers": [
+            "430",
+            "227",
+            "550",
+            "491",
+            "023",
+            "089"
+          ]
+        },
+        {
+          "code": "third",
+          "name": "Giải Ba",
+          "numbers": [
+            "015",
+            "728",
+            "672",
+            "944",
+            "394",
+            "177",
+            "989",
+            "606"
+          ]
+        }
+      ]
+    },
+    "retrieved_at": "2026-10-26T12:50:11+00:00",
+    "schema_version": "1.0",
+    "source_pdf_sha256": "d6d561d038e3b1a75407344e9c45ee59959f9edb7086c7a6b9e93d00779394ec",
+    "source_pdf_url": "https://media.vietlott.vn/main/10.2026/system/game.pdf.result/01150_max3d_x2_01150.pdf",
+    "source_sha256": "490cbc7b26801fdc29b6a36a4a806581e6d28c2ef9e10ea1ada8cdef3d305dbd",
+    "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
   }
 ]
