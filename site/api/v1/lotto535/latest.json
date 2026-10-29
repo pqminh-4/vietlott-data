@@ -1,14 +1,14 @@
 {
   "draw_date": "2026-10-29",
-  "draw_id": "00975",
-  "draw_slot": "afternoon",
-  "draw_time": "13:00:00",
+  "draw_id": "00976",
+  "draw_slot": "night",
+  "draw_time": "21:00:00",
   "game": "lotto535",
   "prizes": [
     {
       "amount_vnd": null,
       "code": "giai-doc-dac",
-      "jackpot_vnd": 6988857500,
+      "jackpot_vnd": 7221525000,
       "name": "Giải Độc Đắc",
       "winner_count": 0
     },
@@ -17,42 +17,42 @@
       "code": "giai-nhat",
       "jackpot_vnd": null,
       "name": "Giải Nhất",
-      "winner_count": 0
+      "winner_count": 1
     },
     {
       "amount_vnd": 5000000,
       "code": "giai-nhi",
       "jackpot_vnd": null,
       "name": "Giải Nhì",
-      "winner_count": 7
+      "winner_count": 11
     },
     {
       "amount_vnd": 500000,
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 81
+      "winner_count": 108
     },
     {
       "amount_vnd": 100000,
       "code": "giai-tu",
       "jackpot_vnd": null,
       "name": "Giải Tư",
-      "winner_count": 249
+      "winner_count": 217
     },
     {
       "amount_vnd": 30000,
       "code": "giai-nam",
       "jackpot_vnd": null,
       "name": "Giải Năm",
-      "winner_count": 2606
+      "winner_count": 2856
     },
     {
       "amount_vnd": 10000,
       "code": "giai-khuyen-khich",
       "jackpot_vnd": null,
       "name": "Giải Khuyến Khích",
-      "winner_count": 15012
+      "winner_count": 18005
     }
   ],
   "result": {
@@ -61,17 +61,17 @@
     ],
     "kind": "number_set",
     "main_numbers": [
-      7,
+      5,
       13,
-      17,
-      28,
-      34
+      22,
+      26,
+      35
     ]
   },
-  "retrieved_at": "2026-10-29T12:52:25+00:00",
+  "retrieved_at": "2026-10-29T19:34:04+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "bb7e475eb0de55984fd205351fc9756884cb138405f1cfac0f32894b0bdb1a4b",
+  "source_sha256": "85d09258eaa73b91036eab2d790c621257d37634ca033ef3dd1b14d680ee3d62",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game535ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
