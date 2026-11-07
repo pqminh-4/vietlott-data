@@ -1,14 +1,14 @@
 {
-  "draw_date": "2026-11-06",
-  "draw_id": "00992",
-  "draw_slot": "night",
-  "draw_time": "21:00:00",
+  "draw_date": "2026-11-07",
+  "draw_id": "00993",
+  "draw_slot": "afternoon",
+  "draw_time": "13:00:00",
   "game": "lotto535",
   "prizes": [
     {
       "amount_vnd": null,
       "code": "giai-doc-dac",
-      "jackpot_vnd": 6791042500,
+      "jackpot_vnd": 6929145000,
       "name": "Giải Độc Đắc",
       "winner_count": 0
     },
@@ -17,7 +17,7 @@
       "code": "giai-nhat",
       "jackpot_vnd": null,
       "name": "Giải Nhất",
-      "winner_count": 1
+      "winner_count": 0
     },
     {
       "amount_vnd": 5000000,
@@ -31,47 +31,47 @@
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 116
+      "winner_count": 92
     },
     {
       "amount_vnd": 100000,
       "code": "giai-tu",
       "jackpot_vnd": null,
       "name": "Giải Tư",
-      "winner_count": 206
+      "winner_count": 170
     },
     {
       "amount_vnd": 30000,
       "code": "giai-nam",
       "jackpot_vnd": null,
       "name": "Giải Năm",
-      "winner_count": 3087
+      "winner_count": 2231
     },
     {
       "amount_vnd": 10000,
       "code": "giai-khuyen-khich",
       "jackpot_vnd": null,
       "name": "Giải Khuyến Khích",
-      "winner_count": 13590
+      "winner_count": 13151
     }
   ],
   "result": {
     "bonus_numbers": [
-      1
+      5
     ],
     "kind": "number_set",
     "main_numbers": [
-      18,
-      20,
+      6,
+      10,
+      23,
       25,
-      27,
-      31
+      33
     ]
   },
-  "retrieved_at": "2026-11-06T14:09:56+00:00",
+  "retrieved_at": "2026-11-07T12:52:52+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "37171ff22ec36eaf67070392c500e8e340357458c00ce4a97fb52b7a655e626a",
+  "source_sha256": "6ae95a1abcf72088c78e6076a7c9a5488321b208bc1c119e6a1e8b3425a0abce",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game535ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
