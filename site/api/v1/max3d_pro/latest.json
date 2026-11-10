@@ -1,6 +1,6 @@
 {
-  "draw_date": "2026-11-07",
-  "draw_id": "00802",
+  "draw_date": "2026-11-10",
+  "draw_id": "00803",
   "draw_slot": "evening",
   "draw_time": "18:00:00",
   "game": "max3d_pro",
@@ -69,52 +69,52 @@
         "code": "special",
         "name": "Giải Đặc biệt",
         "numbers": [
-          "810",
-          "193"
+          "900",
+          "390"
         ]
       },
       {
         "code": "first",
         "name": "Giải Nhất",
         "numbers": [
+          "132",
           "654",
-          "602",
-          "266",
-          "197"
+          "802",
+          "358"
         ]
       },
       {
         "code": "second",
         "name": "Giải Nhì",
         "numbers": [
-          "174",
-          "755",
-          "427",
-          "978",
-          "155",
-          "865"
+          "358",
+          "417",
+          "105",
+          "458",
+          "486",
+          "559"
         ]
       },
       {
         "code": "third",
         "name": "Giải Ba",
         "numbers": [
-          "582",
-          "633",
-          "766",
-          "263",
-          "626",
-          "744",
-          "479",
-          "274"
+          "058",
+          "933",
+          "545",
+          "801",
+          "741",
+          "603",
+          "454",
+          "161"
         ]
       }
     ]
   },
-  "retrieved_at": "2026-11-07T12:52:57+00:00",
+  "retrieved_at": "2026-11-10T14:46:31+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "1699958c6cf56b048b94bce6f0504c6460566b8421bcd2e25c12cd724abbe0a2",
-  "source_pdf_url": "https://media.vietlott.vn/main/11.2026/system/game.pdf.result/00802_max3dpro_a4_v2_00802.pdf",
-  "source_sha256": "596b4ac740dff3c09c7b551084ed57926825e6100db6e5604f8242ca436ce173",
+  "source_pdf_sha256": "2f37d7523d8d7aaa9ab72e39f36068d45589e8cb7dd17cde3e7c1d5d6f6b9202",
+  "source_pdf_url": "https://media.vietlott.vn/main/11.2026/system/game.pdf.result/00803_max3dpro_a5_v2_00803.pdf",
+  "source_sha256": "bc89bd79a50aa6cb6dea5a4a1f5a9e36978d7442eccf73f6e8ea7e7e04b98e91",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DProResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
