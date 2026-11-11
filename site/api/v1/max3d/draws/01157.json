@@ -1,0 +1,113 @@
+{
+  "draw_date": "2026-11-11",
+  "draw_id": "01157",
+  "draw_slot": "evening",
+  "draw_time": "18:00:00",
+  "game": "max3d",
+  "prizes": [
+    {
+      "amount_vnd": 1000000000,
+      "code": "giai-dac-biet",
+      "jackpot_vnd": null,
+      "name": "Giải Đặc biệt",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 40000000,
+      "code": "giai-nhat",
+      "jackpot_vnd": null,
+      "name": "Giải Nhất",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 10000000,
+      "code": "giai-nhi",
+      "jackpot_vnd": null,
+      "name": "Giải Nhì",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 5000000,
+      "code": "giai-ba",
+      "jackpot_vnd": null,
+      "name": "Giải Ba",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 1000000,
+      "code": "giai-tu",
+      "jackpot_vnd": null,
+      "name": "Giải tư",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 150000,
+      "code": "giai-nam",
+      "jackpot_vnd": null,
+      "name": "Giải năm",
+      "winner_count": null
+    },
+    {
+      "amount_vnd": 40000,
+      "code": "giai-sau",
+      "jackpot_vnd": null,
+      "name": "Giải sáu",
+      "winner_count": null
+    }
+  ],
+  "result": {
+    "kind": "three_digit_tiers",
+    "tiers": [
+      {
+        "code": "special",
+        "name": "Giải Đặc biệt",
+        "numbers": [
+          "670",
+          "133"
+        ]
+      },
+      {
+        "code": "first",
+        "name": "Giải Nhất",
+        "numbers": [
+          "936",
+          "471",
+          "943",
+          "356"
+        ]
+      },
+      {
+        "code": "second",
+        "name": "Giải Nhì",
+        "numbers": [
+          "932",
+          "882",
+          "179",
+          "774",
+          "271",
+          "226"
+        ]
+      },
+      {
+        "code": "third",
+        "name": "Giải Ba",
+        "numbers": [
+          "510",
+          "464",
+          "385",
+          "447",
+          "032",
+          "281",
+          "530",
+          "495"
+        ]
+      }
+    ]
+  },
+  "retrieved_at": "2026-11-11T14:07:21+00:00",
+  "schema_version": "1.0",
+  "source_pdf_sha256": "2b61aa84179e22b13a818d21a894579b8a50baf1a7407a5f30aec09761c45cbb",
+  "source_pdf_url": "https://media.vietlott.vn/main/11.2026/system/game.pdf.result/01157_max3d_x2_01157.pdf",
+  "source_sha256": "ce5a78a9f74a66b18f23deb36ef2a25da7dc05ccc3214b85d2ab9ec28b21e994",
+  "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
+}
