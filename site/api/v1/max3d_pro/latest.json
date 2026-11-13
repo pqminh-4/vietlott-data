@@ -111,10 +111,10 @@
       }
     ]
   },
-  "retrieved_at": "2026-11-12T15:04:06+00:00",
+  "retrieved_at": "2026-11-13T21:30:48+00:00",
   "schema_version": "1.0",
-  "source_pdf_sha256": "3d223a93baf9e774425c5892f9c82a17a53c2bb6b8b067894b8ec4e7e61d95a8",
-  "source_pdf_url": "https://media.vietlott.vn/main/11.2026/system/game.pdf.result/00804_max3dpro_a5_v2_00804.pdf",
-  "source_sha256": "e9e5958cade4dd34d3ed7d9af6d08ab9d5f22142408fe56cb0f30eb228f894f2",
+  "source_pdf_sha256": "d39c34586bc89f1166a68734347084605e958c574961b52ad00a3c9f3d7308ab",
+  "source_pdf_url": "https://media.vietlott.vn/main/11.2026/system/game.pdf.result/00804_max3dpro_a4_v2_00804.pdf",
+  "source_sha256": "4335a7b1571ced58a7773e06849b941bd6873c19678509754749e210db9efae7",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.GameMax3DProResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
