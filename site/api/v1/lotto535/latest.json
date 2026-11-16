@@ -1,6 +1,6 @@
 {
-  "draw_date": "2026-11-15",
-  "draw_id": "01010",
+  "draw_date": "2026-11-16",
+  "draw_id": "01012",
   "draw_slot": "night",
   "draw_time": "21:00:00",
   "game": "lotto535",
@@ -8,7 +8,7 @@
     {
       "amount_vnd": null,
       "code": "giai-doc-dac",
-      "jackpot_vnd": 6902910000,
+      "jackpot_vnd": 6151772500,
       "name": "Giải Độc Đắc",
       "winner_count": 0
     },
@@ -24,54 +24,54 @@
       "code": "giai-nhi",
       "jackpot_vnd": null,
       "name": "Giải Nhì",
-      "winner_count": 18
+      "winner_count": 9
     },
     {
       "amount_vnd": 500000,
       "code": "giai-ba",
       "jackpot_vnd": null,
       "name": "Giải Ba",
-      "winner_count": 116
+      "winner_count": 76
     },
     {
       "amount_vnd": 100000,
       "code": "giai-tu",
       "jackpot_vnd": null,
       "name": "Giải Tư",
-      "winner_count": 396
+      "winner_count": 296
     },
     {
       "amount_vnd": 30000,
       "code": "giai-nam",
       "jackpot_vnd": null,
       "name": "Giải Năm",
-      "winner_count": 2913
+      "winner_count": 2658
     },
     {
       "amount_vnd": 10000,
       "code": "giai-khuyen-khich",
       "jackpot_vnd": null,
       "name": "Giải Khuyến Khích",
-      "winner_count": 27358
+      "winner_count": 24345
     }
   ],
   "result": {
     "bonus_numbers": [
-      9
+      8
     ],
     "kind": "number_set",
     "main_numbers": [
-      4,
-      6,
+      10,
       11,
-      16,
-      29
+      15,
+      23,
+      34
     ]
   },
-  "retrieved_at": "2026-11-15T19:43:54+00:00",
+  "retrieved_at": "2026-11-16T15:34:53+00:00",
   "schema_version": "1.0",
   "source_pdf_sha256": null,
   "source_pdf_url": null,
-  "source_sha256": "cec5757c9ab54105e15627cdb42f39e423a8e6e4fd38f02fc6c5326de06172a6",
+  "source_sha256": "a96669d95e3710cfe2c0476184715245e2840da909017340f833621babd5417d",
   "source_url": "https://www.vietlott.vn/ajaxpro/Vietlott.PlugIn.WebParts.Game535ResultDetailWebPart,Vietlott.PlugIn.WebParts.ashx"
 }
