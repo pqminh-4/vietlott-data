@@ -17,25 +17,25 @@
       "code": "power655",
       "display_name": "Power 6/55",
       "kind": "number_set",
-      "latest_draw_id": "01425",
+      "latest_draw_id": "01426",
       "paths": {
         "coverage": "power655/coverage.json",
         "latest": "power655/latest.json",
         "years": "power655/years/"
       },
-      "record_count": 1425
+      "record_count": 1426
     },
     {
       "code": "lotto535",
       "display_name": "Lotto 5/35",
       "kind": "number_set",
-      "latest_draw_id": "01016",
+      "latest_draw_id": "01018",
       "paths": {
         "coverage": "lotto535/coverage.json",
         "latest": "lotto535/latest.json",
         "years": "lotto535/years/"
       },
-      "record_count": 1016
+      "record_count": 1018
     },
     {
       "code": "max3d",
@@ -53,15 +53,15 @@
       "code": "max3d_pro",
       "display_name": "Max 3D Pro",
       "kind": "three_digit_tiers",
-      "latest_draw_id": "00806",
+      "latest_draw_id": "00807",
       "paths": {
         "coverage": "max3d_pro/coverage.json",
         "latest": "max3d_pro/latest.json",
         "years": "max3d_pro/years/"
       },
-      "record_count": 806
+      "record_count": 807
     }
   ],
-  "generated_at": "2026-11-18T15:32:21+00:00",
+  "generated_at": "2026-11-19T15:39:35+00:00",
   "schema_version": "1.0"
 }
